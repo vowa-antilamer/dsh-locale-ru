@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "en": "Built-in plugins",
+    "ru": "Встроенные плагины"
+  },
+  "title": {
+    "en": "Built-in plugins",
+    "ru": "Встроенные плагины"
+  },
+  "intro": {
+    "en": "Inspect the plugins this deployment ships.",
+    "ru": "Просмотр плагинов, входящих в это развёртывание."
+  },
+  "tabs": {
+    "en": "Plugin views",
+    "ru": "Представления плагинов"
+  },
+  "empty": {
+    "en": "This deployment exposes no plugin views.",
+    "ru": "В этом развёртывании нет представлений плагинов."
+  }
+}

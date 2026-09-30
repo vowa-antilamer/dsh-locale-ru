@@ -1,0 +1,2026 @@
+{
+  "files": {
+    "en": "Files",
+    "ru": "Файлы"
+  },
+  "guideDescFiles": {
+    "en": "Browse the workspace tree; click a file to preview or edit",
+    "ru": "Просмотр дерева рабочей области; щёлкните файл для предпросмотра или правки"
+  },
+  "guideDescGit": {
+    "en": "Git changes and this session's file edits, in one tab",
+    "ru": "Изменения Git и правки файлов этой сессии — в одной вкладке"
+  },
+  "guideDescSubagent": {
+    "en": "Workflow graph, team task board, and background jobs, live",
+    "ru": "Граф воркфлоу, доска задач команды и фоновые задачи в реальном времени"
+  },
+  "guideDescSidechat": {
+    "en": "An independent follow-up thread inheriting this session's context",
+    "ru": "Независимая ветка продолжения, наследующая контекст этой сессии"
+  },
+  "guideDescTerminal": {
+    "en": "A real shell (xterm + pty) with reconnect",
+    "ru": "Настоящая оболочка (xterm + pty) с переподключением"
+  },
+  "guideDescBrowser": {
+    "en": "An embedded browser that can take over chat links",
+    "ru": "Встроенный браузер, перехватывающий ссылки из чата"
+  },
+  "changesSessionEmpty": {
+    "en": "No file operations in this session yet",
+    "ru": "В этой сессии пока нет операций с файлами"
+  },
+  "changesRead": {
+    "en": "Read",
+    "ru": "Чтение"
+  },
+  "changesMdReading": {
+    "en": "Reading",
+    "ru": "Чтение"
+  },
+  "changesMdRaw": {
+    "en": "Raw",
+    "ru": "Исходник"
+  },
+  "changesHtmlRender": {
+    "en": "Render",
+    "ru": "Отображение"
+  },
+  "changesHtmlRaw": {
+    "en": "Raw",
+    "ru": "Исходник"
+  },
+  "changesPdfRender": {
+    "en": "Render",
+    "ru": "Отображение"
+  },
+  "changesPdfRaw": {
+    "en": "Raw",
+    "ru": "Исходник"
+  },
+  "changesWrite": {
+    "en": "Write",
+    "ru": "Запись"
+  },
+  "changesEdit": {
+    "en": "Edit",
+    "ru": "Правка"
+  },
+  "changesRunning": {
+    "en": "running",
+    "ru": "выполняется"
+  },
+  "changesError": {
+    "en": "error",
+    "ru": "ошибка"
+  },
+  "changesRedactOn": {
+    "en": "Redaction on: secrets render as [REDACTED]; click to disable (at your own risk)",
+    "ru": "Скрытие включено: секреты отображаются как [REDACTED]; нажмите, чтобы отключить (на свой риск)"
+  },
+  "changesRedactOff": {
+    "en": "Redaction off: file content renders verbatim; click to enable",
+    "ru": "Скрытие выключено: содержимое файлов отображается как есть; нажмите, чтобы включить"
+  },
+  "changesRedactOnLabel": {
+    "en": "Redacting",
+    "ru": "Скрытие"
+  },
+  "changesRedactOffLabel": {
+    "en": "Redaction off",
+    "ru": "Скрытие выкл."
+  },
+  "changesRedactBanner": {
+    "en": "Redacted",
+    "ru": "Скрыто"
+  },
+  "changesFold": {
+    "en": "{count} lines…click to expand",
+    "ru": "Строк: {count}…нажмите, чтобы развернуть"
+  },
+  "changesFoldLoading": {
+    "en": "Expanding…",
+    "ru": "Развёртывание…"
+  },
+  "changesFoldUnavailable": {
+    "en": "Context unavailable",
+    "ru": "Контекст недоступен"
+  },
+  "changesContext": {
+    "en": "context",
+    "ru": "контекст"
+  },
+  "changesPriorUnknown": {
+    "en": "Prior content is outside the loaded window; shown as all-added",
+    "ru": "Предыдущее содержимое вне загруженного окна; показано как полностью добавленное"
+  },
+  "explorer": {
+    "en": "Explorer",
+    "ru": "Проводник"
+  },
+  "terminal": {
+    "en": "Terminal",
+    "ru": "Терминал"
+  },
+  "editor": {
+    "en": "Editor",
+    "ru": "Редактор"
+  },
+  "editorExplorer": {
+    "en": "File open behavior",
+    "ru": "Поведение при открытии файлов"
+  },
+  "editorExplorerDesc": {
+    "en": "Controls how files open",
+    "ru": "Управляет открытием файлов"
+  },
+  "editorExplorerMerged": {
+    "en": "Merged",
+    "ru": "Совмещённый"
+  },
+  "editorExplorerMergedDesc": {
+    "en": "Files switch in place in the same window; new windows start with the tree open",
+    "ru": "Файлы сменяются на месте в одном окне; новые окна открываются с деревом"
+  },
+  "editorExplorerSplit": {
+    "en": "Separate",
+    "ru": "Раздельный"
+  },
+  "editorExplorerSplitDesc": {
+    "en": "Path-less windows are the standalone explorer (tree only); each file opens its own window (tree docked, closed by default)",
+    "ru": "Окна без пути — отдельный проводник (только дерево); каждый файл открывается в своём окне (дерево закреплено, по умолчанию свёрнуто)"
+  },
+  "editorTreeToggle": {
+    "en": "File tree panel",
+    "ru": "Панель дерева файлов"
+  },
+  "editorPathPlaceholder": {
+    "en": "File path (relative to the session directory or absolute), Enter to open",
+    "ru": "Путь к файлу (относительно каталога сессии или абсолютный), Enter — открыть"
+  },
+  "editorSearchPlaceholder": {
+    "en": "Search files by name…",
+    "ru": "Поиск файлов по имени…"
+  },
+  "editorSearchNoResults": {
+    "en": "No matching files",
+    "ru": "Файлы не найдены"
+  },
+  "editorSearchTruncated": {
+    "en": "Too many results — showing a partial list",
+    "ru": "Слишком много результатов — показана часть списка"
+  },
+  "editorEmptyHint": {
+    "en": "Pick a file from the tree panel or the path input above to start previewing",
+    "ru": "Выберите файл в панели дерева или введите путь выше, чтобы начать предпросмотр"
+  },
+  "openFileNewTab": {
+    "en": "Open in New Tab",
+    "ru": "Открыть в новой вкладке"
+  },
+  "openFileSide": {
+    "en": "Open to the Side",
+    "ru": "Открыть сбоку"
+  },
+  "zipProgress": {
+    "en": "Archiving {done}/{total}",
+    "ru": "Архивация {done}/{total}"
+  },
+  "settingsOpenWithPluginTitle": {
+    "en": "Always show the plugin’s own Open with targets",
+    "ru": "Всегда показывать собственные цели «Открыть с помощью» плагина"
+  },
+  "settingsOpenWithPluginDesc": {
+    "en": "By default the plugin’s own targets (file manager / VS Code / Cursor / Zed / custom editors, SSH remotes) show only when the host reports no local associated application; turn this on to keep both side by side",
+    "ru": "По умолчанию собственные цели плагина (файловый менеджер / VS Code / Cursor / Zed / пользовательские редакторы, SSH-хосты) показываются только если хост не сообщает о связанном локальном приложении; включите, чтобы показывать оба набора рядом"
+  },
+  "zipDownload": {
+    "en": "Zip and download",
+    "ru": "Заархивировать и скачать"
+  },
+  "zipDownloadCount": {
+    "en": "Zip and download ({count} items)",
+    "ru": "Заархивировать и скачать (элементов: {count})"
+  },
+  "zipFailed": {
+    "en": "Archive failed: {message}",
+    "ru": "Не удалось создать архив: {message}"
+  },
+  "openWithMenu": {
+    "en": "Open with",
+    "ru": "Открыть с помощью"
+  },
+  "openWithSshSuffix": {
+    "en": " (SSH)",
+    "ru": " (SSH)"
+  },
+  "pinOpenWith": {
+    "en": "Pin to menu",
+    "ru": "Закрепить в меню"
+  },
+  "unpinOpenWith": {
+    "en": "Unpin",
+    "ru": "Открепить"
+  },
+  "openWithExplorer": {
+    "en": "File Manager",
+    "ru": "Файловый менеджер"
+  },
+  "openWithVscode": {
+    "en": "VS Code",
+    "ru": "VS Code"
+  },
+  "openWithCursor": {
+    "en": "Cursor",
+    "ru": "Cursor"
+  },
+  "openWithZed": {
+    "en": "Zed",
+    "ru": "Zed"
+  },
+  "openWithSettingsSshTitle": {
+    "en": "SSH remote host",
+    "ru": "Удалённый хост SSH"
+  },
+  "openWithSettingsSshDesc": {
+    "en": "Empty = local workspace; with a user@host or SSH alias, VSCode-family openers switch to the vscode-remote/ssh-remote protocol and the File Manager / Zed / non-VSCode-family custom editors are hidden from the menu",
+    "ru": "Пусто = локальная рабочая область; при указании user@host или псевдонима SSH открыватели семейства VSCode переключаются на протокол vscode-remote/ssh-remote, а файловый менеджер / Zed / пользовательские редакторы не из семейства VSCode скрываются из меню"
+  },
+  "openWithSettingsSshPlaceholder": {
+    "en": "user@host or SSH alias",
+    "ru": "user@host или псевдоним SSH"
+  },
+  "openWithSettingsCustomTitle": {
+    "en": "Custom editors",
+    "ru": "Пользовательские редакторы"
+  },
+  "openWithSettingsCustomDesc": {
+    "en": "Name + URL template ({path} placeholder) + VSCode-family flag; in remote mode only VSCode-family editors can open a remote path",
+    "ru": "Имя + шаблон URL (плейсхолдер {path}) + признак семейства VSCode; в удалённом режиме открыть удалённый путь могут только редакторы семейства VSCode"
+  },
+  "openWithSettingsAdd": {
+    "en": "Add",
+    "ru": "Добавить"
+  },
+  "openWithSettingsName": {
+    "en": "Name",
+    "ru": "Имя"
+  },
+  "openWithSettingsTemplate": {
+    "en": "e.g. cursor://file/{path}",
+    "ru": "например, cursor://file/{path}"
+  },
+  "openWithSettingsFamily": {
+    "en": "VSCode-family",
+    "ru": "Семейство VSCode"
+  },
+  "openWithSettingsFamilyDesc": {
+    "en": "This editor speaks the VSCode URL dialect (supports SSH-remote opens)",
+    "ru": "Этот редактор понимает диалект URL VSCode (поддерживает открытие по SSH)"
+  },
+  "openWithSettingsRemove": {
+    "en": "Remove",
+    "ru": "Удалить"
+  },
+  "openWithSettingsInvalidHint": {
+    "en": "Editors with a missing name or a template without {path} / scheme:// are not shown in the menu",
+    "ru": "Редакторы без имени или с шаблоном без {path} / scheme:// не показываются в меню"
+  },
+  "openInAppDefault": {
+    "en": "Open with default app",
+    "ru": "Открыть приложением по умолчанию"
+  },
+  "openInAppEmpty": {
+    "en": "No application can open it",
+    "ru": "Нет приложения для открытия"
+  },
+  "openInAppFailed": {
+    "en": "Could not open: {path}",
+    "ru": "Не удалось открыть: {path}"
+  },
+  "revealInFileManager": {
+    "en": "Reveal in File Manager",
+    "ru": "Показать в файловом менеджере"
+  },
+  "filesSelected": {
+    "en": "{count} selected",
+    "ru": "Выбрано: {count}"
+  },
+  "clearSelection": {
+    "en": "Clear selection",
+    "ru": "Снять выделение"
+  },
+  "copyPaths": {
+    "en": "Copy paths",
+    "ru": "Копировать пути"
+  },
+  "deleteSelected": {
+    "en": "Delete selected",
+    "ru": "Удалить выбранное"
+  },
+  "deleteSelectedTitle": {
+    "en": "Delete {count} selected items?",
+    "ru": "Удалить выбранные элементы ({count})?"
+  },
+  "deleteSelectedDesc": {
+    "en": "These files and folders will be permanently deleted. This cannot be undone.",
+    "ru": "Эти файлы и папки будут удалены безвозвратно. Отменить это нельзя."
+  },
+  "newFolder": {
+    "en": "New folder",
+    "ru": "Новая папка"
+  },
+  "newFolderPlaceholder": {
+    "en": "Folder name",
+    "ru": "Имя папки"
+  },
+  "newFolderInvalid": {
+    "en": "Invalid folder name",
+    "ru": "Недопустимое имя папки"
+  },
+  "filesTruncated": {
+    "en": "This folder has too many entries; only the first ones are shown",
+    "ru": "В этой папке слишком много элементов; показаны только первые"
+  },
+  "gitStatusModified": {
+    "en": "Modified",
+    "ru": "Изменён"
+  },
+  "gitStatusAdded": {
+    "en": "Added",
+    "ru": "Добавлен"
+  },
+  "gitStatusDeleted": {
+    "en": "Deleted",
+    "ru": "Удалён"
+  },
+  "gitStatusUntracked": {
+    "en": "Untracked",
+    "ru": "Не отслеживается"
+  },
+  "gitStatusRenamed": {
+    "en": "Renamed",
+    "ru": "Переименован"
+  },
+  "gitStatusConflict": {
+    "en": "Conflicted",
+    "ru": "Конфликт"
+  },
+  "changesClean": {
+    "en": "No changes in the working tree",
+    "ru": "В рабочем дереве нет изменений"
+  },
+  "changesNoHistory": {
+    "en": "No commits yet",
+    "ru": "Коммитов пока нет"
+  },
+  "changesStageFailed": {
+    "en": "Staging failed: {message}",
+    "ru": "Не удалось проиндексировать: {message}"
+  },
+  "changesOpGone": {
+    "en": "This operation is no longer in the session log",
+    "ru": "Этой операции больше нет в журнале сессии"
+  },
+  "newTab": {
+    "en": "New tab",
+    "ru": "Новая вкладка"
+  },
+  "brokenSymlink": {
+    "en": "Broken symlink",
+    "ru": "Битая символическая ссылка"
+  },
+  "close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "closeOtherTabs": {
+    "en": "Close Other Tabs",
+    "ru": "Закрыть остальные вкладки"
+  },
+  "closeLeftTabs": {
+    "en": "Close Tabs to the Left",
+    "ru": "Закрыть вкладки слева"
+  },
+  "closeRightTabs": {
+    "en": "Close Tabs to the Right",
+    "ru": "Закрыть вкладки справа"
+  },
+  "pinTerminal": {
+    "en": "Pin Terminal",
+    "ru": "Закрепить терминал"
+  },
+  "pinAgentTerminal": {
+    "en": "Pin Agent Terminal",
+    "ru": "Закрепить терминал агента"
+  },
+  "pinToWorkspace": {
+    "en": "Pin to Workspace",
+    "ru": "Закрепить в рабочей области"
+  },
+  "pinToGlobal": {
+    "en": "Pin Globally",
+    "ru": "Закрепить глобально"
+  },
+  "unpinTerminal": {
+    "en": "Unpin",
+    "ru": "Открепить"
+  },
+  "collapseBottomPanel": {
+    "en": "Collapse bottom panel",
+    "ru": "Свернуть нижнюю панель"
+  },
+  "expandBottomPanel": {
+    "en": "Expand bottom panel",
+    "ru": "Развернуть нижнюю панель"
+  },
+  "terminalError": {
+    "en": "Terminal connection failed",
+    "ru": "Не удалось подключить терминал"
+  },
+  "terminalConnectFailed": {
+    "en": "Terminal failed to connect repeatedly",
+    "ru": "Терминал несколько раз не смог подключиться"
+  },
+  "terminalRetry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "terminalWaitBanner": {
+    "en": "Agent is waiting for {needle}",
+    "ru": "Агент ждёт {needle}"
+  },
+  "terminalSkipWait": {
+    "en": "Skip wait",
+    "ru": "Пропустить ожидание"
+  },
+  "terminalDepsFailed": {
+    "en": "Terminal dependency node-pty failed to load",
+    "ru": "Не удалось загрузить зависимость терминала node-pty"
+  },
+  "terminalDepsHint": {
+    "en": "Run the command below in a terminal or cmd on the DSH machine to repair it, then retry (node-pty stays in sync with the DSH core version):",
+    "ru": "Выполните команду ниже в терминале или cmd на машине с DSH, чтобы исправить это, и повторите (node-pty синхронизирован с версией ядра DSH):"
+  },
+  "terminalDepsProfile": {
+    "en": " (detected profile: {profile})",
+    "ru": " (обнаружен профиль: {profile})"
+  },
+  "terminalShellNotFound": {
+    "en": "Configured shell not found: {name} — check the shell path under Settings → Side card → Terminal",
+    "ru": "Настроенная оболочка не найдена: {name} — проверьте путь к оболочке в разделе Настройки → Боковая карточка → Терминал"
+  },
+  "preview": {
+    "en": "Preview",
+    "ru": "Предпросмотр"
+  },
+  "toc": {
+    "en": "Table of contents",
+    "ru": "Оглавление"
+  },
+  "edit": {
+    "en": "Edit",
+    "ru": "Правка"
+  },
+  "mermaidError": {
+    "en": "Mermaid render failed",
+    "ru": "Не удалось отобразить Mermaid"
+  },
+  "mermaidZoomIn": {
+    "en": "Zoom in",
+    "ru": "Увеличить"
+  },
+  "mermaidZoomOut": {
+    "en": "Zoom out",
+    "ru": "Уменьшить"
+  },
+  "mermaidZoomReset": {
+    "en": "Reset",
+    "ru": "Сбросить"
+  },
+  "mermaidZoomHint": {
+    "en": "Scroll to zoom · drag to pan · Esc to close",
+    "ru": "Прокрутка — масштаб · перетаскивание — сдвиг · Esc — закрыть"
+  },
+  "refresh": {
+    "en": "Refresh",
+    "ru": "Обновить"
+  },
+  "refreshUnsavedConfirm": {
+    "en": "The file changed on disk. Refreshing will discard unsaved edits. Continue?",
+    "ru": "Файл изменился на диске. Обновление отменит несохранённые правки. Продолжить?"
+  },
+  "save": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "saved": {
+    "en": "Saved",
+    "ru": "Сохранено"
+  },
+  "unsaved": {
+    "en": "Unsaved",
+    "ru": "Не сохранено"
+  },
+  "saveFailed": {
+    "en": "Save failed",
+    "ru": "Не удалось сохранить"
+  },
+  "truncation": {
+    "en": "File too large — showing the first 512KB",
+    "ru": "Файл слишком большой — показаны первые 512 КБ"
+  },
+  "binary": {
+    "en": "Binary file, preview unavailable",
+    "ru": "Двоичный файл, предпросмотр недоступен"
+  },
+  "loading": {
+    "en": "Loading…",
+    "ru": "Загрузка…"
+  },
+  "error": {
+    "en": "Failed to load",
+    "ru": "Не удалось загрузить"
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "notRepo": {
+    "en": "This directory is not a git repository",
+    "ru": "Этот каталог не является репозиторием git"
+  },
+  "statusTruncated": {
+    "en": "Too many changes; showing the first 2,000 entries",
+    "ru": "Слишком много изменений; показаны первые 2000 элементов"
+  },
+  "stage": {
+    "en": "Stage",
+    "ru": "Индексировать"
+  },
+  "unstage": {
+    "en": "Unstage",
+    "ru": "Убрать из индекса"
+  },
+  "stageAll": {
+    "en": "Stage all",
+    "ru": "Индексировать всё"
+  },
+  "unstageAll": {
+    "en": "Unstage all",
+    "ru": "Убрать всё из индекса"
+  },
+  "commitPlaceholder": {
+    "en": "Commit message (Ctrl+Enter)",
+    "ru": "Сообщение коммита (Ctrl+Enter)"
+  },
+  "commit": {
+    "en": "Commit",
+    "ru": "Коммит"
+  },
+  "branch": {
+    "en": "Branch",
+    "ru": "Ветка"
+  },
+  "worktree": {
+    "en": "Worktree",
+    "ru": "Рабочее дерево"
+  },
+  "checkoutError": {
+    "en": "Branch switch failed",
+    "ru": "Не удалось переключить ветку"
+  },
+  "history": {
+    "en": "History",
+    "ru": "История"
+  },
+  "changes": {
+    "en": "Changes",
+    "ru": "Изменения"
+  },
+  "changesGitLens": {
+    "en": "Git",
+    "ru": "Git"
+  },
+  "changesSessionLens": {
+    "en": "Session",
+    "ru": "Сессия"
+  },
+  "changesFilterAll": {
+    "en": "All",
+    "ru": "Все"
+  },
+  "changesFilterEmpty": {
+    "en": "No operations of this kind",
+    "ru": "Операций такого типа нет"
+  },
+  "changesOpenDiffTab": {
+    "en": "Open in a diff tab",
+    "ru": "Открыть во вкладке диффа"
+  },
+  "changesClosePreview": {
+    "en": "Close preview",
+    "ru": "Закрыть предпросмотр"
+  },
+  "changesResizePreview": {
+    "en": "Resize preview",
+    "ru": "Изменить размер предпросмотра"
+  },
+  "changesLoadError": {
+    "en": "Session file records are unavailable right now",
+    "ru": "Записи о файлах сессии сейчас недоступны"
+  },
+  "staged": {
+    "en": "Staged",
+    "ru": "В индексе"
+  },
+  "unstaged": {
+    "en": "Unstaged",
+    "ru": "Вне индекса"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "diffEmpty": {
+    "en": "No text changes",
+    "ru": "Нет текстовых изменений"
+  },
+  "diffLoadError": {
+    "en": "Failed to load diff",
+    "ru": "Не удалось загрузить дифф"
+  },
+  "diffBinary": {
+    "en": "Binary",
+    "ru": "Двоичный"
+  },
+  "diffAdded": {
+    "en": "Added",
+    "ru": "Добавлено"
+  },
+  "diffDeleted": {
+    "en": "Deleted",
+    "ru": "Удалено"
+  },
+  "diffRenamed": {
+    "en": "Renamed",
+    "ru": "Переименовано"
+  },
+  "diffExpand": {
+    "en": "Expand {count} more rows",
+    "ru": "Развернуть ещё строк: {count}"
+  },
+  "discard": {
+    "en": "Discard changes",
+    "ru": "Отменить изменения"
+  },
+  "discardTitle": {
+    "en": "Discard changes",
+    "ru": "Отменить изменения"
+  },
+  "discardDesc": {
+    "en": "This discards the worktree changes of \"{path}\" (not recoverable).",
+    "ru": "Это отменит изменения в рабочем дереве для «{path}» (необратимо)."
+  },
+  "viewCommitDiff": {
+    "en": "View commit diff",
+    "ru": "Показать дифф коммита"
+  },
+  "copyShortHash": {
+    "en": "Copy short hash",
+    "ru": "Копировать короткий хеш"
+  },
+  "copyFullHash": {
+    "en": "Copy full hash",
+    "ru": "Копировать полный хеш"
+  },
+  "copySubject": {
+    "en": "Copy subject",
+    "ru": "Копировать тему"
+  },
+  "revertCommit": {
+    "en": "Revert commit",
+    "ru": "Отменить коммит"
+  },
+  "revertTitle": {
+    "en": "Revert commit",
+    "ru": "Отменить коммит"
+  },
+  "revertDesc": {
+    "en": "Create a new commit on the current branch that reverts \"{subject}\".",
+    "ru": "Создать в текущей ветке новый коммит, отменяющий «{subject}»."
+  },
+  "cherryPickCommit": {
+    "en": "Cherry-pick commit",
+    "ru": "Перенести коммит"
+  },
+  "cherryPickTitle": {
+    "en": "Cherry-pick commit",
+    "ru": "Перенести коммит"
+  },
+  "cherryPickDesc": {
+    "en": "Apply the changes of \"{subject}\" to the current branch.",
+    "ru": "Применить изменения «{subject}» к текущей ветке."
+  },
+  "timeJustNow": {
+    "en": "just now",
+    "ru": "только что"
+  },
+  "timeMinutesAgo": {
+    "en": "{n} min ago",
+    "ru": "{n} мин назад"
+  },
+  "timeHoursAgo": {
+    "en": "{n} h ago",
+    "ru": "{n} ч назад"
+  },
+  "timeYesterday": {
+    "en": "yesterday",
+    "ru": "вчера"
+  },
+  "loadMore": {
+    "en": "Load more",
+    "ru": "Загрузить ещё"
+  },
+  "historyLoadError": {
+    "en": "Failed to load more history",
+    "ru": "Не удалось загрузить продолжение истории"
+  },
+  "produced": {
+    "en": "Produced",
+    "ru": "Создано"
+  },
+  "showInFolder": {
+    "en": "Show in folder",
+    "ru": "Показать в папке"
+  },
+  "disconnected": {
+    "en": "Terminal disconnected, reconnecting…",
+    "ru": "Терминал отключён, переподключение…"
+  },
+  "exited": {
+    "en": "Terminal process exited",
+    "ru": "Процесс терминала завершён"
+  },
+  "noSession": {
+    "en": "Select a conversation to use the sidebar",
+    "ru": "Выберите диалог, чтобы использовать боковую панель"
+  },
+  "pluginNotLoaded": {
+    "en": "Plugin not loaded; tab unavailable:",
+    "ru": "Плагин не загружен; вкладка недоступна:"
+  },
+  "parent": {
+    "en": "Parent directory",
+    "ru": "Родительский каталог"
+  },
+  "copied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "copy": {
+    "en": "Copy",
+    "ru": "Копировать"
+  },
+  "openEditor": {
+    "en": "Open editor",
+    "ru": "Открыть редактор"
+  },
+  "referenceFile": {
+    "en": "@file",
+    "ru": "@file"
+  },
+  "addToConversation": {
+    "en": "Add to conversation",
+    "ru": "Добавить в диалог"
+  },
+  "copyRelative": {
+    "en": "Copy relative path",
+    "ru": "Копировать относительный путь"
+  },
+  "copyAbsolute": {
+    "en": "Copy absolute path",
+    "ru": "Копировать абсолютный путь"
+  },
+  "rename": {
+    "en": "Rename",
+    "ru": "Переименовать"
+  },
+  "renameInvalid": {
+    "en": "The name cannot be empty or contain path separators.",
+    "ru": "Имя не может быть пустым или содержать разделители пути."
+  },
+  "delete": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "deleteTitle": {
+    "en": "Delete \"{name}\"?",
+    "ru": "Удалить «{name}»?"
+  },
+  "deleteDescFile": {
+    "en": "This permanently deletes the file. This cannot be undone.",
+    "ru": "Файл будет удалён безвозвратно. Отменить это нельзя."
+  },
+  "deleteDescDir": {
+    "en": "This permanently deletes the directory and everything inside it. This cannot be undone.",
+    "ru": "Каталог и всё его содержимое будут удалены безвозвратно. Отменить это нельзя."
+  },
+  "dismiss": {
+    "en": "Dismiss",
+    "ru": "Скрыть"
+  },
+  "download": {
+    "en": "Download",
+    "ru": "Скачать"
+  },
+  "uploadFiles": {
+    "en": "Upload files",
+    "ru": "Загрузить файлы"
+  },
+  "uploadFolder": {
+    "en": "Upload folder",
+    "ru": "Загрузить папку"
+  },
+  "uploadHere": {
+    "en": "Upload here",
+    "ru": "Загрузить сюда"
+  },
+  "uploadDropHint": {
+    "en": "Drop files/folders here to upload",
+    "ru": "Перетащите файлы или папки сюда для загрузки"
+  },
+  "uploadDropChat": {
+    "en": "Drop onto the chat to add images",
+    "ru": "Перетащите в чат, чтобы добавить изображения"
+  },
+  "uploadTo": {
+    "en": "Upload into {dir}",
+    "ru": "Загрузить в {dir}"
+  },
+  "uploadingTo": {
+    "en": "Uploading into {dir}…",
+    "ru": "Загрузка в {dir}…"
+  },
+  "uploadProgress": {
+    "en": "Uploading {done}/{total}: {name}",
+    "ru": "Загрузка {done}/{total}: {name}"
+  },
+  "uploadDone": {
+    "en": "Uploaded {count} file(s)",
+    "ru": "Загружено файлов: {count}"
+  },
+  "uploadFailed": {
+    "en": "Upload failed: {error}",
+    "ru": "Не удалось загрузить: {error}"
+  },
+  "uploadFailedUnknown": {
+    "en": "Unknown error",
+    "ru": "Неизвестная ошибка"
+  },
+  "uploadTooLarge": {
+    "en": "File too large (over the upload limit)",
+    "ru": "Файл слишком большой (превышен предел загрузки)"
+  },
+  "uploadCancelled": {
+    "en": "Upload cancelled",
+    "ru": "Загрузка отменена"
+  },
+  "settingsNav": {
+    "en": "Side card",
+    "ru": "Боковая карточка"
+  },
+  "settingsIntro": {
+    "en": "Manage what the side card shows and how it behaves",
+    "ru": "Управление содержимым и поведением боковой карточки"
+  },
+  "settingsPopupDesc": {
+    "en": "Configure related options for {feature}",
+    "ru": "Настройка связанных параметров для {feature}"
+  },
+  "settingsDone": {
+    "en": "Done",
+    "ru": "Готово"
+  },
+  "settingsOpenToolsTitle": {
+    "en": "Inject the sidebar-open tool for the model",
+    "ru": "Передавать модели инструмент открытия в боковой панели"
+  },
+  "settingsOpenToolsDesc": {
+    "en": "When enabled, the model can actively open files, folders, and HTTP(S) pages in the sidebar through the sidebar_open tool (off by default)",
+    "ru": "Если включено, модель может сама открывать файлы, папки и страницы HTTP(S) в боковой панели через инструмент sidebar_open (по умолчанию выключено)"
+  },
+  "settingsTitleBarTitle": {
+    "en": "Position compatibility mode",
+    "ru": "Режим совместимости позиционирования"
+  },
+  "settingsTitleBarDesc": {
+    "en": "Pick the title-bar compatibility scheme: auto-detect (default, conservative) / DSH official web / known desktop shells / custom (shift distance + custom CSS)",
+    "ru": "Выберите схему совместимости заголовка: автоопределение (по умолчанию, консервативно) / официальный веб DSH / известные оболочки рабочего стола / пользовательская (смещение + свой CSS)"
+  },
+  "settingsTitleBarStripTitle": {
+    "en": "Shift distance",
+    "ru": "Смещение"
+  },
+  "settingsTitleBarStripDesc": {
+    "en": "Title-bar strip height: how far the sidebar buttons and content move down in px (0–120, default 40; applies under the custom scheme)",
+    "ru": "Высота полосы заголовка: на сколько пикселей опускаются кнопки и содержимое боковой панели (0–120, по умолчанию 40; действует при пользовательской схеме)"
+  },
+  "settingsSchemeAutoTitle": {
+    "en": "Auto-detect",
+    "ru": "Автоопределение"
+  },
+  "settingsSchemeAutoDesc": {
+    "en": "Conservative: only the standard Window Controls Overlay API contributes (real caption-overlay height); plain web environments get no modification",
+    "ru": "Консервативно: учитывается только стандартный API Window Controls Overlay (реальная высота наложения заголовка); в обычном веб-окружении ничего не меняется"
+  },
+  "settingsSchemeWebTitle": {
+    "en": "DSH official web",
+    "ru": "Официальный веб DSH"
+  },
+  "settingsSchemeWebDesc": {
+    "en": "Explicitly declare the official web UI: no adaptation at all (not even standard WCO geometry)",
+    "ru": "Явно указать официальный веб-интерфейс: адаптация не применяется (даже стандартная геометрия WCO)"
+  },
+  "settingsSchemeCustomTitle": {
+    "en": "Custom",
+    "ru": "Пользовательская"
+  },
+  "settingsSchemeCustomDesc": {
+    "en": "Full control: inject custom CSS (can override built-in styles) and set the title-bar shift distance",
+    "ru": "Полный контроль: добавляется свой CSS (может переопределить встроенные стили) и задаётся смещение заголовка"
+  },
+  "settingsSchemeDetectedSuffix": {
+    "en": "detected",
+    "ru": "определено"
+  },
+  "settingsCustomCssTitle": {
+    "en": "Custom CSS",
+    "ru": "Свой CSS"
+  },
+  "settingsCustomCssPlaceholder": {
+    "en": "/* e.g. reserve 36px for a shell with a custom-drawn title bar */\nhtml[data-dsh-title-bar-height=\"36\"] {\n  --dsh-title-bar-strip: 36px !important;\n}",
+    "ru": "/* например, зарезервировать 36px для оболочки с собственной отрисовкой заголовка */\nhtml[data-dsh-title-bar-height=\"36\"] {\n  --dsh-title-bar-strip: 36px !important;\n}"
+  },
+  "settingsSaveFailed": {
+    "en": "Failed to save",
+    "ru": "Не удалось сохранить"
+  },
+  "settingsConflict": {
+    "en": "The setting changed in another window — please retry",
+    "ru": "Настройка изменена в другом окне — повторите попытку"
+  },
+  "binaryNoPreview": {
+    "en": "This file type cannot be previewed",
+    "ru": "Для этого типа файлов предпросмотр недоступен"
+  },
+  "downloadToView": {
+    "en": "Download to view",
+    "ru": "Скачать для просмотра"
+  },
+  "settingsSubagentTitle": {
+    "en": "Auto-activate the Tasks page when a subagent appears",
+    "ru": "Автоматически открывать страницу задач при появлении субагента"
+  },
+  "settingsSubagentDesc": {
+    "en": "Activate the Tasks page when the current conversation spawns a new subagent; wide viewports also expand the side card, while narrow full-screen drawers are not forced open; turn off to open it manually",
+    "ru": "Открывать страницу задач, когда в текущем диалоге появляется новый субагент; на широких экранах также разворачивается боковая карточка, а на узких полноэкранная панель не открывается принудительно; выключите, чтобы открывать вручную"
+  },
+  "settingsJobsTitle": {
+    "en": "Auto-activate the Tasks page on a new background job",
+    "ru": "Автоматически открывать страницу задач при новой фоновой задаче"
+  },
+  "settingsJobsDesc": {
+    "en": "Activate the Tasks page whenever a new background job appears for the current conversation (every new job triggers); wide viewports also expand the side card, while narrow full-screen drawers are not forced open; turn off to open it manually",
+    "ru": "Открывать страницу задач при появлении новой фоновой задачи в текущем диалоге (срабатывает на каждую задачу); на широких экранах также разворачивается боковая карточка, а на узких полноэкранная панель не открывается принудительно; выключите, чтобы открывать вручную"
+  },
+  "settingsToolsTitle": {
+    "en": "Inject terminal tools for the model",
+    "ru": "Передавать модели инструменты терминала"
+  },
+  "settingsToolsDesc": {
+    "en": "When enabled, the model can create and drive sidebar terminals through the 8 terminal_* tools (off by default)",
+    "ru": "Если включено, модель может создавать терминалы в боковой панели и управлять ими через 8 инструментов terminal_* (по умолчанию выключено)"
+  },
+  "settingsBottomTerminalTitle": {
+    "en": "Auto-open a terminal on the bottom panel's first expansion",
+    "ru": "Автоматически открывать терминал при первом развёртывании нижней панели"
+  },
+  "settingsBottomTerminalDesc": {
+    "en": "When the bottom panel is expanded for the first time in a session, try to open a fresh terminal tab there (the terminal quota still applies; on by default)",
+    "ru": "При первом развёртывании нижней панели в сессии там открывается новый терминал (лимит терминалов сохраняется; по умолчанию включено)"
+  },
+  "settingsFontFamilyTitle": {
+    "en": "Terminal font family",
+    "ru": "Шрифт терминала"
+  },
+  "settingsFontFamilyDesc": {
+    "en": "Custom terminal font family (a CSS font-family stack like \"JetBrains Mono\", monospace; leave empty to follow the theme's monospace font)",
+    "ru": "Свой шрифт терминала (стек CSS font-family, например \"JetBrains Mono\", monospace; пусто — использовать моноширинный шрифт темы)"
+  },
+  "settingsFontFamilyPlaceholder": {
+    "en": "\"JetBrains Mono\", monospace",
+    "ru": "\"JetBrains Mono\", monospace"
+  },
+  "settingsFontSizeTitle": {
+    "en": "Terminal font size",
+    "ru": "Размер шрифта терминала"
+  },
+  "settingsShellTitle": {
+    "en": "Shell path",
+    "ru": "Путь к оболочке"
+  },
+  "settingsShellDesc": {
+    "en": "Shell spawned for UI and model terminals (absolute path or bare executable). Empty keeps the legacy order: yaml config.shell → $SHELL / login shell / Windows powershell.exe. Applies to terminals opened afterwards",
+    "ru": "Оболочка для терминалов интерфейса и модели (абсолютный путь или имя исполняемого файла). Пусто — прежний порядок: yaml config.shell → $SHELL / login shell / Windows powershell.exe. Действует для терминалов, открытых после изменения"
+  },
+  "settingsShellPlaceholder": {
+    "en": "e.g. /bin/zsh (empty = auto)",
+    "ru": "например, /bin/zsh (пусто = авто)"
+  },
+  "settingsShellArgsTitle": {
+    "en": "Shell arguments",
+    "ru": "Аргументы shell"
+  },
+  "settingsShellArgsDesc": {
+    "en": "Explicit shell arguments, space-separated; when non-empty they fully replace the defaults (same contract as the yaml shellArgs)",
+    "ru": "Явные аргументы shell через пробел; если не пусто, они полностью заменяют значения по умолчанию (тот же контракт, что у shellArgs в yaml)"
+  },
+  "settingsShellArgsPlaceholder": {
+    "en": "e.g. -l (empty = defaults)",
+    "ru": "напр. -l (пусто = по умолчанию)"
+  },
+  "settingsFontSizeDesc": {
+    "en": "Terminal font size in px (9–32, default 13)",
+    "ru": "Размер шрифта терминала в px (9–32, по умолчанию 13)"
+  },
+  "settingsTabsTitle": {
+    "en": "Sidebar content",
+    "ru": "Содержимое боковой панели"
+  },
+  "settingsViewersTitle": {
+    "en": "File viewers",
+    "ru": "Просмотрщики файлов"
+  },
+  "settingsMobileTitle": {
+    "en": "Mobile",
+    "ru": "Мобильные"
+  },
+  "settingsMobileNoAutoOpenTitle": {
+    "en": "Don't auto-open on narrow screens",
+    "ru": "Не открывать автоматически на узких экранах"
+  },
+  "settingsMobileNoAutoOpenDesc": {
+    "en": "On a phone / narrow viewport, a new subagent or background job no longer switches to the Tasks page by itself (you can still open it by hand)",
+    "ru": "На телефоне и в узком окне новый субагент или фоновая задача больше не переключает страницу на «Задачи» сам (открыть вручную по-прежнему можно)"
+  },
+  "settingsMobileTreeTitle": {
+    "en": "Default the Tasks page to the tree",
+    "ru": "Открывать страницу «Задачи» деревом по умолчанию"
+  },
+  "settingsMobileTreeDesc": {
+    "en": "On a phone / narrow viewport the Tasks page opens as the classic tree instead of the workflow graph; the in-page toggle still switches it ad hoc",
+    "ru": "На телефоне и в узком окне страница «Задачи» открывается классическим деревом, а не графом воркфлоу; переключатель на странице по-прежнему меняет вид разово"
+  },
+  "settingsGeneralTitle": {
+    "en": "General",
+    "ru": "Общие"
+  },
+  "settingsPopup": {
+    "en": "Feature settings",
+    "ru": "Настройки функций"
+  },
+  "settingsViewerCatchAll": {
+    "en": "Catch-all: any file",
+    "ru": "Для всех: любой файл"
+  },
+  "viewerMarkdown": {
+    "en": "Markdown",
+    "ru": "Markdown"
+  },
+  "viewerCode": {
+    "en": "Code",
+    "ru": "Код"
+  },
+  "viewerHtml": {
+    "en": "HTML",
+    "ru": "HTML"
+  },
+  "browser": {
+    "en": "Browser",
+    "ru": "Браузер"
+  },
+  "browserPlaceholder": {
+    "en": "Enter a URL, e.g. example.com",
+    "ru": "Введите URL, напр. example.com"
+  },
+  "browserGo": {
+    "en": "Go",
+    "ru": "Перейти"
+  },
+  "browserBack": {
+    "en": "Back",
+    "ru": "Назад"
+  },
+  "browserForward": {
+    "en": "Forward",
+    "ru": "Вперёд"
+  },
+  "browserStart": {
+    "en": "Enter a URL to start browsing (sandbox mode)",
+    "ru": "Введите URL, чтобы начать просмотр (режим песочницы)"
+  },
+  "browserBlockedScheme": {
+    "en": "Blocked: only http/https URLs are allowed",
+    "ru": "Заблокировано: разрешены только URL http/https"
+  },
+  "browserBlockedLoopback": {
+    "en": "Blocked: local and internal addresses cannot be browsed here",
+    "ru": "Заблокировано: локальные и внутренние адреса здесь недоступны"
+  },
+  "browserInvalid": {
+    "en": "Invalid URL",
+    "ru": "Неверный URL"
+  },
+  "htmlNoSandboxWarning": {
+    "en": "Sandbox off: this HTML runs with full GUI privileges (re-enable in settings)",
+    "ru": "Песочница выключена: этот HTML выполняется с полными правами GUI (включите её снова в настройках)"
+  },
+  "sandboxStatusOn": {
+    "en": "Sandbox mode: on · pages cannot access the GUI's data or local files; logins and third-party cookies may not work",
+    "ru": "Режим песочницы: вкл. · страницы не имеют доступа к данным GUI и локальным файлам; вход и сторонние cookie могут не работать"
+  },
+  "sandboxUnlock": {
+    "en": "Temporarily disable (unsafe)",
+    "ru": "Временно выключить (небезопасно)"
+  },
+  "sandboxRestore": {
+    "en": "Restore sandbox",
+    "ru": "Вернуть песочницу"
+  },
+  "settingsHtmlDefaultUnsafeTitle": {
+    "en": "Open HTML previews unsandboxed by default (unsafe)",
+    "ru": "Открывать HTML-предпросмотр без песочницы по умолчанию (небезопасно)"
+  },
+  "settingsHtmlDefaultUnsafeDesc": {
+    "en": "When on, every newly opened HTML preview starts in the unsandboxed state (same origin as the GUI — it can read session files and internal APIs); the status row still offers a one-tap restore",
+    "ru": "Если включено, каждый новый HTML-предпросмотр открывается без песочницы (тот же origin, что у GUI — доступ к файлам сессии и внутренним API); в строке состояния по-прежнему есть восстановление в один клик"
+  },
+  "settingsHtmlSandboxTitle": {
+    "en": "Disable HTML preview sandbox (unsafe)",
+    "ru": "Отключить песочницу HTML-предпросмотра (небезопасно)"
+  },
+  "settingsHtmlSandboxDesc": {
+    "en": "With the sandbox off, previewed HTML runs with the same origin as the GUI: it can read session files, local storage and call internal APIs. Only enable for fully trusted files",
+    "ru": "Без песочницы просматриваемый HTML работает с тем же origin, что и GUI: он может читать файлы сессии, локальное хранилище и вызывать внутренние API. Включайте только для полностью доверенных файлов"
+  },
+  "settingsBrowserSandboxTitle": {
+    "en": "Disable browser sandbox (unsafe)",
+    "ru": "Отключить песочницу браузера (небезопасно)"
+  },
+  "settingsBrowserSandboxDesc": {
+    "en": "With the sandbox off, any visited site runs with the same origin as the GUI: it can read session data and act as your logged-in session. Only enable for fully trusted sites",
+    "ru": "Без песочницы любой посещённый сайт работает с тем же origin, что и GUI: он может читать данные сессии и действовать от вашего имени. Включайте только для полностью доверенных сайтов"
+  },
+  "settingsBrowserLoopbackTitle": {
+    "en": "Allowed local addresses",
+    "ru": "Разрешённые локальные адреса"
+  },
+  "settingsBrowserLoopbackDesc": {
+    "en": "Comma-separated allowlist of loopback addresses (e.g. localhost:5174 or 127.0.0.1:8080) the sidebar browser may visit; empty blocks all local addresses by default. The sandbox still applies — pages cannot read GUI data",
+    "ru": "Список разрешённых loopback-адресов через запятую (напр. localhost:5174 или 127.0.0.1:8080), которые может открывать браузер боковой панели; пустое значение по умолчанию блокирует все локальные адреса. Песочница при этом действует — страницы не могут читать данные GUI"
+  },
+  "settingsBrowserLoopbackPlaceholder": {
+    "en": "e.g. localhost:5174, 127.0.0.1:8080",
+    "ru": "напр. localhost:5174, 127.0.0.1:8080"
+  },
+  "browserOpenExternal": {
+    "en": "Open in browser",
+    "ru": "Открыть в браузере"
+  },
+  "browserEmbedBlocked": {
+    "en": "{host} refused to be embedded",
+    "ru": "{host} запрещает встраивание"
+  },
+  "browserEmbedBlockedDesc": {
+    "en": "The site forbids being displayed inside other pages (X-Frame-Options / frame-ancestors), so it cannot load in the sidebar. Open it directly in your browser instead.",
+    "ru": "Сайт запрещает показ внутри других страниц (X-Frame-Options / frame-ancestors), поэтому он не загрузится в боковой панели. Откройте его напрямую в браузере."
+  },
+  "browserEmbedAnyway": {
+    "en": "Load anyway",
+    "ru": "Всё равно загрузить"
+  },
+  "subagent": {
+    "en": "Tasks",
+    "ru": "Задачи"
+  },
+  "subagentMainAgent": {
+    "en": "Main agent",
+    "ru": "Основной агент"
+  },
+  "subagentEmpty": {
+    "en": "No subagents",
+    "ru": "Субагентов нет"
+  },
+  "subagentEmptyDesc": {
+    "en": "Subagents spawned under the main agent will appear here",
+    "ru": "Запущенные под основным агентом субагенты появятся здесь"
+  },
+  "subagentInactive": {
+    "en": "Inactive",
+    "ru": "Неактивен"
+  },
+  "subagentModeOneShot": {
+    "en": "One-shot",
+    "ru": "Одноразовый"
+  },
+  "subagentModeContinuable": {
+    "en": "Continuable",
+    "ru": "С продолжением"
+  },
+  "subagentCount": {
+    "en": "{count} subagents",
+    "ru": "Субагентов: {count}"
+  },
+  "subagentCountRunning": {
+    "en": "{count} subagents · {running} running",
+    "ru": "Субагентов: {count} · выполняется: {running}"
+  },
+  "subagentThinking": {
+    "en": "Thinking…",
+    "ru": "Размышляет…"
+  },
+  "sideChat": {
+    "en": "Side Chat (beta)",
+    "ru": "Боковой чат (бета)"
+  },
+  "sideChatNew": {
+    "en": "New thread",
+    "ru": "Новый тред"
+  },
+  "sideChatUntitled": {
+    "en": "New thread",
+    "ru": "Новый тред"
+  },
+  "sideChatEmpty": {
+    "en": "No side conversations",
+    "ru": "Боковых диалогов нет"
+  },
+  "sideChatEmptyDesc": {
+    "en": "Every side conversation is its own tab in the tab strip — it inherits the current session's context and never enters the main conversation",
+    "ru": "Каждый боковой диалог — отдельная вкладка в полосе вкладок: он наследует контекст текущей сессии и никогда не попадает в основной диалог"
+  },
+  "sideChatCreating": {
+    "en": "Creating side conversation…",
+    "ru": "Создание бокового диалога…"
+  },
+  "sideChatRetry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "sideChatThreads": {
+    "en": "Switch thread / new",
+    "ru": "Переключить тред / новый"
+  },
+  "sideChatSave": {
+    "en": "Save as new session",
+    "ru": "Сохранить как новую сессию"
+  },
+  "sideChatSaveTitle": {
+    "en": "Promote this thread to a top-level session in the main session list",
+    "ru": "Сделать этот тред отдельной сессией в основном списке сессий"
+  },
+  "sideChatSaved": {
+    "en": "Saved as a new session",
+    "ru": "Сохранено как новая сессия"
+  },
+  "sideChatNoTurn": {
+    "en": "Save is available after the first completed turn",
+    "ru": "Сохранение доступно после первого завершённого хода"
+  },
+  "sideChatPendingDrop": {
+    "en": "The last unanswered follow-up will not be included in the saved session",
+    "ru": "Последний вопрос без ответа не попадёт в сохранённую сессию"
+  },
+  "sideChatFirstPlaceholder": {
+    "en": "Ask the first question — context inherited…",
+    "ru": "Задайте первый вопрос — контекст унаследован…"
+  },
+  "sideChatComposerPlaceholder": {
+    "en": "Ask a follow-up…",
+    "ru": "Задайте следующий вопрос…"
+  },
+  "sideChatThinking": {
+    "en": "Deep diving…",
+    "ru": "Глубокое погружение…"
+  },
+  "sideChatThink": {
+    "en": "Thinking",
+    "ru": "Размышления"
+  },
+  "sideChatInjection": {
+    "en": "Context injected",
+    "ru": "Контекст добавлен"
+  },
+  "sideChatSend": {
+    "en": "Send",
+    "ru": "Отправить"
+  },
+  "sideChatCancelTitle": {
+    "en": "Abort the running turn (queued work is kept)",
+    "ru": "Прервать текущий ход (задачи в очереди сохранятся)"
+  },
+  "sideChatError": {
+    "en": "Side Chat error: {message}",
+    "ru": "Ошибка бокового чата: {message}"
+  },
+  "sideChatTurnUsage": {
+    "en": "Input {input} tok · Output {output} tok",
+    "ru": "Ввод {input} ток · вывод {output} ток"
+  },
+  "sideChatBlockCollapse": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "sideChatBlockCollapseAria": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "sideChatBlockExpand": {
+    "en": "Expand {hidden} lines",
+    "ru": "Развернуть строк: {hidden}"
+  },
+  "sideChatBlockExpandAria": {
+    "en": "Expand {hidden} more lines",
+    "ru": "Развернуть ещё строк: {hidden}"
+  },
+  "sideChatBlockSignal": {
+    "en": "Killed by signal: {signal}",
+    "ru": "Прервано сигналом: {signal}"
+  },
+  "sideChatBlockExitCode": {
+    "en": "Exit code {code}",
+    "ru": "Код выхода: {code}"
+  },
+  "sideChatBlockNoExitCode": {
+    "en": "Ended without an exit code",
+    "ru": "Завершено без кода выхода"
+  },
+  "sideChatBlockRunning": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "sideChatBlockFailed": {
+    "en": "Failed",
+    "ru": "Не удалось"
+  },
+  "sideChatBlockDone": {
+    "en": "Done",
+    "ru": "Готово"
+  },
+  "sideChatBlockNoOutput": {
+    "en": "(no output)",
+    "ru": "(нет вывода)"
+  },
+  "codeBlockTitle": {
+    "en": "Code block",
+    "ru": "Блок кода"
+  },
+  "codeBlockWrap": {
+    "en": "Wrap lines",
+    "ru": "Переносить строки"
+  },
+  "codeBlockUnwrap": {
+    "en": "Do not wrap lines",
+    "ru": "Не переносить строки"
+  },
+  "sideChatBlockWindow": {
+    "en": "{shown} of {total} lines",
+    "ru": "Строк: {shown} из {total}"
+  },
+  "sideChatConnDisconnected": {
+    "en": "Disconnected, reconnect now",
+    "ru": "Соединение потеряно, подключиться снова"
+  },
+  "sideChatConnConnecting": {
+    "en": "Reconnecting…",
+    "ru": "Переподключение…"
+  },
+  "sideChatConnRecovered": {
+    "en": "Connection restored",
+    "ru": "Соединение восстановлено"
+  },
+  "sideChatConnReconnectAction": {
+    "en": "Reconnect now",
+    "ru": "Подключиться снова"
+  },
+  "sideChatConnRestartAction": {
+    "en": "Restart connection",
+    "ru": "Перезапустить соединение"
+  },
+  "jobs": {
+    "en": "Background jobs",
+    "ru": "Фоновые задачи"
+  },
+  "jobsCount": {
+    "en": "{count} background jobs",
+    "ru": "Фоновых задач: {count}"
+  },
+  "jobsCountRunning": {
+    "en": "{count} background jobs · {running} running",
+    "ru": "Фоновых задач: {count} · выполняется: {running}"
+  },
+  "jobStatusRunning": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "jobStatusStopping": {
+    "en": "Stopping",
+    "ru": "Останавливается"
+  },
+  "jobStatusCompleted": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "jobStatusKilled": {
+    "en": "Killed",
+    "ru": "Остановлено"
+  },
+  "jobStatusFailed": {
+    "en": "Failed",
+    "ru": "Не удалось"
+  },
+  "jobDurationSeconds": {
+    "en": "{seconds}s",
+    "ru": "{seconds} с"
+  },
+  "jobDurationMinutes": {
+    "en": "{minutes}m {seconds}s",
+    "ru": "{minutes} мин {seconds} с"
+  },
+  "jobDurationHours": {
+    "en": "{hours}h {minutes}m",
+    "ru": "{hours} ч {minutes} мин"
+  },
+  "jobViewOutput": {
+    "en": "View output",
+    "ru": "Показать вывод"
+  },
+  "jobNoOutput": {
+    "en": "No output yet",
+    "ru": "Вывода пока нет"
+  },
+  "jobNotReadYet": {
+    "en": "Waiting for the model to read this job; its output appears here once the model runs job_output",
+    "ru": "Ожидание, пока модель прочитает эту задачу; её вывод появится здесь, когда модель вызовет job_output"
+  },
+  "jobOutputTruncated": {
+    "en": "Output truncated",
+    "ru": "Вывод обрезан"
+  },
+  "jobOutputError": {
+    "en": "Failed to read output",
+    "ru": "Не удалось прочитать вывод"
+  },
+  "jobKill": {
+    "en": "Kill",
+    "ru": "Остановить"
+  },
+  "jobKillConfirm": {
+    "en": "Click again to confirm kill",
+    "ru": "Нажмите ещё раз для подтверждения"
+  },
+  "jobKillError": {
+    "en": "Kill failed",
+    "ru": "Не удалось остановить"
+  },
+  "tasksViewGraph": {
+    "en": "Workflow graph",
+    "ru": "Граф воркфлоу"
+  },
+  "tasksViewTree": {
+    "en": "Tree",
+    "ru": "Дерево"
+  },
+  "tasksViewSwitchToGraph": {
+    "en": "Switch to the workflow graph",
+    "ru": "Переключить на граф воркфлоу"
+  },
+  "tasksViewSwitchToTree": {
+    "en": "Switch to the tree",
+    "ru": "Переключить на дерево"
+  },
+  "settingsViewModeTitle": {
+    "en": "Tasks page default view",
+    "ru": "Вид страницы «Задачи» по умолчанию"
+  },
+  "settingsViewModeDesc": {
+    "en": "How the Tasks page renders on open (the in-page toggle still flips it ad hoc)",
+    "ru": "Как страница «Задачи» отображается при открытии (переключатель на странице по-прежнему меняет вид разово)"
+  },
+  "settingsViewModeGraph": {
+    "en": "Workflow graph",
+    "ru": "Граф воркфлоу"
+  },
+  "settingsViewModeGraphDesc": {
+    "en": "Layered node graph with zoom and pan",
+    "ru": "Многослойный граф узлов с масштабированием и панорамированием"
+  },
+  "settingsViewModeTree": {
+    "en": "Tree",
+    "ru": "Дерево"
+  },
+  "settingsViewModeTreeDesc": {
+    "en": "Classic indentation tree, keyboard navigable",
+    "ru": "Классическое дерево с отступами, навигация с клавиатуры"
+  },
+  "tasksFoldIdleGroup": {
+    "en": "N waiting",
+    "ru": "N ожидают"
+  },
+  "tasksFoldIdle": {
+    "en": "Idle {count}",
+    "ru": "Ожидают: {count}"
+  },
+  "tasksFoldCompleted": {
+    "en": "✓ {count} completed",
+    "ru": "✓ {count} завершено"
+  },
+  "tasksFoldOne": {
+    "en": "Fold into completed",
+    "ru": "Свернуть в завершённые"
+  },
+  "tasksFoldExpand": {
+    "en": "Expand the completed nodes",
+    "ru": "Развернуть завершённые узлы"
+  },
+  "tasksFoldCollapse": {
+    "en": "Collapse the completed nodes",
+    "ru": "Свернуть завершённые узлы"
+  },
+  "tasksZoomIn": {
+    "en": "Zoom in",
+    "ru": "Приблизить"
+  },
+  "tasksZoomOut": {
+    "en": "Zoom out",
+    "ru": "Отдалить"
+  },
+  "tasksZoomFit": {
+    "en": "Fit to canvas",
+    "ru": "По размеру холста"
+  },
+  "tasksNodeJump": {
+    "en": "Open transcript",
+    "ru": "Открыть расшифровку"
+  },
+  "tasksNodeDetail": {
+    "en": "Node detail",
+    "ru": "Детали узла"
+  },
+  "workflowRun": {
+    "en": "Workflow",
+    "ru": "Воркфлоу"
+  },
+  "tasksNodeState": {
+    "en": "State",
+    "ru": "Состояние"
+  },
+  "tasksNodeMode": {
+    "en": "Mode",
+    "ru": "Режим"
+  },
+  "tasksNodeModel": {
+    "en": "Model",
+    "ru": "Модель"
+  },
+  "tasksNodeTeamRole": {
+    "en": "Team role",
+    "ru": "Роль в команде"
+  },
+  "tasksNodeActivity": {
+    "en": "Latest activity",
+    "ru": "Последняя активность"
+  },
+  "tasksStateRunning": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "tasksStateIdle": {
+    "en": "Idle",
+    "ru": "Ожидание"
+  },
+  "tasksStateProvisioning": {
+    "en": "Provisioning",
+    "ru": "Подготовка"
+  },
+  "tasksStateDone": {
+    "en": "Done",
+    "ru": "Готово"
+  },
+  "tasksStateError": {
+    "en": "Error",
+    "ru": "Ошибка"
+  },
+  "tasksKindSubagent": {
+    "en": "Subagent",
+    "ru": "Субагент"
+  },
+  "tasksKindTeammate": {
+    "en": "Teammate",
+    "ru": "Участник команды"
+  },
+  "tasksKindWorkflow": {
+    "en": "Workflow",
+    "ru": "Воркфлоу"
+  },
+  "taskWindowCreate": {
+    "en": "New task",
+    "ru": "Новая задача"
+  },
+  "taskWindowDetail": {
+    "en": "Task detail",
+    "ru": "Детали задачи"
+  },
+  "teamBoard": {
+    "en": "Team task board",
+    "ru": "Доска задач команды"
+  },
+  "teamChip": {
+    "en": "Team {members} members · {tasks} tasks",
+    "ru": "Команда: {members} участн. · {tasks} задач"
+  },
+  "teamTasksEmpty": {
+    "en": "No shared tasks yet",
+    "ru": "Общих задач пока нет"
+  },
+  "teamTaskCreate": {
+    "en": "New task",
+    "ru": "Новая задача"
+  },
+  "teamTaskSubject": {
+    "en": "Subject",
+    "ru": "Тема"
+  },
+  "teamTaskDescription": {
+    "en": "Description",
+    "ru": "Описание"
+  },
+  "teamTaskOwner": {
+    "en": "Owner",
+    "ru": "Владелец"
+  },
+  "teamTaskUnowned": {
+    "en": "Unclaimed",
+    "ru": "Свободна"
+  },
+  "teamTaskPending": {
+    "en": "Pending",
+    "ru": "Ожидает"
+  },
+  "teamTaskInProgress": {
+    "en": "In progress",
+    "ru": "В работе"
+  },
+  "teamTaskCompleted": {
+    "en": "Completed",
+    "ru": "Завершена"
+  },
+  "teamTaskBlocked": {
+    "en": "Blocked",
+    "ru": "Заблокирована"
+  },
+  "teamTaskClaim": {
+    "en": "Claim",
+    "ru": "Взять"
+  },
+  "teamTaskComplete": {
+    "en": "Complete",
+    "ru": "Завершить"
+  },
+  "teamTaskReopen": {
+    "en": "Reopen",
+    "ru": "Переоткрыть"
+  },
+  "teamTaskDelete": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "teamTaskDeleteConfirm": {
+    "en": "Confirm delete",
+    "ru": "Подтвердить удаление"
+  },
+  "teamTaskEdit": {
+    "en": "Edit",
+    "ru": "Изменить"
+  },
+  "teamTaskSave": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "teamTaskCancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "teamTaskConflict": {
+    "en": "The task changed elsewhere; refreshed",
+    "ru": "Задача изменена в другом месте; обновлено"
+  },
+  "teamTaskError": {
+    "en": "Operation failed: {message}",
+    "ru": "Операция не удалась: {message}"
+  },
+  "teamTaskDeleted": {
+    "en": "Deleted",
+    "ru": "Удалено"
+  },
+  "teamTaskActions": {
+    "en": "Task actions",
+    "ru": "Действия с задачей"
+  },
+  "teamTaskDetail": {
+    "en": "Task detail",
+    "ru": "Детали задачи"
+  },
+  "teamTaskNoDescription": {
+    "en": "No description yet — click Edit to add one",
+    "ru": "Описания пока нет — нажмите «Изменить», чтобы добавить"
+  },
+  "teamTaskBlockedBy": {
+    "en": "Blocked by",
+    "ru": "Блокирует"
+  },
+  "teamTaskSubjectPlaceholder": {
+    "en": "One line describing the work",
+    "ru": "Одна строка с описанием работы"
+  },
+  "teamTaskDescriptionPlaceholder": {
+    "en": "Extra context (optional)",
+    "ru": "Дополнительный контекст (необязательно)"
+  },
+  "teamFilterAll": {
+    "en": "All",
+    "ru": "Все"
+  },
+  "tasksNodeTasks": {
+    "en": "Shared tasks",
+    "ru": "Общие задачи"
+  },
+  "jobCopyOutput": {
+    "en": "Copy output",
+    "ru": "Копировать вывод"
+  },
+  "jobCopied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "jobFollowTail": {
+    "en": "Follow latest",
+    "ru": "Следить за новыми"
+  },
+  "jobDragHint": {
+    "en": "Drag to move",
+    "ru": "Перетащите, чтобы переместить"
+  },
+  "workflowRunning": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "workflowCompleted": {
+    "en": "Completed",
+    "ru": "Завершён"
+  },
+  "workflowCancelled": {
+    "en": "Cancelled",
+    "ru": "Отменён"
+  },
+  "workflowFailed": {
+    "en": "Failed",
+    "ru": "Не удался"
+  },
+  "workflowPhaseUnnamed": {
+    "en": "Unnamed phase",
+    "ru": "Фаза без названия"
+  },
+  "workflowMembers": {
+    "en": "{done}/{total} members",
+    "ru": "{done}/{total} участн."
+  },
+  "jobsAutoCollapsed": {
+    "en": "Auto-collapsed (many agents)",
+    "ru": "Автосвёрнуто (много агентов)"
+  },
+  "catalogLoadFailed": {
+    "en": "{count} branches failed to load",
+    "ru": "Не удалось загрузить веток: {count}"
+  },
+  "addPluginsTabCard": {
+    "en": "Add tab plugins",
+    "ru": "Добавить плагины вкладок"
+  },
+  "addPluginsTabCardDesc": {
+    "en": "Register a new sidebar page",
+    "ru": "Добавить новую страницу в боковую панель"
+  },
+  "addPluginsViewerCard": {
+    "en": "Add preview plugins",
+    "ru": "Добавить плагины предпросмотра"
+  },
+  "addPluginsViewerCardDesc": {
+    "en": "Register a file-type preview",
+    "ru": "Добавить предпросмотр типа файлов"
+  },
+  "addPluginsTabDesc": {
+    "en": "Sidebar pages (tabs) can be extended by plugins. Plugins register through the ctx.betterSidebar service; clicking Install copies the install command — paste it into a terminal where your DSH profile lives and run it.",
+    "ru": "Страницы боковой панели (вкладки) расширяются плагинами. Плагины регистрируются через сервис ctx.betterSidebar; нажатие «Установить» копирует команду установки — вставьте её в терминал, где находится ваш профиль DSH, и выполните."
+  },
+  "addPluginsViewerDesc": {
+    "en": "File previewers can be extended by plugins. Plugins register through the ctx.betterSidebar service; clicking Install copies the install command — paste it into a terminal where your DSH profile lives and run it.",
+    "ru": "Просмотрщики файлов расширяются плагинами. Плагины регистрируются через сервис ctx.betterSidebar; нажатие «Установить» копирует команду установки — вставьте её в терминал, где находится ваш профиль DSH, и выполните."
+  },
+  "addPluginsBrowseMore": {
+    "en": "Browse more plugins on GitHub (topic: dsh-better-sidebar)",
+    "ru": "Больше плагинов на GitHub (тема: dsh-better-sidebar)"
+  },
+  "addPluginsSearch": {
+    "en": "Search by plugin name or description…",
+    "ru": "Поиск по названию или описанию плагина…"
+  },
+  "addPluginsNoMatch": {
+    "en": "No plugins match",
+    "ru": "Плагины не найдены"
+  },
+  "addPluginsRecommended": {
+    "en": "Recommended plugins",
+    "ru": "Рекомендуемые плагины"
+  },
+  "addPluginsEmpty": {
+    "en": "No plugins curated yet — publish yours under the GitHub topic",
+    "ru": "Подборка плагинов пока пуста — опубликуйте свой под темой на GitHub"
+  },
+  "openPlugin": {
+    "en": "Open",
+    "ru": "Открыть"
+  },
+  "copyInstall": {
+    "en": "Copy install command",
+    "ru": "Копировать команду установки"
+  },
+  "pluginMdExportDesc": {
+    "en": "Adds an \"Export\" button to the Markdown toolbar in better-sidebar: one click renders the current .md into standalone HTML (tables / code blocks / Mermaid diagrams inlined, layout follows the preview theme) and saves it next to the .md, or exports to PDF via the print dialog",
+    "ru": "Добавляет кнопку «Экспорт» на панель Markdown в better-sidebar: одним нажатием текущий .md превращается в автономный HTML (таблицы, блоки кода и диаграммы Mermaid встроены, оформление берётся из темы предпросмотра) и сохраняется рядом с .md, либо экспортируется в PDF через диалог печати"
+  },
+  "pluginOfficeDesc": {
+    "en": "Office-suite preview (.docx / .xlsx / .pptx) for the better-sidebar editor, keeping the heavy Office render libraries out of the core bundle",
+    "ru": "Предпросмотр файлов Office (.docx / .xlsx / .pptx) в редакторе better-sidebar: тяжёлые библиотеки отрисовки Office не попадают в основной пакет"
+  },
+  "pluginFlowglassDesc": {
+    "en": "Live session flowgraph with three lanes for user, assistant, and tool calls, plus parallel groups, sub-agent branches, drill-down, and live status; registers a native Flowglass tab when better-sidebar is installed and keeps its standalone drawer as a fallback",
+    "ru": "Живой граф сессии с тремя дорожками — пользователь, ассистент и вызовы инструментов, а также параллельные группы, ветки субагентов, детализация и статус в реальном времени; регистрирует вкладку Flowglass при установленной better-sidebar и сохраняет отдельную панель как запасной вариант"
+  },
+  "pluginGitForgeDesc": {
+    "en": "Git Forge tab: GitHub/Gitea (and other forge) account library + per-project grants + hard push policy; tokens stay in local secrets (never in model context); read-only GitForge tool and agent HTTPS credential helper",
+    "ru": "Вкладка Git Forge: библиотека аккаунтов GitHub/Gitea (и других форжей) + разрешения на уровне проектов + жёсткая политика push; токены хранятся в локальных секретах (никогда в контексте модели); инструмент GitForge только для чтения и HTTPS-помощник учётных данных для агента"
+  },
+  "pluginGithubWorkbenchDesc": {
+    "en": "GitHub Workbench tab: remote repo tree + Issues / Pull requests / Actions with full write support — create Issue/PR, comment, edit, close/reopen, squash·merge·rebase merge (strong confirm), re-run/cancel CI; the repo switcher auto-lists accessible repos and searches public ones; falls back to a standalone right-side panel without better-sidebar",
+    "ru": "Вкладка GitHub Workbench: дерево удалённого репозитория + Issues / Pull requests / Actions с полной поддержкой записи — создать Issue/PR, комментировать, редактировать, закрыть/переоткрыть, слияние squash·merge·rebase (строгое подтверждение), перезапуск/отмена CI; переключатель репозиториев сам показывает доступные и ищет публичные; без better-sidebar работает как отдельная панель справа"
+  },
+  "pluginGitRemotesDesc": {
+    "en": "Git Remotes tab: branch/upstream/ahead-behind, fetch (optional prune), ff-only pull, and push only after an in-tab confirm. Does not replace the built-in Git stage/commit tab, and does not offer force-push or a model auto-push tool",
+    "ru": "Вкладка Git Remotes: ветка/upstream/опережение-отставание, fetch (с необязательным prune), только ff pull и push лишь после подтверждения во вкладке. Не заменяет встроенную вкладку Git для stage/commit и не предлагает force-push или авто-push из модели"
+  },
+  "pluginServerDeckDesc": {
+    "en": "Server card dashboard: one card per host showing online status, OS, uptime and CPU/mem/disk usage with latency; click a card to open an interactive xterm.js terminal; one-click ~/.ssh/config import (git-hosting aliases auto-skipped). Registers a native \"Servers\" tab when better-sidebar is installed and keeps its standalone drawer as a fallback",
+    "ru": "Дашборд карточек серверов: по карточке на хост со статусом, ОС, аптаймом и нагрузкой CPU/память/диск и задержкой; нажатие на карточку открывает интерактивный терминал xterm.js; импорт ~/.ssh/config в один клик (алиасы git-хостингов пропускаются автоматически). Регистрирует вкладку «Серверы» при установленной better-sidebar и сохраняет отдельную панель как запасной вариант"
+  },
+  "pluginSentinelDesc": {
+    "en": "Condition-driven agent wakeup: file/process/port/http/command/webhook sensors wake dormant sessions when conditions fire; registers a \"Sentinel\" tab with the server-wide watch table",
+    "ru": "Пробуждение агентов по условиям: сенсоры файл/процесс/порт/http/команда/webhook будят спящие сессии при срабатывании условий; регистрирует вкладку «Sentinel» с таблицей наблюдений по всему серверу"
+  },
+  "pluginSidebarQaDesc": {
+    "en": "Select-and-ask: Select conversation text → ask in the right-side panel → a dedicated follow-up session (❓追问) in the same workspace; a fast no-thinking model compresses the main context and injects it with the quote, without interrupting the main conversation. Follow-ups nest, continue, and archive",
+    "ru": "Выдели и спроси: выделите текст диалога → спросите в панели справа → отдельная сессия-продолжение (❓追问) в той же рабочей области; быстрая модель без размышлений сжимает основной контекст и добавляет его вместе с цитатой, не прерывая основной диалог. Дополнения вкладываются, продолжаются и уходят в архив"
+  },
+  "pluginSidenoteDesc": {
+    "en": "Codex-style side chat + selection annotations: fork the current session into a persistent side panel (archived out of the session list, multi-instance, /side command, survives reload, model follows the main session); select assistant text → numbered badge + note editor → an \"N annotations\" chip that rides your next message, or ask straight into a side chat",
+    "ru": "Боковой чат в стиле Codex + аннотации к выделенному: текущая сессия ответвляется в постоянную боковую панель (скрыта из списка сессий, несколько экземпляров, команда /side, переживает перезагрузку, модель следует за основной сессией); выделите текст ассистента → нумерованный значок + редактор заметки → чип «N аннотаций», который отправляется с вашим следующим сообщением, или спросите прямо в боковом чате"
+  },
+  "pluginSshTunnelDesc": {
+    "en": "SSH Tunnel tab: multi-host inventory + per-project grants + local secrets; SSHManager tool (exec/SFTP/session strategies); center interactive terminal and dual-pane SFTP",
+    "ru": "Вкладка SSH Tunnel: список хостов + разрешения по проектам + локальные секреты; инструмент SSHManager (стратегии exec/SFTP/сессии); интерактивный терминал в центре и двухпанельный SFTP"
+  },
+  "pluginSuhuangScrollDesc": {
+    "en": "Connect the local Suhuang Scroll Runtime to DSH settings and better-sidebar for model configuration, connection tests, and continuous grading controls; requires Suhuang Scroll Runtime and dsh-better-sidebar",
+    "ru": "Подключает локальный Suhuang Scroll Runtime к настройкам DSH и better-sidebar для настройки модели, проверки соединения и управления непрерывной оценкой; требуются Suhuang Scroll Runtime и dsh-better-sidebar"
+  },
+  "pluginTurnReviewDesc": {
+    "en": "A human gate on the just-finished turn: Approve / Request changes per path with an optional comment; paths grouped by main session / subagent / unattributed; inline snapshot-vs-now diff before you decide. No fork, no /rewind",
+    "ru": "Ручная проверка только что завершённого хода: «Принять» / «Запросить правки» по каждому пути с необязательным комментарием; пути сгруппированы по основной сессии / субагенту / без автора; встроенный дифф снимка и текущего состояния до вашего решения. Без форка и /rewind"
+  },
+  "pluginVideoPreviewDesc": {
+    "en": "Inline video preview (.mp4/.webm/.mov/.mkv/.avi etc.) for the better-sidebar editor, backed by a dedicated /video host route with HTTP Range (206) support — scrubbing works and files are not capped by the 20MB mediaLimit",
+    "ru": "Встроенный предпросмотр видео (.mp4/.webm/.mov/.mkv/.avi и др.) в редакторе better-sidebar на основе отдельного хостового маршрута /video с поддержкой HTTP Range (206) — перемотка работает, а размер файлов не ограничен mediaLimit в 20 МБ"
+  },
+  "pluginCodeNavDesc": {
+    "en": "Code preview navigator: detects the language by file type and highlights syntax, symbol outline (class / method / variable filters + one-click jump), and in-file search (highlight all matches, prev/next, match case) — takes over code file preview in the better-sidebar editor",
+    "ru": "Навигатор по предпросмотру кода: определяет язык по типу файла и подсвечивает синтаксис, структура символов (фильтры класс / метод / переменная + переход в один клик) и поиск по файлу (подсветка всех совпадений, вперёд/назад, учёт регистра) — заменяет предпросмотр кода в редакторе better-sidebar"
+  },
+  "pluginDocsPanelDesc": {
+    "en": "Global docs in the DSH sidebar: read your own Markdown notes from any workspace — a file list, an outline, open in Chrome / VS Code, and copy buttons; the docs directory is configurable (default ~/.dsh/docs)",
+    "ru": "Глобальная документация в боковой панели DSH: читайте свои заметки Markdown из любой рабочей области — список файлов, структура, открытие в Chrome / VS Code и кнопки копирования; каталог документации настраивается (по умолчанию ~/.dsh/docs)"
+  },
+  "pluginEgoBrowserDesc": {
+    "en": "The agent browser for DeepSeek Harness: 32 ego_* tools drive a real Chromium, with a native sidebar \"ego browser\" tab giving a live view of every page the agent visits — you can click, drag, and type to take over. Registers the tab automatically when better-sidebar is present, otherwise falls back to a floating bubble",
+    "ru": "Браузер агента для DeepSeek Harness: 32 инструмента ego_* управляют настоящим Chromium, а вкладка «ego browser» в боковой панели показывает в реальном времени каждую страницу, которую посещает агент — можно кликать, перетаскивать и печатать, перехватывая управление. Вкладка регистрируется автоматически при наличии better-sidebar, иначе используется плавающий пузырь"
+  },
+  "pluginBetterOverleafDesc": {
+    "en": "Overleaf tab for better-sidebar: direct-CDP browser login (third-party Chromium supported), project list/switch, local git mirrors under <workspace>/overleaf/, two-way git sync with read-only API fallback, and file preview through the sidebar workbench",
+    "ru": "Вкладка Overleaf для better-sidebar: вход в браузере напрямую через CDP (сторонний Chromium поддерживается), список и переключение проектов, локальные git-зеркала в <workspace>/overleaf/, двусторонняя синхронизация git с откатом к API только для чтения и предпросмотр файлов через рабочую область боковой панели"
+  },
+  "pluginBilingualReaderDesc": {
+    "en": "Read paper PDFs in the DSH sidebar: native PDF rendering, select text to translate it with the LLM, using context while staying fully isolated from the main conversation — a reading aid only",
+    "ru": "Чтение PDF-статей в боковой панели DSH: встроенная отрисовка PDF, выделите текст для перевода через LLM с учётом контекста, но в полной изоляции от основного диалога — только вспомогательное чтение"
+  },
+  "pluginSentinelName": {
+    "en": "dsh-sentinel Wake-up System",
+    "ru": "dsh-sentinel: система пробуждения"
+  },
+  "pluginEgoBrowserName": {
+    "en": "ego-browser Agent Browser",
+    "ru": "ego-browser: браузер агента"
+  },
+  "pluginBetterOverleafName": {
+    "en": "dsh-better-overleaf Overleaf Tab",
+    "ru": "dsh-better-overleaf: вкладка Overleaf"
+  },
+  "pluginDocsPanelName": {
+    "en": "dsh-docs-panel Global Docs",
+    "ru": "dsh-docs-panel: глобальная документация"
+  },
+  "pluginFlowglassName": {
+    "en": "dsh-flowglass Flowglass",
+    "ru": "dsh-flowglass: граф Flowglass"
+  },
+  "pluginGitForgeName": {
+    "en": "dsh-git-forge Git Credentials",
+    "ru": "dsh-git-forge: учётные данные Git"
+  },
+  "pluginGitRemotesName": {
+    "en": "dsh-git-remotes Git Remotes",
+    "ru": "dsh-git-remotes: удалённые репозитории Git"
+  },
+  "pluginGithubWorkbenchName": {
+    "en": "dsh-github-workbench GitHub Workbench",
+    "ru": "dsh-github-workbench: рабочая панель GitHub"
+  },
+  "pluginSidebarQaName": {
+    "en": "dsh-sidebar-qa Select & Ask",
+    "ru": "dsh-sidebar-qa: выдели и спроси"
+  },
+  "pluginSidenoteName": {
+    "en": "dsh-sidenote Side Chat",
+    "ru": "dsh-sidenote: боковой чат"
+  },
+  "pluginServerDeckName": {
+    "en": "dsh-server-deck Server Deck",
+    "ru": "dsh-server-deck: панель серверов"
+  },
+  "pluginSuhuangScrollName": {
+    "en": "dsh-suhuang-scroll Suhuang Scroll",
+    "ru": "dsh-suhuang-scroll: рантайм Suhuang Scroll"
+  },
+  "pluginSshTunnelName": {
+    "en": "dsh-ssh-tunnel SSH Tunnel",
+    "ru": "dsh-ssh-tunnel: туннель SSH"
+  },
+  "pluginTurnReviewName": {
+    "en": "dsh-turn-review Turn Review",
+    "ru": "dsh-turn-review: проверка хода"
+  },
+  "pluginBilingualReaderName": {
+    "en": "dsh-bilingual-reader Bilingual Reader",
+    "ru": "dsh-bilingual-reader: двуязычное чтение"
+  },
+  "pluginOfficeName": {
+    "en": "Office Preview",
+    "ru": "Предпросмотр Office"
+  },
+  "pluginMdExportName": {
+    "en": "Markdown Export",
+    "ru": "Экспорт Markdown"
+  },
+  "pluginCodeNavName": {
+    "en": "Code Preview Navigator",
+    "ru": "Навигатор предпросмотра кода"
+  },
+  "pluginVideoPreviewName": {
+    "en": "Video Preview",
+    "ru": "Предпросмотр видео"
+  },
+  "presetDshDesktopDesc": {
+    "en": "Electron advanced (frameless) mode: macOS reserves a 20px top strip; Windows reserves a 32px title bar when WCO is unavailable",
+    "ru": "Продвинутый режим Electron (без рамки): в macOS сверху резервируется полоса 20px; в Windows — заголовок 32px, если WCO недоступен"
+  }
+}

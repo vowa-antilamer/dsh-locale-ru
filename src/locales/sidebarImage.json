@@ -1,0 +1,46 @@
+{
+  "zoomControls": {
+    "en": "Zoom controls",
+    "ru": "Управление масштабом"
+  },
+  "zoomMenu": {
+    "en": "Choose zoom",
+    "ru": "Выбрать масштаб"
+  },
+  "zoomOut": {
+    "en": "Zoom out",
+    "ru": "Отдалить"
+  },
+  "zoomIn": {
+    "en": "Zoom in",
+    "ru": "Приблизить"
+  },
+  "zoomFitWidth": {
+    "en": "Fit width",
+    "ru": "По ширине"
+  },
+  "zoomValue": {
+    "en": "{percent}%",
+    "ru": "{percent}%"
+  },
+  "title": {
+    "en": "Image",
+    "ru": "Изображение"
+  },
+  "preview": {
+    "en": "Image preview: {name}",
+    "ru": "Предпросмотр изображения: {name}"
+  },
+  "loading": {
+    "en": "Rendering document...",
+    "ru": "Отрисовка документа..."
+  },
+  "failed": {
+    "en": "This image could not be displayed.",
+    "ru": "Не удалось отобразить изображение."
+  },
+  "unsupported": {
+    "en": "Image preview requires the complete file contents.",
+    "ru": "Для предпросмотра изображения требуется полное содержимое файла."
+  }
+}

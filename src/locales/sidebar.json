@@ -1,0 +1,22 @@
+{
+  "session.new": {
+    "en": "New Session",
+    "ru": "Новая сессия"
+  },
+  "session.new.label": {
+    "en": "New session",
+    "ru": "Новая сессия"
+  },
+  "toggle.open": {
+    "en": "Open sidebar",
+    "ru": "Открыть боковую панель"
+  },
+  "toggle.collapse": {
+    "en": "Collapse sidebar",
+    "ru": "Свернуть боковую панель"
+  },
+  "panels.label": {
+    "en": "Global panels",
+    "ru": "Глобальные панели"
+  }
+}

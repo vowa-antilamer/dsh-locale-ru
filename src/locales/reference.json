@@ -1,0 +1,46 @@
+{
+  "section.files": {
+    "en": "Files & folders",
+    "ru": "Файлы и папки"
+  },
+  "section.subagents": {
+    "en": "Subagents",
+    "ru": "Субагенты"
+  },
+  "section.sessions": {
+    "en": "Sessions",
+    "ru": "Сессии"
+  },
+  "candidate.noCwd": {
+    "en": "(no cwd)",
+    "ru": "(нет рабочего каталога)"
+  },
+  "crumb.root": {
+    "en": "Workspace",
+    "ru": "Рабочая область"
+  },
+  "time.now": {
+    "en": "now",
+    "ru": "сейчас"
+  },
+  "time.minutes": {
+    "en": "{n}min",
+    "ru": "{n} мин"
+  },
+  "time.hours": {
+    "en": "{n}h",
+    "ru": "{n} ч"
+  },
+  "time.days": {
+    "en": "{n}d",
+    "ru": "{n} дн"
+  },
+  "time.months": {
+    "en": "{n}mo",
+    "ru": "{n} мес"
+  },
+  "time.years": {
+    "en": "{n}y",
+    "ru": "{n} г"
+  }
+}

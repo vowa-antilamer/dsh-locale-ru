@@ -1,0 +1,74 @@
+{
+  "title": {
+    "en": "Web search",
+    "ru": "Веб-поиск"
+  },
+  "description": {
+    "en": "Set up the DeepSeek search provider.",
+    "ru": "Настройка провайдера поиска DeepSeek."
+  },
+  "apiKey": {
+    "en": "API key",
+    "ru": "Ключ API"
+  },
+  "apiKeyHint": {
+    "en": "Stored outside the settings file. Leave blank to keep the current key.",
+    "ru": "Хранится вне файла настроек. Оставьте пустым, чтобы сохранить текущий ключ."
+  },
+  "apiKeySet": {
+    "en": "A key is configured.",
+    "ru": "Ключ настроен."
+  },
+  "apiKeyUnset": {
+    "en": "No key is configured; only conversations using a DeepSeek Account model can search, through the default endpoint.",
+    "ru": "Ключ не настроен; поиск доступен только в диалогах с моделью DeepSeek Account и только через эндпоинт по умолчанию."
+  },
+  "baseUrl": {
+    "en": "Endpoint",
+    "ru": "Эндпоинт"
+  },
+  "baseUrlHint": {
+    "en": "Leave blank to use the provider default.",
+    "ru": "Оставьте пустым, чтобы использовать значение провайдера по умолчанию."
+  },
+  "maxUses": {
+    "en": "Max searches per request",
+    "ru": "Максимум поисков на запрос"
+  },
+  "maxUsesHint": {
+    "en": "How many times one request may search before it must answer.",
+    "ru": "Сколько раз один запрос может выполнить поиск, прежде чем должен ответить."
+  },
+  "overridden": {
+    "en": "Overridden",
+    "ru": "Переопределено"
+  },
+  "reset": {
+    "en": "Reset to default",
+    "ru": "Вернуть по умолчанию"
+  },
+  "readOnly": {
+    "en": "This deployment stores settings read-only.",
+    "ru": "В этом развёртывании настройки хранятся только для чтения."
+  },
+  "unavailable": {
+    "en": "This plugin is not loaded, so it cannot be configured right now.",
+    "ru": "Этот плагин не загружен, поэтому сейчас его нельзя настроить."
+  },
+  "save": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "saving": {
+    "en": "Saving…",
+    "ru": "Сохранение…"
+  },
+  "saveFailed": {
+    "en": "The deployment did not accept these values; they were left for you to correct.",
+    "ru": "Развёртывание не приняло эти значения; они оставлены для исправления."
+  },
+  "invalidNumber": {
+    "en": "Enter a number, or leave blank to use the default.",
+    "ru": "Введите число или оставьте поле пустым, чтобы использовать значение по умолчанию."
+  }
+}

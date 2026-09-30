@@ -1,0 +1,746 @@
+{
+  "message.stepProcess.thinking": {
+    "en": "Analyzing the request",
+    "ru": "Анализирует запрос"
+  },
+  "message.stepProcess.read": {
+    "en": "Reading files",
+    "ru": "Читает файлы"
+  },
+  "message.stepProcess.readImage": {
+    "en": "Reading images",
+    "ru": "Читает изображения"
+  },
+  "message.stepProcess.write": {
+    "en": "Writing files",
+    "ru": "Записывает файлы"
+  },
+  "message.stepProcess.search": {
+    "en": "Searching code",
+    "ru": "Ищет в коде"
+  },
+  "message.stepProcess.edit": {
+    "en": "Editing files",
+    "ru": "Изменяет файлы"
+  },
+  "message.stepProcess.commands": {
+    "en": "Running commands",
+    "ru": "Выполняет команды"
+  },
+  "message.stepProcess.code": {
+    "en": "Running code",
+    "ru": "Выполняет код"
+  },
+  "message.stepProcess.webSearch": {
+    "en": "Searching the web",
+    "ru": "Ищет в интернете"
+  },
+  "message.stepProcess.webFetch": {
+    "en": "Visiting web pages",
+    "ru": "Открывает веб-страницы"
+  },
+  "message.stepProcess.subagents": {
+    "en": "Coordinating subagents",
+    "ru": "Координирует субагентов"
+  },
+  "message.stepProcess.plan": {
+    "en": "Updating the plan",
+    "ru": "Обновляет план"
+  },
+  "message.stepProcess.questions": {
+    "en": "Waiting for your action",
+    "ru": "Ждёт ваших действий"
+  },
+  "message.stepProcess.tools": {
+    "en": "Calling tools",
+    "ru": "Вызывает инструменты"
+  },
+  "message.stepProcess.prepare.read": {
+    "en": "Preparing to read files",
+    "ru": "Подготовка к чтению файлов"
+  },
+  "message.stepProcess.prepare.readImage": {
+    "en": "Preparing to read images",
+    "ru": "Подготовка к чтению изображений"
+  },
+  "message.stepProcess.prepare.write": {
+    "en": "Preparing to write files",
+    "ru": "Подготовка к записи файлов"
+  },
+  "message.stepProcess.prepare.search": {
+    "en": "Preparing to search code",
+    "ru": "Подготовка к поиску в коде"
+  },
+  "message.stepProcess.prepare.edit": {
+    "en": "Preparing to edit files",
+    "ru": "Подготовка к изменению файлов"
+  },
+  "message.stepProcess.prepare.commands": {
+    "en": "Preparing to run commands",
+    "ru": "Подготовка к выполнению команд"
+  },
+  "message.stepProcess.prepare.code": {
+    "en": "Preparing to run code",
+    "ru": "Подготовка к выполнению кода"
+  },
+  "message.stepProcess.prepare.webSearch": {
+    "en": "Preparing to search the web",
+    "ru": "Подготовка к поиску в интернете"
+  },
+  "message.stepProcess.prepare.webFetch": {
+    "en": "Preparing to visit web pages",
+    "ru": "Подготовка к открытию веб-страниц"
+  },
+  "message.stepProcess.prepare.subagents": {
+    "en": "Preparing to coordinate subagents",
+    "ru": "Подготовка к координации субагентов"
+  },
+  "message.stepProcess.prepare.plan": {
+    "en": "Preparing to update the plan",
+    "ru": "Подготовка к обновлению плана"
+  },
+  "message.stepProcess.prepare.questions": {
+    "en": "Preparing questions",
+    "ru": "Подготовка вопросов"
+  },
+  "message.stepProcess.prepare.tools": {
+    "en": "Preparing tool calls",
+    "ru": "Подготовка вызовов инструментов"
+  },
+  "message.stepProcess.done.thinking": {
+    "en": "Analysis completed",
+    "ru": "Анализ завершён"
+  },
+  "message.stepProcess.done.read": {
+    "en": "Read files",
+    "ru": "Чтение файлов"
+  },
+  "message.stepProcess.done.readImage": {
+    "en": "Read images",
+    "ru": "Чтение изображений"
+  },
+  "message.stepProcess.done.write": {
+    "en": "Wrote files",
+    "ru": "Запись файлов"
+  },
+  "message.stepProcess.done.search": {
+    "en": "Searched code",
+    "ru": "Поиск в коде"
+  },
+  "message.stepProcess.done.edit": {
+    "en": "Edited files",
+    "ru": "Изменение файлов"
+  },
+  "message.stepProcess.done.commands": {
+    "en": "Ran commands",
+    "ru": "Выполнение команд"
+  },
+  "message.stepProcess.done.code": {
+    "en": "Ran code",
+    "ru": "Выполнение кода"
+  },
+  "message.stepProcess.done.webSearch": {
+    "en": "Searched the web",
+    "ru": "Поиск в интернете"
+  },
+  "message.stepProcess.done.webFetch": {
+    "en": "Visited web pages",
+    "ru": "Открытие веб-страниц"
+  },
+  "message.stepProcess.done.subagents": {
+    "en": "Coordinated subagents",
+    "ru": "Работа с субагентами"
+  },
+  "message.stepProcess.done.plan": {
+    "en": "Updated the plan",
+    "ru": "Обновление плана"
+  },
+  "message.stepProcess.done.questions": {
+    "en": "Asked questions",
+    "ru": "Вопросы"
+  },
+  "message.stepProcess.done.tools": {
+    "en": "Called tools",
+    "ru": "Вызовы инструментов"
+  },
+  "message.stepProcess.joinTwo": {
+    "en": "{first} and {second}",
+    "ru": "{first} и {second}"
+  },
+  "message.stepProcess.comma": {
+    "en": ", ",
+    "ru": ", "
+  },
+  "message.stepProcess.sharedPrefix": {
+    "en": "",
+    "ru": ""
+  },
+  "message.stepProcess.more": {
+    "en": "{title}, etc.",
+    "ru": "{title} и т. д."
+  },
+  "message.trigger.request": {
+    "en": "Execution requested",
+    "ru": "Запрошено выполнение"
+  },
+  "message.trigger.goal": {
+    "en": "Continuing goal",
+    "ru": "Продолжение цели"
+  },
+  "message.trigger.agent": {
+    "en": "Task message received",
+    "ru": "Получено сообщение задачи"
+  },
+  "message.trigger.team": {
+    "en": "Team message received",
+    "ru": "Получено сообщение команды"
+  },
+  "message.trigger.subagent": {
+    "en": "Subtask status updated",
+    "ru": "Обновлено состояние подзадачи"
+  },
+  "message.trigger.github": {
+    "en": "GitHub event received",
+    "ru": "Получено событие GitHub"
+  },
+  "message.trigger.webhook": {
+    "en": "External event received",
+    "ru": "Получено внешнее событие"
+  },
+  "message.trigger.schedule": {
+    "en": "Automation task",
+    "ru": "Задача автоматизации"
+  },
+  "message.trigger.job": {
+    "en": "Background task updated",
+    "ru": "Обновлена фоновая задача"
+  },
+  "message.trigger.plugin": {
+    "en": "Plugin status updated",
+    "ru": "Обновлено состояние плагина"
+  },
+  "message.trigger.explanation": {
+    "en": "This notification triggered this response.",
+    "ru": "Этот ответ вызван уведомлением."
+  },
+  "message.turnProcess.worked": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "message.turnProcess.took": {
+    "en": "Completed in ",
+    "ru": "Выполнено за "
+  },
+  "message.turnProcess.failed": {
+    "en": "Failed",
+    "ru": "Не удалось"
+  },
+  "view.chat": {
+    "en": "Chat",
+    "ru": "Чат"
+  },
+  "image.open": {
+    "en": "View full image",
+    "ru": "Открыть изображение полностью"
+  },
+  "image.loading": {
+    "en": "Loading image…",
+    "ru": "Загрузка изображения…"
+  },
+  "image.failed": {
+    "en": "Image preview unavailable",
+    "ru": "Предпросмотр изображения недоступен"
+  },
+  "image.dialog": {
+    "en": "Image preview",
+    "ru": "Предпросмотр изображения"
+  },
+  "image.close": {
+    "en": "Close image preview",
+    "ru": "Закрыть предпросмотр изображения"
+  },
+  "number.groupSeparator": {
+    "en": ",",
+    "ru": ","
+  },
+  "duration.compactSeconds": {
+    "en": "{seconds}s",
+    "ru": "{seconds} с"
+  },
+  "duration.compactMinutes": {
+    "en": "{minutes}m{seconds}s",
+    "ru": "{minutes} мин {seconds} с"
+  },
+  "duration.milliseconds": {
+    "en": "{milliseconds}ms",
+    "ru": "{milliseconds} мс"
+  },
+  "stats.counts": {
+    "en": "{turns} turns {steps} steps",
+    "ru": "Ходов: {turns}, шагов: {steps}"
+  },
+  "stats.cacheHit": {
+    "en": "Cache hit {percent}%",
+    "ru": "Попаданий в кэш: {percent}%"
+  },
+  "stats.dialog.title": {
+    "en": "Session statistics",
+    "ru": "Статистика сессии"
+  },
+  "stats.dialog.usageTitle": {
+    "en": "Token usage",
+    "ru": "Использование токенов"
+  },
+  "stats.dialog.llmTime": {
+    "en": "LLM time",
+    "ru": "Время LLM"
+  },
+  "stats.dialog.toolTime": {
+    "en": "Tool time",
+    "ru": "Время инструментов"
+  },
+  "stats.dialog.ttft": {
+    "en": "Avg time to first token (TTFT)",
+    "ru": "Среднее время до первого токена (TTFT)"
+  },
+  "stats.dialog.speed": {
+    "en": "Tokens per second (TPS)",
+    "ru": "Токенов в секунду (TPS)"
+  },
+  "chat.loadingHistory": {
+    "en": "Loading history…",
+    "ru": "Загрузка истории…"
+  },
+  "chat.loadError": {
+    "en": "Failed to load history: {message} ({code})",
+    "ru": "Не удалось загрузить историю: {message} ({code})"
+  },
+  "chat.loadOlder": {
+    "en": "Load earlier",
+    "ru": "Загрузить ранее"
+  },
+  "chat.toBottom": {
+    "en": "Back to bottom",
+    "ru": "Вниз"
+  },
+  "chat.deepDiving": {
+    "en": "Deep diving",
+    "ru": "Углублённый анализ"
+  },
+  "chat.deepDivingFor": {
+    "en": "Deep diving for {duration} ···",
+    "ru": "Углублённый анализ: {duration} ···"
+  },
+  "chat.turnNavigation.label": {
+    "en": "Turn navigation",
+    "ru": "Навигация по ходам"
+  },
+  "chat.turnNavigation.jump": {
+    "en": "Jump to turn {turn}",
+    "ru": "Перейти к ходу {turn}"
+  },
+  "chat.turnNavigation.jumpLoad": {
+    "en": "Load and jump to turn {turn}",
+    "ru": "Загрузить и перейти к ходу {turn}"
+  },
+  "chat.turnNavigation.turn": {
+    "en": "Turn {turn}",
+    "ru": "Ход {turn}"
+  },
+  "settings.performance.title": {
+    "en": "Performance & usage",
+    "ru": "Производительность и использование"
+  },
+  "settings.performance.description": {
+    "en": "Choose how much performance and usage information to show",
+    "ru": "Выберите, сколько показывать данных о производительности и использовании"
+  },
+  "settings.performance.compact": {
+    "en": "Compact",
+    "ru": "Компактно"
+  },
+  "settings.performance.detailed": {
+    "en": "Detailed",
+    "ru": "Подробно"
+  },
+  "settings.links.title": {
+    "en": "Open chat links in",
+    "ru": "Открывать ссылки из чата в"
+  },
+  "settings.links.description": {
+    "en": "Choose where to open web links",
+    "ru": "Выберите, где открывать веб-ссылки"
+  },
+  "settings.links.sidebar": {
+    "en": "In-App Sidebar",
+    "ru": "Боковая панель приложения"
+  },
+  "settings.links.newTab": {
+    "en": "Default Browser",
+    "ru": "Браузер по умолчанию"
+  },
+  "settings.transcript.title": {
+    "en": "Work details",
+    "ru": "Детали работы"
+  },
+  "settings.transcript.description": {
+    "en": "Choose how much detail to show for tool calls",
+    "ru": "Выберите, насколько подробно показывать вызовы инструментов"
+  },
+  "settings.transcript.compact": {
+    "en": "Compact",
+    "ru": "Компактно"
+  },
+  "settings.transcript.standard": {
+    "en": "Standard",
+    "ru": "Стандартно"
+  },
+  "settings.transcript.detailed": {
+    "en": "Detailed",
+    "ru": "Подробно"
+  },
+  "settings.transcript.verbose": {
+    "en": "Verbose",
+    "ru": "Очень подробно"
+  },
+  "fileOpen.title": {
+    "en": "Couldn’t open file",
+    "ru": "Не удалось открыть файл"
+  },
+  "fileOpen.unknown": {
+    "en": "Couldn’t open this file",
+    "ru": "Не удалось открыть этот файл"
+  },
+  "message.extraBlock": {
+    "en": "Extra content block",
+    "ru": "Дополнительный блок содержимого"
+  },
+  "message.systemPrompt": {
+    "en": "System prompt",
+    "ru": "Системный промпт"
+  },
+  "message.systemPromptUpdate": {
+    "en": "System prompt update",
+    "ru": "Обновление системного промпта"
+  },
+  "message.toolAdded": {
+    "en": "Tool added: {name}",
+    "ru": "Инструмент добавлен: {name}"
+  },
+  "message.toolRemoved": {
+    "en": "Tool removed: {name}",
+    "ru": "Инструмент удалён: {name}"
+  },
+  "message.toolsAdded": {
+    "en": "Added: {names}",
+    "ru": "Добавлено: {names}"
+  },
+  "message.toolsAddedCount": {
+    "en": "{count} added",
+    "ru": "Добавлено: {count}"
+  },
+  "message.toolsChanged": {
+    "en": "{added} added, {removed} removed",
+    "ru": "Добавлено: {added}, удалено: {removed}"
+  },
+  "message.toolsRemoved": {
+    "en": "Removed: {names}",
+    "ru": "Удалено: {names}"
+  },
+  "message.toolsRemovedCount": {
+    "en": "{count} removed",
+    "ru": "Удалено: {count}"
+  },
+  "message.toolsUpdated": {
+    "en": "Tools updated",
+    "ru": "Инструменты обновлены"
+  },
+  "message.contextInjection": {
+    "en": "Context injection",
+    "ru": "Внедрение контекста"
+  },
+  "message.contextRecall": {
+    "en": "Session recall",
+    "ru": "Восстановление сессии"
+  },
+  "message.referenceSummary": {
+    "en": "Referenced session · {labels}",
+    "ru": "Ссылка на сессию · {labels}"
+  },
+  "message.referenceSeparator": {
+    "en": ", ",
+    "ru": ", "
+  },
+  "message.context.instructions.loaded": {
+    "en": "loaded",
+    "ru": "загружено"
+  },
+  "message.context.instructions.added": {
+    "en": "added",
+    "ru": "добавлено"
+  },
+  "message.context.instructions.updated": {
+    "en": "updated",
+    "ru": "обновлено"
+  },
+  "message.context.instructions.removed": {
+    "en": "removed",
+    "ru": "удалено"
+  },
+  "message.context.catalog.replaced": {
+    "en": "Replacement catalog",
+    "ru": "Каталог замен"
+  },
+  "message.context.catalog.more": {
+    "en": "… {count} more",
+    "ru": "… ещё {count}"
+  },
+  "message.context.snapshot.supersedes": {
+    "en": "Supersedes earlier snapshots",
+    "ru": "Заменяет предыдущие снимки"
+  },
+  "message.context.relay.from": {
+    "en": "From session {session}",
+    "ru": "Из сессии {session}"
+  },
+  "message.context.recall.counts": {
+    "en": "{retained} kept · {omitted} omitted",
+    "ru": "Оставлено: {retained} · пропущено: {omitted}"
+  },
+  "message.context.recall.truncated": {
+    "en": "truncated",
+    "ru": "обрезано"
+  },
+  "message.compaction": {
+    "en": "Context compacted",
+    "ru": "Контекст сжат"
+  },
+  "message.compaction.running": {
+    "en": "Compacting context…",
+    "ru": "Сжатие контекста…"
+  },
+  "message.compaction.completed": {
+    "en": "Compacted {items} history items (~{tokens} tokens)",
+    "ru": "Сжато элементов истории: {items} (токенов: ~{tokens})"
+  },
+  "message.compaction.expand": {
+    "en": "View compaction summary",
+    "ru": "Открыть сводку сжатия"
+  },
+  "message.compaction.unavailable": {
+    "en": "Compaction summary unavailable",
+    "ru": "Сводка сжатия недоступна"
+  },
+  "message.compaction.commandTitle": {
+    "en": "compact",
+    "ru": "Сжать"
+  },
+  "message.think": {
+    "en": "Think",
+    "ru": "Размышления"
+  },
+  "message.unknownSurface": {
+    "en": "Unknown surface event: {type}",
+    "ru": "Неизвестное событие интерфейса: {type}"
+  },
+  "message.unknownBlock": {
+    "en": "Unknown content block",
+    "ru": "Неизвестный блок содержимого"
+  },
+  "message.turnProcess.toolCalls.one": {
+    "en": "{count} tool call",
+    "ru": "Вызовов инструментов: {count}"
+  },
+  "message.turnProcess.toolCalls.other": {
+    "en": "{count} tool calls",
+    "ru": "Вызовов инструментов: {count}"
+  },
+  "message.turnProcess.messages.one": {
+    "en": "{count} message",
+    "ru": "Сообщений: {count}"
+  },
+  "message.turnProcess.messages.other": {
+    "en": "{count} messages",
+    "ru": "Сообщений: {count}"
+  },
+  "message.turnProcess.subagents.one": {
+    "en": "{count} subagent",
+    "ru": "Субагентов: {count}"
+  },
+  "message.turnProcess.subagents.other": {
+    "en": "{count} subagents",
+    "ru": "Субагентов: {count}"
+  },
+  "message.turnProcess.thoughtForAWhile": {
+    "en": "Thought for a while",
+    "ru": "Размышлял некоторое время"
+  },
+  "message.turnProcess.separator": {
+    "en": " · ",
+    "ru": " · "
+  },
+  "message.stopped": {
+    "en": "Stopped",
+    "ru": "Остановлено"
+  },
+  "message.branch": {
+    "en": "Branch into a new conversation",
+    "ru": "Ответвить в новый диалог"
+  },
+  "message.branchUnavailable": {
+    "en": "Available only on the last message of a completed turn",
+    "ru": "Доступно только для последнего сообщения завершённого хода"
+  },
+  "message.retry.active": {
+    "en": "Retrying model request",
+    "ru": "Повтор запроса к модели"
+  },
+  "message.retry.cancelled": {
+    "en": "Model request retry cancelled",
+    "ru": "Повтор запроса к модели отменён"
+  },
+  "message.retry.started": {
+    "en": "Retried model request",
+    "ru": "Запрос к модели повторён"
+  },
+  "message.retry.scheduled": {
+    "en": "Waiting to retry model request",
+    "ru": "Ожидание повтора запроса к модели"
+  },
+  "message.retry.status": {
+    "en": "{label} ({retry}/{maximum}) · {seconds}s",
+    "ru": "{label} ({retry}/{maximum}) · {seconds} с"
+  },
+  "message.retry.delay": {
+    "en": "Retry delay: ",
+    "ru": "Задержка повтора: "
+  },
+  "message.retry.failure": {
+    "en": "Failure reason: ",
+    "ru": "Причина сбоя: "
+  },
+  "message.failure.auth": {
+    "en": "API key is invalid",
+    "ru": "Неверный API-ключ"
+  },
+  "message.accountStopped": {
+    "en": "Task stopped",
+    "ru": "Задача остановлена"
+  },
+  "message.failure.accountSignedOut": {
+    "en": "Stopped because you signed out of DeepSeek.",
+    "ru": "Остановлено: вы вышли из DeepSeek."
+  },
+  "message.failure.accountSignInRequired": {
+    "en": "Sign in to DeepSeek and ensure the request destination supports account authentication.",
+    "ru": "Войдите в DeepSeek и убедитесь, что назначение запроса поддерживает аутентификацию аккаунта."
+  },
+  "message.failure.quota": {
+    "en": "Request quota exhausted.",
+    "ru": "Квота запросов исчерпана."
+  },
+  "message.turnError": {
+    "en": "This turn failed",
+    "ru": "Ход завершился ошибкой"
+  },
+  "message.maxTokens": {
+    "en": "Output token limit reached",
+    "ru": "Достигнут лимит токенов вывода"
+  },
+  "message.maxTokens.hint": {
+    "en": "The reply was cut off; earlier output is preserved in the conversation. Send \"continue\" to let the model resume.",
+    "ru": "Ответ оборван; прежний вывод сохранён в диалоге. Отправьте «continue», чтобы модель продолжила."
+  },
+  "message.tokensPerSecond": {
+    "en": "{tps} tok/s",
+    "ru": "{tps} ток/с"
+  },
+  "message.turnUsage.title": {
+    "en": "Turn usage",
+    "ru": "Использование за ход"
+  },
+  "message.turnUsage.consumed": {
+    "en": "Usage {total}",
+    "ru": "Использовано: {total}"
+  },
+  "message.turnUsage.model": {
+    "en": "Provider / model",
+    "ru": "Провайдер / модель"
+  },
+  "message.turnUsage.cacheHit": {
+    "en": "Cache hit",
+    "ru": "Попадание в кэш"
+  },
+  "message.turnUsage.input": {
+    "en": "Uncached input",
+    "ru": "Ввод без кэша"
+  },
+  "message.turnUsage.cacheRead": {
+    "en": "Cached input",
+    "ru": "Ввод из кэша"
+  },
+  "message.turnUsage.cacheWrite": {
+    "en": "Cache write",
+    "ru": "Запись в кэш"
+  },
+  "message.turnUsage.output": {
+    "en": "Output",
+    "ru": "Вывод"
+  },
+  "message.turnUsage.reasoning": {
+    "en": " ({tokens} reasoning)",
+    "ru": " (рассуждения: {tokens})"
+  },
+  "message.turnUsage.count": {
+    "en": "{count} tok",
+    "ru": "{count} ток"
+  },
+  "duration.secondUnit": {
+    "en": "s",
+    "ru": "с"
+  },
+  "duration.minuteUnit": {
+    "en": "m ",
+    "ru": "мин "
+  },
+  "duration.hourUnit": {
+    "en": "h ",
+    "ru": "ч "
+  },
+  "command.running": {
+    "en": "Running…",
+    "ru": "Выполняется…"
+  },
+  "command.failed": {
+    "en": "Command failed",
+    "ru": "Команда не выполнена"
+  },
+  "command.done": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "command.title": {
+    "en": "Command",
+    "ru": "Команда"
+  },
+  "row.running": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "row.failed": {
+    "en": "Failed",
+    "ru": "Не удалось"
+  },
+  "json.truncated": {
+    "en": "… truncated, {total} characters total",
+    "ru": "… обрезано, всего символов: {total}"
+  },
+  "clock.md": {
+    "en": "{m}/{d}",
+    "ru": "{d}.{m}"
+  },
+  "clock.ymd": {
+    "en": "{y}-{m}-{d}",
+    "ru": "{d}.{m}.{y}"
+  }
+}

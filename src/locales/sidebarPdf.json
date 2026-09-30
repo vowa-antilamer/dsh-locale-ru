@@ -1,0 +1,62 @@
+{
+  "zoomControls": {
+    "en": "Zoom controls",
+    "ru": "Управление масштабом"
+  },
+  "zoomMenu": {
+    "en": "Choose zoom",
+    "ru": "Выбрать масштаб"
+  },
+  "zoomOut": {
+    "en": "Zoom out",
+    "ru": "Уменьшить"
+  },
+  "zoomIn": {
+    "en": "Zoom in",
+    "ru": "Увеличить"
+  },
+  "zoomFitWidth": {
+    "en": "Fit width",
+    "ru": "По ширине"
+  },
+  "zoomValue": {
+    "en": "{percent}%",
+    "ru": "{percent}%"
+  },
+  "title": {
+    "en": "PDF",
+    "ru": "PDF"
+  },
+  "pageImage": {
+    "en": "PDF page {page}",
+    "ru": "Страница PDF {page}"
+  },
+  "loading": {
+    "en": "Rendering document...",
+    "ru": "Отрисовка документа..."
+  },
+  "rendering": {
+    "en": "Rendering page…",
+    "ru": "Отрисовка страницы…"
+  },
+  "failed": {
+    "en": "Cannot display PDF: {message}",
+    "ru": "Не удалось показать PDF: {message}"
+  },
+  "password": {
+    "en": "This PDF requires a password; password-protected previews are not supported.",
+    "ru": "Этот PDF защищён паролем; предпросмотр защищённых файлов не поддерживается."
+  },
+  "workerFailed": {
+    "en": "The PDF rendering process could not continue. Please retry.",
+    "ru": "Процесс отрисовки PDF был прерван. Повторите попытку."
+  },
+  "unsupported": {
+    "en": "PDF preview requires the complete file contents.",
+    "ru": "Для предпросмотра PDF требуется полное содержимое файла."
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  }
+}

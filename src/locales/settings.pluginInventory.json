@@ -1,0 +1,162 @@
+{
+  "tab": {
+    "en": "Plugin list",
+    "ru": "Список плагинов"
+  },
+  "loading": {
+    "en": "Reading plugins…",
+    "ru": "Чтение плагинов…"
+  },
+  "clientSyncing": {
+    "en": "Syncing plugins on this page…",
+    "ru": "Синхронизация плагинов на этой странице…"
+  },
+  "clientSyncFailed": {
+    "en": "Some plugins could not sync on this page. Host enablement is unchanged.",
+    "ru": "Некоторые плагины не удалось синхронизировать на этой странице. Состояние на хосте не изменилось."
+  },
+  "clientSyncRetry": {
+    "en": "Retry this page",
+    "ru": "Повторить для этой страницы"
+  },
+  "error": {
+    "en": "Plugins are temporarily unavailable.",
+    "ru": "Плагины временно недоступны."
+  },
+  "metadataError": {
+    "en": "Package metadata error: {error}",
+    "ru": "Ошибка метаданных пакета: {error}"
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "search": {
+    "en": "Search plugins",
+    "ru": "Поиск плагинов"
+  },
+  "empty": {
+    "en": "No plugins are available.",
+    "ru": "Доступных плагинов нет."
+  },
+  "emptySearch": {
+    "en": "No matching plugins.",
+    "ru": "Подходящих плагинов нет."
+  },
+  "presetTitle": {
+    "en": "Session plugins",
+    "ru": "Плагины сессии"
+  },
+  "presetSubtitle": {
+    "en": "Composed per session by agent presets",
+    "ru": "Собираются для каждой сессии пресетами агентов"
+  },
+  "countUnit": {
+    "en": "plugins",
+    "ru": "плагинов"
+  },
+  "switcherLabel": {
+    "en": "Choose the agent preset to inspect",
+    "ru": "Выберите пресет агента для просмотра"
+  },
+  "presetOptionDefault": {
+    "en": "{name} (default)",
+    "ru": "{name} (по умолчанию)"
+  },
+  "presetOptionBroken": {
+    "en": "{name} (failed to load)",
+    "ru": "{name} (не удалось загрузить)"
+  },
+  "globalTitle": {
+    "en": "Global plugins",
+    "ru": "Глобальные плагины"
+  },
+  "globalSubtitle": {
+    "en": "Shared by the system and every session",
+    "ru": "Общие для системы и всех сессий"
+  },
+  "presetProvidedDetail": {
+    "en": "Disabled globally; agent presets provide it per session",
+    "ru": "Отключён глобально; пресеты агентов подключают его для каждой сессии"
+  },
+  "enabledIn": {
+    "en": "Enabled in",
+    "ru": "Включён в"
+  },
+  "viewInPreset": {
+    "en": "View in the preset group",
+    "ru": "Показать в группе пресета"
+  },
+  "matchesInOtherPresets": {
+    "en": "{count} more matches in other presets: ",
+    "ru": "В других пресетах ещё совпадений: {count} "
+  },
+  "failedCountLabel": {
+    "en": "failed",
+    "ru": "с ошибкой"
+  },
+  "enabledTag": {
+    "en": "Enabled",
+    "ru": "Включено"
+  },
+  "disabledTag": {
+    "en": "Disabled",
+    "ru": "Выключено"
+  },
+  "conditionalTag": {
+    "en": "Conditional",
+    "ru": "Условно"
+  },
+  "presetEnabledTag": {
+    "en": "Via presets",
+    "ru": "Через пресеты"
+  },
+  "failedTag": {
+    "en": "Failed",
+    "ru": "С ошибкой"
+  },
+  "moduleLabel": {
+    "en": "Module",
+    "ru": "Модуль"
+  },
+  "fromPreset": {
+    "en": "From",
+    "ru": "Из"
+  },
+  "condition": {
+    "en": "Disabled when",
+    "ru": "Отключён, когда"
+  },
+  "configuration": {
+    "en": "Configuration",
+    "ru": "Конфигурация"
+  },
+  "runtime": {
+    "en": "Status",
+    "ru": "Состояние"
+  },
+  "unobserved": {
+    "en": "Not running",
+    "ru": "Не выполняется"
+  },
+  "pending": {
+    "en": "Waiting for dependencies",
+    "ru": "Ожидание зависимостей"
+  },
+  "loadingPhase": {
+    "en": "Loading",
+    "ru": "Загрузка"
+  },
+  "active": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "failed": {
+    "en": "Failed to start",
+    "ru": "Не удалось запустить"
+  },
+  "unloading": {
+    "en": "Unloading",
+    "ru": "Выгрузка"
+  }
+}

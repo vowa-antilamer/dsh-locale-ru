@@ -1,0 +1,2638 @@
+{
+  "nav": {
+    "en": "Plugin Market",
+    "ru": "Маркет плагинов"
+  },
+  "setCardDesc": {
+    "en": "View the plugin market version and settings.",
+    "ru": "Версия и настройки Маркета плагинов."
+  },
+  "setSelfUpToDate": {
+    "en": "Up to date",
+    "ru": "Актуальная версия"
+  },
+  "setSelfUpdateReady": {
+    "en": "New version available:",
+    "ru": "Доступна новая версия:"
+  },
+  "setSelfUpdateHint": {
+    "en": "Updating downloads the new version; it takes effect after a restart.",
+    "ru": "При обновлении скачивается новая версия; она вступит в силу после перезапуска."
+  },
+  "setSelfUpToDateHint": {
+    "en": "",
+    "ru": ""
+  },
+  "setSelfHostManagedHint": {
+    "en": "This copy was installed by the desktop app; update it from there.",
+    "ru": "Эта копия установлена настольным приложением; обновляйте её оттуда."
+  },
+  "setSelfUpdate": {
+    "en": "Update",
+    "ru": "Обновить"
+  },
+  "setSelfUpdatedHint": {
+    "en": "Downloaded. Restart DeepSeek Harness for it to take effect — the page will already show the new version.",
+    "ru": "Скачано. Перезапустите DeepSeek Harness, чтобы это вступило в силу — новая версия уже отображается на странице."
+  },
+  "setRegion": {
+    "en": "Download region",
+    "ru": "Регион загрузки"
+  },
+  "setRegionGlobal": {
+    "en": "Global",
+    "ru": "Глобальный"
+  },
+  "setRegionChina": {
+    "en": "China mainland",
+    "ru": "Материковый Китай"
+  },
+  "setRegionGlobalHint": {
+    "en": "Downloads directly from npm and GitHub.",
+    "ru": "Загружает напрямую с npm и GitHub."
+  },
+  "setRegionChinaHint": {
+    "en": "Faster in mainland China. Changes the download route, not the source.",
+    "ru": "Быстрее в материковом Китае. Меняет маршрут загрузки, а не источник."
+  },
+  "setRegionAuto": {
+    "en": "Selected from a network check. Change it anytime.",
+    "ru": "Выбрано по результатам проверки сети. Можно изменить в любой момент."
+  },
+  "setGithubProxy": {
+    "en": "GitHub acceleration",
+    "ru": "Ускорение GitHub"
+  },
+  "setGithubProxyAutoHint": {
+    "en": "Chooses a working route automatically and switches only after a failure.",
+    "ru": "Автоматически выбирает рабочий маршрут и переключается только после сбоя."
+  },
+  "setGithubProxyCustom": {
+    "en": "Custom",
+    "ru": "Пользовательский"
+  },
+  "setGithubProxyCustomHint": {
+    "en": "Tries your custom route first, then falls back to GitHub directly.",
+    "ru": "Сначала пробует ваш маршрут, затем переходит напрямую к GitHub."
+  },
+  "setGithubProxyManagedHint": {
+    "en": "Managed by DSHM_GITHUB_PROXY and cannot be changed here.",
+    "ru": "Управляется переменной DSHM_GITHUB_PROXY, здесь изменить нельзя."
+  },
+  "setGithubProxyEdit": {
+    "en": "Edit",
+    "ru": "Изменить"
+  },
+  "setGithubProxyAuto": {
+    "en": "Restore automatic",
+    "ru": "Вернуть автоматический"
+  },
+  "setGithubProxyInput": {
+    "en": "HTTPS acceleration prefix",
+    "ru": "Префикс ускорения HTTPS"
+  },
+  "setGithubProxySave": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "setBuildEnv": {
+    "en": "Build environment",
+    "ru": "Среда сборки"
+  },
+  "setBuildEnvHint": {
+    "en": "Reaches every process the market runs — installs, builds, git — not just the compiler. One KEY=value per line, e.g. CC=/usr/bin/gcc-11. PATH and CI are managed by the market. Saving an empty list restores the original config.",
+    "ru": "Охватывает все процессы маркета — установку, сборку, git — не только компилятор. По одной паре KEY=value в строке, например CC=/usr/bin/gcc-11. Переменные PATH и CI управляются маркетом. Сохранение пустого списка восстанавливает исходную конфигурацию."
+  },
+  "setBuildEnvSave": {
+    "en": "Save variables",
+    "ru": "Сохранить переменные"
+  },
+  "setChannel": {
+    "en": "Update channel",
+    "ru": "Канал обновлений"
+  },
+  "setChannelStable": {
+    "en": "Stable",
+    "ru": "Стабильный"
+  },
+  "setChannelBeta": {
+    "en": "Beta",
+    "ru": "Бета"
+  },
+  "setChannelStableHint": {
+    "en": "Released versions only.",
+    "ru": "Только выпущенные версии."
+  },
+  "setChannelBetaHint": {
+    "en": "Early access to unverified versions. Affects the plugin market only.",
+    "ru": "Ранний доступ к непроверенным версиям. Влияет только на Маркет плагинов."
+  },
+  "setChannelDev": {
+    "en": "Dev",
+    "ru": "Разработка"
+  },
+  "setChannelDevHint": {
+    "en": "Unverified builds from a development branch. Not recommended for general use.",
+    "ru": "Непроверенные сборки из ветки разработки. Не рекомендуется для общего использования."
+  },
+  "setChannelSwitch": {
+    "en": "Switch to",
+    "ru": "Перейти на"
+  },
+  "setChannelSwitchHint": {
+    "en": "This version is lower than the one installed.",
+    "ru": "Эта версия ниже установленной."
+  },
+  "setSelfRemove": {
+    "en": "Uninstall the plugin market",
+    "ru": "Удалить Маркет плагинов"
+  },
+  "setSelfRemoveHint": {
+    "en": "Uninstall the market from this profile. Your other plugins are untouched.",
+    "ru": "Удаляет маркет из этого профиля. Остальные плагины не затрагиваются."
+  },
+  "setSelfConfirm": {
+    "en": "Uninstall the plugin market? Reinstalling it requires the command line.",
+    "ru": "Удалить Маркет плагинов? Для повторной установки потребуется командная строка."
+  },
+  "setSelfPurge": {
+    "en": "Also clear the market's own data",
+    "ru": "Также очистить данные маркета"
+  },
+  "setSelfPurgeOn": {
+    "en": "Will delete: the market's disable list and custom groups, plus the disable entries it wrote into your config file — plugins it switched off will run again. No passwords or tokens are involved; the market never stores those on disk.",
+    "ru": "Будет удалено: список отключённых плагинов и пользовательские группы маркета, а также записи об отключении, добавленные им в ваш файл конфигурации — плагины, которые он отключил, снова заработают. Пароли и токены не затрагиваются; маркет никогда не хранит их на диске."
+  },
+  "setSelfPurgeOff": {
+    "en": "Keeps the market's data. Note: plugins the market switched off stay off, and once it is removed there is no UI left to switch them back on.",
+    "ru": "Данные маркета сохраняются. Внимание: плагины, отключённые маркетом, останутся отключёнными, а после его удаления включить их через интерфейс будет нечем."
+  },
+  "setSelfRemoveConfirm": {
+    "en": "Uninstall",
+    "ru": "Удалить"
+  },
+  "setSelfCancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "setSelfWorking": {
+    "en": "Uninstalling…",
+    "ru": "Удаление…"
+  },
+  "setSelfRemoved": {
+    "en": "Uninstalled",
+    "ru": "Удалено"
+  },
+  "setSelfRemovedHint": {
+    "en": "Restart DeepSeek Harness to finish cleaning up.",
+    "ru": "Перезапустите DeepSeek Harness, чтобы завершить очистку."
+  },
+  "setSelfFailed": {
+    "en": "The operation failed",
+    "ru": "Не удалось выполнить операцию"
+  },
+  "versionHint": {
+    "en": "Plugin market version — include it when reporting an issue",
+    "ru": "Версия Маркета плагинов — указывайте её при сообщении о проблеме"
+  },
+  "subtitle": {
+    "en": "Discover community plugins for DeepSeek Harness",
+    "ru": "Плагины сообщества для DeepSeek Harness"
+  },
+  "submitPlugin": {
+    "en": "Submit a plugin ↗",
+    "ru": "Предложить плагин ↗"
+  },
+  "descExpand": {
+    "en": "Show more",
+    "ru": "Показать ещё"
+  },
+  "descCollapse": {
+    "en": "Show less",
+    "ru": "Свернуть"
+  },
+  "searchPh": {
+    "en": "Search plugins: notify, terminal, memory…",
+    "ru": "Поиск плагинов: уведомления, терминал, память…"
+  },
+  "searchFavoritesPh": {
+    "en": "Search favorites…",
+    "ru": "Поиск в избранном…"
+  },
+  "clearSearch": {
+    "en": "Clear search",
+    "ru": "Очистить поиск"
+  },
+  "capabilityTitle": {
+    "en": "What it does",
+    "ru": "Что он делает"
+  },
+  "capShell": {
+    "en": "runs commands",
+    "ru": "выполняет команды"
+  },
+  "capFsRead": {
+    "en": "reads files in your project",
+    "ru": "читает файлы в вашем проекте"
+  },
+  "capFsWrite": {
+    "en": "writes files in your project",
+    "ru": "записывает файлы в вашем проекте"
+  },
+  "capNetwork": {
+    "en": "connects to servers",
+    "ru": "подключается к серверам"
+  },
+  "capCredentials": {
+    "en": "uses your API keys",
+    "ru": "использует ваши ключи API"
+  },
+  "capEnv": {
+    "en": "reads your environment variables",
+    "ru": "читает переменные окружения"
+  },
+  "capLlm": {
+    "en": "calls an AI model",
+    "ru": "обращается к ИИ-модели"
+  },
+  "capSubagent": {
+    "en": "runs its own subagents",
+    "ru": "запускает свои субагенты"
+  },
+  "capDynamicCode": {
+    "en": "downloads and runs code",
+    "ru": "скачивает и выполняет код"
+  },
+  "capHostRuntime": {
+    "en": "changes how DSH itself runs",
+    "ru": "меняет работу самого DSH"
+  },
+  "capInstallScript": {
+    "en": "runs code when you install",
+    "ru": "выполняет код при установке"
+  },
+  "capabilityNone": {
+    "en": "Nothing found — which is not the same as safe.",
+    "ru": "Ничего не найдено — но это не значит «безопасно»."
+  },
+  "capabilityUnchecked": {
+    "en": "Not scanned yet",
+    "ru": "Ещё не проверялось"
+  },
+  "capabilityNote": {
+    "en": "A static scan only shows what it found. “Nothing found” is not “safe”.",
+    "ru": "Статическая проверка показывает лишь то, что нашла. «Ничего не найдено» — не то же самое, что «безопасно»."
+  },
+  "capabilityScannedAt": {
+    "en": "Scanned {0}",
+    "ru": "Проверено {0}"
+  },
+  "capRedCredentialsNetwork": {
+    "en": "connects to servers and uses your API keys",
+    "ru": "подключается к серверам и использует ваши ключи API"
+  },
+  "capRedPlaintextHttp": {
+    "en": "makes an unencrypted connection to {0}",
+    "ru": "устанавливает незашифрованное соединение с {0}"
+  },
+  "capRedLiteralIp": {
+    "en": "connects to the fixed IP address {0}",
+    "ru": "подключается к фиксированному IP-адресу {0}"
+  },
+  "capRedInstallScript": {
+    "en": "runs its own script the moment you install — you do not have to open the plugin",
+    "ru": "запускает свой скрипт сразу при установке — открывать плагин не требуется"
+  },
+  "capRedInstallScriptScripts": {
+    "en": "runs {0} the moment you install — you do not have to open the plugin",
+    "ru": "запускает {0} сразу при установке — открывать плагин не требуется"
+  },
+  "capRedCoreTamper": {
+    "en": "replaces parts of DSH itself",
+    "ru": "заменяет части самого DSH"
+  },
+  "capRedCoreTamperDetail": {
+    "en": "replaces parts of DSH itself ({0})",
+    "ru": "заменяет части самого DSH ({0})"
+  },
+  "capRedCoreOverride": {
+    "en": "overrides a part of DSH itself ({0})",
+    "ru": "переопределяет часть самого DSH ({0})"
+  },
+  "capRedCoreDisable": {
+    "en": "disables a part of DSH itself ({0})",
+    "ru": "отключает часть самого DSH ({0})"
+  },
+  "favoriteAdd": {
+    "en": "Add to favorites",
+    "ru": "Добавить в избранное"
+  },
+  "favoriteRemove": {
+    "en": "Remove from favorites",
+    "ru": "Убрать из избранного"
+  },
+  "favoritesEmpty": {
+    "en": "No favorites yet. Click the bookmark icon in Discover or Themes to add one.",
+    "ru": "В избранном пока пусто. Нажмите значок закладки в разделах «Обзор» или «Темы», чтобы добавить."
+  },
+  "favoritesResultCount": {
+    "en": "{0} favorites",
+    "ru": "Избранное: {0}"
+  },
+  "favoritesPluginsSection": {
+    "en": "Plugins ({0})",
+    "ru": "Плагины ({0})"
+  },
+  "favoritesThemesSection": {
+    "en": "Themes ({0})",
+    "ru": "Темы ({0})"
+  },
+  "favoritesStaleEmpty": {
+    "en": "Bookmarked entries are no longer in the catalog.",
+    "ru": "Записи из закладок больше не в каталоге."
+  },
+  "favoritesStaleNote": {
+    "en": "{0} favorites are no longer in the catalog",
+    "ru": "Записей из избранного больше нет в каталоге: {0}"
+  },
+  "favoritesClearStale": {
+    "en": "Remove stale favorites",
+    "ru": "Удалить устаревшее из избранного"
+  },
+  "favoritesClearingStale": {
+    "en": "Removing…",
+    "ru": "Удаление…"
+  },
+  "blockAdd": {
+    "en": "Hide",
+    "ru": "Скрыть"
+  },
+  "blockRemove": {
+    "en": "Show again",
+    "ru": "Показать снова"
+  },
+  "blockMoved": {
+    "en": "Removed from Discover. Undo it in Hidden, the tab after Installed.",
+    "ru": "Убрано из «Обзора». Отменить можно на вкладке «Скрытые», следующей после «Установленные»."
+  },
+  "blockedTabHint": {
+    "en": "These stay off Discover, and Update all skips them.",
+    "ru": "Они не попадают в «Обзор», а «Обновить все» их пропускает."
+  },
+  "blockedFilteredEmpty": {
+    "en": "Matching plugins are on the Hidden tab.",
+    "ru": "Подходящие плагины — на вкладке «Скрытые»."
+  },
+  "blockedEmpty": {
+    "en": "No hidden plugins yet.",
+    "ru": "Скрытых плагинов пока нет."
+  },
+  "blockFailed": {
+    "en": "Could not update the hidden list. Try again.",
+    "ru": "Не удалось обновить список скрытых. Попробуйте ещё раз."
+  },
+  "tabDiscover": {
+    "en": "Discover",
+    "ru": "Обзор"
+  },
+  "tabFavorites": {
+    "en": "Favorites",
+    "ru": "Избранное"
+  },
+  "tabInstalled": {
+    "en": "Installed",
+    "ru": "Установленные"
+  },
+  "tabBlocked": {
+    "en": "Hidden",
+    "ru": "Скрытые"
+  },
+  "tabAdvanced": {
+    "en": "Advanced",
+    "ru": "Дополнительно"
+  },
+  "all": {
+    "en": "All",
+    "ru": "Все"
+  },
+  "install": {
+    "en": "Install",
+    "ru": "Установить"
+  },
+  "installing": {
+    "en": "Installing…",
+    "ru": "Установка…"
+  },
+  "installedBadge": {
+    "en": "✓ Installed",
+    "ru": "✓ Установлен"
+  },
+  "alreadyInstalled": {
+    "en": "✓ Installed",
+    "ru": "✓ Установлен"
+  },
+  "restartBanner": {
+    "en": "change(s) pending restart — restart DeepSeek Harness to apply",
+    "ru": "изменений ждут перезапуска — перезапустите DeepSeek Harness, чтобы применить"
+  },
+  "uninstall": {
+    "en": "Uninstall",
+    "ru": "Удалить"
+  },
+  "confirmRemove": {
+    "en": "Uninstall?",
+    "ru": "Удалить?"
+  },
+  "uninstalling": {
+    "en": "Uninstalling…",
+    "ru": "Удаление…"
+  },
+  "uninstallConfirmDesc": {
+    "en": "This removes the plugin from the current profile.",
+    "ru": "Плагин будет удалён из текущего профиля."
+  },
+  "restartHint": {
+    "en": "To restart: stop the current dsh process and run it again (e.g. dsh web)",
+    "ru": "Чтобы перезапустить: остановите текущий процесс dsh и запустите его снова (например, dsh web)"
+  },
+  "restartHintSupervised": {
+    "en": "This process is {0}'s own service process, so restarts belong to it — restarting from here would kill the takeover process along with the cgroup and the service would not come back. Use systemctl restart &lt;your unit&gt;. If your unit can survive a self-restart (KillMode=process), turn Allow restart on in this plugin's configuration.",
+    "ru": "Этот процесс — собственный сервисный процесс {0}, поэтому перезапуск в его ведении: перезапуск отсюда убьёт процесс перехвата вместе с cgroup, и сервис не вернётся. Используйте systemctl restart &lt;your unit&gt;. Если ваш unit переживает самоперезапуск (KillMode=process), включите «Разрешить перезапуск» в конфигурации этого плагина."
+  },
+  "restartHintDebugged": {
+    "en": "This dsh process is under a debugger. Stop it from your IDE or terminal and start it again — the market cannot stop the debugged process from the UI.",
+    "ru": "Этот процесс dsh работает под отладчиком. Остановите его из IDE или терминала и запустите снова — маркет не может остановить процесс под отладчиком из интерфейса."
+  },
+  "confirmTitle": {
+    "en": "Install",
+    "ru": "Установка"
+  },
+  "confirmWarn": {
+    "en": "Plugins are third-party community code. Installing means you trust the source. Build scripts do not run by default.",
+    "ru": "Плагины — сторонний код сообщества. Устанавливая, вы доверяете источнику. Скрипты сборки по умолчанию не выполняются."
+  },
+  "cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "empty": {
+    "en": "No plugins match",
+    "ru": "Нет подходящих плагинов"
+  },
+  "installedEmpty": {
+    "en": "No community plugins yet — browse the Discover tab",
+    "ru": "Плагинов сообщества пока нет — загляните во вкладку «Обзор»"
+  },
+  "loadFail": {
+    "en": "The plugin catalog failed to load. Try again later.",
+    "ru": "Не удалось загрузить каталог плагинов. Попробуйте позже."
+  },
+  "loadRetry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "installFail": {
+    "en": "Install failed",
+    "ru": "Не удалось установить"
+  },
+  "viewSource": {
+    "en": "Source",
+    "ru": "Исходный код"
+  },
+  "refreshBanner": {
+    "en": "change(s) applied — refresh the page to see them",
+    "ru": "изменения применены — обновите страницу, чтобы увидеть их"
+  },
+  "refresh": {
+    "en": "Refresh",
+    "ru": "Обновить"
+  },
+  "update": {
+    "en": "Update",
+    "ru": "Обновить"
+  },
+  "updating": {
+    "en": "Updating…",
+    "ru": "Обновление…"
+  },
+  "updated": {
+    "en": "✓ Updated — restart to apply",
+    "ru": "✓ Обновлено — перезапустите для применения"
+  },
+  "cancelOp": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "cancelled": {
+    "en": "Cancelled",
+    "ru": "Отменено"
+  },
+  "busyWait": {
+    "en": "Another install, update or uninstall is still running — wait for it to finish, then try again.",
+    "ru": "Другая установка, обновление или удаление ещё выполняется — дождитесь завершения и попробуйте снова."
+  },
+  "agentBusyUpdate": {
+    "en": "An agent is currently working — wait for it to finish (or cancel it) before updating. Updates replace plugin files in place, so a working agent can fail or mix versions mid-turn.",
+    "ru": "Агент сейчас работает — дождитесь завершения (или отмените его), прежде чем обновлять. Обновление заменяет файлы плагинов на месте, поэтому работающий агент может дать сбой или смешать версии на середине хода."
+  },
+  "agentBusyInstall": {
+    "en": "An agent is currently working — wait for it to finish (or cancel it) before installing. Installing changes plugin files, so a working agent can fail mid-turn.",
+    "ru": "Агент сейчас работает — дождитесь завершения (или отмените его), прежде чем устанавливать. Установка меняет файлы плагинов, поэтому работающий агент может дать сбой на середине хода."
+  },
+  "agentBusyQueued": {
+    "en": "Agent is busy — queued and will install automatically when idle (cancel it in Tasks, top right).",
+    "ru": "Агент занят — задача в очереди, установка начнётся автоматически после простоя (отменить можно в «Задачах» справа вверху)."
+  },
+  "agentBusyUpdateQueued": {
+    "en": "Agent is busy — queued and will update automatically when idle (cancel it in Tasks, top right).",
+    "ru": "Агент занят — задача в очереди, обновление начнётся автоматически после простоя (отменить можно в «Задачах» справа вверху)."
+  },
+  "agentBusyUninstallQueued": {
+    "en": "Agent is busy — queued and will uninstall automatically when idle (cancel it in Tasks, top right).",
+    "ru": "Агент занят — задача в очереди, удаление начнётся автоматически после простоя (отменить можно в «Задачах» справа вверху)."
+  },
+  "queuedRunBlocked": {
+    "en": "{0} session(s) are running, so this cannot start yet: these operations replace plugin files in place, and a working agent can fail mid-turn. It will begin on its own once they go idle (or cancel this entry in Tasks).",
+    "ru": "Выполняется сессий: {0}, поэтому пока начать нельзя: такие операции заменяют файлы плагинов на месте, а работающий агент может дать сбой на середине хода. Всё начнётся само, когда они перейдут в простой (или отмените эту запись в «Задачах»)."
+  },
+  "queuedInstallGone": {
+    "en": "The plugin this entry was going to install is no longer in the catalog (it was refreshed or you changed pages), so the entry was removed. Find it in the catalog and install it again.",
+    "ru": "Плагина, который должна была установить эта запись, больше нет в каталоге (каталог обновился или вы сменили страницу), поэтому запись удалена. Найдите его в каталоге и установите снова."
+  },
+  "agentQueueStaleGone": {
+    "en": "It was installed when you queued this, and is not now — skipped, nothing was uninstalled.",
+    "ru": "На момент постановки в очередь он был установлен, а сейчас нет — пропущено, ничего не удалено."
+  },
+  "agentQueueStaleNoUpdate": {
+    "en": "It had an update available when you queued this, and does not now — skipped.",
+    "ru": "На момент постановки в очередь для него было доступно обновление, а сейчас нет — пропущено."
+  },
+  "queuedBadge": {
+    "en": "Queued",
+    "ru": "В очереди"
+  },
+  "favoriteFailed": {
+    "en": "Could not update favorites. Try again.",
+    "ru": "Не удалось обновить избранное. Попробуйте ещё раз."
+  },
+  "favoriteUnavailable": {
+    "en": "Favorites are unavailable. Refresh the page or restart dsh web.",
+    "ru": "Избранное недоступно. Обновите страницу или перезапустите dsh web."
+  },
+  "favoriteBusy": {
+    "en": "A plugin operation is still running. Favorites were not saved — try again shortly.",
+    "ru": "Операция с плагином ещё выполняется. Избранное не сохранено — попробуйте чуть позже."
+  },
+  "compatRiskBanner": {
+    "en": "Compatibility risk detected — open Diagnostics before restarting, or roll this operation back.",
+    "ru": "Обнаружен риск совместимости — откройте «Диагностику» до перезапуска или откатите эту операцию."
+  },
+  "compatRiskBannerNoRollback": {
+    "en": "Compatibility risk detected — open Diagnostics before restarting.",
+    "ru": "Обнаружен риск совместимости — откройте «Диагностику» до перезапуска."
+  },
+  "shadowNameBanner": {
+    "en": "One plugin name is now defined in two places; only one will load after a restart:",
+    "ru": "Имя одного плагина теперь задано в двух местах; после перезапуска загрузится только один:"
+  },
+  "brokenBundleBanner": {
+    "en": "These plugins have damaged UI files. The page may be blank after a refresh; rolling back is recommended:",
+    "ru": "У этих плагинов повреждены файлы интерфейса. После обновления страница может стать пустой; рекомендуется откат:"
+  },
+  "goDiagnose": {
+    "en": "Open Diagnostics",
+    "ru": "Открыть диагностику"
+  },
+  "rollbackNow": {
+    "en": "Roll back",
+    "ru": "Откатить"
+  },
+  "rollingBack": {
+    "en": "Rolling back…",
+    "ru": "Откат…"
+  },
+  "rollbackUnavailable": {
+    "en": "Automatic rollback is unavailable because the previous exact source could not be verified.",
+    "ru": "Автоматический откат недоступен: не удалось проверить предыдущий точный источник."
+  },
+  "approveBuilds": {
+    "en": "Allow build scripts and retry",
+    "ru": "Разрешить скрипты сборки и повторить"
+  },
+  "buildsSkipped": {
+    "en": "This plugin needs its build scripts to run; they are blocked by default for safety. If you trust the source, allow them and reinstall:",
+    "ru": "Этому плагину нужно выполнить скрипты сборки; по умолчанию они блокируются ради безопасности. Если вы доверяете источнику, разрешите их и переустановите:"
+  },
+  "restartNow": {
+    "en": "Restart now",
+    "ru": "Перезапустить сейчас"
+  },
+  "dismiss": {
+    "en": "Dismiss",
+    "ru": "Закрыть"
+  },
+  "dismissNotice": {
+    "en": "Dismiss this notice",
+    "ru": "Закрыть это уведомление"
+  },
+  "restarting": {
+    "en": "Restarting…",
+    "ru": "Перезапуск…"
+  },
+  "restartFail": {
+    "en": "Restart failed",
+    "ru": "Не удалось перезапустить"
+  },
+  "restartTimeout": {
+    "en": "Timed out waiting for DeepSeek Harness to start",
+    "ru": "Истекло время ожидания запуска DeepSeek Harness"
+  },
+  "updateNow": {
+    "en": "Update now",
+    "ru": "Обновить сейчас"
+  },
+  "updateFail": {
+    "en": "Update failed",
+    "ru": "Не удалось обновить"
+  },
+  "upToDate": {
+    "en": "Up to date",
+    "ru": "Актуальная версия"
+  },
+  "linkedDev": {
+    "en": "local",
+    "ru": "локальный"
+  },
+  "hostUpdateReady": {
+    "en": "New version {0}",
+    "ru": "Новая версия {0}"
+  },
+  "hostUpdateHint": {
+    "en": "Installed and updated by the desktop app; update it there.",
+    "ru": "Установлено и обновляется настольным приложением; обновляйте там."
+  },
+  "notesLink": {
+    "en": "What changed",
+    "ru": "Что изменилось"
+  },
+  "notesRelease": {
+    "en": "Release notes",
+    "ru": "Заметки о выпуске"
+  },
+  "notesCommits": {
+    "en": "Commits",
+    "ru": "Коммиты"
+  },
+  "notesCommitsRecent": {
+    "en": "Recent commits (do not match your installed version — for reference only)",
+    "ru": "Недавние коммиты (не совпадают с установленной версией — только для справки)"
+  },
+  "notesNpm": {
+    "en": "Version publish times",
+    "ru": "Даты публикации версий"
+  },
+  "notesNone": {
+    "en": "This plugin does not publish update notes.",
+    "ru": "Этот плагин не публикует заметки об обновлениях."
+  },
+  "notesLoadFail": {
+    "en": "Update notes are unavailable right now — try again later.",
+    "ru": "Заметки об обновлениях сейчас недоступны — попробуйте позже."
+  },
+  "migrateNpm": {
+    "en": "Use npm version",
+    "ru": "Использовать версию из npm"
+  },
+  "migrateTitle": {
+    "en": "Use npm version?",
+    "ru": "Использовать версию из npm?"
+  },
+  "migrateDescription": {
+    "en": "This changes the plugin's install source rather than its version.",
+    "ru": "Это меняет источник установки плагина, а не его версию."
+  },
+  "migrateCurrentSource": {
+    "en": "Current source",
+    "ru": "Текущий источник"
+  },
+  "migrateTargetSource": {
+    "en": "New npm source",
+    "ru": "Новый источник в npm"
+  },
+  "migrateWarning": {
+    "en": "The npm package may be published by someone else and not be the same plugin. Continue only if you trust it.",
+    "ru": "Пакет npm может быть опубликован кем-то другим и быть другим плагином. Продолжайте, только если доверяете ему."
+  },
+  "migrateContinue": {
+    "en": "Confirm switch",
+    "ru": "Подтвердить переключение"
+  },
+  "migrateFail": {
+    "en": "Source switch failed",
+    "ru": "Не удалось сменить источник"
+  },
+  "restore": {
+    "en": "Restore",
+    "ru": "Восстановить"
+  },
+  "restoreOnline": {
+    "en": "Use online version",
+    "ru": "Использовать онлайн-версию"
+  },
+  "restoreHint": {
+    "en": "This uninstalls the local version and installs the online version. Update checks continue as usual. This cannot be undone.",
+    "ru": "Локальная версия будет удалена, а онлайн-версия установлена. Проверка обновлений продолжится как обычно. Это действие необратимо."
+  },
+  "hostIncompatibleTitle": {
+    "en": "This release needs a newer DSH",
+    "ru": "Этому выпуску нужен более новый DSH"
+  },
+  "hostIncompatibleBody": {
+    "en": "{plugin} declares that it needs DSH {requirement}, and you are running {host}. Installing it would most likely break the plugin, leaving a manual downgrade as the only way back.\nNothing was changed — the plugin is still on its current version.\nIf you know the version number is wrong (a bundled DSH that does not report one, for example), you can update anyway.",
+    "ru": "{plugin} заявляет, что ему нужен DSH {requirement}, а у вас запущен {host}. Установка, скорее всего, сломает плагин, и вернуться можно будет только ручным откатом.\nНичего не изменено — плагин остаётся на текущей версии.\nЕсли вы знаете, что номер версии указан неверно (например, встроенный DSH, который его не сообщает), можно всё равно обновить."
+  },
+  "hostIncompatibleUnknown": {
+    "en": "an unknown version",
+    "ru": "неизвестная версия"
+  },
+  "hostIncompatibleSearching": {
+    "en": "Looking for a version that still supports this DSH…",
+    "ru": "Поиск версии, которая ещё поддерживает этот DSH…"
+  },
+  "hostIncompatibleFoundInstall": {
+    "en": "You can install {version} — it declares support for this DSH.",
+    "ru": "Можно установить {version} — заявлена поддержка этого DSH."
+  },
+  "hostIncompatibleFoundUpdate": {
+    "en": "You can update to {version} — it declares support for this DSH.",
+    "ru": "Можно обновить до {version} — заявлена поддержка этого DSH."
+  },
+  "hostIncompatibleNoCompat": {
+    "en": "No version declares support for this DSH.",
+    "ru": "Ни одна версия не заявляет поддержку этого DSH."
+  },
+  "hostIncompatibleSearchFailed": {
+    "en": "Could not look up compatible versions.",
+    "ru": "Не удалось найти совместимые версии."
+  },
+  "hostIncompatibleInstallCompat": {
+    "en": "Install {version}",
+    "ru": "Установить {version}"
+  },
+  "hostIncompatibleUpdateCompat": {
+    "en": "Update to {version}",
+    "ru": "Обновить до {version}"
+  },
+  "hostIncompatibleRetry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "hostIncompatibleKeep": {
+    "en": "Keep the current version",
+    "ru": "Оставить текущую версию"
+  },
+  "hostIncompatibleAnyway": {
+    "en": "Update anyway",
+    "ru": "Обновить всё равно"
+  },
+  "hostStatusCompatible": {
+    "en": "Host requirement satisfied (declared)",
+    "ru": "Требование хоста выполнено (по заявлению)"
+  },
+  "hostStatusIncompatible": {
+    "en": "Confirmed incompatible with this DSH",
+    "ru": "Подтверждена несовместимость с этим DSH"
+  },
+  "hostIncompatibleBodyInstall": {
+    "en": "{plugin} declares that it needs DSH {requirement}, and you are running {host}. Installing it would most likely break the plugin.\nNothing was installed.\nIf you know the version number is wrong (a bundled DSH that does not report one, for example), you can install anyway.",
+    "ru": "{plugin} заявляет, что ему нужен DSH {requirement}, а у вас запущен {host}. Установка, скорее всего, сломает плагин.\nНичего не установлено.\nЕсли вы знаете, что номер версии указан неверно (например, встроенный DSH, который его не сообщает), можно всё равно установить."
+  },
+  "hostIncompatibleCancel": {
+    "en": "Cancel install",
+    "ru": "Отменить установку"
+  },
+  "hostIncompatibleInstallAnyway": {
+    "en": "Install anyway",
+    "ru": "Установить всё равно"
+  },
+  "restoreNameOnlyHint": {
+    "en": "Your local copy does not name its source repository, so the market could only match it by package name. The plugin below may be another author's plugin with the same name, not the source of your copy. Check the owner and repository before confirming. This uninstalls the local version, installs that plugin, and cannot be undone.",
+    "ru": "В вашей локальной копии не указан репозиторий-источник, поэтому маркет смог сопоставить её только по имени пакета. Плагин ниже может быть плагином другого автора с тем же именем, а не источником вашей копии. Проверьте владельца и репозиторий перед подтверждением. Локальная версия будет удалена, этот плагин установлен; действие необратимо."
+  },
+  "restoreContinue": {
+    "en": "Continue update",
+    "ru": "Продолжить обновление"
+  },
+  "restoreProceed": {
+    "en": "Confirm restore",
+    "ru": "Подтвердить восстановление"
+  },
+  "restoreNoCatalogTitle": {
+    "en": "Cannot restore",
+    "ru": "Восстановление невозможно"
+  },
+  "restoreNoCatalog": {
+    "en": "This plugin is not in the curated catalog, so it cannot be restored. Uninstall the local copy, or keep developing it locally.",
+    "ru": "Этого плагина нет в отобранном каталоге, поэтому восстановить его нельзя. Удалите локальную копию или продолжайте разработку локально."
+  },
+  "restoreNoMatch": {
+    "en": "A same-named plugin exists in the catalog, but it does not match your local repository, so restore is not safe. Uninstall the local copy, or keep developing it locally.",
+    "ru": "В каталоге есть плагин с таким же именем, но он не совпадает с вашим локальным репозиторием, поэтому восстановление небезопасно. Удалите локальную копию или продолжайте разработку локально."
+  },
+  "restoreFail": {
+    "en": "Restore failed",
+    "ru": "Не удалось восстановить"
+  },
+  "exportLog": {
+    "en": "Export log",
+    "ru": "Экспорт журнала"
+  },
+  "crashTitle": {
+    "en": "The plugin market could not be displayed",
+    "ru": "Не удалось отобразить Маркет плагинов"
+  },
+  "crashHint": {
+    "en": "'The market could not be displayed. Your plugins are unaffected and nothing was changed.\nReload usually fixes this. If it keeps happening, export the log and attach it to an issue — the log records where the error occurred.\nIf your browser is translating this page, turn translation off and reload. This is a known cause.'",
+    "ru": "Маркет не удалось отобразить. Ваши плагины не пострадали, ничего не изменено.\nОбычно помогает перезагрузка. Если это повторяется, экспортируйте журнал и приложите его к issue — в журнале записано, где произошла ошибка.\nЕсли браузер переводит эту страницу, отключите перевод и перезагрузите. Это известная причина."
+  },
+  "crashReload": {
+    "en": "Reload",
+    "ru": "Перезагрузить"
+  },
+  "crashDetails": {
+    "en": "Error details",
+    "ru": "Подробности ошибки"
+  },
+  "exportingLog": {
+    "en": "Exporting…",
+    "ru": "Экспорт…"
+  },
+  "exportedLog": {
+    "en": "Log exported: dsh-market-log.txt — please attach it to your issue",
+    "ru": "Журнал экспортирован: dsh-market-log.txt — приложите его к своему issue"
+  },
+  "exportLogFail": {
+    "en": "Log export failed",
+    "ru": "Не удалось экспортировать журнал"
+  },
+  "readme": {
+    "en": "README",
+    "ru": "README"
+  },
+  "comments": {
+    "en": "Comments",
+    "ru": "Комментарии"
+  },
+  "commentsTitle": {
+    "en": "Comments",
+    "ru": "Комментарии"
+  },
+  "commentsNote": {
+    "en": "Comments come from GitHub Discussions. Opening this connects to giscus.app and GitHub; posting needs a GitHub account.",
+    "ru": "Комментарии берутся из GitHub Discussions. При открытии происходит подключение к giscus.app и GitHub; для публикации нужен аккаунт GitHub."
+  },
+  "commentsLoginHint": {
+    "en": "Signing in here leaves this page; you will need to reopen dsh web — nothing is broken. Post on GitHub; this page is for reading only.",
+    "ru": "Вход здесь уведёт с этой страницы; потребуется снова открыть dsh web — ничего не сломается. Публикуйте на GitHub; эта страница только для чтения."
+  },
+  "commentsLoading": {
+    "en": "Loading comments…",
+    "ru": "Загрузка комментариев…"
+  },
+  "commentsError": {
+    "en": "Comments could not be loaded. Check your connection and try again.",
+    "ru": "Не удалось загрузить комментарии. Проверьте соединение и попробуйте ещё раз."
+  },
+  "commentsRetry": {
+    "en": "Try again",
+    "ru": "Попробовать ещё раз"
+  },
+  "commentsOnGitHub": {
+    "en": "Sign in and join on GitHub",
+    "ru": "Войти и присоединиться на GitHub"
+  },
+  "terminalWarn": {
+    "en": "This looks like a terminal/CLI plugin: installing it into the web profile may do nothing, or even break DeepSeek Harness startup. Read its README and install it into the profile it targets.",
+    "ru": "Похоже, это плагин для терминала/CLI: установка в веб-профиль может ничего не дать или даже сломать запуск DeepSeek Harness. Прочитайте его README и установите в тот профиль, для которого он предназначен."
+  },
+  "conflictTitle": {
+    "en": "Cannot install: conflicts with an installed plugin",
+    "ru": "Нельзя установить: конфликт с установленным плагином"
+  },
+  "conflictBody": {
+    "en": "It conflicts with an installed plugin — only one can stay:",
+    "ru": "Он конфликтует с установленным плагином — остаться может только один:"
+  },
+  "conflictReverted": {
+    "en": "Reverted automatically; nothing was changed",
+    "ru": "Откат выполнен автоматически; ничего не изменено"
+  },
+  "conflictKeep": {
+    "en": "Keep existing plugins",
+    "ru": "Оставить существующие плагины"
+  },
+  "conflictKeepNote": {
+    "en": "",
+    "ru": ""
+  },
+  "conflictSwap": {
+    "en": "Switch to this one",
+    "ru": "Переключиться на этот"
+  },
+  "conflictSwapNote": {
+    "en": "Settings of the uninstalled plugins are kept, so you can reinstall later",
+    "ru": "Настройки удалённых плагинов сохраняются, так что их можно установить позже"
+  },
+  "conflictDetails": {
+    "en": "Details",
+    "ru": "Подробности"
+  },
+  "conflictOutcomeInstall": {
+    "en": "install",
+    "ru": "установка"
+  },
+  "conflictOutcomeSkip": {
+    "en": "skip",
+    "ru": "пропуск"
+  },
+  "conflictOutcomeKeep": {
+    "en": "keep",
+    "ru": "сохранить"
+  },
+  "conflictOutcomeRemove": {
+    "en": "uninstall",
+    "ru": "удаление"
+  },
+  "conflictWhy": {
+    "en": "cordis rejects duplicate entry ids; keeping this plugin would stop DeepSeek Harness from starting.",
+    "ru": "cordis отклоняет повторяющиеся id записей; если оставить этот плагин, DeepSeek Harness не запустится."
+  },
+  "opTitle": {
+    "en": "Tasks",
+    "ru": "Задачи"
+  },
+  "opInstalling": {
+    "en": "Installing",
+    "ru": "Установка"
+  },
+  "opNeedsYou": {
+    "en": "need attention",
+    "ru": "требуют внимания"
+  },
+  "opQueued": {
+    "en": "Queued",
+    "ru": "В очереди"
+  },
+  "opQueuedAhead": {
+    "en": "ahead:",
+    "ru": "впереди:"
+  },
+  "opQueuedWaitingAgents": {
+    "en": "waiting for {0} running session(s)",
+    "ru": "ждёт завершения сессий: {0}"
+  },
+  "opWaitingAgents": {
+    "en": "{0} task(s) waiting for agents to go idle",
+    "ru": "задач ждут простоя агентов: {0}"
+  },
+  "opRunning": {
+    "en": "In progress",
+    "ru": "Выполняется"
+  },
+  "opNeedsChoice": {
+    "en": "Cannot install · reverted automatically, nothing changed",
+    "ru": "Установить нельзя · откат выполнен автоматически, ничего не изменено"
+  },
+  "opDone": {
+    "en": "Done",
+    "ru": "Готово"
+  },
+  "opDoneRefresh": {
+    "en": "Installed · refresh the page to apply",
+    "ru": "Установлено · обновите страницу, чтобы применить"
+  },
+  "opLeaveHint": {
+    "en": "You can leave this page; you will be notified when it finishes",
+    "ru": "Страницу можно закрыть; по завершении вы получите уведомление"
+  },
+  "opLeaveHintAgents": {
+    "en": "Starts on its own once the agents go idle",
+    "ru": "Начнётся само, когда агенты перейдут в простой"
+  },
+  "opEmpty": {
+    "en": "No operations in progress",
+    "ru": "Нет выполняемых операций"
+  },
+  "opEmptyHint": {
+    "en": "Install, update and uninstall progress appears here",
+    "ru": "Здесь отображается ход установки, обновления и удаления"
+  },
+  "opClose": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "opClear": {
+    "en": "Clear finished",
+    "ru": "Очистить завершённые"
+  },
+  "opDequeue": {
+    "en": "Remove from queue",
+    "ru": "Убрать из очереди"
+  },
+  "opRunNow": {
+    "en": "Run now",
+    "ru": "Запустить сейчас"
+  },
+  "opRetry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "opKind_install": {
+    "en": "Install",
+    "ru": "Установка"
+  },
+  "opKind_update": {
+    "en": "Update",
+    "ru": "Обновление"
+  },
+  "opKind_uninstall": {
+    "en": "Uninstall",
+    "ru": "Удаление"
+  },
+  "opBlockedCard": {
+    "en": "Cannot install · details",
+    "ru": "Нельзя установить · подробности"
+  },
+  "conflictDeclined": {
+    "en": "You kept the installed plugins; this one was not installed",
+    "ru": "Вы сохранили установленные плагины; этот не установлен"
+  },
+  "conflictReplacing": {
+    "en": "Replacing…",
+    "ru": "Замена…"
+  },
+  "conflictReplaceFailed": {
+    "en": "Replace did not finish. These plugins were uninstalled and not restored — reinstall them:",
+    "ru": "Замена не завершена. Эти плагины были удалены и не восстановлены — установите их снова:"
+  },
+  "lightboxClose": {
+    "en": "Close preview",
+    "ru": "Закрыть предпросмотр"
+  },
+  "lightboxPrev": {
+    "en": "Previous",
+    "ru": "Назад"
+  },
+  "lightboxNext": {
+    "en": "Next",
+    "ru": "Вперёд"
+  },
+  "envMissing": {
+    "en": "pnpm needs to be set up before installing plugins",
+    "ru": "Перед установкой плагинов нужно настроить pnpm"
+  },
+  "envFix": {
+    "en": "Set up automatically",
+    "ru": "Настроить автоматически"
+  },
+  "envFixing": {
+    "en": "Setting up…",
+    "ru": "Настройка…"
+  },
+  "envFixFail": {
+    "en": "Automatic setup failed. Export the log and attach it to your issue.",
+    "ru": "Автонастройка не удалась. Экспортируйте журнал и приложите его к обращению."
+  },
+  "loading": {
+    "en": "Loading the catalog…",
+    "ru": "Загрузка каталога…"
+  },
+  "backTop": {
+    "en": "Back to top",
+    "ru": "Наверх"
+  },
+  "confirm": {
+    "en": "Confirm",
+    "ru": "Подтвердить"
+  },
+  "confirmInstall": {
+    "en": "Confirm install",
+    "ru": "Подтвердить установку"
+  },
+  "cmdDetails": {
+    "en": "Install command",
+    "ru": "Команда установки"
+  },
+  "catsMore": {
+    "en": "More categories",
+    "ru": "Больше категорий"
+  },
+  "catsLess": {
+    "en": "Fewer categories",
+    "ru": "Меньше категорий"
+  },
+  "filter": {
+    "en": "Filter",
+    "ru": "Фильтр"
+  },
+  "filterSort": {
+    "en": "Sort field",
+    "ru": "Поле сортировки"
+  },
+  "filterDir": {
+    "en": "Order",
+    "ru": "Порядок"
+  },
+  "filterTime": {
+    "en": "Released within",
+    "ru": "Дата выпуска"
+  },
+  "filterHost": {
+    "en": "Host version",
+    "ru": "Версия хоста"
+  },
+  "hostAll": {
+    "en": "Show all",
+    "ru": "Показать все"
+  },
+  "hostCompatible": {
+    "en": "Compatible with current DSH {0}",
+    "ru": "Совместимо с текущим DSH {0}"
+  },
+  "hostDetecting": {
+    "en": "Detecting host version…",
+    "ru": "Определение версии хоста…"
+  },
+  "hostUnknown": {
+    "en": "Host version unknown",
+    "ru": "Версия хоста неизвестна"
+  },
+  "hostFilterLoading": {
+    "en": "Checking host requirements {0}/{1}; undeclared or unavailable plugins remain visible",
+    "ru": "Проверка требований хоста {0}/{1}; плагины без требований или с недоступными данными остаются видимыми"
+  },
+  "hostFilterActive": {
+    "en": "Filtered for DSH {0}; undeclared or unconfirmed plugins remain visible",
+    "ru": "Фильтр по DSH {0}; плагины без требований или неподтверждённые остаются видимыми"
+  },
+  "hostRequirement": {
+    "en": "DSH {0}",
+    "ru": "DSH {0}"
+  },
+  "hostRequirementLoading": {
+    "en": "Reading host requirement…",
+    "ru": "Чтение требований хоста…"
+  },
+  "hostRequirementUndeclared": {
+    "en": "Host requirement undeclared",
+    "ru": "Требования хоста не указаны"
+  },
+  "hostRequirementUnavailable": {
+    "en": "Host requirement unknown",
+    "ru": "Требования хоста неизвестны"
+  },
+  "sortDownloads": {
+    "en": "npm downloads (30d)",
+    "ru": "Загрузки npm (30 дн.)"
+  },
+  "downloadsPeriod": {
+    "en": "30d",
+    "ru": "30 дн."
+  },
+  "downloadsMeaning": {
+    "en": "npm rolling 30-day downloads: {0}. Not lifetime downloads or unique users. Statistics may be delayed; the source check time does not guarantee completeness.",
+    "ru": "Загрузки npm за скользящие 30 дней: {0}. Это не общее число загрузок и не число уникальных пользователей. Статистика может запаздывать; время проверки источника не гарантирует полноту."
+  },
+  "downloadsWindow": {
+    "en": "Period: {0} to {1}.",
+    "ru": "Период: с {0} по {1}."
+  },
+  "downloadsWindowUnknown": {
+    "en": "Period: not provided.",
+    "ru": "Период: не указан."
+  },
+  "downloadsChecked": {
+    "en": "Source checked at: {0}.",
+    "ru": "Источник проверен: {0}."
+  },
+  "downloadsCheckedUnknown": {
+    "en": "Source checked at: not provided.",
+    "ru": "Источник проверен: не указано."
+  },
+  "catalogNpmLatest": {
+    "en": "npm latest",
+    "ru": "последняя версия npm"
+  },
+  "catalogVersionDated": {
+    "en": "the npm version as of the catalog's last refresh ({0}); a release published since then appears after the next refresh",
+    "ru": "версия npm на момент последнего обновления каталога ({0}); выпуски, опубликованные после, появятся после следующего обновления"
+  },
+  "catalogVersionUndated": {
+    "en": "the npm version as of the catalog's last refresh — the catalog updates daily, so this can lag npm's actual latest",
+    "ru": "версия npm на момент последнего обновления каталога — каталог обновляется ежедневно, поэтому она может отставать от актуальной версии npm"
+  },
+  "sortStars": {
+    "en": "Stars",
+    "ru": "Звёзды"
+  },
+  "sortAdded": {
+    "en": "Release date",
+    "ru": "Дата выпуска"
+  },
+  "sortDesc": {
+    "en": "Descending",
+    "ru": "По убыванию"
+  },
+  "sortAsc": {
+    "en": "Ascending",
+    "ru": "По возрастанию"
+  },
+  "sortNewest": {
+    "en": "Newest",
+    "ru": "Сначала новые"
+  },
+  "sortOldest": {
+    "en": "Oldest",
+    "ru": "Сначала старые"
+  },
+  "timeAll": {
+    "en": "Any time",
+    "ru": "За всё время"
+  },
+  "timeDay": {
+    "en": "Last day",
+    "ru": "За сутки"
+  },
+  "timeWeek": {
+    "en": "Last 7 days",
+    "ru": "За 7 дней"
+  },
+  "timeMonth": {
+    "en": "Last 30 days",
+    "ru": "За 30 дней"
+  },
+  "timeQuarter": {
+    "en": "Last 90 days",
+    "ru": "За 90 дней"
+  },
+  "timeYear": {
+    "en": "Last year",
+    "ru": "За год"
+  },
+  "published": {
+    "en": "released",
+    "ru": "выпущено"
+  },
+  "prevPage": {
+    "en": "Previous",
+    "ru": "Назад"
+  },
+  "nextPage": {
+    "en": "Next",
+    "ru": "Вперёд"
+  },
+  "pageInfo": {
+    "en": "Page {0} of {1}",
+    "ru": "Страница {0} из {1}"
+  },
+  "perPage": {
+    "en": "Per page",
+    "ru": "На странице"
+  },
+  "marketUpdate": {
+    "en": "Update the plugin market",
+    "ru": "Обновить Маркет плагинов"
+  },
+  "updateAll": {
+    "en": "Update all",
+    "ru": "Обновить все"
+  },
+  "heldReleaseNotice": {
+    "en": "Installed, but not the newest: this profile's minimumReleaseAge held {0} back, so {1} was installed.",
+    "ru": "Установлено, но не самое новое: minimumReleaseAge профиля задержал {0}, поэтому установлена версия {1}."
+  },
+  "heldReleaseAction": {
+    "en": "Install {0} anyway",
+    "ru": "Всё равно установить {0}"
+  },
+  "ignoreUpdateNotice": {
+    "en": "Ignore until restart",
+    "ru": "Игнорировать до перезапуска"
+  },
+  "ignoreAllUpdateNotices": {
+    "en": "Ignore all until restart",
+    "ru": "Игнорировать все до перезапуска"
+  },
+  "updateNoticeIgnored": {
+    "en": "Reminder ignored for this boot",
+    "ru": "Напоминание скрыто до перезапуска"
+  },
+  "tabThemes": {
+    "en": "Themes",
+    "ru": "Темы"
+  },
+  "tabBackup": {
+    "en": "Backup & Restore",
+    "ru": "Копии и восстановление"
+  },
+  "backupLocal": {
+    "en": "Local file",
+    "ru": "Локальный файл"
+  },
+  "backupDownload": {
+    "en": "Export backup",
+    "ru": "Экспорт копии"
+  },
+  "backupImport": {
+    "en": "Import and preview",
+    "ru": "Импорт и предпросмотр"
+  },
+  "backupHint": {
+    "en": "Includes the plugin list and profile configuration, not the plugin files. Restore reinstalls them from the list.",
+    "ru": "Включает список плагинов и конфигурацию профиля, но не файлы плагинов. При восстановлении они устанавливаются из списка."
+  },
+  "webdav": {
+    "en": "WebDAV",
+    "ru": "WebDAV"
+  },
+  "webdavPreset": {
+    "en": "Provider preset",
+    "ru": "Пресет провайдера"
+  },
+  "webdavUrl": {
+    "en": "Backup file URL",
+    "ru": "URL файла копии"
+  },
+  "webdavUser": {
+    "en": "Username (optional)",
+    "ru": "Имя пользователя (необязательно)"
+  },
+  "webdavPassword": {
+    "en": "Password (optional)",
+    "ru": "Пароль (необязательно)"
+  },
+  "webdavUpload": {
+    "en": "Upload backup",
+    "ru": "Загрузить копию"
+  },
+  "webdavRestore": {
+    "en": "Restore from WebDAV",
+    "ru": "Восстановить из WebDAV"
+  },
+  "autoBackup": {
+    "en": "Back up daily (when the market opens)",
+    "ru": "Копировать ежедневно (при открытии Маркета)"
+  },
+  "webdavNote": {
+    "en": "The WebDAV URL and username stay in this browser only; the password is kept server-side and must be re-entered each session.",
+    "ru": "URL и имя пользователя WebDAV хранятся только в этом браузере; пароль хранится на сервере, и его нужно вводить заново в каждой сессии."
+  },
+  "localOnly": {
+    "en": "The WebDAV URL and username stay in this browser only.",
+    "ru": "URL и имя пользователя WebDAV хранятся только в этом браузере."
+  },
+  "credsWarning": {
+    "en": "Note: backups include profile configuration and files that may hold secrets (config.toml, .env, …). Local exports are unmodified, so upload only to a WebDAV target you trust.",
+    "ru": "Внимание: копии включают конфигурацию профиля и файлы, которые могут содержать секреты (config.toml, .env, …). Локальный экспорт выполняется как есть, поэтому выгружайте его только в доверенное хранилище WebDAV."
+  },
+  "gist": {
+    "en": "GitHub Gist",
+    "ru": "GitHub Gist"
+  },
+  "gistToken": {
+    "en": "GitHub token (session memory only — re-enter after refresh; leave empty to use server-side DSH_GITHUB_TOKEN or a logged-in gh CLI)",
+    "ru": "Токен GitHub (хранится только в памяти сессии — введите заново после обновления страницы; оставьте пустым, чтобы использовать серверный DSH_GITHUB_TOKEN или авторизованный gh CLI)"
+  },
+  "gistId": {
+    "en": "Gist ID or URL (leave empty on export to create a new private Gist)",
+    "ru": "ID или URL Gist (при экспорте оставьте пустым, чтобы создать новый приватный Gist)"
+  },
+  "gistVerify": {
+    "en": "Verify connection",
+    "ru": "Проверить подключение"
+  },
+  "gistExport": {
+    "en": "Export to Gist…",
+    "ru": "Экспорт в Gist…"
+  },
+  "gistImport": {
+    "en": "Import from Gist",
+    "ru": "Импорт из Gist"
+  },
+  "gistExportDone": {
+    "en": "Exported to Gist",
+    "ru": "Экспортировано в Gist"
+  },
+  "gistVerifySource": {
+    "en": "Verified — token source: {0}",
+    "ru": "Проверено — источник токена: {0}"
+  },
+  "gistSrcToken": {
+    "en": "manually entered",
+    "ru": "введён вручную"
+  },
+  "gistSrcEnv": {
+    "en": "DSH_GITHUB_TOKEN env var",
+    "ru": "переменная окружения DSH_GITHUB_TOKEN"
+  },
+  "gistSrcGh": {
+    "en": "gh CLI",
+    "ru": "gh CLI"
+  },
+  "gistExportSelect": {
+    "en": "Select plugins to export",
+    "ru": "Выберите плагины для экспорта"
+  },
+  "gistExportHint": {
+    "en": "All checked = full backup (config included); otherwise only the checked plugins are exported, plus “include config” if ticked.",
+    "ru": "Все отмечены = полная копия (с конфигурацией); иначе экспортируются только отмеченные плагины плюс конфигурация, если включён соответствующий пункт."
+  },
+  "gistSelectAll": {
+    "en": "Select all",
+    "ru": "Выбрать все"
+  },
+  "gistSelectNone": {
+    "en": "Select none",
+    "ru": "Снять все"
+  },
+  "gistIncludeConfig": {
+    "en": "Include config files (may contain secrets)",
+    "ru": "Включить файлы конфигурации (могут содержать секреты)"
+  },
+  "gistNoPlugins": {
+    "en": "This profile has no plugins to export",
+    "ru": "В этом профиле нет плагинов для экспорта"
+  },
+  "gistSpecLocal": {
+    "en": "local",
+    "ru": "локально"
+  },
+  "gistExportGo": {
+    "en": "Export",
+    "ru": "Экспорт"
+  },
+  "gistCreated": {
+    "en": "Exported:",
+    "ru": "Экспортировано:"
+  },
+  "gistErrTimeout": {
+    "en": "GitHub request timed out — check your network and retry",
+    "ru": "Запрос к GitHub истёк по времени — проверьте сеть и повторите"
+  },
+  "gistErrNetwork": {
+    "en": "Cannot reach GitHub — check your network or proxy",
+    "ru": "Не удаётся связаться с GitHub — проверьте сеть или прокси"
+  },
+  "gistErrAuth": {
+    "en": "GitHub authentication failed: invalid/expired token, or gh CLI not logged in",
+    "ru": "Не удалось войти в GitHub: неверный или истёкший токен, либо gh CLI не авторизован"
+  },
+  "gistErrNotFound": {
+    "en": "Gist not found — check the ID or URL",
+    "ru": "Gist не найден — проверьте ID или URL"
+  },
+  "gistErrRateLimit": {
+    "en": "GitHub rate limit hit, or the token lacks the gist scope",
+    "ru": "Достигнут лимит запросов GitHub или у токена нет области gist"
+  },
+  "gistErrInvalid": {
+    "en": "Gist content is invalid or uses an unsupported backup format",
+    "ru": "Содержимое Gist некорректно или использует неподдерживаемый формат копии"
+  },
+  "gistModeUpdate": {
+    "en": "Update the Gist in the field",
+    "ru": "Обновить Gist из поля"
+  },
+  "gistModeCreate": {
+    "en": "Create a new private Gist",
+    "ru": "Создать новый приватный Gist"
+  },
+  "gistErrNoId": {
+    "en": "Update mode needs a Gist ID — fill it in, or switch to “Create”",
+    "ru": "Для режима обновления нужен ID Gist — заполните его или переключитесь на «Создать»"
+  },
+  "gistNote": {
+    "en": "Unlike local export (this-machine archive), Gist is for cross-machine sync: export to a private Gist, then import it on another computer with the same account to reuse your plugins. The token lives in this session's memory only and is never written to browser storage; a logged-in gh CLI or DSH_GITHUB_TOKEN skips entering it. Gists are private, 1 MB per file.",
+    "ru": "В отличие от локального экспорта (архив для этого компьютера), Gist служит для синхронизации между машинами: экспортируйте в приватный Gist, а затем импортируйте на другом компьютере с тем же аккаунтом, чтобы перенести плагины. Токен хранится только в памяти этой сессии и никогда не записывается в хранилище браузера; при авторизованном gh CLI или заданном DSH_GITHUB_TOKEN вводить его не нужно. Gists приватны, до 1 МБ на файл."
+  },
+  "backupWorking": {
+    "en": "In progress…",
+    "ru": "Выполняется…"
+  },
+  "backupDone": {
+    "en": "Backup uploaded",
+    "ru": "Копия загружена"
+  },
+  "restoreDone": {
+    "en": "Restore complete — restart DeepSeek Harness",
+    "ru": "Восстановление завершено — перезапустите DeepSeek Harness"
+  },
+  "restorePartial": {
+    "en": "Restore completed, but these plugins failed to install:",
+    "ru": "Восстановление завершено, но эти плагины не удалось установить:"
+  },
+  "restoreUnportable": {
+    "en": "installs from a path on another computer that does not exist here — reinstall or point it to a local path",
+    "ru": "устанавливается из пути на другом компьютере, которого здесь нет — переустановите его или укажите локальный путь"
+  },
+  "restoreBootError": {
+    "en": "Still cannot boot after the restore:",
+    "ru": "Запуск всё ещё не удаётся после восстановления:"
+  },
+  "orphanBundle": {
+    "en": "⚠️ The next start will fail: the profile declares these plugins but they are not installed. Reinstall them, or remove them from dsh.profile.bundles in the profile package.json:",
+    "ru": "⚠️ Следующий запуск завершится ошибкой: профиль объявляет эти плагины, но они не установлены. Установите их снова или уберите из dsh.profile.bundles в package.json профиля:"
+  },
+  "restoreConfirm": {
+    "en": "Restore will overwrite this profile configuration and reinstall plugins. Continue?",
+    "ru": "Восстановление перезапишет конфигурацию этого профиля и переустановит плагины. Продолжить?"
+  },
+  "restorePreviewDone": {
+    "en": "Backup imported. Review Installed, then start restore.",
+    "ru": "Копия импортирована. Проверьте раздел «Установленные», затем запустите восстановление."
+  },
+  "restoreMissing": {
+    "en": "{0} plugins from this backup are not installed",
+    "ru": "Плагинов из этой копии не установлено: {0}"
+  },
+  "restoreStart": {
+    "en": "Start restore",
+    "ru": "Начать восстановление"
+  },
+  "notInstalled": {
+    "en": "Not installed",
+    "ru": "Не установлено"
+  },
+  "themeApply": {
+    "en": "Use",
+    "ru": "Использовать"
+  },
+  "themeActive": {
+    "en": "Active",
+    "ru": "Активна"
+  },
+  "themeDeactivate": {
+    "en": "Deactivate",
+    "ru": "Отключить"
+  },
+  "themeEmpty": {
+    "en": "No themes in the catalog yet",
+    "ru": "В каталоге пока нет тем"
+  },
+  "themePreview": {
+    "en": "Preview",
+    "ru": "Предпросмотр"
+  },
+  "themePreviewLoading": {
+    "en": "Finding preview…",
+    "ru": "Поиск предпросмотра…"
+  },
+  "themePreviewMissing": {
+    "en": "Preview unavailable",
+    "ru": "Предпросмотр недоступен"
+  },
+  "themePreviewCount": {
+    "en": "{0} previews",
+    "ru": "Предпросмотров: {0}"
+  },
+  "themeResultCount": {
+    "en": "{0} themes",
+    "ru": "Тем: {0}"
+  },
+  "themeFullscreen": {
+    "en": "Browse full screen",
+    "ru": "Открыть во весь экран"
+  },
+  "themeExitFullscreen": {
+    "en": "Exit full screen",
+    "ru": "Выйти из полноэкранного режима"
+  },
+  "progressHint": {
+    "en": "First installs download the plugin and its dependencies — large plugins can take 1-3 minutes",
+    "ru": "При первой установке скачиваются плагин и его зависимости — большой плагин может занять 1-3 минуты"
+  },
+  "toastReady": {
+    "en": "installed and live",
+    "ru": "установлен и работает"
+  },
+  "toastTheme": {
+    "en": "is now active. Switch any time in Settings → Plugin Market → Themes",
+    "ru": "теперь активна. Переключить можно в любой момент: Настройки → Маркет плагинов → Темы"
+  },
+  "toastToggledOn": {
+    "en": "is now on",
+    "ru": "включён"
+  },
+  "toastToggledOff": {
+    "en": "is now off; it stopped working immediately",
+    "ru": "выключен; он сразу перестал работать"
+  },
+  "gotIt": {
+    "en": "Dismiss",
+    "ru": "Понятно"
+  },
+  "stateLive": {
+    "en": "Active",
+    "ru": "Активен"
+  },
+  "stateRestart": {
+    "en": "Installed — restart to apply",
+    "ru": "Установлено — перезапустите для применения"
+  },
+  "stateInert": {
+    "en": "Installed, not active",
+    "ru": "Установлено, не активно"
+  },
+  "stateDependencyLibrary": {
+    "en": "Library for {0}",
+    "ru": "Библиотека для {0}"
+  },
+  "stateBroken": {
+    "en": "Installed, verification failed",
+    "ru": "Установлено, проверка не пройдена"
+  },
+  "stateDisabled": {
+    "en": "Disabled",
+    "ru": "Выключено"
+  },
+  "phaseResolving": {
+    "en": "Preparing dependencies",
+    "ru": "Подготовка зависимостей"
+  },
+  "phaseDownloading": {
+    "en": "Downloading",
+    "ru": "Загрузка"
+  },
+  "phaseLinking": {
+    "en": "Linking",
+    "ru": "Связывание"
+  },
+  "phaseBuilding": {
+    "en": "Running build scripts",
+    "ru": "Выполнение сборочных скриптов"
+  },
+  "cancelling": {
+    "en": "Cancelling…",
+    "ru": "Отмена…"
+  },
+  "packagesDone": {
+    "en": "{0} packages processed",
+    "ru": "Обработано пакетов: {0}"
+  },
+  "updatedLive": {
+    "en": "✓ Updated — live",
+    "ru": "✓ Обновлено — работает"
+  },
+  "partialNote": {
+    "en": "Cancelled — some changes were applied",
+    "ru": "Отменено — часть изменений применилась"
+  },
+  "reconciledNote": {
+    "en": "Removed, but pnpm reported an error while finishing up (usually a locked file). Your settings are already in sync — no retry needed.",
+    "ru": "Удалено, но pnpm сообщил об ошибке при завершении (обычно это заблокированный файл). Настройки уже синхронизированы — повторять не нужно."
+  },
+  "actWhy": {
+    "en": "Why is it not active?",
+    "ru": "Почему не активно?"
+  },
+  "tabList": {
+    "en": "List",
+    "ru": "Список"
+  },
+  "tabGroups": {
+    "en": "Groups",
+    "ru": "Группы"
+  },
+  "repoLink": {
+    "en": "View the repository on GitHub",
+    "ru": "Открыть репозиторий на GitHub"
+  },
+  "disabledState": {
+    "en": "Disabled",
+    "ru": "Выключено"
+  },
+  "noteAdd": {
+    "en": "Add note",
+    "ru": "Добавить заметку"
+  },
+  "noteEdit": {
+    "en": "Edit note",
+    "ru": "Изменить заметку"
+  },
+  "noteTheirs": {
+    "en": "Original",
+    "ru": "Оригинал"
+  },
+  "noteMine": {
+    "en": "My note",
+    "ru": "Моя заметка"
+  },
+  "noteSave": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "notePlaceholder": {
+    "en": "Describe it in your own words. This replaces the author description.",
+    "ru": "Опишите своими словами. Это заменит описание автора."
+  },
+  "noteSeeTheirs": {
+    "en": "Show the author description",
+    "ru": "Показать описание автора"
+  },
+  "noteSeeMine": {
+    "en": "Back to my note",
+    "ru": "Вернуться к моей заметке"
+  },
+  "switchOnLabel": {
+    "en": "Enabled",
+    "ru": "Включено"
+  },
+  "enable": {
+    "en": "Enable",
+    "ru": "Включить"
+  },
+  "disable": {
+    "en": "Disable",
+    "ru": "Выключить"
+  },
+  "toggleFail": {
+    "en": "Toggle failed",
+    "ru": "Не удалось переключить"
+  },
+  "deprecatedBadge": {
+    "en": "Deprecated",
+    "ru": "Устарел"
+  },
+  "deprecatedWarn": {
+    "en": "This plugin is marked as deprecated by the catalog; new users are advised against installing it.",
+    "ru": "Каталог помечает этот плагин как устаревший; новым пользователям не рекомендуется его устанавливать."
+  },
+  "brokenPluginTitle": {
+    "en": "{0} was removed after a failed update",
+    "ru": "{0} удалён после неудачного обновления"
+  },
+  "brokenPluginBody": {
+    "en": "The running DSH blocked the update, and the version it was replacing was already damaged. The market removed it from the profile so the next start does not fail. Its directory is untouched — quit DSH and install it again.",
+    "ru": "Запущенный DSH заблокировал обновление, а заменяемая версия уже была повреждена. Маркет убрал плагин из профиля, чтобы следующий запуск не завершился ошибкой. Его каталог не тронут — закройте DSH и установите плагин заново."
+  },
+  "brokenPluginAction": {
+    "en": "Find this plugin",
+    "ru": "Найти этот плагин"
+  },
+  "viewReplacement": {
+    "en": "View replacement",
+    "ru": "Посмотреть замену"
+  },
+  "installReplacement": {
+    "en": "Install replacement",
+    "ru": "Установить замену"
+  },
+  "replacementHint": {
+    "en": "Catalog suggests",
+    "ru": "Каталог предлагает"
+  },
+  "groupNew": {
+    "en": "New group",
+    "ru": "Новая группа"
+  },
+  "groupNamePh": {
+    "en": "Group name",
+    "ru": "Название группы"
+  },
+  "groupRename": {
+    "en": "Rename",
+    "ru": "Переименовать"
+  },
+  "groupDelete": {
+    "en": "Delete group",
+    "ru": "Удалить группу"
+  },
+  "groupConfirmDelete": {
+    "en": "Delete group?",
+    "ru": "Удалить группу?"
+  },
+  "groupExpand": {
+    "en": "Expand {0}",
+    "ru": "Развернуть {0}"
+  },
+  "groupFold": {
+    "en": "Collapse {0}",
+    "ru": "Свернуть {0}"
+  },
+  "groupThemeTaken": {
+    "en": "Already has a theme",
+    "ru": "Тема уже выбрана"
+  },
+  "groupSearchEmpty": {
+    "en": "No matching plugins",
+    "ru": "Плагины не найдены"
+  },
+  "groupStateInert": {
+    "en": "Not active",
+    "ru": "Не активно"
+  },
+  "groupStateRestart": {
+    "en": "Restart to apply",
+    "ru": "Перезапустите для применения"
+  },
+  "groupStateBroken": {
+    "en": "Verification failed",
+    "ru": "Проверка не пройдена"
+  },
+  "ungrouped": {
+    "en": "Ungrouped",
+    "ru": "Без группы"
+  },
+  "groupAssign": {
+    "en": "Assign to",
+    "ru": "Добавить в"
+  },
+  "groupRemove": {
+    "en": "Remove",
+    "ru": "Убрать"
+  },
+  "groupEmpty": {
+    "en": "No members yet",
+    "ru": "Пока нет участников"
+  },
+  "groupMixed": {
+    "en": "Partially enabled",
+    "ru": "Частично включено"
+  },
+  "noGroups": {
+    "en": "No groups yet. Create one to begin.",
+    "ru": "Групп пока нет. Создайте первую."
+  },
+  "groupCreate": {
+    "en": "Create",
+    "ru": "Создать"
+  },
+  "groupAdd": {
+    "en": "Add members",
+    "ru": "Добавить участников"
+  },
+  "groupAddEmpty": {
+    "en": "No ungrouped plugin available to add",
+    "ru": "Нет плагинов без группы для добавления"
+  },
+  "groupAddPick": {
+    "en": "Add",
+    "ru": "Добавить"
+  },
+  "groupAddSearchPh": {
+    "en": "Search plugins…",
+    "ru": "Поиск плагинов…"
+  },
+  "groupAddTitle": {
+    "en": "Add to “{0}”",
+    "ru": "Добавить в «{0}»"
+  },
+  "groupAddSelected": {
+    "en": "{0} selected",
+    "ru": "Выбрано: {0}"
+  },
+  "groupAddConfirm": {
+    "en": "Add {0}",
+    "ru": "Добавить {0}"
+  },
+  "groupAddHint": {
+    "en": "Adding to a group does not enable plugins",
+    "ru": "Добавление в группу не включает плагины"
+  },
+  "groupPickTheme": {
+    "en": "Choose theme",
+    "ru": "Выбрать тему"
+  },
+  "groupChangeTheme": {
+    "en": "Change theme",
+    "ru": "Сменить тему"
+  },
+  "groupThemeTitle": {
+    "en": "Choose a theme for “{0}”",
+    "ru": "Выберите тему для «{0}»"
+  },
+  "groupThemeUse": {
+    "en": "Use",
+    "ru": "Использовать"
+  },
+  "groupThemeEmpty": {
+    "en": "No ungrouped theme",
+    "ru": "Нет тем без группы"
+  },
+  "groupThemeHint": {
+    "en": "A group holds one theme. Choosing one does not enable it. Replacing moves the previous theme out of the group.",
+    "ru": "В группе может быть одна тема. Выбор темы не включает её. При замене прежняя тема выходит из группы."
+  },
+  "groupThemeCurrent": {
+    "en": "Current",
+    "ru": "Текущая"
+  },
+  "groupThemeRemove": {
+    "en": "Remove theme",
+    "ru": "Убрать тему"
+  },
+  "groupThemeBadge": {
+    "en": "Theme",
+    "ru": "Тема"
+  },
+  "groupOrgHint": {
+    "en": "Groups are for organization only and do not change enable state",
+    "ru": "Группы нужны только для порядка и не влияют на включение"
+  },
+  "groupMembersMeta": {
+    "en": "{0} · {1} enabled",
+    "ru": "{0} · включено: {1}"
+  },
+  "groupMore": {
+    "en": "More",
+    "ru": "Ещё"
+  },
+  "groupRenameSave": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "groupRenameTitle": {
+    "en": "Rename group",
+    "ru": "Переименовать группу"
+  },
+  "groupRenameHint": {
+    "en": "Only the group name changes — members and enable state stay the same",
+    "ru": "Меняется только название группы — участники и состояние включения остаются прежними"
+  },
+  "tabDiagnostics": {
+    "en": "Diagnostics",
+    "ru": "Диагностика"
+  },
+  "checkIssues": {
+    "en": "Issues found",
+    "ru": "Найдены проблемы"
+  },
+  "checkErrors": {
+    "en": "Errors",
+    "ru": "Ошибки"
+  },
+  "checkWarnings": {
+    "en": "Warnings",
+    "ru": "Предупреждения"
+  },
+  "checkLoading": {
+    "en": "Analyzing the profile…",
+    "ru": "Анализ профиля…"
+  },
+  "checkLoadFail": {
+    "en": "Failed to load diagnostics: ",
+    "ru": "Не удалось загрузить диагностику: "
+  },
+  "checkProfile": {
+    "en": "profile",
+    "ru": "профиль"
+  },
+  "checkErrorsEmpty": {
+    "en": "No errors",
+    "ru": "Ошибок нет"
+  },
+  "checkWarningsEmpty": {
+    "en": "No warnings",
+    "ru": "Предупреждений нет"
+  },
+  "checkBundles": {
+    "en": "Plugin load order (bundles)",
+    "ru": "Порядок загрузки плагинов (пакеты)"
+  },
+  "checkBundlesEmpty": {
+    "en": "No plugin packages configured",
+    "ru": "Пакеты плагинов не настроены"
+  },
+  "checkOfficial": {
+    "en": "official",
+    "ru": "официальный"
+  },
+  "checkCommunity": {
+    "en": "community",
+    "ru": "сообщество"
+  },
+  "checkSource": {
+    "en": "source",
+    "ru": "источник"
+  },
+  "checkEntries": {
+    "en": "entries (loader ids)",
+    "ru": "записи (id загрузчика)"
+  },
+  "checkPatch": {
+    "en": "patch file",
+    "ru": "файл патча"
+  },
+  "checkDir": {
+    "en": "directory",
+    "ru": "каталог"
+  },
+  "checkDuplicates": {
+    "en": "Duplicate plugin entries",
+    "ru": "Дубли записей плагинов"
+  },
+  "checkDuplicatesEmpty": {
+    "en": "No duplicate plugin entries",
+    "ru": "Дублей записей плагинов нет"
+  },
+  "checkHoisted": {
+    "en": "top level",
+    "ru": "верхний уровень"
+  },
+  "checkPeerMismatches": {
+    "en": "Dependency version mismatches",
+    "ru": "Несовпадения версий зависимостей"
+  },
+  "checkPeerEmpty": {
+    "en": "No dependency version mismatches",
+    "ru": "Несовпадений версий зависимостей нет"
+  },
+  "checkPeerInfo": {
+    "en": "{0} more unconfirmed entries",
+    "ru": "Ещё записей без подтверждения: {0}"
+  },
+  "checkPeerOverview": {
+    "en": "{0} mismatch(es) · {1} informational",
+    "ru": "Несовпадений: {0} · информационных: {1}"
+  },
+  "checkRange": {
+    "en": "required version",
+    "ru": "требуемая версия"
+  },
+  "checkResolved": {
+    "en": "resolved version",
+    "ru": "фактическая версия"
+  },
+  "checkSatisfied": {
+    "en": "satisfied",
+    "ru": "выполнено"
+  },
+  "checkUnsatisfied": {
+    "en": "not satisfied",
+    "ru": "не выполнено"
+  },
+  "checkUnknown": {
+    "en": "unknown",
+    "ru": "неизвестно"
+  },
+  "checkPeerRisk": {
+    "en": "Dependency risks",
+    "ru": "Риски зависимостей"
+  },
+  "checkPeerRiskEmpty": {
+    "en": "No dependency risks",
+    "ru": "Рисков зависимостей нет"
+  },
+  "checkPeerWarning": {
+    "en": "Dependency warnings",
+    "ru": "Предупреждения о зависимостях"
+  },
+  "checkPeerWarningEmpty": {
+    "en": "No dependency warnings",
+    "ru": "Предупреждений о зависимостях нет"
+  },
+  "checkPeerInfoTier": {
+    "en": "Dependency info",
+    "ru": "Сведения о зависимостях"
+  },
+  "checkPeerInfoTierEmpty": {
+    "en": "No dependency info",
+    "ru": "Сведений о зависимостях нет"
+  },
+  "checkPeerSatisfied": {
+    "en": "Satisfied dependencies",
+    "ru": "Удовлетворённые зависимости"
+  },
+  "checkPeerSatisfiedEmpty": {
+    "en": "No satisfied dependency entries",
+    "ru": "Записей об удовлетворённых зависимостях нет"
+  },
+  "peerRiskBelowMin": {
+    "en": "below declared minimum",
+    "ru": "ниже заявленного минимума"
+  },
+  "peerRiskAboveMax": {
+    "en": "above explicit maximum",
+    "ru": "выше явного максимума"
+  },
+  "peerWarnOptional": {
+    "en": "optional peer",
+    "ru": "необязательная peer-зависимость"
+  },
+  "peerWarnAboveMax": {
+    "en": "above declared upper bound",
+    "ru": "выше заявленной верхней границы"
+  },
+  "peerInfoUnverified": {
+    "en": "unverified",
+    "ru": "не подтверждено"
+  },
+  "checkMultiVersion": {
+    "en": "Multi-version core packages",
+    "ru": "Основные пакеты в нескольких версиях"
+  },
+  "checkMultiEmpty": {
+    "en": "No multi-version core packages",
+    "ru": "Основных пакетов в нескольких версиях нет"
+  },
+  "checkOverrides": {
+    "en": "Overrides",
+    "ru": "Переопределения"
+  },
+  "checkOverridesEmpty": {
+    "en": "No overrides",
+    "ru": "Переопределений нет"
+  },
+  "checkOverridden": {
+    "en": "overrides",
+    "ru": "переопределяет"
+  },
+  "checkResiduals": {
+    "en": "Leftover directories",
+    "ru": "Оставшиеся каталоги"
+  },
+  "checkResidualsEmpty": {
+    "en": "No leftover directories.",
+    "ru": "Оставшихся каталогов нет."
+  },
+  "checkResidualsHint": {
+    "en": "No plugin uses these directories and they do not stop DSH from starting: an interrupted update left them behind. Quit DSH, then delete them or reinstall the affected plugin.",
+    "ru": "Эти каталоги не использует ни один плагин, и они не мешают запуску DSH: их оставило прерванное обновление. Закройте DSH, затем удалите их или переустановите затронутый плагин."
+  },
+  "checkResidualTmp": {
+    "en": "pnpm temp directory",
+    "ru": "временный каталог pnpm"
+  },
+  "checkResidualIncomplete": {
+    "en": "incomplete package (no package.json)",
+    "ru": "неполный пакет (нет package.json)"
+  },
+  "checkOrphans": {
+    "en": "Invalid config entries",
+    "ru": "Некорректные записи конфигурации"
+  },
+  "checkOrphansEmpty": {
+    "en": "No invalid config entries",
+    "ru": "Некорректных записей конфигурации нет"
+  },
+  "orphanInsertNotArray": {
+    "en": "malformed",
+    "ru": "неверный формат"
+  },
+  "orphanInsertTargetMissing": {
+    "en": "target not found",
+    "ru": "цель не найдена"
+  },
+  "orphanInsertTargetNotGroup": {
+    "en": "target is not a group",
+    "ru": "цель не является группой"
+  },
+  "orphanIdRequired": {
+    "en": "missing id",
+    "ru": "нет id"
+  },
+  "orphanPatchTargetMissing": {
+    "en": "target not found",
+    "ru": "цель не найдена"
+  },
+  "orphanNameMismatch": {
+    "en": "name mismatch",
+    "ru": "несовпадение имени"
+  },
+  "orphanReasonOther": {
+    "en": "other",
+    "ru": "другое"
+  },
+  "diagExplain": {
+    "en": "Glossary",
+    "ru": "Глоссарий"
+  },
+  "diagExplainText": {
+    "en": "This page checks for plugin conflicts, mismatched dependencies and wrong load order. Terms used:",
+    "ru": "Эта страница проверяет конфликты плагинов, несовпадения зависимостей и неверный порядок загрузки. Используемые термины:"
+  },
+  "diagTermBundle": {
+    "en": "bundle = one plugin package, applied in order",
+    "ru": "пакет = один пакет плагина, применяемый по порядку"
+  },
+  "diagTermEntry": {
+    "en": "entry = one item a plugin registers in the running composition",
+    "ru": "запись = один элемент, который плагин регистрирует в работающей композиции"
+  },
+  "diagTermPeer": {
+    "en": "peer dependency = another package a plugin requires from the host",
+    "ru": "peer-зависимость = другой пакет, который плагин требует от хоста"
+  },
+  "diagTermShadow": {
+    "en": "shadowing = a plugin’s old copy covers the host’s newer one",
+    "ru": "затенение = старая копия плагина перекрывает более новую у хоста"
+  },
+  "diagTermOrphan": {
+    "en": "invalid entry = config references something that does not exist",
+    "ru": "некорректная запись = конфигурация ссылается на то, чего не существует"
+  },
+  "diagTermOrder": {
+    "en": "load order = the order plugins activate; the later one may override the earlier",
+    "ru": "порядок загрузки = порядок активации плагинов; более поздний может переопределить ранний"
+  },
+  "orderSection": {
+    "en": "Ordering",
+    "ru": "Порядок"
+  },
+  "orderUp": {
+    "en": "↑",
+    "ru": "↑"
+  },
+  "orderDown": {
+    "en": "↓",
+    "ru": "↓"
+  },
+  "orderApply": {
+    "en": "Apply order",
+    "ru": "Применить порядок"
+  },
+  "orderDrag": {
+    "en": "Drag to reorder",
+    "ru": "Перетащите, чтобы изменить порядок"
+  },
+  "orderDragHint": {
+    "en": "Drag ⠿ to reorder. Changes are saved when you apply the order.",
+    "ru": "Перетащите ⠿ для изменения порядка. Изменения сохраняются при применении порядка."
+  },
+  "orderConflicts": {
+    "en": "before/after conflicts in the current order",
+    "ru": "конфликты before/after в текущем порядке"
+  },
+  "orderApplied": {
+    "en": "✓ Applied — restart to apply",
+    "ru": "✓ Применено — перезапустите для вступления в силу"
+  },
+  "orderSuggestApply": {
+    "en": "Apply suggested order",
+    "ru": "Применить предложенный порядок"
+  },
+  "orderSuggestHint": {
+    "en": "Suggested order (auto-sorted by before/after rules):",
+    "ru": "Предложенный порядок (автосортировка по правилам before/after):"
+  },
+  "orderAutoSort": {
+    "en": "Auto-sort",
+    "ru": "Автосортировка"
+  },
+  "orderAlreadyOptimal": {
+    "en": "Current order already satisfies every rule and plugin dependency — nothing to reorder",
+    "ru": "Текущий порядок уже удовлетворяет всем правилам и зависимостям плагинов — менять нечего"
+  },
+  "orderTrialFail": {
+    "en": "Order check failed: {0}",
+    "ru": "Проверка порядка не удалась: {0}"
+  },
+  "orderDiffHint": {
+    "en": "This order would change the composition: {0} override(s), {1} orphan(s), {2} duplicate(s)",
+    "ru": "Этот порядок изменит композицию: переопределений — {0}, некорректных записей — {1}, дубликатов — {2}"
+  },
+  "duplicateNames": {
+    "en": "Same-name plugins (informational only, not a conflict)",
+    "ru": "Плагины с одинаковыми именами (только справочно, не конфликт)"
+  },
+  "orderReset": {
+    "en": "Reset draft",
+    "ru": "Сбросить черновик"
+  },
+  "checkRefresh": {
+    "en": "Re-check",
+    "ru": "Проверить снова"
+  },
+  "aiFix": {
+    "en": "AI fix",
+    "ru": "Исправление ИИ"
+  },
+  "aiFixHint": {
+    "en": "Hand the diagnostics to a new Agent session (copied to the clipboard; you decide whether to send)",
+    "ru": "Передайте диагностику в новую сессию агента (скопировано в буфер обмена; отправлять или нет — решаете вы)"
+  },
+  "aiFixIntro": {
+    "en": "Please help me fix the plugin issues of DeepSeek Harness (profile: {0}). Diagnostics found:",
+    "ru": "Помогите исправить проблемы с плагинами DeepSeek Harness (профиль: {0}). Обнаружено следующее:"
+  },
+  "aiFixDetect": {
+    "en": "Step 1 — identify yourself first. Before touching anything, determine whether the process you are running in IS the DeepSeek Harness process this profile belongs to (i.e. this diagnosed composition is the one you are running in right now). Check whether the cwd / $DSH_HOME / command line points at this profile, or whether you are running inside a deepseek-harness process. If you cannot tell, assume the answer is \"yes\" (the safe choice).",
+    "ru": "Шаг 1 — сначала определите себя. Прежде чем что-либо трогать, выясните, является ли процесс, в котором вы работаете, тем самым процессом DeepSeek Harness, которому принадлежит этот профиль (то есть та ли это диагностированная композиция, в которой вы работаете сейчас). Проверьте, указывают ли cwd / $DSH_HOME / командная строка на этот профиль и не работаете ли вы внутри процесса deepseek-harness. Если определить не удаётся, считайте, что ответ «да» (безопасный вариант)."
+  },
+  "aiFixIfSelf": {
+    "en": "If YES — you are this harness: never change the live composition, the harness or core packages in place (don't edit cordis.patch.yml, don't reorder/enable/disable bundles, don't install/remove/upgrade a plugin, don't reinstall deps, don't upgrade/restart dsh). Three steps: 1) read-only analysis only, change nothing; 2) produce apply.sh/.bat (this fix's changes) and rollback.sh/.bat (fully reverts it); both are safe to re-run — apply snapshots only when none exists yet and never overwrites an existing snapshot (an existing one means apply already ran, so roll back or confirm before re-running), while rollback restores from that snapshot, so a half-run apply can still be rolled back and repeated rollback is safe; 3) have me run apply in an external terminal and paste the output back to you. State the reason and wait for my confirmation at each step — never run these yourself.",
+    "ru": "Если ДА — вы и есть этот Harness: никогда не меняйте живую композицию, сам Harness или основные пакеты на месте (не редактируйте cordis.patch.yml, не меняйте порядок и не включайте/выключайте пакеты, не устанавливайте, не удаляйте и не обновляйте плагины, не переустанавливайте зависимости, не обновляйте и не перезапускайте dsh). Три шага: 1) только анализ без изменений, ничего не менять; 2) создайте apply.sh/.bat (изменения этого исправления) и rollback.sh/.bat (полностью их откатывает); оба безопасно запускать повторно — apply делает снимок, только если его ещё нет, и никогда не перезаписывает существующий снимок (если он есть, значит apply уже выполнялся: откатитесь или подтвердите перед повторным запуском), а rollback восстанавливает из этого снимка, поэтому прерванный apply всё равно можно откатить, и повторный откат безопасен; 3) пусть я запущу apply во внешнем терминале и вставлю вам вывод. Объясняйте причину и ждите моего подтверждения на каждом шаге — никогда не запускайте это сами."
+  },
+  "aiFixScope": {
+    "en": "If NO — you are a process outside the target harness: you may then consider reordering dsh.profile.bundles, disabling / enabling plugins, or adjusting cordis.patch.yml. Note: official bundles are fixed; state your plan before changing anything.",
+    "ru": "Если НЕТ — вы процесс вне целевого Harness: тогда можно рассмотреть изменение порядка dsh.profile.bundles, выключение и включение плагинов или правку cordis.patch.yml. Учтите: официальные пакеты фиксированы; перед любыми изменениями изложите свой план."
+  },
+  "aiFixConservative": {
+    "en": "Be conservative: only fix the clear errors listed above (boot failures / duplicate entries / risk-level dependency mismatches). Treat warnings and informational entries (e.g. optional or unconfirmed peer ranges) only when they relate to a clear error. Do not perform unnecessary upgrades or reordering; explain each change and wait for confirmation.",
+    "ru": "Будьте консервативны: исправляйте только явные ошибки из списка выше (сбои загрузки, дублирующиеся записи, несовпадения зависимостей уровня риска). Предупреждения и справочные записи (например, необязательные или неподтверждённые диапазоны peer) трогайте, только если они связаны с явной ошибкой. Не делайте лишних обновлений и перестановок; объясняйте каждое изменение и ждите подтверждения."
+  },
+  "aiFixCopied": {
+    "en": "Fix prompt copied — paste it into a new conversation and send when ready",
+    "ru": "Промпт с исправлением скопирован — вставьте его в новый диалог и отправьте, когда будете готовы"
+  },
+  "aiFixFail": {
+    "en": "Clipboard unavailable — copy the diagnostics below manually",
+    "ru": "Буфер обмена недоступен — скопируйте диагностику ниже вручную"
+  },
+  "catConflict": {
+    "en": "Conflicts",
+    "ru": "Конфликты"
+  },
+  "catDeps": {
+    "en": "Dependencies",
+    "ru": "Зависимости"
+  },
+  "catRisk": {
+    "en": "Risk",
+    "ru": "Риск"
+  },
+  "catWarn": {
+    "en": "Warning",
+    "ru": "Предупреждение"
+  },
+  "catInfo": {
+    "en": "Info",
+    "ru": "Сведения"
+  },
+  "catOrder": {
+    "en": "Order",
+    "ru": "Порядок"
+  },
+  "checkOrderTip": {
+    "en": "community bundle load order conflicts with declared before/after rules",
+    "ru": "порядок загрузки пакетов сообщества конфликтует с заявленными правилами before/after"
+  },
+  "diagOkAll": {
+    "en": "No conflict, dependency or ordering issues found",
+    "ru": "Конфликтов, проблем с зависимостями и порядком не найдено"
+  },
+  "presetSection": {
+    "en": "Plugin presets",
+    "ru": "Пресеты плагинов"
+  },
+  "presetHint": {
+    "en": "Save the current plugin order and disabled plugins as a preset and switch anytime; applying runs a trial start and creates a snapshot first.",
+    "ru": "Сохраните текущий порядок плагинов и выключенные плагины как пресет и переключайтесь в любой момент; при применении сначала выполняется пробный запуск и создаётся снимок."
+  },
+  "presetName": {
+    "en": "Preset name",
+    "ru": "Имя пресета"
+  },
+  "presetSave": {
+    "en": "Save current state",
+    "ru": "Сохранить текущее состояние"
+  },
+  "presetSaving": {
+    "en": "Saving…",
+    "ru": "Сохранение…"
+  },
+  "presetSaved": {
+    "en": "Preset saved",
+    "ru": "Пресет сохранён"
+  },
+  "presetApply": {
+    "en": "Apply",
+    "ru": "Применить"
+  },
+  "presetApplied": {
+    "en": "Applied — restart to take effect",
+    "ru": "Применено — перезапустите для вступления в силу"
+  },
+  "presetDelete": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "presetDeleted": {
+    "en": "Preset deleted",
+    "ru": "Пресет удалён"
+  },
+  "presetEmpty": {
+    "en": "No presets saved yet",
+    "ru": "Сохранённых пресетов пока нет"
+  },
+  "presetNameEmpty": {
+    "en": "Enter a preset name",
+    "ru": "Введите имя пресета"
+  },
+  "presetFail": {
+    "en": "Preset operation failed: ",
+    "ru": "Операция с пресетом не удалась: "
+  },
+  "presetListFail": {
+    "en": "Failed to load presets: ",
+    "ru": "Не удалось загрузить пресеты: "
+  },
+  "presetBundleCount": {
+    "en": "{0} plugins",
+    "ru": "Плагинов: {0}"
+  },
+  "presetPreview": {
+    "en": "Preview",
+    "ru": "Предпросмотр"
+  },
+  "presetPreviewTitle": {
+    "en": "Applying this preset will:",
+    "ru": "Применение этого пресета:"
+  },
+  "presetReorder": {
+    "en": "reorder {0} plugins",
+    "ru": "изменит порядок плагинов: {0}"
+  },
+  "presetEnable": {
+    "en": "enable {0} plugins",
+    "ru": "включит плагинов: {0}"
+  },
+  "presetDisable": {
+    "en": "disable {0} plugins",
+    "ru": "выключит плагинов: {0}"
+  },
+  "presetNoop": {
+    "en": "no changes",
+    "ru": "без изменений"
+  },
+  "presetPreviewFail": {
+    "en": "Preview failed: ",
+    "ru": "Не удалось построить предпросмотр: "
+  },
+  "snapSection": {
+    "en": "Snapshots & Rollback",
+    "ru": "Снимки и откат"
+  },
+  "snapHint": {
+    "en": "Snapshots are taken automatically before applying changes; you can also create one manually and roll back anytime.",
+    "ru": "Снимки создаются автоматически перед применением изменений; можно создать снимок вручную и откатиться в любой момент."
+  },
+  "snapCreate": {
+    "en": "Create snapshot",
+    "ru": "Создать снимок"
+  },
+  "snapCreating": {
+    "en": "Creating…",
+    "ru": "Создание…"
+  },
+  "snapCreated": {
+    "en": "Snapshot created",
+    "ru": "Снимок создан"
+  },
+  "snapEmpty": {
+    "en": "No snapshots yet",
+    "ru": "Снимков пока нет"
+  },
+  "snapListFail": {
+    "en": "Failed to load snapshots: ",
+    "ru": "Не удалось загрузить снимки: "
+  },
+  "snapCreateFail": {
+    "en": "Failed to create snapshot: ",
+    "ru": "Не удалось создать снимок: "
+  },
+  "snapRestore": {
+    "en": "Restore",
+    "ru": "Восстановить"
+  },
+  "snapRestoring": {
+    "en": "Restoring…",
+    "ru": "Восстановление…"
+  },
+  "snapRestored": {
+    "en": "Restored — restart to apply",
+    "ru": "Восстановлено — перезапустите для вступления в силу"
+  },
+  "snapRestoreFail": {
+    "en": "Failed to restore: ",
+    "ru": "Не удалось восстановить: "
+  },
+  "snapRestoreConfirm": {
+    "en": "Confirm restore",
+    "ru": "Подтвердите восстановление"
+  },
+  "snapRestoreConfirmText": {
+    "en": "Restoring overwrites the current plugins and configuration from the snapshot; this cannot be undone (create a new snapshot first if unsure).",
+    "ru": "Восстановление перезапишет текущие плагины и конфигурацию из снимка; отменить это нельзя (если сомневаетесь, сначала создайте новый снимок)."
+  },
+  "snapFiles": {
+    "en": "files",
+    "ru": "файлов"
+  },
+  "snapDelete": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "snapDeleting": {
+    "en": "Deleting…",
+    "ru": "Удаление…"
+  },
+  "snapDeleted": {
+    "en": "Snapshot deleted",
+    "ru": "Снимок удалён"
+  },
+  "snapDeleteFail": {
+    "en": "Failed to delete snapshot: ",
+    "ru": "Не удалось удалить снимок: "
+  },
+  "snapDeleteConfirm": {
+    "en": "Confirm delete",
+    "ru": "Подтвердите удаление"
+  },
+  "snapDeleteConfirmText": {
+    "en": "This snapshot cannot be recovered after deletion.",
+    "ru": "После удаления этот снимок восстановить нельзя."
+  },
+  "marketNoToggle": {
+    "en": "The market itself cannot be disabled",
+    "ru": "Сам Маркет отключить нельзя"
+  },
+  "hostDependencyWarning": {
+    "en": "A plugin lists packages that DSH already provides, so two copies may clash (declaration only — not confirmed):",
+    "ru": "Плагин перечисляет пакеты, которые DSH уже предоставляет, поэтому две копии могут конфликтовать (только по декларации — не подтверждено):"
+  },
+  "hostDependencyMore": {
+    "en": "{0} more omitted",
+    "ru": "Ещё {0} скрыто"
+  },
+  "recoveryTitle": {
+    "en": "Boot failed — adjust plugins",
+    "ru": "Сбой загрузки — настройте плагины"
+  },
+  "recoveryLead": {
+    "en": "This restart never came up, and dsh has exited. Tick the plugins to enable at the next start; the ones this boot blamed are marked in red and left unticked.",
+    "ru": "Этот перезапуск не состоялся, и dsh завершился. Отметьте плагины, которые нужно включить при следующем запуске; те, на которые указала эта загрузка, помечены красным и оставлены снятыми."
+  },
+  "recoveryOption": {
+    "en": "Adjust plugins",
+    "ru": "Настроить плагины"
+  },
+  "recoveryBanner": {
+    "en": "Boot failed: ",
+    "ru": "Сбой загрузки: "
+  },
+  "recoveryOpening": {
+    "en": "Reading the failure details…",
+    "ru": "Чтение сведений о сбое…"
+  },
+  "recoveryNoSummary": {
+    "en": "The log does not say why",
+    "ru": "В журнале причина не указана"
+  },
+  "recoveryRawLog": {
+    "en": "The raw dsh output (tail)",
+    "ru": "Необработанный вывод dsh (конец)"
+  },
+  "recoveryBlamedHint": {
+    "en": "The plugins marked in red failed during this boot; unticking them disables them on the next start.",
+    "ru": "Плагины, помеченные красным, не сработали при этой загрузке; если снять их отметку, они будут выключены при следующем запуске."
+  },
+  "recoveryNoBlameHint": {
+    "en": "The log named no plugin in particular; below is what can be adjusted, as it stands now.",
+    "ru": "В журнале не назван конкретный плагин; ниже — что можно настроить в текущем состоянии."
+  },
+  "recoveryCarrier": {
+    "en": "disables others",
+    "ru": "выключает другие"
+  },
+  "recoveryNotToggleable": {
+    "en": "cannot be switched here",
+    "ru": "здесь не переключается"
+  },
+  "recoveryUnmatched": {
+    "en": "Named by DSH but not switchable here: ",
+    "ru": "Указаны в DSH, но переключить здесь нельзя: "
+  },
+  "recoveryLogPath": {
+    "en": "Full log: ",
+    "ru": "Полный журнал: "
+  },
+  "recoveryApply": {
+    "en": "Save and restart",
+    "ru": "Сохранить и перезапустить"
+  },
+  "recoveryApplying": {
+    "en": "Saving and restarting…",
+    "ru": "Сохранение и перезапуск…"
+  },
+  "recoveryStandalone": {
+    "en": "Open the standalone recovery page",
+    "ru": "Открыть отдельную страницу восстановления"
+  },
+  "recoveryRestarting": {
+    "en": "Restarting: this page reloads once dsh is up; if it fails again you come back here with the new error.",
+    "ru": "Перезапуск: страница обновится, когда dsh запустится; если снова не удастся, вы вернётесь сюда с новой ошибкой."
+  },
+  "recoveryApplyFailed": {
+    "en": "Could not save: ",
+    "ru": "Не удалось сохранить: "
+  },
+  "recoveryWriteFailed": {
+    "en": "The last choice was not saved in full, so nothing was restarted: ",
+    "ru": "Последний выбор сохранён не полностью, поэтому перезапуск не выполнен: "
+  },
+  "recoveryTimeout": {
+    "en": "Timed out waiting for DeepSeek Harness to start. \"Adjust plugins\" can tell you whether one of them is what stops it.",
+    "ru": "Истекло время ожидания запуска DeepSeek Harness. «Настроить плагины» покажет, не мешает ли запуску один из них."
+  }
+}

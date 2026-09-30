@@ -1,0 +1,750 @@
+{
+  "panel": {
+    "en": "Automation tasks",
+    "ru": "Задачи автоматизации"
+  },
+  "title": {
+    "en": "Automation tasks",
+    "ru": "Задачи автоматизации"
+  },
+  "new.action": {
+    "en": "New",
+    "ru": "Создать"
+  },
+  "list.label": {
+    "en": "Task catalog",
+    "ru": "Каталог задач"
+  },
+  "list.nextPrefix": {
+    "en": "Next scheduled time: ",
+    "ru": "Следующее время запуска: "
+  },
+  "list.loading": {
+    "en": "Loading tasks…",
+    "ru": "Загрузка задач…"
+  },
+  "list.error": {
+    "en": "Could not load tasks.",
+    "ru": "Не удалось загрузить задачи."
+  },
+  "list.retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "list.empty": {
+    "en": "No tasks yet. Tasks created in your sessions appear here.",
+    "ru": "Задач пока нет. Задачи, созданные в ваших сессиях, появятся здесь."
+  },
+  "list.emptyInactive": {
+    "en": "No inactive automation tasks",
+    "ru": "Нет неактивных задач автоматизации"
+  },
+  "list.noMatches": {
+    "en": "No matching tasks",
+    "ru": "Нет подходящих задач"
+  },
+  "search.label": {
+    "en": "Search tasks",
+    "ru": "Поиск задач"
+  },
+  "search.placeholder": {
+    "en": "Search automation tasks",
+    "ru": "Поиск задач автоматизации"
+  },
+  "search.clear": {
+    "en": "Clear search",
+    "ru": "Очистить поиск"
+  },
+  "empty.action": {
+    "en": "New automation task",
+    "ru": "Новая задача автоматизации"
+  },
+  "statusFilter.label": {
+    "en": "Task status",
+    "ru": "Состояние задачи"
+  },
+  "statusFilter.all": {
+    "en": "All",
+    "ru": "Все"
+  },
+  "status.active": {
+    "en": "Enabled",
+    "ru": "Включено"
+  },
+  "status.inactive": {
+    "en": "Inactive",
+    "ru": "Неактивно"
+  },
+  "detail.label": {
+    "en": "Task details",
+    "ru": "Детали задачи"
+  },
+  "detail.close": {
+    "en": "Close details",
+    "ru": "Закрыть детали"
+  },
+  "detail.more": {
+    "en": "Automation task actions",
+    "ru": "Действия с задачей автоматизации"
+  },
+  "detail.nextRun": {
+    "en": "Next run",
+    "ru": "Следующий запуск"
+  },
+  "detail.tabs": {
+    "en": "Task detail views",
+    "ru": "Разделы задачи"
+  },
+  "detail.rule": {
+    "en": "Rules",
+    "ru": "Правила"
+  },
+  "detail.records": {
+    "en": "Delivery records",
+    "ru": "Записи доставки"
+  },
+  "delivery.empty": {
+    "en": "No delivery record available",
+    "ru": "Запись о доставке недоступна"
+  },
+  "delivery.loading": {
+    "en": "Loading delivery records…",
+    "ru": "Загрузка записей доставки…"
+  },
+  "delivery.error": {
+    "en": "Could not load delivery records.",
+    "ru": "Не удалось загрузить записи доставки."
+  },
+  "delivery.notFound": {
+    "en": "This task is no longer available.",
+    "ru": "Эта задача больше недоступна."
+  },
+  "delivery.cursorError": {
+    "en": "Records were updated.",
+    "ru": "Записи были обновлены."
+  },
+  "delivery.retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "delivery.refresh": {
+    "en": "Refresh",
+    "ru": "Обновить"
+  },
+  "delivery.loadMore": {
+    "en": "Load more",
+    "ru": "Загрузить ещё"
+  },
+  "delivery.expand": {
+    "en": "Expand",
+    "ru": "Развернуть"
+  },
+  "delivery.collapse": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "delivery.pruned": {
+    "en": "Earlier delivery records have been cleared",
+    "ru": "Прежние записи доставки удалены"
+  },
+  "delivery.retention": {
+    "en": "Retention rules",
+    "ru": "Правила хранения"
+  },
+  "delivery.retentionBounds": {
+    "en": "Each task keeps up to {records} delivery records from the last {days} days.",
+    "ru": "Каждая задача хранит до {records} записей доставки за последние {days} дн."
+  },
+  "delivery.retentionExplanation": {
+    "en": "When a new record is saved, older records outside these limits are cleared automatically. Clearing records does not stop the task.",
+    "ru": "При сохранении новой записи старые записи за пределами этих ограничений удаляются автоматически. Удаление записей не останавливает задачу."
+  },
+  "detail.name": {
+    "en": "Automation task name",
+    "ru": "Название задачи автоматизации"
+  },
+  "detail.instruction": {
+    "en": "Automation task instruction",
+    "ru": "Инструкция задачи автоматизации"
+  },
+  "detail.status": {
+    "en": "Status",
+    "ru": "Состояние"
+  },
+  "detail.next": {
+    "en": "Next scheduled time",
+    "ru": "Следующее время запуска"
+  },
+  "detail.frequency": {
+    "en": "Frequency",
+    "ru": "Частота"
+  },
+  "detail.id": {
+    "en": "Task ID",
+    "ru": "ID задачи"
+  },
+  "detail.session": {
+    "en": "Linked session",
+    "ru": "Связанная сессия"
+  },
+  "detail.openSession": {
+    "en": "Linked session: open original session",
+    "ru": "Связанная сессия: открыть исходную сессию"
+  },
+  "detail.openSessionTitle": {
+    "en": "Linked session {title}: open original session",
+    "ru": "Связанная сессия {title}: открыть исходную сессию"
+  },
+  "detail.sessionLoading": {
+    "en": "Loading original session information.",
+    "ru": "Загрузка данных исходной сессии."
+  },
+  "detail.sessionArchived": {
+    "en": "The original session is archived.",
+    "ru": "Исходная сессия в архиве."
+  },
+  "detail.sessionUnavailable": {
+    "en": "The original session is unavailable.",
+    "ru": "Исходная сессия недоступна."
+  },
+  "detail.missing": {
+    "en": "Task unavailable. It may have been deleted.",
+    "ru": "Задача недоступна. Возможно, она удалена."
+  },
+  "delivery.label": {
+    "en": "Saved delivery record",
+    "ru": "Сохранённая запись доставки"
+  },
+  "frequency.once": {
+    "en": "Once",
+    "ru": "Один раз"
+  },
+  "frequency.every": {
+    "en": "Every {value} {unit}",
+    "ru": "Повтор: {value} {unit}"
+  },
+  "time.locale": {
+    "en": "en",
+    "ru": "en"
+  },
+  "time.utcPrefix": {
+    "en": "UTC",
+    "ru": "UTC"
+  },
+  "frequency.daily": {
+    "en": "Daily at {time} ({timeZone})",
+    "ru": "Ежедневно в {time} ({timeZone})"
+  },
+  "frequency.dailyLocal": {
+    "en": "Daily at {time}",
+    "ru": "Ежедневно в {time}"
+  },
+  "frequency.weekly": {
+    "en": "Weekly on {weekdays} at {time} ({timeZone})",
+    "ru": "Еженедельно: {weekdays} в {time} ({timeZone})"
+  },
+  "frequency.weeklyLocal": {
+    "en": "Weekly on {weekdays} at {time}",
+    "ru": "Еженедельно: {weekdays} в {time}"
+  },
+  "frequency.cron": {
+    "en": "Cron {expression} ({timeZone})",
+    "ru": "Cron {expression} ({timeZone})"
+  },
+  "frequency.cronLocal": {
+    "en": "Cron {expression}",
+    "ru": "Cron {expression}"
+  },
+  "frequency.cronRule": {
+    "en": "{rule} ({timeZone})",
+    "ru": "{rule} ({timeZone})"
+  },
+  "cron.list.join": {
+    "en": ", ",
+    "ru": ", "
+  },
+  "cron.part.join": {
+    "en": " ",
+    "ru": " "
+  },
+  "cron.weekday.name": {
+    "en": "{weekday}",
+    "ru": "{weekday}"
+  },
+  "cron.weekday.range": {
+    "en": "{from}–{to}",
+    "ru": "{from}–{to}"
+  },
+  "cron.months": {
+    "en": " in {months}",
+    "ru": " (месяцы: {months})"
+  },
+  "cron.day.every": {
+    "en": "Every day{months}",
+    "ru": "Каждый день{months}"
+  },
+  "cron.day.weekdays": {
+    "en": "{weekdays}{months}",
+    "ru": "{weekdays}{months}"
+  },
+  "cron.day.monthDays": {
+    "en": "Day {days} of every month{months}",
+    "ru": "День {days} каждого месяца{months}"
+  },
+  "cron.day.both": {
+    "en": "Day {days} of every month or {weekdays}{months}",
+    "ru": "День {days} каждого месяца или {weekdays}{months}"
+  },
+  "cron.day.bothStarred": {
+    "en": "Day {days} of every month and {weekdays}{months}",
+    "ru": "День {days} каждого месяца и {weekdays}{months}"
+  },
+  "cron.hours.range": {
+    "en": "{from}–{to}",
+    "ru": "{from}–{to}"
+  },
+  "cron.hours.list": {
+    "en": "{hours}",
+    "ru": "{hours}"
+  },
+  "cron.time.everyMinute": {
+    "en": "Every minute",
+    "ru": "Каждую минуту"
+  },
+  "cron.time.everyMinutes": {
+    "en": "Every {step} minutes",
+    "ru": "Каждые {step} минут"
+  },
+  "cron.time.joinedEveryMinute": {
+    "en": "every minute",
+    "ru": "каждую минуту"
+  },
+  "cron.time.joinedEveryMinutes": {
+    "en": "every {step} minutes",
+    "ru": "каждые {step} минут"
+  },
+  "cron.time.everyHour": {
+    "en": "Every hour",
+    "ru": "Каждый час"
+  },
+  "cron.time.joinedEveryHour": {
+    "en": "every hour",
+    "ru": "каждый час"
+  },
+  "cron.time.everyNHours": {
+    "en": "Every {count} hours",
+    "ru": "Каждые {count} часов"
+  },
+  "cron.time.joinedEveryNHours": {
+    "en": "every {count} hours",
+    "ru": "каждые {count} часов"
+  },
+  "cron.time.hourlyAt": {
+    "en": "Every hour at minute {minutes}",
+    "ru": "Каждый час в минуты {minutes}"
+  },
+  "cron.time.joinedHourlyAt": {
+    "en": "every hour at minute {minutes}",
+    "ru": "каждый час в минуты {minutes}"
+  },
+  "cron.time.hoursEveryMinute": {
+    "en": "every minute during hours {hours}",
+    "ru": "каждую минуту в часы {hours}"
+  },
+  "cron.time.hoursEveryMinutes": {
+    "en": "every {step} minutes during hours {hours}",
+    "ru": "каждые {step} минут в часы {hours}"
+  },
+  "cron.time.at": {
+    "en": "at {times}",
+    "ru": "в {times}"
+  },
+  "cron.time.hoursAt": {
+    "en": "at minute {minutes} of hours {hours}",
+    "ru": "в минуты {minutes} часов {hours}"
+  },
+  "frequency.weekday.join": {
+    "en": ", ",
+    "ru": ", "
+  },
+  "frequency.weekday.1": {
+    "en": "Mon",
+    "ru": "Пн"
+  },
+  "frequency.weekday.2": {
+    "en": "Tue",
+    "ru": "Вт"
+  },
+  "frequency.weekday.3": {
+    "en": "Wed",
+    "ru": "Ср"
+  },
+  "frequency.weekday.4": {
+    "en": "Thu",
+    "ru": "Чт"
+  },
+  "frequency.weekday.5": {
+    "en": "Fri",
+    "ru": "Пт"
+  },
+  "frequency.weekday.6": {
+    "en": "Sat",
+    "ru": "Сб"
+  },
+  "frequency.weekday.7": {
+    "en": "Sun",
+    "ru": "Вс"
+  },
+  "unit.day.one": {
+    "en": "day",
+    "ru": "день"
+  },
+  "unit.day.other": {
+    "en": "days",
+    "ru": "дней"
+  },
+  "unit.hour.one": {
+    "en": "hour",
+    "ru": "час"
+  },
+  "unit.hour.other": {
+    "en": "hours",
+    "ru": "часов"
+  },
+  "unit.minute.one": {
+    "en": "minute",
+    "ru": "минуту"
+  },
+  "unit.minute.other": {
+    "en": "minutes",
+    "ru": "минут"
+  },
+  "unit.second.one": {
+    "en": "second",
+    "ru": "секунду"
+  },
+  "unit.second.other": {
+    "en": "seconds",
+    "ru": "секунд"
+  },
+  "relative.now": {
+    "en": "Due now",
+    "ru": "Сейчас"
+  },
+  "relative.future": {
+    "en": "in {value} {unit}",
+    "ru": "через {value} {unit}"
+  },
+  "relative.overdue": {
+    "en": "{value} {unit} overdue",
+    "ru": "Просрочено на {value} {unit}"
+  },
+  "timing.date": {
+    "en": "Date",
+    "ru": "Дата"
+  },
+  "timing.time": {
+    "en": "Time",
+    "ru": "Время"
+  },
+  "timing.hour": {
+    "en": "Hour",
+    "ru": "Час"
+  },
+  "timing.minute": {
+    "en": "Minute",
+    "ru": "Минута"
+  },
+  "timing.second": {
+    "en": "Second",
+    "ru": "Секунда"
+  },
+  "timing.prevMonth": {
+    "en": "Previous month",
+    "ru": "Предыдущий месяц"
+  },
+  "timing.nextMonth": {
+    "en": "Next month",
+    "ru": "Следующий месяц"
+  },
+  "timing.zone": {
+    "en": "Time zone",
+    "ru": "Часовой пояс"
+  },
+  "timing.zoneSearch": {
+    "en": "Search by UTC offset, IANA ID, or city",
+    "ru": "Поиск по смещению UTC, IANA ID или городу"
+  },
+  "timing.zoneNoResults": {
+    "en": "No matching time zones",
+    "ru": "Нет подходящих часовых поясов"
+  },
+  "timing.interval": {
+    "en": "Repeat every",
+    "ru": "Повторять каждые"
+  },
+  "timing.intervalIncrease": {
+    "en": "Increase interval",
+    "ru": "Увеличить интервал"
+  },
+  "timing.intervalDecrease": {
+    "en": "Decrease interval",
+    "ru": "Уменьшить интервал"
+  },
+  "timing.unit.hour": {
+    "en": "hours",
+    "ru": "часов"
+  },
+  "timing.unit.minute": {
+    "en": "minutes",
+    "ru": "минут"
+  },
+  "timing.unit.second": {
+    "en": "seconds",
+    "ru": "секунд"
+  },
+  "timing.intervalHint.hour": {
+    "en": "At least 1 hour. The interval counts from task creation or the last rule change and is independent of time zones.",
+    "ru": "Не менее 1 часа. Интервал отсчитывается от создания задачи или последнего изменения правила и не зависит от часовых поясов."
+  },
+  "timing.intervalHint.minute": {
+    "en": "At least 1 minute. The interval counts from task creation or the last rule change and is independent of time zones.",
+    "ru": "Не менее 1 минуты. Интервал отсчитывается от создания задачи или последнего изменения правила и не зависит от часовых поясов."
+  },
+  "timing.intervalHint.second": {
+    "en": "At least 60 seconds. The interval counts from task creation or the last rule change and is independent of time zones.",
+    "ru": "Не менее 60 секунд. Интервал отсчитывается от создания задачи или последнего изменения правила и не зависит от часовых поясов."
+  },
+  "timing.zoneNoStored": {
+    "en": "A one-time task stores only its target moment, not a time zone. The date and time are interpreted in the selected time zone.",
+    "ru": "Разовая задача хранит только момент запуска, а не часовой пояс. Дата и время интерпретируются в выбранном часовом поясе."
+  },
+  "timing.inactive": {
+    "en": "Inactive tasks are read-only. Their timing cannot be edited.",
+    "ru": "Неактивные задачи доступны только для чтения. Их время изменить нельзя."
+  },
+  "timing.conflict": {
+    "en": "This task changed while you were editing. Your draft is retained. Cancel and reopen after refresh to edit the latest rule.",
+    "ru": "Задача изменилась, пока вы её редактировали. Черновик сохранён. Отмените и откройте заново после обновления, чтобы изменить актуальное правило."
+  },
+  "timing.notFound": {
+    "en": "This task is no longer available. Your draft is retained; cancel to close the editor.",
+    "ru": "Эта задача больше недоступна. Черновик сохранён; нажмите «Отмена», чтобы закрыть редактор."
+  },
+  "timing.invalid": {
+    "en": "Enter a valid date and time, or check the timing fields.",
+    "ru": "Укажите корректные дату и время или проверьте поля расписания."
+  },
+  "timing.invalidZone": {
+    "en": "Enter a valid IANA time zone, for example Asia/Shanghai.",
+    "ru": "Укажите корректный часовой пояс IANA, например Asia/Shanghai."
+  },
+  "timing.notFuture": {
+    "en": "Choose a date and time in the future.",
+    "ru": "Выберите дату и время в будущем."
+  },
+  "timing.invalidInterval": {
+    "en": "Enter an interval of at least 1 minute.",
+    "ru": "Укажите интервал не менее 1 минуты."
+  },
+  "timing.invalidInterval.hour": {
+    "en": "Enter an interval of at least 1 hour.",
+    "ru": "Укажите интервал не менее 1 часа."
+  },
+  "timing.invalidInterval.minute": {
+    "en": "Enter an interval of at least 1 minute.",
+    "ru": "Укажите интервал не менее 1 минуты."
+  },
+  "timing.invalidInterval.second": {
+    "en": "Enter an interval of at least 60 seconds.",
+    "ru": "Укажите интервал не менее 60 секунд."
+  },
+  "timing.error": {
+    "en": "Could not confirm the timing update. Your draft is retained. Check the task before retrying.",
+    "ru": "Не удалось подтвердить обновление расписания. Черновик сохранён. Проверьте задачу перед повторной попыткой."
+  },
+  "rule.title": {
+    "en": "Run time",
+    "ru": "Время запуска"
+  },
+  "rule.repeat": {
+    "en": "Repeat",
+    "ru": "Повтор"
+  },
+  "rule.weekday": {
+    "en": "Weekday",
+    "ru": "День недели"
+  },
+  "rule.weekdayOption": {
+    "en": "Weekday {weekday}",
+    "ru": "День недели {weekday}"
+  },
+  "rule.unsaved": {
+    "en": "Unsaved changes",
+    "ru": "Несохранённые изменения"
+  },
+  "rule.save": {
+    "en": "Save changes",
+    "ru": "Сохранить изменения"
+  },
+  "rule.saving": {
+    "en": "Saving…",
+    "ru": "Сохранение…"
+  },
+  "rule.cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "rule.invalidTitle": {
+    "en": "Enter a task name of at most 120 characters.",
+    "ru": "Введите название задачи не длиннее 120 символов."
+  },
+  "rule.invalidPrompt": {
+    "en": "Enter a task instruction.",
+    "ru": "Введите инструкцию задачи."
+  },
+  "rule.once": {
+    "en": "Once",
+    "ru": "Один раз"
+  },
+  "rule.everyMinutes": {
+    "en": "Every N minutes",
+    "ru": "Каждые N минут"
+  },
+  "rule.everyHours": {
+    "en": "Every N hours",
+    "ru": "Каждые N часов"
+  },
+  "rule.everySeconds": {
+    "en": "Every N seconds",
+    "ru": "Каждые N секунд"
+  },
+  "rule.daily": {
+    "en": "Every day",
+    "ru": "Каждый день"
+  },
+  "rule.weekdays": {
+    "en": "Monday to Friday",
+    "ru": "С понедельника по пятницу"
+  },
+  "rule.weekly": {
+    "en": "Weekly",
+    "ru": "Еженедельно"
+  },
+  "rule.cron": {
+    "en": "Custom",
+    "ru": "Пользовательский"
+  },
+  "rule.cronLabel": {
+    "en": "Cron expression",
+    "ru": "Cron-выражение"
+  },
+  "rule.cronInvalid": {
+    "en": "Enter a five-field cron expression, for example 0 9 * * 1-5.",
+    "ru": "Введите cron-выражение из пяти полей, например 0 9 * * 1-5."
+  },
+  "cronForm.frequency": {
+    "en": "Frequency",
+    "ru": "Частота"
+  },
+  "cronForm.monthly": {
+    "en": "Monthly",
+    "ru": "Ежемесячно"
+  },
+  "cronForm.weekly": {
+    "en": "Weekly",
+    "ru": "Еженедельно"
+  },
+  "cronForm.daily": {
+    "en": "Every day",
+    "ru": "Каждый день"
+  },
+  "cronForm.dates": {
+    "en": "On dates",
+    "ru": "По числам"
+  },
+  "cronForm.dateOption": {
+    "en": "Day {day}",
+    "ru": "День {day}"
+  },
+  "cronForm.atMinute": {
+    "en": "At minute",
+    "ru": "В минуту"
+  },
+  "cronForm.minuteIncrease": {
+    "en": "Increase minute",
+    "ru": "Увеличить минуту"
+  },
+  "cronForm.minuteDecrease": {
+    "en": "Decrease minute",
+    "ru": "Уменьшить минуту"
+  },
+  "rule.zone.system": {
+    "en": " (system)",
+    "ru": " (системный)"
+  },
+  "rule.error.conflict": {
+    "en": "This task changed before the update was saved. The row shows the saved rule; try again.",
+    "ru": "Задача изменилась до сохранения обновления. В строке показано сохранённое правило; попробуйте ещё раз."
+  },
+  "rule.error.notFound": {
+    "en": "This task is no longer available.",
+    "ru": "Эта задача больше недоступна."
+  },
+  "rule.error.unknown": {
+    "en": "Could not confirm the rule update. The row shows the saved rule.",
+    "ru": "Не удалось подтвердить обновление правила. В строке показано сохранённое правило."
+  },
+  "delete.action": {
+    "en": "Delete task",
+    "ru": "Удалить задачу"
+  },
+  "delete.title": {
+    "en": "Delete this task?",
+    "ru": "Удалить эту задачу?"
+  },
+  "delete.description": {
+    "en": "This stops the task from triggering and deletes it together with its saved delivery records. The original session and its messages remain; queued messages are not withdrawn.",
+    "ru": "Задача перестанет запускаться и будет удалена вместе с сохранёнными записями доставки. Исходная сессия и её сообщения останутся; сообщения в очереди не отзываются."
+  },
+  "delete.confirm": {
+    "en": "Confirm deletion",
+    "ru": "Подтвердить удаление"
+  },
+  "delete.cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "delete.close": {
+    "en": "Close deletion confirmation",
+    "ru": "Закрыть подтверждение удаления"
+  },
+  "delete.pending": {
+    "en": "Deleting…",
+    "ru": "Удаление…"
+  },
+  "toast.deleted": {
+    "en": "Task deleted.",
+    "ru": "Задача удалена."
+  },
+  "toast.deleteFailed": {
+    "en": "Could not delete the task.",
+    "ru": "Не удалось удалить задачу."
+  },
+  "card.open": {
+    "en": "Open",
+    "ru": "Открыть"
+  },
+  "card.openLabel": {
+    "en": "Open task details: {title}",
+    "ru": "Открыть детали задачи: {title}"
+  },
+  "card.deleted": {
+    "en": "Deleted",
+    "ru": "Удалено"
+  },
+  "tool.invoked": {
+    "en": "Invoked {name}",
+    "ru": "Вызов: {name}"
+  }
+}

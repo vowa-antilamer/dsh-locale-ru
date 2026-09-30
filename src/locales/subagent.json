@@ -1,0 +1,158 @@
+{
+  "duration.seconds": {
+    "en": "{seconds}s",
+    "ru": "{seconds} с"
+  },
+  "duration.minutes": {
+    "en": "{minutes}m {seconds}s",
+    "ru": "{minutes} мин {seconds} с"
+  },
+  "duration.hours": {
+    "en": "{hours}h {minutes}m {seconds}s",
+    "ru": "{hours} ч {minutes} мин {seconds} с"
+  },
+  "duration.days": {
+    "en": "{days}d",
+    "ru": "{days} дн"
+  },
+  "duration.daysHours": {
+    "en": "{days}d {hours}h",
+    "ru": "{days} дн {hours} ч"
+  },
+  "duration.months": {
+    "en": "~{months}mo",
+    "ru": "~{months} мес"
+  },
+  "duration.monthsDays": {
+    "en": "~{months}mo {days}d",
+    "ru": "~{months} мес {days} дн"
+  },
+  "duration.years": {
+    "en": "~{years}y",
+    "ru": "~{years} г"
+  },
+  "duration.yearsMonths": {
+    "en": "~{years}y {months}mo",
+    "ru": "~{years} г {months} мес"
+  },
+  "duration.exactDays": {
+    "en": "{days}d {hours}h {minutes}m {seconds}s",
+    "ru": "{days} дн {hours} ч {minutes} мин {seconds} с"
+  },
+  "duration.exactTitle": {
+    "en": "Total active duration: {duration}",
+    "ru": "Общая активная длительность: {duration}"
+  },
+  "tokens.thousand": {
+    "en": "{value}K",
+    "ru": "{value} тыс."
+  },
+  "tokens.million": {
+    "en": "{value}M",
+    "ru": "{value} млн"
+  },
+  "tokens.total": {
+    "en": "{value} tok",
+    "ru": "{value} токенов"
+  },
+  "loading.label": {
+    "en": "Loading subagents…",
+    "ru": "Загрузка субагентов…"
+  },
+  "load.error": {
+    "en": "Unable to load subagents",
+    "ru": "Не удалось загрузить субагентов"
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "mode.oneShot": {
+    "en": "one-shot",
+    "ru": "одноразовый"
+  },
+  "mode.continuable": {
+    "en": "continuable",
+    "ru": "продолжаемый"
+  },
+  "mode.unknown": {
+    "en": "unknown mode",
+    "ru": "неизвестный режим"
+  },
+  "readonly.unknown.body": {
+    "en": "Read the child session to determine whether it can be continued.",
+    "ru": "Прочитайте дочернюю сессию, чтобы определить, можно ли её продолжить."
+  },
+  "activity.running": {
+    "en": "running",
+    "ru": "выполняется"
+  },
+  "activity.completed": {
+    "en": "completed",
+    "ru": "завершён"
+  },
+  "activity.inactive": {
+    "en": "not running",
+    "ru": "не выполняется"
+  },
+  "branch.collapse": {
+    "en": "Collapse {label} descendants",
+    "ru": "Свернуть потомков {label}"
+  },
+  "branch.expand": {
+    "en": "Expand {label} descendants",
+    "ru": "Развернуть потомков {label}"
+  },
+  "count.total.one": {
+    "en": "{count} subagent",
+    "ru": "Субагентов: {count}"
+  },
+  "count.total.other": {
+    "en": "{count} subagents",
+    "ru": "Субагентов: {count}"
+  },
+  "count.running.one": {
+    "en": "{count} subagent running",
+    "ru": "Субагентов выполняется: {count}"
+  },
+  "count.running.other": {
+    "en": "{count} subagents running",
+    "ru": "Субагентов выполняется: {count}"
+  },
+  "switcher.aria": {
+    "en": "Switch subagent: {title}",
+    "ru": "Переключить субагента: {title}"
+  },
+  "tree.aria": {
+    "en": "Subagent sessions",
+    "ru": "Сессии субагентов"
+  },
+  "open.sidebar": {
+    "en": "Open in sidebar",
+    "ru": "Открыть в боковой панели"
+  },
+  "open.sidebar.aria": {
+    "en": "Open {label} in sidebar",
+    "ru": "Открыть {label} в боковой панели"
+  },
+  "sidebar.chat": {
+    "en": "Chat",
+    "ru": "Чат"
+  },
+  "readonly.oneShot.title": {
+    "en": "One-shot subagent record",
+    "ru": "Запись одноразового субагента"
+  },
+  "readonly.title": {
+    "en": "This subagent is read-only for now",
+    "ru": "Этот субагент пока доступен только для чтения"
+  },
+  "readonly.oneShot.body": {
+    "en": "One-shot tasks do not accept follow-ups; review the full execution record here.",
+    "ru": "Одноразовые задачи не принимают продолжения; здесь можно изучить полную запись выполнения."
+  },
+  "readonly.body": {
+    "en": "The parent session is offline; reopen it to continue sending messages.",
+    "ru": "Родительская сессия не в сети; откройте её снова, чтобы отправлять сообщения."
+  }
+}

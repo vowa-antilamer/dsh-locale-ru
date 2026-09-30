@@ -1,0 +1,166 @@
+{
+  "modeExplanation": {
+    "en": "Mode details",
+    "ru": "Сведения о режиме"
+  },
+  "howToUse": {
+    "en": "How to use",
+    "ru": "Как использовать"
+  },
+  "guideSections": {
+    "en": "Guide sections",
+    "ru": "Разделы руководства"
+  },
+  "guideExampleTask": {
+    "en": "Example task",
+    "ru": "Пример задачи"
+  },
+  "guideCopy": {
+    "en": "Copy",
+    "ru": "Копировать"
+  },
+  "guideCopied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "guideFootnotes": {
+    "en": "Footnotes",
+    "ru": "Сноски"
+  },
+  "guideStandardIntro": {
+    "en": "Choose Standard mode when starting a new task. Describe what you want to accomplish, point to the relevant files, and explain how to check the result.",
+    "ru": "Выберите стандартный режим при запуске новой задачи. Опишите, чего нужно достичь, укажите нужные файлы и объясните, как проверить результат."
+  },
+  "guideStandardExplanation": {
+    "en": "### How it works\n\nThe agent calls tools directly to read and edit files, search, and run terminal commands. It includes Skills, planning, goals, subagents, workflows, and context compaction.\n\n### When to choose it\n\nStart here for everyday coding, file work, and research. Standard mode can also write scripts and process files in batches. PTC changes how tool calls are organized; it is not required for batch tasks.",
+    "ru": "### Как это работает\n\nАгент напрямую вызывает инструменты, чтобы читать и изменять файлы, искать и выполнять команды в терминале. В режим входят навыки, планирование, цели, субагенты, воркфлоу и сжатие контекста.\n\n### Когда выбирать\n\nНачните с него для повседневной разработки, работы с файлами и исследований. Стандартный режим также умеет писать скрипты и пакетно обрабатывать файлы. PTC меняет организацию вызовов инструментов; для пакетных задач он не обязателен."
+  },
+  "guideStandardUsage": {
+    "en": "### Fix a bug\n\n> Find out why submitting the search form twice makes the results disappear. Fix it and run the relevant tests. Explain the cause and what changed.\n\nExpected output: a code change, the relevant test results, and an explanation of the cause.\n\n### Organize project notes\n\n> Read the Markdown notes in this project. Summarize the agreed decisions and open questions, with links to the source files.\n\nExpected output: a summary with references that you can check against the original notes.",
+    "ru": "### Исправить ошибку\n\n> Выясни, почему после повторной отправки формы поиска результаты исчезают. Исправь это и запусти нужные тесты. Объясни причину и что изменилось.\n\nОжидаемый результат: изменение кода, результаты соответствующих тестов и объяснение причины.\n\n### Упорядочить заметки проекта\n\n> Прочитай заметки в формате Markdown в этом проекте. Кратко изложи принятые решения и открытые вопросы со ссылками на исходные файлы.\n\nОжидаемый результат: сводка со ссылками, которую можно сверить с исходными заметками."
+  },
+  "guidePtcIntro": {
+    "en": "Choose PTC mode when starting a new task. Specify the input files, processing rules, and output format. The agent writes the code.",
+    "ru": "Выберите режим PTC при запуске новой задачи. Укажите входные файлы, правила обработки и формат вывода. Код напишет агент."
+  },
+  "guidePtcExplanation": {
+    "en": "### How tools are called\n\nPTC means Programmatic Tool Calling. In this built-in preset, the agent uses run_code to write a TypeScript program that calls tools through a generated SDK. The program can use loops, conditions, error handling, and concurrent calls where appropriate.\n\n### What reaches the model\n\nTool results first reach the program, which can filter and combine them. The model receives what the program prints or returns; image results are attached separately. Nested tool calls are still recorded and remain subject to tool permissions.\n\n### Compared with Standard mode\n\nBoth modes can handle coding and batch tasks. Standard mode exposes individual tools directly; PTC organizes tool calls in code. The current PTC preset leaves the workflow tool disabled. Speed and token use depend on the task and how the program handles its results.",
+    "ru": "### Как вызываются инструменты\n\nPTC (Programmatic Tool Calling) — это программный вызов инструментов. В этом встроенном пресете агент использует run_code, чтобы написать программу на TypeScript, которая вызывает инструменты через сгенерированный SDK. Программа может применять циклы, условия, обработку ошибок и параллельные вызовы, где это уместно.\n\n### Что попадает в модель\n\nРезультаты инструментов сначала попадают в программу, которая может их отфильтровать и объединить. Модель получает то, что программа напечатала или вернула; результаты-изображения прикрепляются отдельно. Вложенные вызовы инструментов по-прежнему записываются и подчиняются разрешениям на инструменты.\n\n### В сравнении со стандартным режимом\n\nОба режима справляются с разработкой и пакетными задачами. Стандартный режим предоставляет инструменты по отдельности; PTC организует вызовы в коде. В текущем пресете PTC инструмент воркфлоу отключён. Скорость и расход токенов зависят от задачи и того, как программа обрабатывает результаты."
+  },
+  "guidePtcUsage": {
+    "en": "### Check a set of configuration files\n\n> Check all JSON files in configs/. List missing required fields and invalid values against schema.json. Save a CSV with one row per issue. Include unreadable files in the report and keep checking the rest. Leave the original files unchanged.\n\nExpected output: an issue summary and a CSV report. The program can repeat the same checks, handle individual failures, and collect the results.\n\n### Summarize error logs\n\n> Analyze the log files in logs/. Group errors by service and error type. Show the ten most frequent groups and one example from each. Save the full counts to a CSV.\n\nExpected output: the top error groups and a complete count table. Intermediate data can be aggregated in the program before the summary reaches the model.",
+    "ru": "### Проверить набор файлов конфигурации\n\n> Проверь все JSON-файлы в configs/. Перечисли отсутствующие обязательные поля и недопустимые значения согласно schema.json. Сохрани CSV, где одна строка — одна проблема. Включи в отчёт нечитаемые файлы и продолжай проверять остальные. Исходные файлы не меняй.\n\nОжидаемый результат: сводка проблем и отчёт в CSV. Программа может повторять одни и те же проверки, обрабатывать отдельные сбои и собирать результаты.\n\n### Свести в сводку журналы ошибок\n\n> Проанализируй файлы журналов в logs/. Сгруппируй ошибки по службам и типам. Покажи десять самых частых групп и по одному примеру из каждой. Полные счётчики сохрани в CSV.\n\nОжидаемый результат: основные группы ошибок и полная таблица счётчиков. Промежуточные данные можно агрегировать в программе, прежде чем сводка попадёт в модель."
+  },
+  "guideMinimalIntro": {
+    "en": "Choose Minimal mode for a new task. For a comparison, hold the model, permissions, input, and starting workspace state constant across runs.",
+    "ru": "Выберите минимальный режим для новой задачи. Для сравнения держите модель, разрешения, ввод и исходное состояние рабочей области неизменными между запусками."
+  },
+  "guideMinimalExplanation": {
+    "en": "### What is included\n\nOne persistent shell tool and a fixed system prompt. The built-in preset does not load Skills, planning, context compaction, or the standard runtime context.\n\n### When to choose it\n\nUse it as a baseline for experiments and comparisons. It can still read files and execute scripts through shell commands, but offers fewer built-in ways to manage a long task. Fewer tools does not necessarily make it easier for a beginner.",
+    "ru": "### Что входит\n\nОдин постоянный инструмент оболочки и фиксированный системный промпт. Встроенный пресет не загружает навыки, планирование, сжатие контекста и стандартный контекст выполнения.\n\n### Когда выбирать\n\nИспользуйте его как базовый уровень для экспериментов и сравнений. Он всё ещё умеет читать файлы и выполнять скрипты командами оболочки, но даёт меньше встроенных способов вести долгую задачу. Меньшее число инструментов не обязательно облегчает работу новичку."
+  },
+  "guideMinimalUsage": {
+    "en": "### Compare performance on a small bug fix\n\n> Run the tests for this project, find the cause of the failure, and make the smallest fix. Run the relevant tests again and report the result.\n\nRun the same task separately in Standard and Minimal modes from the same starting state. Compare task completion, tool calls, and the resulting changes. Minimal mode performs the work through terminal commands.",
+    "ru": "### Сравнить результат на небольшом исправлении\n\n> Запусти тесты этого проекта, найди причину сбоя и внеси минимальное исправление. Снова запусти нужные тесты и сообщи результат.\n\nВыполните одну и ту же задачу отдельно в стандартном и минимальном режимах из одного исходного состояния. Сравните завершение задачи, вызовы инструментов и получившиеся изменения. Минимальный режим выполняет работу командами терминала."
+  },
+  "guideCordisIntro": {
+    "en": "Choose Creator mode for a new task. Describe the capability you want, where it should appear, and how you will verify it.",
+    "ru": "Выберите режим создателя для новой задачи. Опишите нужную возможность, где она должна появиться и как вы её проверите."
+  },
+  "guideCordisExplanation": {
+    "en": "### What you can create\n\nCreator mode includes the standard task tools plus runtime inspection, persistent plugin management, and guidance for authoring Cordis plugins and agent presets. It can create a plugin that adds a capability or UI, or a preset that combines tools and prompts for a particular job.\n\n### Plugins and modes\n\nA plugin adds capabilities to DSH, such as a tool, a service connection, or a UI entry. A mode is an agent preset that selects tools and defines how the agent works in a task. A plugin can be included in a custom preset.\n\n### How the result takes effect\n\nAsk the agent to install and verify the result, not just generate source code. A plugin may load immediately or require a restart, depending on what it changes. A newly created preset is selected when starting a new task.",
+    "ru": "### Что можно создать\n\nРежим создателя включает стандартные инструменты для задач, а также инспекцию среды выполнения, постоянное управление плагинами и руководство по написанию плагинов Cordis и пресетов агентов. Он может создать плагин, добавляющий возможность или элемент интерфейса, либо пресет, объединяющий инструменты и промпты для конкретной работы.\n\n### Плагины и режимы\n\nПлагин добавляет DSH возможности: инструмент, подключение к службе или элемент интерфейса. Режим — это пресет агента, который выбирает инструменты и определяет, как агент работает над задачей. Плагин можно включить в пользовательский пресет.\n\n### Как результат вступает в силу\n\nПопросите агента установить и проверить результат, а не просто сгенерировать исходный код. Плагин может загрузиться сразу или потребовать перезапуска — в зависимости от того, что он меняет. Новый пресет выбирается при запуске новой задачи."
+  },
+  "guideCordisUsage": {
+    "en": "### Add a UI\n\n> Create a DSH plugin that adds a project notes entry to the sidebar. Let me browse the Markdown files in this workspace and preview a selected note. Install it and verify that the page opens.\n\nExpected output: an installed plugin with a working entry and preview page, plus any remaining activation steps.\n\n### Add a tool\n\n> Create a plugin with a tool that reads this project’s test report and summarizes the failed tests. Register it and verify it with a sample report.\n\nExpected output: a plugin with a callable tool and a verified sample call.\n\n### Create my own mode\n\n> Create a “Code review” mode based on Standard mode. Have it prioritize potential bugs and test gaps, cite file paths and lines, and ask before modifying files. Save it as a selectable preset.\n\nExpected output: a custom preset for new tasks. These review instructions guide the agent; permission settings determine which actions it can execute.",
+    "ru": "### Добавить интерфейс\n\n> Создай плагин DSH, который добавляет пункт «Заметки проекта» в боковую панель. Дай мне просматривать Markdown-файлы в этой рабочей области и предпросмотр выбранной заметки. Установи его и проверь, что страница открывается.\n\nОжидаемый результат: установленный плагин с работающим пунктом и страницей предпросмотра, а также оставшиеся шаги активации.\n\n### Добавить инструмент\n\n> Создай плагин с инструментом, который читает отчёт о тестах этого проекта и пересказывает упавшие тесты. Зарегистрируй его и проверь на образце отчёта.\n\nОжидаемый результат: плагин с вызываемым инструментом и проверенным примером вызова.\n\n### Создать свой режим\n\n> Создай режим «Проверка кода» на основе стандартного режима. Пусть он в первую очередь обращает внимание на потенциальные ошибки и пробелы в тестах, ссылается на пути к файлам и строки и спрашивает разрешение перед изменением файлов. Сохрани его как выбираемый пресет.\n\nОжидаемый результат: пользовательский пресет для новых задач. Эти инструкции по проверке направляют агента; настройки разрешений определяют, какие действия он может выполнять."
+  },
+  "builtInGroup": {
+    "en": "Built-in",
+    "ru": "Встроенные"
+  },
+  "customGroup": {
+    "en": "Custom",
+    "ru": "Пользовательские"
+  },
+  "sectionIntro": {
+    "en": "Choose the agent’s tools and how it works. Use Standard mode for everyday tasks, or Creator mode to add capabilities to DSH.",
+    "ru": "Выберите инструменты агента и то, как он работает. Используйте стандартный режим для повседневных задач или режим создателя, чтобы добавлять возможности в DSH."
+  },
+  "seatHint": {
+    "en": "Choose the agent preset for your new task",
+    "ru": "Выберите пресет агента для новой задачи"
+  },
+  "headerHint": {
+    "en": "The agent preset chosen when this task started",
+    "ru": "Пресет агента, выбранный при запуске этой задачи"
+  },
+  "nav": {
+    "en": "Agent presets",
+    "ru": "Пресеты агентов"
+  },
+  "setDefault": {
+    "en": "Set as new task default",
+    "ru": "Сделать по умолчанию для новых задач"
+  },
+  "view": {
+    "en": "View configuration",
+    "ru": "Просмотреть конфигурацию"
+  },
+  "presetStandardName": {
+    "en": "Standard mode",
+    "ru": "Стандартный режим"
+  },
+  "presetStandardDescription": {
+    "en": "Work with code, files, and information. Suitable for most tasks, with search, editing, terminal commands, and other tools available as needed.",
+    "ru": "Работа с кодом, файлами и информацией. Подходит для большинства задач: поиск, редактирование, команды терминала и другие инструменты доступны по мере необходимости."
+  },
+  "presetPtcName": {
+    "en": "PTC mode",
+    "ru": "Режим PTC"
+  },
+  "presetPtcDescription": {
+    "en": "Includes all Standard mode capabilities. Better suited to tasks that call tools in batches and then filter, organize, deduplicate, count, or summarize the results.",
+    "ru": "Включает все возможности стандартного режима. Лучше подходит для задач, где инструменты вызываются пакетами, а результаты затем фильтруются, упорядочиваются, дедуплицируются, подсчитываются или суммируются."
+  },
+  "presetMinimalName": {
+    "en": "Minimal mode",
+    "ru": "Минимальный режим"
+  },
+  "presetMinimalDescription": {
+    "en": "The agent works using only a terminal tool. Useful for testing and comparing its basic performance.",
+    "ru": "Агент работает только с инструментом терминала. Полезно для проверки и сравнения его базовых возможностей."
+  },
+  "presetCordisName": {
+    "en": "Creator mode",
+    "ru": "Режим создателя"
+  },
+  "presetCordisDescription": {
+    "en": "Customize DSH through conversation. Let the agent write plugins that add features or UI, or combine tools and prompts to create your own mode.",
+    "ru": "Настраивайте DSH в диалоге. Пусть агент пишет плагины, добавляющие функции или интерфейс, либо объединяет инструменты и промпты в ваш собственный режим."
+  },
+  "inUse": {
+    "en": "New task default",
+    "ru": "По умолчанию для новых задач"
+  },
+  "noDescription": {
+    "en": "No description.",
+    "ru": "Без описания."
+  },
+  "brokenBadge": {
+    "en": "Failed to load",
+    "ru": "Не удалось загрузить"
+  },
+  "switchRefused": {
+    "en": "Could not switch to {name}: {reason}",
+    "ru": "Не удалось переключиться на {name}: {reason}"
+  },
+  "close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "creatorDraft": {
+    "en": "Let the agent help me create a preset",
+    "ru": "Помочь создать пресет с агентом"
+  }
+}

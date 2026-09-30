@@ -1,0 +1,74 @@
+{
+  "run.title": {
+    "en": "{name}",
+    "ru": "{name}"
+  },
+  "run.members.one": {
+    "en": "{count} member",
+    "ru": "Участников: {count}"
+  },
+  "run.members.other": {
+    "en": "{count} members",
+    "ru": "Участников: {count}"
+  },
+  "run.empty": {
+    "en": "No members started",
+    "ru": "Ни один участник не запущен"
+  },
+  "phase.unassigned": {
+    "en": "Unphased",
+    "ru": "Без фазы"
+  },
+  "phase.empty": {
+    "en": "Empty phase name",
+    "ru": "Пустое имя фазы"
+  },
+  "statusCount.running": {
+    "en": "Running {count}",
+    "ru": "Выполняется: {count}"
+  },
+  "statusCount.completed": {
+    "en": "Completed {count}",
+    "ru": "Завершено: {count}"
+  },
+  "statusCount.failed": {
+    "en": "Failed {count}",
+    "ru": "С ошибкой: {count}"
+  },
+  "statusCount.cancelled": {
+    "en": "Cancelled {count}",
+    "ru": "Отменено: {count}"
+  },
+  "statusCount.interrupted": {
+    "en": "Interrupted {count}",
+    "ru": "Прервано: {count}"
+  },
+  "member.empty": {
+    "en": "Empty member name",
+    "ru": "Пустое имя участника"
+  },
+  "member.open": {
+    "en": "Open {name}",
+    "ru": "Открыть {name}"
+  },
+  "status.running": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "status.completed": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "status.failed": {
+    "en": "Failed",
+    "ru": "С ошибкой"
+  },
+  "status.cancelled": {
+    "en": "Cancelled",
+    "ru": "Отменено"
+  },
+  "status.interrupted": {
+    "en": "Interrupted",
+    "ru": "Прервано"
+  }
+}

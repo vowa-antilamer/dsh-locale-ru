@@ -1,0 +1,126 @@
+{
+  "error.incomplete": {
+    "en": "Please complete this question first.",
+    "ru": "Сначала ответьте на этот вопрос."
+  },
+  "error.unanswered": {
+    "en": "Please select an option or enter a custom answer.",
+    "ru": "Выберите вариант или введите свой ответ."
+  },
+  "error.unavailable": {
+    "en": "Cannot submit right now; try again in a moment.",
+    "ru": "Сейчас отправить нельзя; попробуйте через минуту."
+  },
+  "error.resubmit": {
+    "en": "The answer did not arrive before work continued; submit it again.",
+    "ru": "Ответ не пришёл до продолжения работы; отправьте его снова."
+  },
+  "status.sent": {
+    "en": "Reply sent; the panel could not close.",
+    "ru": "Ответ отправлен, но панель не закрылась."
+  },
+  "wait.takeTime": {
+    "en": "Take time",
+    "ru": "Дать время"
+  },
+  "wait.countdown": {
+    "en": "Continuing in {seconds}s",
+    "ru": "Продолжение через {seconds} с"
+  },
+  "wait.paused": {
+    "en": "Paused · {seconds}s remaining",
+    "ru": "Пауза · осталось {seconds} с"
+  },
+  "wait.held": {
+    "en": "Waiting until you answer",
+    "ru": "Ожидание вашего ответа"
+  },
+  "wait.continued": {
+    "en": "Work continued — you can still answer",
+    "ru": "Работа продолжена — ответить всё ещё можно"
+  },
+  "review.status": {
+    "en": "Answered",
+    "ru": "Есть ответ"
+  },
+  "review.skipped": {
+    "en": "This question was skipped.",
+    "ru": "Этот вопрос пропущен."
+  },
+  "reply.label": {
+    "en": "Reply to earlier pending questions",
+    "ru": "Ответить на прежние вопросы"
+  },
+  "reply.open": {
+    "en": "Open question details",
+    "ru": "Открыть подробности вопроса"
+  },
+  "reply.close": {
+    "en": "Close question details",
+    "ru": "Закрыть подробности вопроса"
+  },
+  "reply.answerLabel": {
+    "en": "Answer: ",
+    "ru": "Ответ: "
+  },
+  "reply.skipped": {
+    "en": "Skipped",
+    "ru": "Пропущено"
+  },
+  "nav.prev": {
+    "en": "Previous question",
+    "ru": "Предыдущий вопрос"
+  },
+  "nav.next": {
+    "en": "Next question",
+    "ru": "Следующий вопрос"
+  },
+  "nav.minimize": {
+    "en": "Collapse the question card",
+    "ru": "Свернуть карточку вопроса"
+  },
+  "nav.maximize": {
+    "en": "Expand the question card",
+    "ru": "Развернуть карточку вопроса"
+  },
+  "nav.cancel": {
+    "en": "Dismiss all questions",
+    "ru": "Закрыть все вопросы"
+  },
+  "nav.close": {
+    "en": "Close the panel — reopen it from the tool call",
+    "ru": "Закрыть панель — открыть снова можно из вызова инструмента"
+  },
+  "option.recommended": {
+    "en": "Recommended",
+    "ru": "Рекомендуется"
+  },
+  "custom.placeholder": {
+    "en": "Type your answer",
+    "ru": "Введите ответ"
+  },
+  "action.skip": {
+    "en": "Skip",
+    "ru": "Пропустить"
+  },
+  "action.next": {
+    "en": "Next",
+    "ru": "Далее"
+  },
+  "plan.header": {
+    "en": "Plan review",
+    "ru": "Проверка плана"
+  },
+  "plan.approve": {
+    "en": "Approve",
+    "ru": "Утвердить"
+  },
+  "plan.decline": {
+    "en": "Refuse",
+    "ru": "Отклонить"
+  },
+  "plan.discuss": {
+    "en": "Request changes",
+    "ru": "Запросить правки"
+  }
+}

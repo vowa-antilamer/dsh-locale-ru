@@ -1,0 +1,38 @@
+{
+  "appearance.title": {
+    "en": "Appearance",
+    "ru": "Оформление"
+  },
+  "appearance.light": {
+    "en": "Light",
+    "ru": "Светлая"
+  },
+  "appearance.dark": {
+    "en": "Dark",
+    "ru": "Тёмная"
+  },
+  "appearance.system": {
+    "en": "System",
+    "ru": "Системная"
+  },
+  "fontSize.title": {
+    "en": "Font size",
+    "ru": "Размер шрифта"
+  },
+  "fontSize.description": {
+    "en": "Only affects conversation content",
+    "ru": "Влияет только на содержимое диалога"
+  },
+  "fontSize.unit": {
+    "en": "px",
+    "ru": "px"
+  },
+  "fontSize.increase": {
+    "en": "Increase font size",
+    "ru": "Увеличить шрифт"
+  },
+  "fontSize.decrease": {
+    "en": "Decrease font size",
+    "ru": "Уменьшить шрифт"
+  }
+}

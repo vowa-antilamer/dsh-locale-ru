@@ -1,0 +1,1478 @@
+{
+  "shortcut.newline": {
+    "en": "New line",
+    "ru": "Новая строка"
+  },
+  "shortcut.complementary": {
+    "en": "Use the complementary Queue / Steer action",
+    "ru": "Использовать другое действие: Queue или Steer"
+  },
+  "shortcut.slash": {
+    "en": "Open command menu",
+    "ru": "Открыть меню команд"
+  },
+  "shortcut.mention": {
+    "en": "Open reference menu",
+    "ru": "Открыть меню упоминаний"
+  },
+  "hint.plan": {
+    "en": "describe your task to generate plan",
+    "ru": "опишите задачу для создания плана"
+  },
+  "hint.goal": {
+    "en": "describe the objective for a long-running task",
+    "ru": "опишите цель для длительной задачи"
+  },
+  "hint.goal.active": {
+    "en": "goal active — edit / pause / resume / clear",
+    "ru": "цель активна — изменить / пауза / продолжить / очистить"
+  },
+  "placeholder.plan": {
+    "en": "describe your task to generate plan",
+    "ru": "опишите задачу для создания плана"
+  },
+  "placeholder.default": {
+    "en": "Message or run a task, / commands, @ files or sessions",
+    "ru": "Сообщение или задача, / команды, @ файлы или сессии"
+  },
+  "placeholder.unavailable": {
+    "en": "Session unavailable",
+    "ru": "Сессия недоступна"
+  },
+  "placeholder.parentOffline": {
+    "en": "Parent session offline; sending is unavailable but you can still stop the run",
+    "ru": "Родительская сессия не в сети; отправка недоступна, но запуск можно остановить"
+  },
+  "placeholder.hero": {
+    "en": "Describe what you want to build, / commands, @ files or sessions",
+    "ru": "Опишите, что нужно создать, / команды, @ файлы или сессии"
+  },
+  "placeholder.workspace": {
+    "en": "Choose a workspace to start",
+    "ru": "Выберите рабочую область для начала"
+  },
+  "placeholder.steerQueue": {
+    "en": "Cmd/Ctrl+Enter steers all queued messages",
+    "ru": "Cmd/Ctrl+Enter направляет все сообщения из очереди"
+  },
+  "input.commands": {
+    "en": "Add files or run commands",
+    "ru": "Добавить файлы или выполнить команды"
+  },
+  "input.file": {
+    "en": "File",
+    "ru": "Файл"
+  },
+  "input.stop": {
+    "en": "Stop generating",
+    "ru": "Остановить генерацию"
+  },
+  "input.send": {
+    "en": "Send message",
+    "ru": "Отправить сообщение"
+  },
+  "input.send.queue": {
+    "en": "Queue message",
+    "ru": "Queue-сообщение"
+  },
+  "input.send.steer": {
+    "en": "Steer message",
+    "ru": "Steer-сообщение"
+  },
+  "attachment.pending": {
+    "en": "Pending attachments",
+    "ru": "Вложения в ожидании"
+  },
+  "attachment.scrollLeft": {
+    "en": "Scroll attachments left",
+    "ru": "Прокрутить вложения влево"
+  },
+  "attachment.scrollRight": {
+    "en": "Scroll attachments right",
+    "ru": "Прокрутить вложения вправо"
+  },
+  "attachment.dropTitle": {
+    "en": "Drag files or images here to add them",
+    "ru": "Перетащите сюда файлы или изображения"
+  },
+  "attachment.dropDesc": {
+    "en": "Image limit: up to {count} images, {size} each",
+    "ru": "Лимит изображений: до {count} шт., по {size} каждое"
+  },
+  "attachment.dropBlocked": {
+    "en": "Files and images cannot be added right now",
+    "ru": "Сейчас нельзя добавлять файлы и изображения"
+  },
+  "attachment.directoryDesktopOnly": {
+    "en": "Folders can only be added in the desktop app; add individual files in the browser",
+    "ru": "Папки можно добавлять только в приложении; в браузере добавляйте отдельные файлы"
+  },
+  "attachment.pathUnavailable": {
+    "en": "Could not obtain the folder path; drag it in again",
+    "ru": "Не удалось получить путь к папке; перетащите её ещё раз"
+  },
+  "attachment.pathUnsupported": {
+    "en": "The path contains characters a reference cannot carry; rename it and try again",
+    "ru": "Путь содержит символы, которые нельзя передать в упоминании; переименуйте и повторите"
+  },
+  "image.pending": {
+    "en": "Pending images",
+    "ru": "Изображения в ожидании"
+  },
+  "image.openOriginal": {
+    "en": "View original",
+    "ru": "Открыть оригинал"
+  },
+  "image.openOriginalLabel": {
+    "en": "{label}, click to view original",
+    "ru": "{label}, нажмите, чтобы открыть оригинал"
+  },
+  "image.remove": {
+    "en": "Remove image {name}",
+    "ru": "Удалить изображение {name}"
+  },
+  "image.original": {
+    "en": "Original image",
+    "ru": "Оригинал изображения"
+  },
+  "image.label": {
+    "en": "Image",
+    "ru": "Изображение"
+  },
+  "image.loadFailed": {
+    "en": "Image failed to load; click to retry",
+    "ru": "Не удалось загрузить изображение; нажмите, чтобы повторить"
+  },
+  "image.loading": {
+    "en": "Loading image…",
+    "ru": "Загрузка изображения…"
+  },
+  "image.preview": {
+    "en": "Original image preview",
+    "ru": "Предпросмотр оригинала изображения"
+  },
+  "image.closePreview": {
+    "en": "Close original image preview",
+    "ru": "Закрыть предпросмотр оригинала"
+  },
+  "image.unsupportedType": {
+    "en": "Only PNG, JPG, WebP, and GIF images are supported",
+    "ru": "Поддерживаются только изображения PNG, JPG, WebP и GIF"
+  },
+  "image.tooMany": {
+    "en": "A message can include up to {count} images",
+    "ru": "В сообщении может быть до {count} изображений"
+  },
+  "image.fileTooLarge": {
+    "en": "Each image must be smaller than {size}",
+    "ru": "Каждое изображение должно быть меньше {size}"
+  },
+  "image.totalTooLarge": {
+    "en": "Images exceed {size} in total; remove some and try again",
+    "ru": "Изображения превышают {size} в сумме; удалите часть и повторите"
+  },
+  "image.tooManyPixels": {
+    "en": "Image resolution is too high; compress it and try again",
+    "ru": "Слишком высокое разрешение изображения; сожмите его и повторите"
+  },
+  "image.dimensionTooLarge": {
+    "en": "Image sides must be at most {size}px; downscale it and try again",
+    "ru": "Стороны изображения — не более {size}px; уменьшите его и повторите"
+  },
+  "image.modelUnsupported": {
+    "en": "The current model does not support images; switch to a model that does",
+    "ru": "Текущая модель не поддерживает изображения; выберите модель с поддержкой"
+  },
+  "image.sendFailed": {
+    "en": "Sending images failed ({reason}); re-add them and try again",
+    "ru": "Не удалось отправить изображения ({reason}); добавьте их снова и повторите"
+  },
+  "file.pending": {
+    "en": "Pending files",
+    "ru": "Файлы в ожидании"
+  },
+  "file.remove": {
+    "en": "Remove file {name}",
+    "ru": "Удалить файл {name}"
+  },
+  "file.uploading": {
+    "en": "Uploading…",
+    "ru": "Загрузка…"
+  },
+  "file.uploadFailed": {
+    "en": "Upload failed; click to retry",
+    "ru": "Не удалось загрузить; нажмите, чтобы повторить"
+  },
+  "file.retry": {
+    "en": "Retry uploading {name}",
+    "ru": "Повторить загрузку {name}"
+  },
+  "file.stillUploading": {
+    "en": "Files are still uploading; send after they finish",
+    "ru": "Файлы ещё загружаются; отправьте после завершения"
+  },
+  "file.sessionUnavailable": {
+    "en": "Session unavailable; files cannot be uploaded",
+    "ru": "Сессия недоступна; файлы нельзя загрузить"
+  },
+  "file.notStaged": {
+    "en": "The file has not finished uploading; re-add it and try again",
+    "ru": "Файл ещё не загружен; добавьте его снова и повторите"
+  },
+  "file.label": {
+    "en": "File",
+    "ru": "Файл"
+  },
+  "context.aria": {
+    "en": "{percent} of context used",
+    "ru": "Использовано {percent} контекста"
+  },
+  "context.used": {
+    "en": "of context used",
+    "ru": "контекста использовано"
+  },
+  "context.system": {
+    "en": "System prompt",
+    "ru": "Системный промпт"
+  },
+  "context.tools": {
+    "en": "Tool definitions",
+    "ru": "Описания инструментов"
+  },
+  "context.messages": {
+    "en": "Messages",
+    "ru": "Сообщения"
+  },
+  "settings.enter.title": {
+    "en": "Send behavior while busy",
+    "ru": "Отправка при занятости"
+  },
+  "settings.enter.description": {
+    "en": "What Enter and the Send button do while the agent is running; Cmd/Ctrl+Enter uses the other behavior",
+    "ru": "Что делают Enter и кнопка отправки, пока агент работает; Cmd/Ctrl+Enter использует другое действие"
+  },
+  "settings.enter.queue": {
+    "en": "Queue",
+    "ru": "Queue"
+  },
+  "settings.enter.steer": {
+    "en": "Steer",
+    "ru": "Steer"
+  },
+  "hero.headline": {
+    "en": "Into the Unknown",
+    "ru": "Навстречу неизвестному"
+  },
+  "hero.preview": {
+    "en": "Preview",
+    "ru": "Предпросмотр"
+  },
+  "hero.chooseWorkspace": {
+    "en": "Choose workspace",
+    "ru": "Выбрать рабочую область"
+  },
+  "session.hierarchy": {
+    "en": "Session hierarchy",
+    "ru": "Иерархия сессий"
+  },
+  "todo.title": {
+    "en": "To-dos",
+    "ru": "Задачи"
+  },
+  "todo.progress.done": {
+    "en": "{done} completed",
+    "ru": "{done} завершено"
+  },
+  "todo.progress.active": {
+    "en": "{active} in progress",
+    "ru": "{active} в работе"
+  },
+  "todo.progress.pending": {
+    "en": "{pending} pending",
+    "ru": "{pending} ожидает"
+  },
+  "todo.status.completed": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "todo.status.inProgress": {
+    "en": "In progress",
+    "ru": "В работе"
+  },
+  "todo.status.pending": {
+    "en": "Pending",
+    "ru": "Ожидает"
+  },
+  "todo.rowTitle": {
+    "en": "Update to-do list",
+    "ru": "Обновить список задач"
+  },
+  "tool.title.createGoal": {
+    "en": "Create goal",
+    "ru": "Создать цель"
+  },
+  "tool.title.getGoal": {
+    "en": "View goal",
+    "ru": "Показать цель"
+  },
+  "tool.title.updateGoal": {
+    "en": "Update goal",
+    "ru": "Обновить цель"
+  },
+  "tool.preparing.content": {
+    "en": "Preparing content {kilobytes}KB",
+    "ru": "Подготовка содержимого {kilobytes}KB"
+  },
+  "tool.title.createSchedule": {
+    "en": "Create reminder",
+    "ru": "Создать напоминание"
+  },
+  "tool.title.listSchedules": {
+    "en": "List reminders",
+    "ru": "Список напоминаний"
+  },
+  "tool.title.deleteSchedule": {
+    "en": "Delete reminder",
+    "ru": "Удалить напоминание"
+  },
+  "tool.title.updateSchedule": {
+    "en": "Update reminder",
+    "ru": "Обновить напоминание"
+  },
+  "detail.state": {
+    "en": "Status",
+    "ru": "Состояние"
+  },
+  "detail.todo.completed": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "detail.todo.in_progress": {
+    "en": "In progress",
+    "ru": "В работе"
+  },
+  "detail.todo.pending": {
+    "en": "Pending",
+    "ru": "Ожидает"
+  },
+  "detail.todo.empty": {
+    "en": "The to-do list is empty",
+    "ru": "Список задач пуст"
+  },
+  "todo.diff.initial": {
+    "en": "Initial list",
+    "ru": "Исходный список"
+  },
+  "todo.diff.compare": {
+    "en": "Changes since the previous list",
+    "ru": "Изменения с прошлого списка"
+  },
+  "todo.diff.unavailable": {
+    "en": "Previous list unavailable",
+    "ru": "Прошлый список недоступен"
+  },
+  "todo.diff.noChanges": {
+    "en": "No changes to the list",
+    "ru": "В списке нет изменений"
+  },
+  "todo.diff.added": {
+    "en": "{count} added",
+    "ru": "Добавлено: {count}"
+  },
+  "todo.diff.updated": {
+    "en": "{count} updated",
+    "ru": "Обновлено: {count}"
+  },
+  "todo.diff.removed": {
+    "en": "{count} removed",
+    "ru": "Удалено: {count}"
+  },
+  "todo.diff.unchanged": {
+    "en": "{count} unchanged",
+    "ru": "Без изменений: {count}"
+  },
+  "todo.diff.addedItem": {
+    "en": "Added",
+    "ru": "Добавлено"
+  },
+  "todo.diff.updatedItem": {
+    "en": "Status changed",
+    "ru": "Состояние изменено"
+  },
+  "todo.diff.movedItem": {
+    "en": "Reordered",
+    "ru": "Порядок изменён"
+  },
+  "todo.diff.removedItem": {
+    "en": "Removed",
+    "ru": "Удалено"
+  },
+  "detail.goal.empty": {
+    "en": "No goal",
+    "ru": "Цели нет"
+  },
+  "detail.goal.active": {
+    "en": "Active",
+    "ru": "Активна"
+  },
+  "detail.goal.disarmed": {
+    "en": "Awaiting continuation",
+    "ru": "Ожидает продолжения"
+  },
+  "detail.goal.paused": {
+    "en": "Paused",
+    "ru": "Приостановлена"
+  },
+  "detail.goal.blocked": {
+    "en": "Blocked",
+    "ru": "Заблокирована"
+  },
+  "detail.goal.complete": {
+    "en": "Completed",
+    "ru": "Завершена"
+  },
+  "detail.goal.rounds": {
+    "en": "Rounds",
+    "ru": "Раунды"
+  },
+  "detail.goal.reason": {
+    "en": "Blocker",
+    "ru": "Блокировка"
+  },
+  "detail.days": {
+    "en": "{count} d",
+    "ru": "{count} дн."
+  },
+  "detail.hours": {
+    "en": "{count} h",
+    "ru": "{count} ч"
+  },
+  "detail.minutes": {
+    "en": "{count} min",
+    "ru": "{count} мин"
+  },
+  "detail.seconds": {
+    "en": "{count} s",
+    "ru": "{count} с"
+  },
+  "detail.schedule.once": {
+    "en": "Once",
+    "ru": "Один раз"
+  },
+  "detail.schedule.every": {
+    "en": "Every {interval}",
+    "ru": "Каждые {interval}"
+  },
+  "detail.schedule.when": {
+    "en": "Scheduled for",
+    "ru": "Запланировано на"
+  },
+  "detail.schedule.frequency": {
+    "en": "Repeat",
+    "ru": "Повтор"
+  },
+  "detail.schedule.scheduled": {
+    "en": "Scheduled",
+    "ru": "Запланировано"
+  },
+  "detail.schedule.overdue": {
+    "en": "Overdue, awaiting session resume",
+    "ru": "Просрочено, ожидается возобновление сессии"
+  },
+  "detail.schedule.empty": {
+    "en": "No reminders",
+    "ru": "Напоминаний нет"
+  },
+  "detail.schedule.deleted": {
+    "en": "Deleted",
+    "ru": "Удалено"
+  },
+  "detail.schedule.count": {
+    "en": "{count} reminders",
+    "ru": "Напоминаний: {count}"
+  },
+  "detail.schedule.daily": {
+    "en": "Every day at {time} ({zone})",
+    "ru": "Ежедневно в {time} ({zone})"
+  },
+  "detail.schedule.weekly": {
+    "en": "Weekly on {days} at {time} ({zone})",
+    "ru": "Еженедельно: {days}, в {time} ({zone})"
+  },
+  "detail.schedule.cron": {
+    "en": "Cron {expression} ({zone})",
+    "ru": "Cron {expression} ({zone})"
+  },
+  "detail.weekday.1": {
+    "en": "Mon",
+    "ru": "Пн"
+  },
+  "detail.weekday.2": {
+    "en": "Tue",
+    "ru": "Вт"
+  },
+  "detail.weekday.3": {
+    "en": "Wed",
+    "ru": "Ср"
+  },
+  "detail.weekday.4": {
+    "en": "Thu",
+    "ru": "Чт"
+  },
+  "detail.weekday.5": {
+    "en": "Fri",
+    "ru": "Пт"
+  },
+  "detail.weekday.6": {
+    "en": "Sat",
+    "ru": "Сб"
+  },
+  "detail.weekday.7": {
+    "en": "Sun",
+    "ru": "Вс"
+  },
+  "detail.weekday.join": {
+    "en": ", ",
+    "ru": ", "
+  },
+  "tool.title.inspectProviders": {
+    "en": "Inspect providers",
+    "ru": "Просмотр провайдеров"
+  },
+  "tool.title.queryRuntime": {
+    "en": "Query runtime",
+    "ru": "Запрос к среде выполнения"
+  },
+  "tool.title.inspectPlugins": {
+    "en": "Inspect plugins",
+    "ru": "Просмотр плагинов"
+  },
+  "tool.title.workflow": {
+    "en": "Run workflow",
+    "ru": "Запустить воркфлоу"
+  },
+  "tool.title.ralph": {
+    "en": "Run ralph loop",
+    "ru": "Запустить цикл ralph"
+  },
+  "tool.title.readEvent": {
+    "en": "Read event",
+    "ru": "Чтение события"
+  },
+  "tool.title.searchEvents": {
+    "en": "Search events",
+    "ru": "Поиск событий"
+  },
+  "tool.title.traceEvent": {
+    "en": "Trace event",
+    "ru": "Трассировка события"
+  },
+  "tool.title.searchSessions": {
+    "en": "Search sessions",
+    "ru": "Поиск сессий"
+  },
+  "tool.title.traceSession": {
+    "en": "Trace session",
+    "ru": "Трассировка сессии"
+  },
+  "tool.title.listModels": {
+    "en": "List models",
+    "ru": "Список моделей"
+  },
+  "tool.title.subagent": {
+    "en": "Create subagent",
+    "ru": "Создать субагента"
+  },
+  "tool.title.listAgents": {
+    "en": "List subagents",
+    "ru": "Список субагентов"
+  },
+  "tool.title.sendMessage": {
+    "en": "Send message",
+    "ru": "Отправить сообщение"
+  },
+  "tool.title.interruptAgent": {
+    "en": "Interrupt agent",
+    "ru": "Прервать агента"
+  },
+  "tool.title.listJobs": {
+    "en": "List background jobs",
+    "ru": "Список фоновых задач"
+  },
+  "tool.title.readJob": {
+    "en": "Read job output",
+    "ru": "Чтение вывода задачи"
+  },
+  "tool.title.killJob": {
+    "en": "Cancel background job",
+    "ru": "Отменить фоновую задачу"
+  },
+  "tool.title.openTerminal": {
+    "en": "Open terminal",
+    "ru": "Открыть терминал"
+  },
+  "tool.title.readTerminal": {
+    "en": "Read terminal",
+    "ru": "Чтение терминала"
+  },
+  "tool.title.listTerminals": {
+    "en": "List terminals",
+    "ru": "Список терминалов"
+  },
+  "tool.title.signalTerminal": {
+    "en": "Signal terminal",
+    "ru": "Сигнал терминалу"
+  },
+  "tool.title.closeTerminal": {
+    "en": "Close terminal",
+    "ru": "Закрыть терминал"
+  },
+  "tool.title.lsp": {
+    "en": "Query code symbols",
+    "ru": "Запрос символов кода"
+  },
+  "tool.title.findDefinition": {
+    "en": "Find definition",
+    "ru": "Найти определение"
+  },
+  "tool.title.findReferences": {
+    "en": "Find references",
+    "ru": "Найти ссылки"
+  },
+  "tool.title.findImplementation": {
+    "en": "Find implementation",
+    "ru": "Найти реализацию"
+  },
+  "tool.title.hoverSymbol": {
+    "en": "Inspect symbol",
+    "ru": "Просмотр символа"
+  },
+  "tool.title.spawnTeammate": {
+    "en": "Create teammate",
+    "ru": "Создать участника команды"
+  },
+  "tool.title.createTeamTask": {
+    "en": "Create team task",
+    "ru": "Создать задачу команды"
+  },
+  "tool.title.getTeamTask": {
+    "en": "Read team task",
+    "ru": "Чтение задачи команды"
+  },
+  "tool.title.updateTeamTask": {
+    "en": "Update team task",
+    "ru": "Обновить задачу команды"
+  },
+  "tool.title.listTeamTasks": {
+    "en": "List team tasks",
+    "ru": "Список задач команды"
+  },
+  "tool.title.waitAgent": {
+    "en": "Wait for subagent",
+    "ru": "Ожидание субагента"
+  },
+  "detail.recordedResult": {
+    "en": "Recorded result",
+    "ru": "Записанный результат"
+  },
+  "detail.empty": {
+    "en": "No results",
+    "ru": "Нет результатов"
+  },
+  "detail.none": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "detail.yes": {
+    "en": "Yes",
+    "ru": "Да"
+  },
+  "detail.no": {
+    "en": "No",
+    "ru": "Нет"
+  },
+  "detail.moreInInspect": {
+    "en": "{count} more items available in Inspect",
+    "ru": "Ещё {count} элементов доступно в Inspect"
+  },
+  "detail.status.running": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "detail.status.idle": {
+    "en": "Idle",
+    "ru": "Ожидание"
+  },
+  "detail.status.ready": {
+    "en": "Ready",
+    "ru": "Готово"
+  },
+  "detail.status.inactive": {
+    "en": "Inactive",
+    "ru": "Неактивно"
+  },
+  "detail.status.provisioning": {
+    "en": "Provisioning",
+    "ru": "Подготовка"
+  },
+  "detail.status.failed": {
+    "en": "Failed",
+    "ru": "Не удалось"
+  },
+  "detail.status.completed": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "detail.status.deleted": {
+    "en": "Deleted",
+    "ru": "Удалено"
+  },
+  "detail.status.killed": {
+    "en": "Cancelled",
+    "ru": "Отменено"
+  },
+  "detail.status.accepted": {
+    "en": "Accepted",
+    "ru": "Принято"
+  },
+  "detail.status.queued": {
+    "en": "Queued",
+    "ru": "В очереди"
+  },
+  "detail.status.exited": {
+    "en": "Exited",
+    "ru": "Завершён"
+  },
+  "detail.field.id": {
+    "en": "ID",
+    "ru": "ID"
+  },
+  "detail.field.revision": {
+    "en": "Revision",
+    "ru": "Ревизия"
+  },
+  "detail.field.platform": {
+    "en": "Platform",
+    "ru": "Платформа"
+  },
+  "detail.field.provider": {
+    "en": "Provider",
+    "ru": "Провайдер"
+  },
+  "detail.field.model": {
+    "en": "Model",
+    "ru": "Модель"
+  },
+  "detail.field.role": {
+    "en": "Role",
+    "ru": "Роль"
+  },
+  "detail.field.context": {
+    "en": "Context",
+    "ru": "Контекст"
+  },
+  "detail.field.owner": {
+    "en": "Owner",
+    "ru": "Владелец"
+  },
+  "detail.field.ready": {
+    "en": "Ready",
+    "ru": "Готовность"
+  },
+  "detail.field.dependencies": {
+    "en": "Dependencies",
+    "ru": "Зависимости"
+  },
+  "detail.field.writeScopes": {
+    "en": "Write scopes",
+    "ru": "Области записи"
+  },
+  "detail.field.warnings": {
+    "en": "Warnings",
+    "ru": "Предупреждения"
+  },
+  "detail.field.diagnostics": {
+    "en": "Diagnostics",
+    "ru": "Диагностика"
+  },
+  "detail.field.methods": {
+    "en": "Methods",
+    "ru": "Методы"
+  },
+  "detail.field.inputSchema": {
+    "en": "Input schema",
+    "ru": "Схема ввода"
+  },
+  "detail.field.outputSchema": {
+    "en": "Output schema",
+    "ru": "Схема вывода"
+  },
+  "detail.field.currentPackage": {
+    "en": "Current package",
+    "ru": "Текущий пакет"
+  },
+  "detail.field.nextPackage": {
+    "en": "Next package",
+    "ru": "Следующий пакет"
+  },
+  "detail.field.latestRun": {
+    "en": "Latest run",
+    "ru": "Последний запуск"
+  },
+  "detail.field.packages": {
+    "en": "Packages",
+    "ru": "Пакеты"
+  },
+  "detail.field.registrations": {
+    "en": "Registrations",
+    "ru": "Регистрации"
+  },
+  "detail.field.props": {
+    "en": "Props",
+    "ru": "Свойства"
+  },
+  "detail.field.data": {
+    "en": "Data",
+    "ru": "Данные"
+  },
+  "detail.field.source": {
+    "en": "Source",
+    "ru": "Исходный код"
+  },
+  "detail.field.content": {
+    "en": "Content",
+    "ru": "Содержимое"
+  },
+  "detail.field.message": {
+    "en": "Message",
+    "ru": "Сообщение"
+  },
+  "detail.field.messageId": {
+    "en": "Message ID",
+    "ru": "ID сообщения"
+  },
+  "detail.field.root": {
+    "en": "Root",
+    "ru": "Корень"
+  },
+  "detail.field.pid": {
+    "en": "Process ID",
+    "ru": "ID процесса"
+  },
+  "detail.field.type": {
+    "en": "Type",
+    "ru": "Тип"
+  },
+  "detail.field.time": {
+    "en": "Time",
+    "ru": "Время"
+  },
+  "detail.field.seq": {
+    "en": "Event sequence",
+    "ru": "Последовательность событий"
+  },
+  "detail.field.turn": {
+    "en": "Turn",
+    "ru": "Ход"
+  },
+  "detail.field.step": {
+    "en": "Step",
+    "ru": "Шаг"
+  },
+  "detail.field.callId": {
+    "en": "Call ID",
+    "ru": "ID вызова"
+  },
+  "detail.field.agents": {
+    "en": "Agents started",
+    "ru": "Запущено агентов"
+  },
+  "detail.field.result": {
+    "en": "Result",
+    "ru": "Результат"
+  },
+  "detail.field.parent": {
+    "en": "Parent",
+    "ru": "Родитель"
+  },
+  "detail.field.depth": {
+    "en": "Depth",
+    "ru": "Глубина"
+  },
+  "detail.field.exitCode": {
+    "en": "Exit code",
+    "ru": "Код выхода"
+  },
+  "detail.field.signal": {
+    "en": "Signal",
+    "ru": "Сигнал"
+  },
+  "detail.field.previousStatus": {
+    "en": "Previous status",
+    "ru": "Предыдущее состояние"
+  },
+  "detail.field.agent": {
+    "en": "Agent ID",
+    "ru": "ID агента"
+  },
+  "detail.field.job": {
+    "en": "Job ID",
+    "ru": "ID задачи"
+  },
+  "detail.field.task": {
+    "en": "Task",
+    "ru": "Задача"
+  },
+  "detail.field.processGroup": {
+    "en": "Process group",
+    "ru": "Группа процессов"
+  },
+  "detail.field.availability": {
+    "en": "Availability",
+    "ru": "Доступность"
+  },
+  "detail.field.bestMatch": {
+    "en": "Best match",
+    "ru": "Лучшее совпадение"
+  },
+  "detail.field.target": {
+    "en": "Target event",
+    "ru": "Целевое событие"
+  },
+  "detail.field.surface": {
+    "en": "Record status",
+    "ru": "Состояние записи"
+  },
+  "detail.agents.count": {
+    "en": "{count} agents",
+    "ru": "Агентов: {count}"
+  },
+  "detail.jobs.count": {
+    "en": "{count} background jobs",
+    "ru": "Фоновых задач: {count}"
+  },
+  "detail.terminals.count": {
+    "en": "{count} terminals",
+    "ru": "Терминалов: {count}"
+  },
+  "detail.tasks.count": {
+    "en": "{count} team tasks",
+    "ru": "Задач команды: {count}"
+  },
+  "detail.tasks.nextPage": {
+    "en": "More tasks available; next cursor is {cursor}",
+    "ru": "Есть ещё задачи; следующий курсор — {cursor}"
+  },
+  "detail.locations.count": {
+    "en": "{count} locations",
+    "ru": "Мест: {count}"
+  },
+  "detail.location": {
+    "en": "Line {line}, column {column}",
+    "ru": "Строка {line}, столбец {column}"
+  },
+  "detail.receipt.delivered": {
+    "en": "Message delivered",
+    "ru": "Сообщение доставлено"
+  },
+  "detail.receipt.interrupt": {
+    "en": "Interrupt requested",
+    "ru": "Запрошено прерывание"
+  },
+  "detail.receipt.started": {
+    "en": "Started",
+    "ru": "Запущено"
+  },
+  "detail.receipt.cancel": {
+    "en": "Cancellation requested",
+    "ru": "Запрошена отмена"
+  },
+  "detail.receipt.alreadyFinished": {
+    "en": "Already finished",
+    "ru": "Уже завершено"
+  },
+  "detail.receipt.signal": {
+    "en": "Signal delivered",
+    "ru": "Сигнал доставлен"
+  },
+  "detail.receipt.closed": {
+    "en": "Closed",
+    "ru": "Закрыто"
+  },
+  "detail.receipt.closing": {
+    "en": "Closing",
+    "ru": "Закрытие"
+  },
+  "detail.wait.noProgress": {
+    "en": "No active subagents",
+    "ru": "Нет активных субагентов"
+  },
+  "detail.wait.title": {
+    "en": "Subagent activity",
+    "ru": "Активность субагентов"
+  },
+  "detail.wait.timeout": {
+    "en": "Wait timed out",
+    "ru": "Время ожидания истекло"
+  },
+  "detail.wait.changed": {
+    "en": "Change detected",
+    "ru": "Обнаружено изменение"
+  },
+  "detail.agent.reply": {
+    "en": "Agent response",
+    "ru": "Ответ агента"
+  },
+  "detail.models.title": {
+    "en": "Available models",
+    "ru": "Доступные модели"
+  },
+  "detail.output.lines": {
+    "en": "Lines {begin}–{end} of {total}",
+    "ru": "Строки {begin}–{end} из {total}"
+  },
+  "detail.output.truncated": {
+    "en": "Output truncated",
+    "ru": "Вывод обрезан"
+  },
+  "detail.providers.count": {
+    "en": "{count} inspect providers",
+    "ru": "Провайдеров просмотра: {count}"
+  },
+  "detail.plugins.count": {
+    "en": "{count} dynamic plugins",
+    "ru": "Динамических плагинов: {count}"
+  },
+  "detail.workflow.script": {
+    "en": "Workflow script",
+    "ru": "Скрипт воркфлоу"
+  },
+  "detail.ralph.reportedComplete": {
+    "en": "Worker reported completion",
+    "ru": "Исполнитель сообщил о завершении"
+  },
+  "detail.ralph.reportedBlocker": {
+    "en": "Worker reported a blocker",
+    "ru": "Исполнитель сообщил о блокировке"
+  },
+  "detail.ralph.limit": {
+    "en": "Round limit reached",
+    "ru": "Достигнут предел раундов"
+  },
+  "detail.report.nextSteps": {
+    "en": "Remaining work",
+    "ru": "Оставшаяся работа"
+  },
+  "detail.trace.replacedBy": {
+    "en": "Replaced by",
+    "ru": "Заменено на"
+  },
+  "detail.trace.replacementChain": {
+    "en": "Replacement chain",
+    "ru": "Цепочка замен"
+  },
+  "detail.trace.replaces": {
+    "en": "Replaced events",
+    "ru": "Заменённые события"
+  },
+  "detail.trace.sources": {
+    "en": "Source events",
+    "ru": "Исходные события"
+  },
+  "detail.trace.derived": {
+    "en": "Derived events",
+    "ru": "Производные события"
+  },
+  "detail.trace.ancestors": {
+    "en": "Ancestor sessions",
+    "ru": "Сессии-предки"
+  },
+  "detail.trace.descendants": {
+    "en": "Descendant sessions",
+    "ru": "Сессии-потомки"
+  },
+  "detail.matches.count": {
+    "en": "{count} matches",
+    "ru": "Совпадений: {count}"
+  },
+  "detail.matches.capped": {
+    "en": "Result limit reached; narrow the search for more",
+    "ru": "Достигнут предел результатов; уточните поиск"
+  },
+  "detail.event.neighbors": {
+    "en": "Surrounding events",
+    "ru": "Соседние события"
+  },
+  "todo.completed": {
+    "en": "{done}/{total} completed",
+    "ru": "Выполнено {done}/{total}"
+  },
+  "command.attachmentsUnsupported": {
+    "en": "/{command} does not accept attachments; remove them first",
+    "ru": "/{command}: вложения не поддерживаются; сначала удалите их"
+  },
+  "ask.rowTitle": {
+    "en": "Ask question",
+    "ru": "Задать вопрос"
+  },
+  "ask.waiting": {
+    "en": "waiting",
+    "ru": "ожидание"
+  },
+  "ask.pending": {
+    "en": "continued; answer still available",
+    "ru": "продолжено; ответ всё ещё доступен"
+  },
+  "ask.pendingDetail": {
+    "en": "These pending questions remain answerable from the composer.",
+    "ru": "На эти вопросы всё ещё можно ответить из поля ввода."
+  },
+  "ask.reopen": {
+    "en": "Answer",
+    "ru": "Ответить"
+  },
+  "ask.review": {
+    "en": "View answers",
+    "ru": "Посмотреть ответы"
+  },
+  "ask.closed": {
+    "en": "closed",
+    "ru": "закрыто"
+  },
+  "ask.closedDetail": {
+    "en": "This question is closed; its outcome is in the conversation below.",
+    "ru": "Вопрос закрыт; результат — в диалоге ниже."
+  },
+  "ask.cancelled": {
+    "en": "cancelled",
+    "ru": "отменено"
+  },
+  "ask.cancelledDetail": {
+    "en": "This question set was cancelled before answers were submitted.",
+    "ru": "Этот набор вопросов отменён до отправки ответов."
+  },
+  "ask.interrupted": {
+    "en": "interrupted",
+    "ru": "прервано"
+  },
+  "ask.interruptedDetail": {
+    "en": "This question set was interrupted before answers were submitted.",
+    "ru": "Этот набор вопросов прерван до отправки ответов."
+  },
+  "ask.answered": {
+    "en": "{answered}/{total} answered",
+    "ru": "Отвечено {answered}/{total}"
+  },
+  "ask.skipped": {
+    "en": "Not answered",
+    "ru": "Без ответа"
+  },
+  "bash.running": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "bash.failed": {
+    "en": "Failed",
+    "ru": "С ошибкой"
+  },
+  "bash.stopped": {
+    "en": "Stopped",
+    "ru": "Остановлено"
+  },
+  "row.running": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "row.preparing": {
+    "en": "Preparing tool call",
+    "ru": "Подготовка вызова инструмента"
+  },
+  "row.failed": {
+    "en": "Failed",
+    "ru": "С ошибкой"
+  },
+  "row.stopped": {
+    "en": "Stopped",
+    "ru": "Остановлено"
+  },
+  "row.input": {
+    "en": "IN",
+    "ru": "ВВОД"
+  },
+  "row.output": {
+    "en": "OUT",
+    "ru": "ВЫВОД"
+  },
+  "row.inspect": {
+    "en": "Inspect",
+    "ru": "Изучить"
+  },
+  "tool.title.search": {
+    "en": "Search",
+    "ru": "Поиск"
+  },
+  "tool.title.read": {
+    "en": "Read",
+    "ru": "Чтение"
+  },
+  "tool.title.bash": {
+    "en": "Bash",
+    "ru": "Bash"
+  },
+  "tool.title.write": {
+    "en": "Write",
+    "ru": "Запись"
+  },
+  "tool.title.edit": {
+    "en": "Edit",
+    "ru": "Изменить"
+  },
+  "tool.title.code": {
+    "en": "Code",
+    "ru": "Код"
+  },
+  "tool.title.generic": {
+    "en": "Tool call",
+    "ru": "Вызов инструмента"
+  },
+  "tool.title.inspect": {
+    "en": "Query Cordis environment",
+    "ru": "Запрос к среде Cordis"
+  },
+  "tool.title.runCordis": {
+    "en": "Run Cordis Plugin",
+    "ru": "Запустить плагин Cordis"
+  },
+  "tool.title.stopCordis": {
+    "en": "Stop Cordis Plugin",
+    "ru": "Остановить плагин Cordis"
+  },
+  "tool.title.removeCordis": {
+    "en": "Remove Cordis Plugin",
+    "ru": "Удалить плагин Cordis"
+  },
+  "tool.title.pwsh": {
+    "en": "Pwsh",
+    "ru": "Pwsh"
+  },
+  "tool.title.readImage": {
+    "en": "Read image",
+    "ru": "Чтение изображения"
+  },
+  "tool.title.grep": {
+    "en": "Grep",
+    "ru": "Grep"
+  },
+  "tool.title.glob": {
+    "en": "Glob",
+    "ru": "Glob"
+  },
+  "tool.title.webSearch": {
+    "en": "Search",
+    "ru": "Поиск"
+  },
+  "tool.title.webFetch": {
+    "en": "Fetch",
+    "ru": "Загрузка"
+  },
+  "tool.autoReviewRejected": {
+    "en": "Rejected by Auto review",
+    "ru": "Отклонено автопроверкой"
+  },
+  "tool.autoReviewNotExecuted": {
+    "en": "Tool was not executed. Reason: {reason}",
+    "ru": "Инструмент не выполнен. Причина: {reason}"
+  },
+  "tool.autoReviewReasonFallback": {
+    "en": "Auto review did not authorize this action",
+    "ru": "Автопроверка не разрешила это действие"
+  },
+  "diff.collapseAria": {
+    "en": "Collapse diff",
+    "ru": "Свернуть дифф"
+  },
+  "diff.expandAria": {
+    "en": "Expand {count} more diff lines",
+    "ru": "Развернуть ещё строк: {count}"
+  },
+  "diff.expandRest": {
+    "en": "… {count} more lines",
+    "ru": "… ещё строк: {count}"
+  },
+  "read.window": {
+    "en": "Showing {shown} of {total} lines",
+    "ru": "Строк: {shown} из {total}"
+  },
+  "read.collapseAria": {
+    "en": "Collapse content",
+    "ru": "Свернуть содержимое"
+  },
+  "read.expandAria": {
+    "en": "Expand {count} more lines",
+    "ru": "Развернуть ещё строк: {count}"
+  },
+  "read.expandRest": {
+    "en": "… {count} more lines",
+    "ru": "… ещё строк: {count}"
+  },
+  "search.paths": {
+    "en": "{shown} paths",
+    "ru": "Путей: {shown}"
+  },
+  "search.paths.truncated": {
+    "en": "Showing {shown} of {total} paths",
+    "ru": "Путей: {shown} из {total}"
+  },
+  "search.matches": {
+    "en": "{shown} matches · {files} files",
+    "ru": "Совпадений: {shown} · файлов: {files}"
+  },
+  "search.matches.truncated": {
+    "en": "Showing {shown} of {total} matches · {files} files",
+    "ru": "Совпадений: {shown} из {total} · файлов: {files}"
+  },
+  "search.noResults": {
+    "en": "No results",
+    "ru": "Нет результатов"
+  },
+  "search.collapseAria": {
+    "en": "Collapse results",
+    "ru": "Свернуть результаты"
+  },
+  "search.expandAria": {
+    "en": "Expand {count} more result lines",
+    "ru": "Развернуть ещё строк результата: {count}"
+  },
+  "search.expandRest": {
+    "en": "… {count} more lines",
+    "ru": "… ещё строк: {count}"
+  },
+  "web.noResults": {
+    "en": "No results found",
+    "ru": "Ничего не найдено"
+  },
+  "web.sourcesTruncated": {
+    "en": "Source list truncated",
+    "ru": "Список источников обрезан"
+  },
+  "web.http": {
+    "en": "HTTP",
+    "ru": "HTTP"
+  },
+  "web.contentTruncated": {
+    "en": "Content truncated",
+    "ru": "Содержимое обрезано"
+  },
+  "details.running": {
+    "en": "Running…",
+    "ru": "Выполняется…"
+  },
+  "queue.count": {
+    "en": "{n} queued messages",
+    "ru": "Сообщений в очереди: {n}"
+  },
+  "queue.sending": {
+    "en": "Sending…",
+    "ru": "Отправка…"
+  },
+  "queue.image": {
+    "en": "Queued message image",
+    "ru": "Изображение из очереди"
+  },
+  "queue.file": {
+    "en": "Queued file {name}",
+    "ru": "Файл из очереди: {name}"
+  },
+  "queue.edit": {
+    "en": "Edit queued message",
+    "ru": "Изменить сообщение в очереди"
+  },
+  "queue.edit.unsupported": {
+    "en": "Contains non-text content; editing is not supported yet",
+    "ru": "Содержит нетекстовое содержимое; редактирование пока не поддерживается"
+  },
+  "queue.save": {
+    "en": "Save queued message",
+    "ru": "Сохранить сообщение в очереди"
+  },
+  "queue.cancelEdit": {
+    "en": "Cancel editing",
+    "ru": "Отменить редактирование"
+  },
+  "queue.remove": {
+    "en": "Remove queued message",
+    "ru": "Удалить сообщение из очереди"
+  },
+  "queue.steer": {
+    "en": "Steer queued message",
+    "ru": "Отправить как Steer"
+  },
+  "queue.steer.unavailable": {
+    "en": "Steering is available only while the agent is running",
+    "ru": "Steer доступен, только пока агент работает"
+  },
+  "error.sessionInUse": {
+    "en": "This session is already in use, possibly by another running DSH instance (such as dsh web or the desktop app). Quit other running DSH instances and try again.",
+    "ru": "Эта сессия уже используется, возможно, другим запущенным экземпляром DSH (например, dsh web или приложением для рабочего стола). Закройте другие экземпляры DSH и повторите попытку."
+  },
+  "queue.editFailed": {
+    "en": "Edit failed: this message may have already started sending.",
+    "ru": "Не удалось изменить: возможно, сообщение уже начало отправляться."
+  },
+  "queue.removeFailed": {
+    "en": "Removal failed: this message may have already started sending.",
+    "ru": "Не удалось удалить: возможно, сообщение уже начало отправляться."
+  },
+  "queue.steerFailed": {
+    "en": "Steering failed. Try again.",
+    "ru": "Не удалось выполнить Steer. Повторите попытку."
+  },
+  "terminal.signal": {
+    "en": "signal {signal}",
+    "ru": "сигнал {signal}"
+  },
+  "terminal.exitCode": {
+    "en": "exit code {code}",
+    "ru": "код выхода {code}"
+  },
+  "terminal.noExitCode": {
+    "en": "no exit code",
+    "ru": "нет кода выхода"
+  },
+  "terminal.running": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "terminal.failed": {
+    "en": "Failed",
+    "ru": "С ошибкой"
+  },
+  "terminal.done": {
+    "en": "Done",
+    "ru": "Готово"
+  },
+  "terminal.noOutput": {
+    "en": "No output",
+    "ru": "Нет вывода"
+  },
+  "terminal.collapseAria": {
+    "en": "Collapse output",
+    "ru": "Свернуть вывод"
+  },
+  "terminal.expandAria": {
+    "en": "Expand the remaining {n} output lines",
+    "ru": "Развернуть оставшиеся строки вывода: {n}"
+  },
+  "terminal.expandRest": {
+    "en": "… {n} more lines",
+    "ru": "… ещё строк: {n}"
+  },
+  "terminal.sendInput": {
+    "en": "(send input)",
+    "ru": "(отправить ввод)"
+  },
+  "terminal.session": {
+    "en": "Terminal {sessionId}",
+    "ru": "Терминал {sessionId}"
+  }
+}

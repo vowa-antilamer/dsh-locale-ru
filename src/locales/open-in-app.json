@@ -1,0 +1,182 @@
+{
+  "open.title": {
+    "en": "Open in {app}",
+    "ru": "Открыть в {app}"
+  },
+  "path.appDefault": {
+    "en": "{app} (default)",
+    "ru": "{app} (по умолчанию)"
+  },
+  "path.appsError": {
+    "en": "Could not load applications",
+    "ru": "Не удалось загрузить приложения"
+  },
+  "shortcut.busy": {
+    "en": "Opening workspace",
+    "ru": "Открытие рабочей области"
+  },
+  "shortcut.unavailable": {
+    "en": "Current workspace or local application unavailable",
+    "ru": "Текущая рабочая область или локальное приложение недоступны"
+  },
+  "open.tooltip": {
+    "en": "Open locally",
+    "ru": "Открыть локально"
+  },
+  "path.open": {
+    "en": "Open",
+    "ru": "Открыть"
+  },
+  "path.more": {
+    "en": "More ways to open",
+    "ru": "Другие способы открыть"
+  },
+  "path.reveal": {
+    "en": "Show file location",
+    "ru": "Показать расположение файла"
+  },
+  "path.openError": {
+    "en": "Could not open. Try again.",
+    "ru": "Не удалось открыть. Повторите попытку."
+  },
+  "path.revealError": {
+    "en": "Could not show the file location. Try again.",
+    "ru": "Не удалось показать расположение файла. Повторите попытку."
+  },
+  "app.cursor": {
+    "en": "Cursor",
+    "ru": "Cursor"
+  },
+  "app.vscode": {
+    "en": "VS Code",
+    "ru": "VS Code"
+  },
+  "app.vscodeinsiders": {
+    "en": "VS Code Insiders",
+    "ru": "VS Code Insiders"
+  },
+  "app.windsurf": {
+    "en": "Windsurf",
+    "ru": "Windsurf"
+  },
+  "app.zed": {
+    "en": "Zed",
+    "ru": "Zed"
+  },
+  "app.sublimetext": {
+    "en": "Sublime Text",
+    "ru": "Sublime Text"
+  },
+  "app.xcode": {
+    "en": "Xcode",
+    "ru": "Xcode"
+  },
+  "app.androidstudio": {
+    "en": "Android Studio",
+    "ru": "Android Studio"
+  },
+  "app.intellij": {
+    "en": "IntelliJ IDEA",
+    "ru": "IntelliJ IDEA"
+  },
+  "app.pycharm": {
+    "en": "PyCharm",
+    "ru": "PyCharm"
+  },
+  "app.webstorm": {
+    "en": "WebStorm",
+    "ru": "WebStorm"
+  },
+  "app.phpstorm": {
+    "en": "PhpStorm",
+    "ru": "PhpStorm"
+  },
+  "app.goland": {
+    "en": "GoLand",
+    "ru": "GoLand"
+  },
+  "app.rider": {
+    "en": "Rider",
+    "ru": "Rider"
+  },
+  "app.rustrover": {
+    "en": "RustRover",
+    "ru": "RustRover"
+  },
+  "app.fork": {
+    "en": "Fork",
+    "ru": "Fork"
+  },
+  "app.sourcetree": {
+    "en": "Sourcetree",
+    "ru": "Sourcetree"
+  },
+  "app.github": {
+    "en": "GitHub Desktop",
+    "ru": "GitHub Desktop"
+  },
+  "app.tower": {
+    "en": "Tower",
+    "ru": "Tower"
+  },
+  "app.gitkraken": {
+    "en": "GitKraken",
+    "ru": "GitKraken"
+  },
+  "app.smartgit": {
+    "en": "SmartGit",
+    "ru": "SmartGit"
+  },
+  "app.sublimemerge": {
+    "en": "Sublime Merge",
+    "ru": "Sublime Merge"
+  },
+  "app.ghostty": {
+    "en": "Ghostty",
+    "ru": "Ghostty"
+  },
+  "app.warp": {
+    "en": "Warp",
+    "ru": "Warp"
+  },
+  "app.iterm": {
+    "en": "iTerm2",
+    "ru": "iTerm2"
+  },
+  "app.kitty": {
+    "en": "kitty",
+    "ru": "kitty"
+  },
+  "app.windowsterminal": {
+    "en": "Windows Terminal",
+    "ru": "Windows Terminal"
+  },
+  "app.gitbash": {
+    "en": "Git Bash",
+    "ru": "Git Bash"
+  },
+  "app.gnometerminal": {
+    "en": "GNOME Terminal",
+    "ru": "GNOME Terminal"
+  },
+  "app.konsole": {
+    "en": "Konsole",
+    "ru": "Konsole"
+  },
+  "app.finder": {
+    "en": "Finder",
+    "ru": "Finder"
+  },
+  "app.explorer": {
+    "en": "File Explorer",
+    "ru": "File Explorer"
+  },
+  "app.filemanager": {
+    "en": "Files",
+    "ru": "Файлы"
+  },
+  "app.terminal": {
+    "en": "Terminal",
+    "ru": "Терминал"
+  }
+}

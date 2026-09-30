@@ -1,0 +1,18 @@
+{
+  "title": {
+    "en": "HTML",
+    "ru": "HTML"
+  },
+  "frame": {
+    "en": "HTML document preview",
+    "ru": "Предпросмотр HTML-документа"
+  },
+  "loading": {
+    "en": "Rendering document...",
+    "ru": "Отрисовка документа..."
+  },
+  "failed": {
+    "en": "This HTML document could not be previewed.",
+    "ru": "Не удалось показать предпросмотр этого HTML-документа."
+  }
+}

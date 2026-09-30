@@ -1,0 +1,406 @@
+{
+  "dictate": {
+    "en": "Dictate",
+    "ru": "Диктовка"
+  },
+  "setupPrompt.title": {
+    "en": "Set up voice input before recording",
+    "ru": "Настройте голосовой ввод перед записью"
+  },
+  "setupPrompt.body": {
+    "en": "Voice input is enabled. First use requires downloading and preparing local recognition models. Open the plugin details to review disk space, memory and time estimates before starting setup.",
+    "ru": "Голосовой ввод включён. При первом использовании нужно скачать и подготовить локальные модели распознавания. Откройте сведения о плагине, чтобы оценить место на диске, память и время до начала настройки."
+  },
+  "setupPrompt.later": {
+    "en": "Later",
+    "ru": "Позже"
+  },
+  "setupPrompt.open": {
+    "en": "Go to setup",
+    "ru": "Перейти к настройке"
+  },
+  "setupPrompt.trigger": {
+    "en": "Open voice input setup",
+    "ru": "Открыть настройку голосового ввода"
+  },
+  "setupPrompt.details": {
+    "en": "Open voice plugin settings",
+    "ru": "Открыть настройки плагина голосового ввода"
+  },
+  "setupPrompt.unavailableTitle": {
+    "en": "Speech recognition is not ready",
+    "ru": "Распознавание речи не готово"
+  },
+  "setupPrompt.unavailableBody": {
+    "en": "Open the voice plugin details to check recognition status, preparation progress, or errors.",
+    "ru": "Откройте сведения о плагине голосового ввода, чтобы проверить состояние распознавания, ход подготовки или ошибки."
+  },
+  "setup.local": {
+    "en": "Local models will be downloaded to the machine running DSH. No Python or compiler is required.",
+    "ru": "Локальные модели будут скачаны на машину, где работает DSH. Python или компилятор не нужны."
+  },
+  "setup.disk": {
+    "en": "Disk space",
+    "ru": "Место на диске"
+  },
+  "setup.diskValue": {
+    "en": "Allow about {gb} GB for models, runtime, and download caches",
+    "ru": "Нужно около {gb} ГБ для моделей, среды выполнения и кэша загрузок"
+  },
+  "setup.memory": {
+    "en": "Memory",
+    "ru": "Память"
+  },
+  "setup.memoryValue": {
+    "en": "About {gb} GB with the model loaded; recognition may use more",
+    "ru": "Около {gb} ГБ с загруженной моделью; распознавание может использовать больше"
+  },
+  "setup.time": {
+    "en": "First setup",
+    "ru": "Первая настройка"
+  },
+  "setup.timeValue": {
+    "en": "Allow roughly {min}–{max} minutes, depending on the network and machine",
+    "ru": "Примерно {min}–{max} минут в зависимости от сети и машины"
+  },
+  "setup.estimateNote": {
+    "en": "These are estimates; slow networks may take longer. Downloads are reused; idle models release memory by default.",
+    "ru": "Это оценки; при медленной сети может занять больше времени. Загрузки переиспользуются; неактивные модели по умолчанию освобождают память."
+  },
+  "step.check": {
+    "en": "Check local resources",
+    "ru": "Проверка локальных ресурсов"
+  },
+  "step.model": {
+    "en": "Prepare recognition model",
+    "ru": "Подготовка модели распознавания"
+  },
+  "step.vad": {
+    "en": "Prepare voice detection model",
+    "ru": "Подготовка модели определения голоса"
+  },
+  "step.verify": {
+    "en": "Verify model files",
+    "ru": "Проверка файлов моделей"
+  },
+  "step.load": {
+    "en": "Load {name}",
+    "ru": "Загрузка {name}"
+  },
+  "stepStatus.pending": {
+    "en": "Not started",
+    "ru": "Не начато"
+  },
+  "stepStatus.running": {
+    "en": "In progress",
+    "ru": "Выполняется"
+  },
+  "stepStatus.complete": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "stepStatus.failed": {
+    "en": "Failed",
+    "ru": "Не удалось"
+  },
+  "stepStatus.cancelled": {
+    "en": "Cancelled",
+    "ru": "Отменено"
+  },
+  "short.downloading": {
+    "en": "Downloading",
+    "ru": "Загрузка"
+  },
+  "short.failed": {
+    "en": "Setup failed",
+    "ru": "Настройка не удалась"
+  },
+  "retryRecording": {
+    "en": "Record again",
+    "ru": "Записать снова"
+  },
+  "preparationSteps": {
+    "en": "Preparation steps",
+    "ru": "Этапы подготовки"
+  },
+  "prepare": {
+    "en": "Download and prepare",
+    "ru": "Скачать и подготовить"
+  },
+  "retryPrepare": {
+    "en": "Retry preparation",
+    "ru": "Повторить подготовку"
+  },
+  "cancelPrepare": {
+    "en": "Cancel preparation",
+    "ru": "Отменить подготовку"
+  },
+  "downloadProgress": {
+    "en": "Download progress",
+    "ru": "Ход загрузки"
+  },
+  "downloadBytes": {
+    "en": "Download: {completed} / {total} MB, {percent}%",
+    "ru": "Загрузка: {completed} / {total} МБ, {percent}%"
+  },
+  "downloadUnknown": {
+    "en": "Downloaded {completed} MB",
+    "ru": "Загружено {completed} МБ"
+  },
+  "elapsed": {
+    "en": "Waiting {seconds} seconds",
+    "ru": "Ожидание {seconds} с"
+  },
+  "preparationFailed": {
+    "en": "Preparation failed: {message}",
+    "ru": "Сбой подготовки: {message}"
+  },
+  "download.network": {
+    "en": "Cannot download {resource}: connection to the download service failed.",
+    "ru": "Не удалось скачать {resource}: нет соединения со службой загрузки."
+  },
+  "download.dns": {
+    "en": "Cannot download {resource}: the download address could not be resolved.",
+    "ru": "Не удалось скачать {resource}: не удалось разрешить адрес загрузки."
+  },
+  "download.timeout": {
+    "en": "The download of {resource} timed out.",
+    "ru": "Время загрузки {resource} истекло."
+  },
+  "download.certificate": {
+    "en": "Cannot download {resource}: certificate verification failed.",
+    "ru": "Не удалось скачать {resource}: проверка сертификата не прошла."
+  },
+  "download.http": {
+    "en": "Cannot download {resource}: the download service returned HTTP {status}.",
+    "ru": "Не удалось скачать {resource}: служба загрузки вернула HTTP {status}."
+  },
+  "download.integrity": {
+    "en": "The download of {resource} is incomplete or failed verification.",
+    "ru": "Загрузка {resource} не завершена или не прошла проверку."
+  },
+  "download.storage": {
+    "en": "Cannot save {resource}: insufficient disk space or write permission.",
+    "ru": "Не удалось сохранить {resource}: не хватает места на диске или нет прав на запись."
+  },
+  "download.unknown": {
+    "en": "Could not prepare {resource}.",
+    "ru": "Не удалось подготовить {resource}."
+  },
+  "downloadAdvice.network": {
+    "en": "Check that the machine running DSH can reach the download source and its model download services. Configure a proxy on that machine if needed, then retry.",
+    "ru": "Проверьте, что машина с DSH имеет доступ к источнику загрузки и его службам загрузки моделей. При необходимости настройте на этой машине прокси и повторите."
+  },
+  "downloadAdvice.dns": {
+    "en": "Check DNS and proxy settings on the machine running DSH. Confirm that it can resolve the download source domain, then retry.",
+    "ru": "Проверьте настройки DNS и прокси на машине с DSH. Убедитесь, что домен источника загрузки разрешается, и повторите."
+  },
+  "downloadAdvice.timeout": {
+    "en": "Check the network or proxy connection on the machine running DSH, then retry later. Verified downloaded files are retained.",
+    "ru": "Проверьте сеть или прокси на машине с DSH и повторите позже. Проверенные загруженные файлы сохраняются."
+  },
+  "downloadAdvice.certificate": {
+    "en": "Check the system clock, trusted certificates and proxy settings on the machine running DSH, then retry.",
+    "ru": "Проверьте системные часы, доверенные сертификаты и настройки прокси на машине с DSH, затем повторите."
+  },
+  "downloadAdvice.http": {
+    "en": "Confirm that the download address is available and the proxy can reach the download service, or retry later.",
+    "ru": "Убедитесь, что адрес загрузки доступен и прокси может связаться со службой загрузки, или повторите позже."
+  },
+  "downloadAdvice.integrity": {
+    "en": "Retry the download. Other completed and verified files are retained.",
+    "ru": "Повторите загрузку. Остальные завершённые и проверенные файлы сохраняются."
+  },
+  "downloadAdvice.storage": {
+    "en": "Check available disk space and write permission for the model directory on the machine running DSH, then retry.",
+    "ru": "Проверьте свободное место и права на запись в каталог моделей на машине с DSH, затем повторите."
+  },
+  "downloadAdvice.unknown": {
+    "en": "Check the network, disk space and model directory permissions on the machine running DSH, then retry.",
+    "ru": "Проверьте сеть, место на диске и права на каталог моделей на машине с DSH, затем повторите."
+  },
+  "downloadSource": {
+    "en": "Download source: {source}",
+    "ru": "Источник загрузки: {source}"
+  },
+  "sourceChoice": {
+    "en": "Model download source",
+    "ru": "Источник загрузки моделей"
+  },
+  "sourceAuto": {
+    "en": "Automatic (recommended)",
+    "ru": "Автоматически (рекомендуется)"
+  },
+  "sourceHuggingFace": {
+    "en": "Hugging Face",
+    "ru": "Hugging Face"
+  },
+  "sourceMirror": {
+    "en": "HF-Mirror (China mirror)",
+    "ru": "HF-Mirror (зеркало для Китая)"
+  },
+  "sourceAutoHelp": {
+    "en": "Prefer the first responding source and try another if a download fails.",
+    "ru": "Использовать первый ответивший источник, а при сбое загрузки — другой."
+  },
+  "sourceManualHelp": {
+    "en": "Download only from the selected source. Verified downloaded files are reused.",
+    "ru": "Загружать только из выбранного источника. Проверенные загруженные файлы переиспользуются."
+  },
+  "downloadCode": {
+    "en": "Error code: {code}",
+    "ru": "Код ошибки: {code}"
+  },
+  "reconnecting": {
+    "en": "Connecting to speech recognition…",
+    "ru": "Подключение к распознаванию речи…"
+  },
+  "preparation.unprepared": {
+    "en": "First use downloads the local recognition models.",
+    "ru": "При первом использовании скачиваются локальные модели распознавания."
+  },
+  "preparation.checking": {
+    "en": "Checking local resources…",
+    "ru": "Проверка локальных ресурсов…"
+  },
+  "preparation.loading": {
+    "en": "Loading {name}…",
+    "ru": "Загрузка {name}…"
+  },
+  "preparation.waking": {
+    "en": "Waking local speech recognition…",
+    "ru": "Запуск локального распознавания речи…"
+  },
+  "preparation.ready": {
+    "en": "Local speech recognition is ready.",
+    "ru": "Локальное распознавание речи готово."
+  },
+  "preparation.standby": {
+    "en": "Local resources are prepared. Recording wakes the recognizer.",
+    "ru": "Локальные ресурсы подготовлены. Запись запустит распознавание."
+  },
+  "preparation.cancelled": {
+    "en": "Preparation cancelled. Completed downloads are retained.",
+    "ru": "Подготовка отменена. Завершённые загрузки сохраняются."
+  },
+  "preparation.cancelling": {
+    "en": "Cancelling preparation…",
+    "ru": "Отмена подготовки…"
+  },
+  "cloudReady": {
+    "en": "Cloud speech recognition is ready.",
+    "ru": "Облачное распознавание речи готово."
+  },
+  "discard": {
+    "en": "Discard transcript",
+    "ru": "Отклонить расшифровку"
+  },
+  "transcribingShort": {
+    "en": "Transcribing…",
+    "ru": "Распознавание…"
+  },
+  "wakingShort": {
+    "en": "Waking…",
+    "ru": "Запуск…"
+  },
+  "provider": {
+    "en": "Recognition service",
+    "ru": "Служба распознавания"
+  },
+  "language": {
+    "en": "Recognition language",
+    "ru": "Язык распознавания"
+  },
+  "auto": {
+    "en": "Detect automatically",
+    "ru": "Определять автоматически"
+  },
+  "zh": {
+    "en": "Chinese",
+    "ru": "Китайский"
+  },
+  "en": {
+    "en": "English",
+    "ru": "Английский"
+  },
+  "yue": {
+    "en": "Cantonese",
+    "ru": "Кантонский"
+  },
+  "ja": {
+    "en": "Japanese",
+    "ru": "Японский"
+  },
+  "ko": {
+    "en": "Korean",
+    "ru": "Корейский"
+  },
+  "start": {
+    "en": "Start recording",
+    "ru": "Начать запись"
+  },
+  "stop": {
+    "en": "Stop and transcribe",
+    "ru": "Остановить и распознать"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "insert": {
+    "en": "Insert text",
+    "ru": "Вставить текст"
+  },
+  "loading": {
+    "en": "Loading recognition services…",
+    "ru": "Загрузка служб распознавания…"
+  },
+  "requesting": {
+    "en": "Allow microphone access to continue…",
+    "ru": "Разрешите доступ к микрофону, чтобы продолжить…"
+  },
+  "recording": {
+    "en": "Recording…",
+    "ru": "Запись…"
+  },
+  "interrupted": {
+    "en": "Recording was interrupted. Please try again.",
+    "ru": "Запись прервана. Попробуйте ещё раз."
+  },
+  "local": {
+    "en": "Audio is recognized on the machine running DSH. If models need downloading, that machine must be able to reach the selected source and its file services. Configure a proxy on that machine if needed.",
+    "ru": "Звук распознаётся на машине, где работает DSH. Если модели нужно скачать, эта машина должна иметь доступ к выбранному источнику и его файловым службам. При необходимости настройте на этой машине прокси."
+  },
+  "cloud": {
+    "en": "Audio will be sent to the selected cloud service.",
+    "ru": "Звук будет отправлен в выбранную облачную службу."
+  },
+  "empty": {
+    "en": "No speech recognized",
+    "ru": "Речь не распознана"
+  },
+  "cancelled": {
+    "en": "Voice input cancelled.",
+    "ru": "Голосовой ввод отменён."
+  },
+  "conflict": {
+    "en": "Your draft changed. The transcript is preserved and can be inserted at the current cursor.",
+    "ru": "Ваш черновик изменился. Расшифровка сохранена, её можно вставить в текущую позицию курсора."
+  },
+  "failed": {
+    "en": "Speech recognition failed: {message}",
+    "ru": "Сбой распознавания речи: {message}"
+  },
+  "unavailable": {
+    "en": "This browser cannot record audio. Use a browser with microphone support.",
+    "ru": "Этот браузер не умеет записывать звук. Используйте браузер с поддержкой микрофона."
+  },
+  "permission": {
+    "en": "Microphone access is disabled. Allow it in browser and system settings.",
+    "ru": "Доступ к микрофону запрещён. Разрешите его в настройках браузера и системы."
+  },
+  "tooLarge": {
+    "en": "The recording exceeds the service limit. Try a shorter recording.",
+    "ru": "Запись превышает лимит службы. Попробуйте более короткую запись."
+  }
+}

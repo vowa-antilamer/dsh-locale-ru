@@ -1,0 +1,142 @@
+{
+  "overridden": {
+    "en": "Overridden",
+    "ru": "Переопределено"
+  },
+  "reset": {
+    "en": "Reset to default",
+    "ru": "Вернуть по умолчанию"
+  },
+  "readOnly": {
+    "en": "This deployment stores settings read-only.",
+    "ru": "В этом развёртывании настройки хранятся только для чтения."
+  },
+  "unavailable": {
+    "en": "This plugin is not loaded, so it cannot be configured right now.",
+    "ru": "Этот плагин не загружен, поэтому сейчас его нельзя настроить."
+  },
+  "save": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "saving": {
+    "en": "Saving…",
+    "ru": "Сохранение…"
+  },
+  "saveFailed": {
+    "en": "The deployment did not accept these values; they were left for you to correct.",
+    "ru": "Развёртывание не приняло эти значения; они оставлены для исправления."
+  },
+  "subagentTitle": {
+    "en": "Subagent",
+    "ru": "Субагент"
+  },
+  "subagentDescription": {
+    "en": "Set Subagent recursion depth, count, and models.",
+    "ru": "Настройка глубины рекурсии, числа и моделей субагентов."
+  },
+  "subagentLimitsTitle": {
+    "en": "Limits",
+    "ru": "Ограничения"
+  },
+  "subagentMaxDepth": {
+    "en": "Maximum recursion depth",
+    "ru": "Максимальная глубина рекурсии"
+  },
+  "subagentDepthHelpLabel": {
+    "en": "About maximum recursion depth",
+    "ru": "О максимальной глубине рекурсии"
+  },
+  "subagentDepthHelp": {
+    "en": "Limits how many levels of Subagents an Agent can create.",
+    "ru": "Ограничивает число уровней субагентов, которые может создать агент."
+  },
+  "subagentDepthZero": {
+    "en": "Disable Subagents",
+    "ru": "Отключить субагентов"
+  },
+  "subagentDepthOne": {
+    "en": "Only the main Agent can create Subagents",
+    "ru": "Только основной агент может создавать субагентов"
+  },
+  "subagentDepthOverride": {
+    "en": "If a tool defines its own maximum recursion depth, that setting takes precedence.",
+    "ru": "Если инструмент задаёт собственную максимальную глубину рекурсии, приоритет у этой настройки."
+  },
+  "subagentMaxActive": {
+    "en": "Subagent parallelism limit",
+    "ru": "Ограничение параллелизма субагентов"
+  },
+  "subagentCapacityHelpLabel": {
+    "en": "About the Subagent parallelism limit",
+    "ru": "Об ограничении параллелизма субагентов"
+  },
+  "subagentCapacityHelp": {
+    "en": "Total live Subagents under the same main Agent, across all recursion levels. The main Agent is excluded. New start requests are rejected when the limit is reached.",
+    "ru": "Общее число активных субагентов под одним основным агентом на всех уровнях рекурсии. Основной агент не учитывается. При достижении лимита новые запросы на запуск отклоняются."
+  },
+  "subagentDepthInvalid": {
+    "en": "Enter a whole number of 0 or more.",
+    "ru": "Введите целое число не меньше 0."
+  },
+  "subagentCapacityInvalid": {
+    "en": "Enter a whole number of 1 or more.",
+    "ru": "Введите целое число не меньше 1."
+  },
+  "subagentModelSelectionTitle": {
+    "en": "Model selection",
+    "ru": "Выбор модели"
+  },
+  "subagentModelSelectionToggle": {
+    "en": "Allow agents to choose models for Subagents",
+    "ru": "Разрешить агентам выбирать модели для субагентов"
+  },
+  "subagentModelSelectionChoose": {
+    "en": "When enabled, agents can choose a provider, model, and reasoning effort for each Subagent from the authorized models below. Applies only to new sessions.",
+    "ru": "Если включено, агенты могут выбирать провайдера, модель и уровень рассуждений для каждого субагента из разрешённых моделей ниже. Действует только для новых сессий."
+  },
+  "subagentModelSelectionAllowed": {
+    "en": "Models agents may choose",
+    "ru": "Модели, доступные агентам"
+  },
+  "subagentModelSelectionLoading": {
+    "en": "Loading models…",
+    "ru": "Загрузка моделей…"
+  },
+  "subagentModelSelectionLoadFailed": {
+    "en": "Models could not be loaded.",
+    "ru": "Не удалось загрузить модели."
+  },
+  "subagentModelSelectionRetry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "subagentModelSelectionPartial": {
+    "en": "Some model providers could not be loaded; saved choices remain removable.",
+    "ru": "Некоторые провайдеры моделей не удалось загрузить; сохранённые варианты по-прежнему можно удалить."
+  },
+  "subagentModelSelectionUnavailable": {
+    "en": "Currently unavailable",
+    "ru": "Сейчас недоступно"
+  },
+  "subagentModelSelectionUnavailableGroup": {
+    "en": "Saved but currently unavailable",
+    "ru": "Сохранено, но сейчас недоступно"
+  },
+  "subagentModelSelectionEmpty": {
+    "en": "No model provider currently advertises a model.",
+    "ru": "Ни один провайдер моделей сейчас не предлагает моделей."
+  },
+  "subagentModelSelectionRequired": {
+    "en": "Select at least one model before saving.",
+    "ru": "Выберите хотя бы одну модель перед сохранением."
+  },
+  "subagentModelSelectionConflict": {
+    "en": "Settings changed elsewhere. Discard your draft and try again.",
+    "ru": "Настройки изменены в другом месте. Отбросьте черновик и попробуйте снова."
+  },
+  "subagentModelSelectionOff": {
+    "en": "Subagents use configured defaults or inherit the parent agent's model. Saved model choices are retained.",
+    "ru": "Субагенты используют заданные значения по умолчанию или наследуют модель родительского агента. Сохранённые варианты моделей сохраняются."
+  }
+}

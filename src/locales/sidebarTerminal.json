@@ -1,0 +1,114 @@
+{
+  "shortcut.noSession": {
+    "en": "Select a session first",
+    "ru": "Сначала выберите сессию"
+  },
+  "recoveryFailed": {
+    "en": "Terminal recovery failed: {message}",
+    "ru": "Не удалось восстановить терминал: {message}"
+  },
+  "retryRecovery": {
+    "en": "Retry terminal recovery",
+    "ru": "Повторить восстановление терминала"
+  },
+  "shell": {
+    "en": "Choose shell",
+    "ru": "Выбрать оболочку"
+  },
+  "shellLoading": {
+    "en": "Loading shells…",
+    "ru": "Загрузка оболочек…"
+  },
+  "shellEmpty": {
+    "en": "No shells available",
+    "ru": "Оболочки недоступны"
+  },
+  "description": {
+    "en": "Run commands in the Session workspace",
+    "ru": "Выполнение команд в рабочей области сессии"
+  },
+  "title": {
+    "en": "Terminal",
+    "ru": "Терминал"
+  },
+  "new": {
+    "en": "New terminal",
+    "ru": "Новый терминал"
+  },
+  "loading": {
+    "en": "Reading terminal environment…",
+    "ru": "Чтение окружения терминала…"
+  },
+  "creating": {
+    "en": "Starting…",
+    "ru": "Запуск…"
+  },
+  "connecting": {
+    "en": "Connecting…",
+    "ru": "Подключение…"
+  },
+  "disconnected": {
+    "en": "Disconnected.",
+    "ru": "Соединение разорвано."
+  },
+  "reconnect": {
+    "en": "Reconnect",
+    "ru": "Подключиться снова"
+  },
+  "readonly": {
+    "en": "This view is read-only.",
+    "ru": "Это представление доступно только для чтения."
+  },
+  "control": {
+    "en": "Take control",
+    "ru": "Взять управление"
+  },
+  "closed": {
+    "en": "Terminal closed.",
+    "ru": "Терминал закрыт."
+  },
+  "exited": {
+    "en": "Process exited ({code})",
+    "ru": "Процесс завершён ({code})"
+  },
+  "failed": {
+    "en": "Terminal error: {message}",
+    "ru": "Ошибка терминала: {message}"
+  },
+  "rename": {
+    "en": "Terminal name",
+    "ru": "Имя терминала"
+  },
+  "unavailable": {
+    "en": "Unavailable",
+    "ru": "Недоступно"
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "cleanupFailed": {
+    "en": "Terminal “{title}” could not be ended: {message}",
+    "ru": "Не удалось завершить терминал «{title}»: {message}"
+  },
+  "missingTerminal": {
+    "en": "This terminal no longer exists. Open a new terminal.",
+    "ru": "Этот терминал больше не существует. Откройте новый терминал."
+  },
+  "inputFull": {
+    "en": "The input buffer is full. Reconnect and try again.",
+    "ru": "Буфер ввода заполнен. Подключитесь снова и повторите."
+  },
+  "attachmentEnded": {
+    "en": "The terminal connection ended. Reconnect to continue.",
+    "ru": "Соединение с терминалом прервано. Подключитесь снова, чтобы продолжить."
+  },
+  "invalidOutput": {
+    "en": "The terminal screen could not be received. Reconnect to recover it.",
+    "ru": "Не удалось получить экран терминала. Подключитесь снова для восстановления."
+  },
+  "terminalLimit": {
+    "en": "The terminal limit has been reached. Close unused terminals and try again. Exited terminals also count toward the limit.",
+    "ru": "Достигнут лимит терминалов. Закройте неиспользуемые терминалы и повторите. Завершённые терминалы тоже учитываются в лимите."
+  }
+}

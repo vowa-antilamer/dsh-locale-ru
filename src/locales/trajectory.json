@@ -1,0 +1,770 @@
+{
+  "view.trajectory": {
+    "en": "Trajectory",
+    "ru": "Траектория"
+  },
+  "toolbar.aria": {
+    "en": "Trajectory toolbar",
+    "ru": "Панель траектории"
+  },
+  "toolbar.duration": {
+    "en": "Duration",
+    "ru": "Длительность"
+  },
+  "toolbar.useActualDuration": {
+    "en": "Use actual duration",
+    "ru": "Реальная длительность"
+  },
+  "toolbar.useEqualWidth": {
+    "en": "Use equal-width operations",
+    "ru": "Операции одинаковой ширины"
+  },
+  "toolbar.actualTime": {
+    "en": "Actual time",
+    "ru": "Реальное время"
+  },
+  "toolbar.turns": {
+    "en": "Turns",
+    "ru": "Ходы"
+  },
+  "toolbar.expandTurns": {
+    "en": "Expand turns",
+    "ru": "Развернуть ходы"
+  },
+  "toolbar.collapseTurns": {
+    "en": "Collapse turns",
+    "ru": "Свернуть ходы"
+  },
+  "toolbar.calls": {
+    "en": "Calls",
+    "ru": "Вызовы"
+  },
+  "toolbar.expandCalls": {
+    "en": "Expand calls",
+    "ru": "Развернуть вызовы"
+  },
+  "toolbar.collapseCalls": {
+    "en": "Collapse calls",
+    "ru": "Свернуть вызовы"
+  },
+  "toolbar.search": {
+    "en": "Search trajectory",
+    "ru": "Поиск по траектории"
+  },
+  "toolbar.searchPlaceholder": {
+    "en": "Search",
+    "ru": "Поиск"
+  },
+  "kind.system": {
+    "en": "SYSTEM",
+    "ru": "СИСТЕМА"
+  },
+  "kind.user": {
+    "en": "USER",
+    "ru": "ПОЛЬЗОВАТЕЛЬ"
+  },
+  "kind.context": {
+    "en": "CONTEXT",
+    "ru": "КОНТЕКСТ"
+  },
+  "kind.compacted": {
+    "en": "COMPACTED",
+    "ru": "СЖАТО"
+  },
+  "kind.message": {
+    "en": "Message",
+    "ru": "Сообщение"
+  },
+  "kind.assistant": {
+    "en": "ASSISTANT",
+    "ru": "АССИСТЕНТ"
+  },
+  "kind.tool": {
+    "en": "TOOL",
+    "ru": "ИНСТРУМЕНТ"
+  },
+  "kind.subtool": {
+    "en": "SUBTOOL",
+    "ru": "СУБИНСТРУМЕНТ"
+  },
+  "kind.sub": {
+    "en": "Sub",
+    "ru": "Суб"
+  },
+  "column.input": {
+    "en": "Input",
+    "ru": "Ввод"
+  },
+  "column.output": {
+    "en": "Output",
+    "ru": "Вывод"
+  },
+  "column.think": {
+    "en": "Think",
+    "ru": "Мысли"
+  },
+  "column.time": {
+    "en": "Time",
+    "ru": "Время"
+  },
+  "column.model": {
+    "en": "Model",
+    "ru": "Модель"
+  },
+  "column.tools": {
+    "en": "Tools",
+    "ru": "Инструменты"
+  },
+  "turn.label": {
+    "en": "Turn {turn}",
+    "ru": "Ход {turn}"
+  },
+  "section.betweenTurns": {
+    "en": "Between turns",
+    "ru": "Между ходами"
+  },
+  "group.message": {
+    "en": "Message",
+    "ru": "Сообщение"
+  },
+  "group.step": {
+    "en": "Step {step}",
+    "ru": "Шаг {step}"
+  },
+  "group.compaction": {
+    "en": "Compaction {seq}",
+    "ru": "Сжатие {seq}"
+  },
+  "status.failed": {
+    "en": "Failed",
+    "ru": "Не удалось"
+  },
+  "status.pending": {
+    "en": "Pending",
+    "ru": "Ожидает"
+  },
+  "status.completed": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "timing.notAvailable": {
+    "en": "Not available",
+    "ru": "Недоступно"
+  },
+  "timing.notRecorded": {
+    "en": "Not recorded",
+    "ru": "Не записано"
+  },
+  "timing.stepStartUnavailable": {
+    "en": "Step start unavailable",
+    "ru": "Начало шага недоступно"
+  },
+  "timing.firstTokenUnavailable": {
+    "en": "First token unavailable",
+    "ru": "Первый токен недоступен"
+  },
+  "timing.usageUnavailable": {
+    "en": "Usage unavailable",
+    "ru": "Использование недоступно"
+  },
+  "timing.outputTokensUnavailable": {
+    "en": "Output tokens unavailable",
+    "ru": "Токены вывода недоступны"
+  },
+  "timing.durationTooShort": {
+    "en": "Duration too short",
+    "ru": "Слишком короткая длительность"
+  },
+  "timing.showLocalTime": {
+    "en": "Show local time",
+    "ru": "Показать местное время"
+  },
+  "timing.showUnixTimestamp": {
+    "en": "Show Unix timestamp",
+    "ru": "Показать метку Unix"
+  },
+  "timing.started": {
+    "en": "Started",
+    "ru": "Начато"
+  },
+  "timing.totalDuration": {
+    "en": "Total duration",
+    "ru": "Общая длительность"
+  },
+  "timing.ttft": {
+    "en": "TTFT",
+    "ru": "TTFT"
+  },
+  "timing.generation": {
+    "en": "Generation",
+    "ru": "Генерация"
+  },
+  "timing.throughput": {
+    "en": "Throughput",
+    "ru": "Пропускная способность"
+  },
+  "timing.duration": {
+    "en": "Duration",
+    "ru": "Длительность"
+  },
+  "timing.source": {
+    "en": "Timing source",
+    "ru": "Источник времени"
+  },
+  "timing.sessionTimestamps": {
+    "en": "Session timestamps",
+    "ru": "Метки времени сессии"
+  },
+  "timing.sessionTimestampsRunning": {
+    "en": "Session timestamps (running)",
+    "ru": "Метки времени сессии (выполняется)"
+  },
+  "timing.request": {
+    "en": "Request Timing",
+    "ru": "Время запроса"
+  },
+  "unit.milliseconds": {
+    "en": "{value} ms",
+    "ru": "{value} мс"
+  },
+  "unit.seconds": {
+    "en": "{value} s",
+    "ru": "{value} с"
+  },
+  "unit.tokens": {
+    "en": "{value} tok",
+    "ru": "{value} ток"
+  },
+  "unit.tokensPerSecond": {
+    "en": "{value} tok/s",
+    "ru": "{value} ток/с"
+  },
+  "usage.tokens": {
+    "en": "Tokens",
+    "ru": "Токены"
+  },
+  "usage.reasoning": {
+    "en": "Reasoning",
+    "ru": "Рассуждения"
+  },
+  "usage.content": {
+    "en": "Content",
+    "ru": "Содержимое"
+  },
+  "usage.notReported": {
+    "en": "Usage not reported",
+    "ru": "Использование не сообщено"
+  },
+  "usage.input": {
+    "en": "Input",
+    "ru": "Ввод"
+  },
+  "usage.cached": {
+    "en": "Cached",
+    "ru": "Из кэша"
+  },
+  "usage.cacheCreated": {
+    "en": "Cache created",
+    "ru": "Создано в кэше"
+  },
+  "usage.other": {
+    "en": "Other",
+    "ru": "Прочее"
+  },
+  "usage.output": {
+    "en": "Output",
+    "ru": "Вывод"
+  },
+  "usage.thisRequest": {
+    "en": "This request",
+    "ru": "Этот запрос"
+  },
+  "usage.sessionCumulative": {
+    "en": "Session cumulative",
+    "ru": "Итого за сессию"
+  },
+  "options.notRecorded": {
+    "en": "Options not recorded",
+    "ru": "Параметры не записаны"
+  },
+  "options.json": {
+    "en": "Request options JSON",
+    "ru": "JSON параметров запроса"
+  },
+  "source.unknown": {
+    "en": "Unknown",
+    "ru": "Неизвестно"
+  },
+  "source.user": {
+    "en": "User",
+    "ru": "Пользователь"
+  },
+  "source.plugin": {
+    "en": "Plugin",
+    "ru": "Плагин"
+  },
+  "source.pluginNamed": {
+    "en": "Plugin · {plugin}",
+    "ru": "Плагин · {plugin}"
+  },
+  "source.goal": {
+    "en": "Goal",
+    "ru": "Цель"
+  },
+  "source.goalRound": {
+    "en": "Goal · Round {round}",
+    "ru": "Цель · раунд {round}"
+  },
+  "source.notRecorded": {
+    "en": "Source not recorded",
+    "ru": "Источник не записан"
+  },
+  "source.messageJson": {
+    "en": "Message source JSON",
+    "ru": "JSON источника сообщения"
+  },
+  "tab.summary": {
+    "en": "Summary",
+    "ru": "Сводка"
+  },
+  "tab.rawOutput": {
+    "en": "Raw Output",
+    "ru": "Сырой вывод"
+  },
+  "tab.preview": {
+    "en": "Preview",
+    "ru": "Предпросмотр"
+  },
+  "tab.raw": {
+    "en": "Raw",
+    "ru": "Сырой"
+  },
+  "tab.source": {
+    "en": "Source",
+    "ru": "Исходник"
+  },
+  "tab.payload": {
+    "en": "Payload",
+    "ru": "Данные"
+  },
+  "tab.result": {
+    "en": "Result",
+    "ru": "Результат"
+  },
+  "tab.schema": {
+    "en": "Schema",
+    "ru": "Схема"
+  },
+  "tab.timing": {
+    "en": "Timing",
+    "ru": "Время"
+  },
+  "tab.diff": {
+    "en": "Diff",
+    "ru": "Дифф"
+  },
+  "tab.systemPrompt": {
+    "en": "System Prompt",
+    "ru": "Системный промпт"
+  },
+  "tab.tools": {
+    "en": "Tools",
+    "ru": "Инструменты"
+  },
+  "tab.options": {
+    "en": "Options",
+    "ru": "Параметры"
+  },
+  "tab.usage": {
+    "en": "Usage",
+    "ru": "Использование"
+  },
+  "record.toolCallOnly": {
+    "en": "(tool call only)",
+    "ru": "(только вызов инструмента)"
+  },
+  "record.noContent": {
+    "en": "No content",
+    "ru": "Нет содержимого"
+  },
+  "record.noPayload": {
+    "en": "No payload captured",
+    "ru": "Данные не захвачены"
+  },
+  "record.noResult": {
+    "en": "No result captured",
+    "ru": "Результат не захвачен"
+  },
+  "record.noOutput": {
+    "en": "No output",
+    "ru": "Нет вывода"
+  },
+  "record.schemaUnavailable": {
+    "en": "Schema unavailable",
+    "ru": "Схема недоступна"
+  },
+  "record.parameters": {
+    "en": "Parameters",
+    "ru": "Параметры"
+  },
+  "record.resultJson": {
+    "en": "Result JSON",
+    "ru": "JSON результата"
+  },
+  "record.json": {
+    "en": "JSON",
+    "ru": "JSON"
+  },
+  "record.parametersJson": {
+    "en": "parameters JSON",
+    "ru": "JSON параметров"
+  },
+  "record.namedParametersJson": {
+    "en": "{name} parameters JSON",
+    "ru": "JSON параметров {name}"
+  },
+  "record.payloadJson": {
+    "en": "Payload JSON",
+    "ru": "JSON данных"
+  },
+  "record.outputJson": {
+    "en": "Result JSON",
+    "ru": "JSON результата"
+  },
+  "record.thinking": {
+    "en": "Thinking",
+    "ru": "Размышления"
+  },
+  "record.wrapLines": {
+    "en": "Wrap lines",
+    "ru": "Переносить строки"
+  },
+  "code.source": {
+    "en": "Code",
+    "ru": "Код"
+  },
+  "code.output": {
+    "en": "Output",
+    "ru": "Вывод"
+  },
+  "code.copySource": {
+    "en": "Copy code",
+    "ru": "Копировать код"
+  },
+  "code.copyOutput": {
+    "en": "Copy output",
+    "ru": "Копировать вывод"
+  },
+  "code.originalJson": {
+    "en": "Original JSON",
+    "ru": "Исходный JSON"
+  },
+  "code.running": {
+    "en": "Running…",
+    "ru": "Выполняется…"
+  },
+  "record.systemPromptMissing": {
+    "en": "No system prompt in this request",
+    "ru": "В этом запросе нет системного промпта"
+  },
+  "record.toolsMissing": {
+    "en": "No tools in this request",
+    "ru": "В этом запросе нет инструментов"
+  },
+  "record.systemPrompt": {
+    "en": "System Prompt",
+    "ru": "Системный промпт"
+  },
+  "record.tools": {
+    "en": "Tools",
+    "ru": "Инструменты"
+  },
+  "block.openSummary": {
+    "en": "Open Block #{index} tool call summary",
+    "ru": "Открыть сводку вызова инструмента в блоке #{index}"
+  },
+  "block.openSummaryTitle": {
+    "en": "Open tool call summary",
+    "ru": "Открыть сводку вызова инструмента"
+  },
+  "block.label": {
+    "en": "Block #{index} {type}",
+    "ru": "Блок #{index} {type}"
+  },
+  "history.loadingTrajectory": {
+    "en": "Loading trajectory…",
+    "ru": "Загрузка траектории…"
+  },
+  "history.loadingEarlier": {
+    "en": "Loading earlier history…",
+    "ru": "Загрузка предыдущей истории…"
+  },
+  "history.loadingEarlierAria": {
+    "en": "Loading earlier history…",
+    "ru": "Загрузка предыдущей истории…"
+  },
+  "history.loadEarlier": {
+    "en": "Load earlier history",
+    "ru": "Загрузить предыдущую историю"
+  },
+  "history.clickToLoadEarlier": {
+    "en": "Click to load earlier history",
+    "ru": "Нажмите, чтобы загрузить предыдущую историю"
+  },
+  "request.label": {
+    "en": "Request #{request}",
+    "ru": "Запрос #{request}"
+  },
+  "request.labelCompaction": {
+    "en": "Request #{request} · Compaction",
+    "ru": "Запрос #{request} · сжатие"
+  },
+  "request.compaction": {
+    "en": "Compaction · {section}",
+    "ru": "Сжатие · {section}"
+  },
+  "request.compactionPurpose": {
+    "en": "Compaction",
+    "ru": "Сжатие"
+  },
+  "request.retryProgress": {
+    "en": "{retry} of {maximum}",
+    "ru": "{retry} из {maximum}"
+  },
+  "request.collapsedSummary": {
+    "en": "Collapsed {kind} summary, {summary}",
+    "ru": "Свёрнутая сводка {kind}, {summary}"
+  },
+  "request.collapsedTurn": {
+    "en": "turn",
+    "ru": "ход"
+  },
+  "request.collapsedAssistant": {
+    "en": "assistant",
+    "ru": "ассистент"
+  },
+  "request.rowAria": {
+    "en": "{request}{kind}, {content}",
+    "ru": "{request}{kind}, {content}"
+  },
+  "request.rowPrefix": {
+    "en": "Request {request}, ",
+    "ru": "Запрос {request}, "
+  },
+  "request.rowAriaCompaction": {
+    "en": "Request {request}, compaction",
+    "ru": "Запрос {request}, сжатие"
+  },
+  "request.noContent": {
+    "en": "no content",
+    "ru": "нет содержимого"
+  },
+  "summary.toolCalls.one": {
+    "en": "{count} tool call",
+    "ru": "Вызовов инструментов: {count}"
+  },
+  "summary.toolCalls.other": {
+    "en": "{count} tool calls",
+    "ru": "Вызовов инструментов: {count}"
+  },
+  "summary.steps.one": {
+    "en": "{count} step",
+    "ru": "Шагов: {count}"
+  },
+  "summary.steps.other": {
+    "en": "{count} steps",
+    "ru": "Шагов: {count}"
+  },
+  "details.event": {
+    "en": "Event details",
+    "ru": "Детали события"
+  },
+  "details.resize": {
+    "en": "Resize event details",
+    "ru": "Изменить размер деталей события"
+  },
+  "details.resizeTitle": {
+    "en": "Drag to resize. Double-click to reset.",
+    "ru": "Перетащите, чтобы изменить размер. Двойной щелчок — сброс."
+  },
+  "details.close": {
+    "en": "Close details",
+    "ru": "Закрыть детали"
+  },
+  "details.status": {
+    "en": "Status",
+    "ru": "Состояние"
+  },
+  "details.purpose": {
+    "en": "Purpose",
+    "ru": "Назначение"
+  },
+  "details.provider": {
+    "en": "Provider",
+    "ru": "Провайдер"
+  },
+  "details.model": {
+    "en": "Model",
+    "ru": "Модель"
+  },
+  "details.toolCalls": {
+    "en": "Tool calls",
+    "ru": "Вызовы инструментов"
+  },
+  "details.subtoolCalls": {
+    "en": "Subtool calls",
+    "ru": "Вызовы субинструментов"
+  },
+  "details.error": {
+    "en": "Error",
+    "ru": "Ошибка"
+  },
+  "details.failure.auth": {
+    "en": "API key is invalid",
+    "ru": "Неверный ключ API"
+  },
+  "details.retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "details.scheduled": {
+    "en": "Scheduled",
+    "ru": "Запланировано"
+  },
+  "details.retryDelay": {
+    "en": "Retry delay",
+    "ru": "Задержка повтора"
+  },
+  "details.result": {
+    "en": "Result",
+    "ru": "Результат"
+  },
+  "details.compacted": {
+    "en": "Compacted",
+    "ru": "Сжато"
+  },
+  "details.assistantMessage": {
+    "en": "Assistant Message",
+    "ru": "Сообщение ассистента"
+  },
+  "details.source": {
+    "en": "Source",
+    "ru": "Источник"
+  },
+  "details.hierarchy": {
+    "en": "Hierarchy",
+    "ru": "Иерархия"
+  },
+  "details.toolCall": {
+    "en": "Tool Call",
+    "ru": "Вызов инструмента"
+  },
+  "timeline.aria": {
+    "en": "Trajectory timeline",
+    "ru": "Хронология траектории"
+  },
+  "timeline.overviewAria": {
+    "en": "Timeline overview; drag horizontally to focus events",
+    "ru": "Обзор хронологии; перетащите по горизонтали, чтобы приблизить события"
+  },
+  "timeline.noTimingData": {
+    "en": "No timing data",
+    "ru": "Нет данных о времени"
+  },
+  "timeline.total": {
+    "en": "Total {duration}",
+    "ru": "Всего {duration}"
+  },
+  "timeline.started": {
+    "en": "Started {time}",
+    "ru": "Начато {time}"
+  },
+  "timeline.ttftDecoding": {
+    "en": "TTFT {ttft} · Decoding {decoding}",
+    "ru": "TTFT {ttft} · декодирование {decoding}"
+  },
+  "layout.compacting": {
+    "en": "Compacting context…",
+    "ru": "Сжатие контекста…"
+  },
+  "layout.compactionFailed": {
+    "en": "Compaction failed",
+    "ru": "Не удалось выполнить сжатие"
+  },
+  "layout.compacted": {
+    "en": "Context compacted",
+    "ru": "Контекст сжат"
+  },
+  "layout.toolCallOnly": {
+    "en": "Tool call only",
+    "ru": "Только вызов инструмента"
+  },
+  "attachment.list": {
+    "en": "Attachments",
+    "ru": "Вложения"
+  },
+  "attachment.imageName": {
+    "en": "Image {index}",
+    "ru": "Изображение {index}"
+  },
+  "layout.imageCount": {
+    "en": "Images ×{count}",
+    "ru": "Изображения ×{count}"
+  },
+  "layout.fileAttachments": {
+    "en": "Files ×{count}",
+    "ru": "Файлы ×{count}"
+  },
+  "layout.initialSystemPrompt": {
+    "en": "Initial System Prompt",
+    "ru": "Исходный системный промпт"
+  },
+  "layout.systemPromptUpdated": {
+    "en": "System Prompt Updated",
+    "ru": "Системный промпт обновлён"
+  },
+  "layout.toolsUpdated": {
+    "en": "Tools Updated",
+    "ru": "Инструменты обновлены"
+  },
+  "layout.toolAdded": {
+    "en": "Tool added: {name}",
+    "ru": "Инструмент добавлен: {name}"
+  },
+  "layout.toolRemoved": {
+    "en": "Tool removed: {name}",
+    "ru": "Инструмент удалён: {name}"
+  },
+  "layout.toolUpdateNotice": {
+    "en": "Tools updated",
+    "ru": "Инструменты обновлены"
+  },
+  "layout.toolsAdded": {
+    "en": "Added: {names}",
+    "ru": "Добавлено: {names}"
+  },
+  "layout.toolsAddedCount": {
+    "en": "{count} added",
+    "ru": "Добавлено: {count}"
+  },
+  "layout.toolsChanged": {
+    "en": "{added} added, {removed} removed",
+    "ru": "Добавлено: {added}, удалено: {removed}"
+  },
+  "layout.toolsRemoved": {
+    "en": "Removed: {names}",
+    "ru": "Удалено: {names}"
+  },
+  "layout.toolsRemovedCount": {
+    "en": "{count} removed",
+    "ru": "Удалено: {count}"
+  },
+  "layout.systemPromptAndToolsUpdated": {
+    "en": "System Prompt and Tools Updated",
+    "ru": "Системный промпт и инструменты обновлены"
+  },
+  "layout.compactionInterrupted": {
+    "en": "Compaction was interrupted before completion.",
+    "ru": "Сжатие было прервано до завершения."
+  }
+}

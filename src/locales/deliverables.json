@@ -1,0 +1,242 @@
+{
+  "presented.nativeUnavailable": {
+    "en": "This file has no available Host path. Preview it in the sidebar.",
+    "ru": "У этого файла нет доступного пути на хосте. Откройте предпросмотр в боковой панели."
+  },
+  "presented.revealError": {
+    "en": "Could not show in file manager. Try again.",
+    "ru": "Не удалось показать в файловом менеджере. Повторите попытку."
+  },
+  "presented.directoryError": {
+    "en": "Could not open containing folder. Try again.",
+    "ru": "Не удалось открыть папку с файлом. Повторите попытку."
+  },
+  "presented.directoryOpening": {
+    "en": "Opening containing folder…",
+    "ru": "Открытие папки с файлом…"
+  },
+  "presented.directoryOpened": {
+    "en": "Requested opening containing folder",
+    "ru": "Запрошено открытие папки с файлом"
+  },
+  "presented.revealed": {
+    "en": "Requested display in file manager",
+    "ru": "Запрошен показ в файловом менеджере"
+  },
+  "presented.revealing": {
+    "en": "Showing in file manager…",
+    "ru": "Показ в файловом менеджере…"
+  },
+  "presented.unavailable": {
+    "en": "This Host has no desktop available to open files or folders in external apps. Files can still be previewed in the sidebar.",
+    "ru": "На этом хосте нет рабочего стола, поэтому файлы и папки нельзя открывать во внешних приложениях. Просматривать файлы в боковой панели по-прежнему можно."
+  },
+  "presented.retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "presented.hostError": {
+    "en": "Could not read the Host desktop information",
+    "ru": "Не удалось прочитать сведения о рабочем столе хоста"
+  },
+  "presented.preview": {
+    "en": "Preview in sidebar",
+    "ru": "Предпросмотр в боковой панели"
+  },
+  "presented.previewButton": {
+    "en": "Open {name} in sidebar",
+    "ru": "Открыть {name} в боковой панели"
+  },
+  "presented.previewCard": {
+    "en": "Preview {name} in sidebar",
+    "ru": "Предпросмотр {name} в боковой панели"
+  },
+  "presented.all": {
+    "en": "All {count} files",
+    "ru": "Все файлы: {count}"
+  },
+  "presented.expandAria": {
+    "en": "Show all {count} delivered files",
+    "ru": "Показать все переданные файлы: {count}"
+  },
+  "presented.collapse": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "presented.collapseAria": {
+    "en": "Collapse delivered files",
+    "ru": "Свернуть переданные файлы"
+  },
+  "presented.opening": {
+    "en": "Opening…",
+    "ru": "Открытие…"
+  },
+  "presented.opened": {
+    "en": "Open requested",
+    "ru": "Запрошено открытие"
+  },
+  "presented.error": {
+    "en": "Could not open. Click to retry.",
+    "ru": "Не удалось открыть. Нажмите, чтобы повторить."
+  },
+  "presented.file": {
+    "en": "File",
+    "ru": "Файл"
+  },
+  "row.title": {
+    "en": "Present files",
+    "ru": "Показать файлы"
+  },
+  "row.running": {
+    "en": "Delivering",
+    "ru": "Передача результатов"
+  },
+  "row.preparing": {
+    "en": "Preparing deliverables",
+    "ru": "Подготовка результатов"
+  },
+  "row.ok": {
+    "en": "Delivered",
+    "ru": "Передано"
+  },
+  "row.error": {
+    "en": "Delivery failed",
+    "ru": "Не удалось передать"
+  },
+  "row.stopped": {
+    "en": "Interrupted",
+    "ru": "Прервано"
+  },
+  "row.inspect": {
+    "en": "Inspect call",
+    "ru": "Проверить вызов"
+  },
+  "changes.title": {
+    "en": "Edited {count} files",
+    "ru": "Изменено файлов: {count}"
+  },
+  "changes.singleTitle": {
+    "en": "Edited {name}",
+    "ru": "Изменён файл {name}"
+  },
+  "changes.added": {
+    "en": "+{count}",
+    "ru": "+{count}"
+  },
+  "changes.deleted": {
+    "en": "-{count}",
+    "ru": "-{count}"
+  },
+  "changes.binary": {
+    "en": "binary",
+    "ru": "двоичный"
+  },
+  "changes.openReview": {
+    "en": "Review this turn’s changes in the sidebar",
+    "ru": "Просмотреть изменения этого хода в боковой панели"
+  },
+  "changes.all": {
+    "en": "All {count} files",
+    "ru": "Все файлы: {count}"
+  },
+  "changes.expandAria": {
+    "en": "Show all {count} changed files",
+    "ru": "Показать все изменённые файлы: {count}"
+  },
+  "changes.collapse": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "changes.collapseAria": {
+    "en": "Collapse changed files",
+    "ru": "Свернуть изменённые файлы"
+  },
+  "changes.oversized": {
+    "en": "too large",
+    "ru": "слишком большой"
+  },
+  "changes.viewDiff": {
+    "en": "View changes to {name}",
+    "ru": "Показать изменения в {name}"
+  },
+  "review.title": {
+    "en": "Review · turn {turn}",
+    "ru": "Проверка · ход {turn}"
+  },
+  "review.selectFile": {
+    "en": "Choose the file to review",
+    "ru": "Выберите файл для проверки"
+  },
+  "review.split": {
+    "en": "Switch to split view",
+    "ru": "Переключить на разделённый вид"
+  },
+  "review.unified": {
+    "en": "Switch to unified view",
+    "ru": "Переключить на объединённый вид"
+  },
+  "review.splitAria": {
+    "en": "Split view",
+    "ru": "Разделённый вид"
+  },
+  "review.wrap": {
+    "en": "Enable line wrap",
+    "ru": "Включить перенос строк"
+  },
+  "review.nowrap": {
+    "en": "Disable line wrap",
+    "ru": "Выключить перенос строк"
+  },
+  "review.wrapAria": {
+    "en": "Line wrap",
+    "ru": "Перенос строк"
+  },
+  "review.openFile": {
+    "en": "Open the whole file in the sidebar",
+    "ru": "Открыть весь файл в боковой панели"
+  },
+  "review.openFileAria": {
+    "en": "Open {name} in sidebar",
+    "ru": "Открыть {name} в боковой панели"
+  },
+  "diff.loading": {
+    "en": "Reading changes…",
+    "ru": "Чтение изменений…"
+  },
+  "diff.missing": {
+    "en": "The contents of this turn’s changes are no longer available",
+    "ru": "Содержимое изменений этого хода больше недоступно"
+  },
+  "diff.error": {
+    "en": "Could not read the changes",
+    "ru": "Не удалось прочитать изменения"
+  },
+  "diff.binary": {
+    "en": "Binary file; changes cannot be shown",
+    "ru": "Двоичный файл; изменения нельзя показать"
+  },
+  "diff.oversized": {
+    "en": "File too large; changes cannot be shown",
+    "ru": "Файл слишком большой; изменения нельзя показать"
+  },
+  "diff.created": {
+    "en": "Created in this turn",
+    "ru": "Создано в этом ходе"
+  },
+  "diff.deleted": {
+    "en": "Deleted in this turn",
+    "ru": "Удалено в этом ходе"
+  },
+  "diff.unchanged": {
+    "en": "Both sides hold the same lines",
+    "ru": "Обе стороны содержат одинаковые строки"
+  },
+  "diff.coarse": {
+    "en": "Line comparison timed out; shown as a whole-file replacement",
+    "ru": "Сравнение строк заняло слишком много времени; показано как замена всего файла"
+  },
+  "diff.truncated": {
+    "en": "Showing the first {count} lines",
+    "ru": "Показаны первые строки: {count}"
+  }
+}

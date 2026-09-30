@@ -1,0 +1,38 @@
+{
+  "command": {
+    "en": "Commands",
+    "ru": "Команды"
+  },
+  "skill": {
+    "en": "Skills",
+    "ru": "Навыки"
+  },
+  "subagent": {
+    "en": "Subagents",
+    "ru": "Субагенты"
+  },
+  "loading": {
+    "en": "Loading…",
+    "ru": "Загрузка…"
+  },
+  "drill.aria": {
+    "en": "Browse folder",
+    "ru": "Обзор папки"
+  },
+  "drill.hint": {
+    "en": "Browse folder",
+    "ru": "Обзор папки"
+  },
+  "drill.key": {
+    "en": "Tab",
+    "ru": "Tab"
+  },
+  "crumbs.aria": {
+    "en": "Folder navigation",
+    "ru": "Навигация по папкам"
+  },
+  "suggestions.aria": {
+    "en": "Trigger suggestions",
+    "ru": "Подсказки триггеров"
+  }
+}

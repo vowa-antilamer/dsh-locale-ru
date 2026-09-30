@@ -1,0 +1,42 @@
+{
+  "header.more": {
+    "en": "More actions",
+    "ru": "Другие действия"
+  },
+  "menu.download": {
+    "en": "Download session log",
+    "ru": "Скачать журнал сессии"
+  },
+  "menu.feedback": {
+    "en": "Feedback",
+    "ru": "Отзыв"
+  },
+  "dialog.preparingTitle": {
+    "en": "Exporting Session",
+    "ru": "Экспорт сессии"
+  },
+  "dialog.preparingDescription": {
+    "en": "Preparing a ZIP containing this Session, its sub-Sessions, and attachments.",
+    "ru": "Подготовка ZIP-архива с этой сессией, её подсессиями и вложениями."
+  },
+  "dialog.successTitle": {
+    "en": "Session download started",
+    "ru": "Загрузка сессии начата"
+  },
+  "dialog.successDescription": {
+    "en": "The browser is downloading the Session ZIP.",
+    "ru": "Браузер скачивает ZIP-архив сессии."
+  },
+  "dialog.errorTitle": {
+    "en": "Session export failed",
+    "ru": "Не удалось экспортировать сессию"
+  },
+  "dialog.close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "dialog.commandFailed": {
+    "en": "Could not start the Session export.",
+    "ru": "Не удалось запустить экспорт сессии."
+  }
+}

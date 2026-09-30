@@ -1,0 +1,138 @@
+{
+  "command.close": {
+    "en": "Close current page or window",
+    "ru": "Закрыть текущую страницу или окно"
+  },
+  "command.refresh": {
+    "en": "Refresh current page",
+    "ru": "Обновить текущую страницу"
+  },
+  "command.noRefresh": {
+    "en": "This page cannot be refreshed",
+    "ru": "Эту страницу нельзя обновить"
+  },
+  "command.toggle": {
+    "en": "Toggle right sidebar",
+    "ru": "Показать или скрыть правую боковую панель"
+  },
+  "command.fullscreen": {
+    "en": "Toggle panel fullscreen",
+    "ru": "Переключить полноэкранный режим панели"
+  },
+  "command.noSession": {
+    "en": "Select a session first",
+    "ru": "Сначала выберите сессию"
+  },
+  "command.noFocus": {
+    "en": "Focus a right sidebar pane first",
+    "ru": "Сначала выберите панель справа"
+  },
+  "command.stale": {
+    "en": "The page changed; focus it again",
+    "ru": "Страница изменилась; выберите её снова"
+  },
+  "command.collapsed": {
+    "en": "Expand the right sidebar first",
+    "ru": "Сначала разверните правую боковую панель"
+  },
+  "command.float": {
+    "en": "This action is unavailable in a floating panel",
+    "ru": "Это действие недоступно в плавающей панели"
+  },
+  "command.empty": {
+    "en": "Open a page first",
+    "ru": "Сначала откройте страницу"
+  },
+  "command.budget": {
+    "en": "Two panes is the limit",
+    "ru": "Не более двух панелей"
+  },
+  "command.width": {
+    "en": "Not enough width to split, widen the sidebar",
+    "ru": "Недостаточно ширины для разделения; расширьте боковую панель"
+  },
+  "chrome.expand": {
+    "en": "Open sidebar",
+    "ru": "Открыть боковую панель"
+  },
+  "chrome.expandAria": {
+    "en": "Open right sidebar",
+    "ru": "Открыть правую боковую панель"
+  },
+  "chrome.collapse": {
+    "en": "Collapse sidebar",
+    "ru": "Свернуть боковую панель"
+  },
+  "chrome.collapseAria": {
+    "en": "Collapse right sidebar",
+    "ru": "Свернуть правую боковую панель"
+  },
+  "chrome.toFullscreen": {
+    "en": "Fullscreen",
+    "ru": "На весь экран"
+  },
+  "chrome.exitFullscreen": {
+    "en": "Exit fullscreen",
+    "ru": "Выйти из полноэкранного режима"
+  },
+  "dock.emptyPane": {
+    "en": "Empty pane",
+    "ru": "Пустая панель"
+  },
+  "dock.splitPane": {
+    "en": "Split",
+    "ru": "Разделить"
+  },
+  "dock.splitPaneDisabled": {
+    "en": "Two panes is the limit",
+    "ru": "Не более двух панелей"
+  },
+  "dock.splitPaneNarrow": {
+    "en": "Not enough width to split, widen the sidebar",
+    "ru": "Недостаточно ширины для разделения; расширьте боковую панель"
+  },
+  "dock.closeTab": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "dock.addTab": {
+    "en": "New tab",
+    "ru": "Новая вкладка"
+  },
+  "dock.dockFloat": {
+    "en": "Send back to the sidebar",
+    "ru": "Вернуть в боковую панель"
+  },
+  "dock.closeFloat": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "dock.drop.center": {
+    "en": "Move here",
+    "ru": "Переместить сюда"
+  },
+  "dock.drop.left": {
+    "en": "Add left split",
+    "ru": "Добавить разделение слева"
+  },
+  "dock.drop.right": {
+    "en": "Add right split",
+    "ru": "Добавить разделение справа"
+  },
+  "dock.drop.top": {
+    "en": "Add top split",
+    "ru": "Добавить разделение сверху"
+  },
+  "dock.drop.bottom": {
+    "en": "Add bottom split",
+    "ru": "Добавить разделение снизу"
+  },
+  "tab.guide.title": {
+    "en": "Start",
+    "ru": "Начало"
+  },
+  "tab.unavailable": {
+    "en": "Nothing here can view this kind of content yet.",
+    "ru": "Здесь пока нельзя открыть такое содержимое."
+  }
+}

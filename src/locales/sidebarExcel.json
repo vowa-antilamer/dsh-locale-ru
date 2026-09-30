@@ -1,0 +1,62 @@
+{
+  "title": {
+    "en": "Spreadsheet",
+    "ru": "Таблица"
+  },
+  "language": {
+    "en": "en",
+    "ru": "ru"
+  },
+  "loading": {
+    "en": "Rendering document...",
+    "ru": "Отрисовка документа..."
+  },
+  "invalid": {
+    "en": "This spreadsheet could not be opened. Check its format, contents, or password protection.",
+    "ru": "Не удалось открыть таблицу. Проверьте формат, содержимое или защиту паролем."
+  },
+  "tooLarge": {
+    "en": "This workbook exceeds the preview size limit.",
+    "ru": "Книга превышает ограничение размера для предпросмотра."
+  },
+  "timeout": {
+    "en": "Opening this workbook timed out. Try a smaller file.",
+    "ru": "Превышено время открытия книги. Попробуйте файл меньше."
+  },
+  "encoding": {
+    "en": "This text encoding could not be read. Save the file as UTF-8 or UTF-16 with a BOM and retry.",
+    "ru": "Не удалось прочитать кодировку текста. Сохраните файл в UTF-8 или UTF-16 с BOM и повторите."
+  },
+  "formulaWarning": {
+    "en": "This workbook contains formulas. Displayed results may be missing or inaccurate.",
+    "ru": "Книга содержит формулы. Показанные результаты могут отсутствовать или быть неточными."
+  },
+  "unsupportedNotice": {
+    "en": "This preview does not support {features} in this workbook. Open it in a system application for the full experience.",
+    "ru": "Предпросмотр не поддерживает {features} в этой книге. Откройте её в системном приложении для полного просмотра."
+  },
+  "charts": {
+    "en": "charts",
+    "ru": "диаграммы"
+  },
+  "images": {
+    "en": "images",
+    "ru": "изображения"
+  },
+  "shapes": {
+    "en": "shapes",
+    "ru": "фигуры"
+  },
+  "conditionalFormatting": {
+    "en": "conditional formatting",
+    "ru": "условное форматирование"
+  },
+  "featureSeparator": {
+    "en": ", ",
+    "ru": ", "
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  }
+}

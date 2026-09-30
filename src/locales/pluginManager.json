@@ -1,0 +1,758 @@
+{
+  "panel": {
+    "en": "Plugins",
+    "ru": "Плагины"
+  },
+  "title": {
+    "en": "Plugins",
+    "ru": "Плагины"
+  },
+  "intro": {
+    "en": "Install, enable, and configure plugins",
+    "ru": "Устанавливайте, включайте и настраивайте плагины"
+  },
+  "infoLabel": {
+    "en": "About plugins",
+    "ru": "О плагинах"
+  },
+  "infoDescription": {
+    "en": "Configure official plugins and install or manage other plugins here. View the built-in plugin list and runtime status in Settings → Built-in plugins.",
+    "ru": "Здесь настраиваются официальные плагины, а также установка и управление остальными. Список встроенных плагинов и состояние среды — в разделе «Настройки → Встроенные плагины»."
+  },
+  "loading": {
+    "en": "Reading plugins…",
+    "ru": "Чтение плагинов…"
+  },
+  "error": {
+    "en": "Could not read all plugins, possibly due to a network problem",
+    "ru": "Не удалось прочитать все плагины — возможно, из-за проблемы с сетью"
+  },
+  "unavailable": {
+    "en": "This deployment runs without a manageable profile, so plugins cannot be installed or switched here.",
+    "ru": "Этот экземпляр работает без управляемого профиля, поэтому здесь нельзя устанавливать или переключать плагины."
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "refresh": {
+    "en": "Refresh",
+    "ru": "Обновить"
+  },
+  "refreshError": {
+    "en": "Refresh failed. Please try again.",
+    "ru": "Не удалось обновить. Попробуйте ещё раз."
+  },
+  "empty": {
+    "en": "No plugins are installed yet.",
+    "ru": "Плагины ещё не установлены."
+  },
+  "addPlugin": {
+    "en": "Add plugin",
+    "ru": "Добавить плагин"
+  },
+  "restartNotice": {
+    "en": "The change takes effect at the next start",
+    "ru": "Изменение вступит в силу при следующем запуске"
+  },
+  "overriddenNotice": {
+    "en": "{name} was saved, but a higher-priority configuration overrides it, so it is not in effect",
+    "ru": "{name} сохранён, но конфигурация с более высоким приоритетом его перекрывает, поэтому он не действует"
+  },
+  "bundlesTitle": {
+    "en": "Installed",
+    "ru": "Установленные"
+  },
+  "officialTitle": {
+    "en": "Official",
+    "ru": "Официальные"
+  },
+  "statusProblem": {
+    "en": "Problem",
+    "ru": "Проблема"
+  },
+  "statusBeta": {
+    "en": "Experimental",
+    "ru": "Экспериментальный"
+  },
+  "reasonLabel": {
+    "en": "Reason",
+    "ru": "Причина"
+  },
+  "metadataError": {
+    "en": "Package metadata error: {error}",
+    "ru": "Ошибка метаданных пакета: {error}"
+  },
+  "versionTag": {
+    "en": "v{version}",
+    "ru": "v{version}"
+  },
+  "partsLabel": {
+    "en": "Components",
+    "ru": "Компоненты"
+  },
+  "partsEmpty": {
+    "en": "This plugin pack contains no components.",
+    "ru": "В этом наборе плагинов нет компонентов."
+  },
+  "partsCountTotal": {
+    "en": "{count} total",
+    "ru": "Всего: {count}"
+  },
+  "partsCountRunning": {
+    "en": "{count} running",
+    "ru": "Выполняется: {count}"
+  },
+  "partsCountOff": {
+    "en": "{count} off",
+    "ru": "Выключено: {count}"
+  },
+  "partOff": {
+    "en": "Off",
+    "ru": "Выкл."
+  },
+  "partsCountFailed": {
+    "en": "{count} failed",
+    "ru": "С ошибкой: {count}"
+  },
+  "partsFilter": {
+    "en": "Filter components",
+    "ru": "Фильтр компонентов"
+  },
+  "partsFilterEmpty": {
+    "en": "No component matches.",
+    "ru": "Нет подходящих компонентов."
+  },
+  "partToggle": {
+    "en": "Enable component {name}",
+    "ru": "Включить компонент {name}"
+  },
+  "rowPhasePending": {
+    "en": "Waiting for dependencies",
+    "ru": "Ожидание зависимостей"
+  },
+  "rowPhaseLoading": {
+    "en": "Loading",
+    "ru": "Загрузка"
+  },
+  "rowPhaseActive": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "rowPhaseFailed": {
+    "en": "Problem",
+    "ru": "Проблема"
+  },
+  "rowPhaseUnloading": {
+    "en": "Unloading",
+    "ru": "Выгрузка"
+  },
+  "enableToggle": {
+    "en": "Enable {name}",
+    "ru": "Включить {name}"
+  },
+  "openDetail": {
+    "en": "View {name}",
+    "ru": "Открыть {name}"
+  },
+  "backToList": {
+    "en": "Back to plugins",
+    "ru": "Назад к плагинам"
+  },
+  "crumbRoot": {
+    "en": "Plugins",
+    "ru": "Плагины"
+  },
+  "backToPackage": {
+    "en": "Back to {name}",
+    "ru": "Назад к {name}"
+  },
+  "configureRow": {
+    "en": "Configure {name}",
+    "ru": "Настроить {name}"
+  },
+  "rowStateIdle": {
+    "en": "Not running",
+    "ru": "Не выполняется"
+  },
+  "uninstall": {
+    "en": "Uninstall",
+    "ru": "Удалить"
+  },
+  "uninstallLabel": {
+    "en": "Uninstall {name}",
+    "ru": "Удалить {name}"
+  },
+  "installTitle": {
+    "en": "Add plugin",
+    "ru": "Добавить плагин"
+  },
+  "installDescription": {
+    "en": "Enter the plugin's package name, GitHub repository address, or local directory path.",
+    "ru": "Введите имя пакета плагина, адрес репозитория GitHub или путь к локальному каталогу."
+  },
+  "installSpecLabel": {
+    "en": "Package name or address",
+    "ru": "Имя пакета или адрес"
+  },
+  "installSpecPlaceholder": {
+    "en": "for example dsh-plugin-whale-pet",
+    "ru": "например dsh-plugin-whale-pet"
+  },
+  "installGuideToggle": {
+    "en": "Install guide and examples",
+    "ru": "Инструкция по установке и примеры"
+  },
+  "installGuideHide": {
+    "en": "Hide the guide",
+    "ru": "Скрыть инструкцию"
+  },
+  "installGuideIdTitle": {
+    "en": "Enter the plugin's npm package name",
+    "ru": "Введите имя пакета плагина в npm"
+  },
+  "installGuideIdExample": {
+    "en": "dsh-plugin-whale-pet",
+    "ru": "dsh-plugin-whale-pet"
+  },
+  "installGuideIdHint": {
+    "en": "The plugin package name is the npm package name (like dsh-xxx or @author/plugin): the part after dsh plugin add or pnpm add in a community plugin's README install command.",
+    "ru": "Имя пакета плагина — это имя пакета в npm (например, dsh-xxx или @author/plugin): часть после dsh plugin add или pnpm add в команде установки из README плагина сообщества."
+  },
+  "installGuideExampleLabel": {
+    "en": "Example: ",
+    "ru": "Пример: "
+  },
+  "installGitTemplateHint": {
+    "en": "Replace this with the actual Git repository address.",
+    "ru": "Замените это на фактический адрес Git-репозитория."
+  },
+  "installPathTemplateHint": {
+    "en": "Replace this with the actual path to your local plugin directory.",
+    "ru": "Замените это на фактический путь к локальному каталогу плагина."
+  },
+  "installGuideFill": {
+    "en": "Use example",
+    "ru": "Подставить пример"
+  },
+  "installGuideFillAria": {
+    "en": "Use the example {example}",
+    "ru": "Подставить пример {example}"
+  },
+  "installGuideSafety": {
+    "en": "Install only plugins you trust: they run with your permissions and can damage DeepSeek Harness or leak your data.",
+    "ru": "Устанавливайте только те плагины, которым доверяете: они работают с вашими правами и могут повредить DeepSeek Harness или раскрыть ваши данные."
+  },
+  "installUpgradeNotice": {
+    "en": "Installed plugins do not update automatically yet. To upgrade a plugin, uninstall it and install the new version. Later releases will keep improving the upgrade experience.",
+    "ru": "Установленные плагины пока не обновляются автоматически. Чтобы обновить плагин, удалите его и установите новую версию. В следующих версиях обновление станет удобнее."
+  },
+  "registryToggle": {
+    "en": "Registry",
+    "ru": "Реестр"
+  },
+  "registryLegend": {
+    "en": "The npm registry the plugin is downloaded from",
+    "ru": "Реестр npm, из которого скачивается плагин"
+  },
+  "registryDefault": {
+    "en": "Default registry",
+    "ru": "Реестр по умолчанию"
+  },
+  "registryOfficial": {
+    "en": "Official npm registry",
+    "ru": "Официальный реестр npm"
+  },
+  "registryNpmmirror": {
+    "en": "Mainland China mirror",
+    "ru": "Зеркало для материкового Китая"
+  },
+  "registryCustom": {
+    "en": "Custom address",
+    "ru": "Свой адрес"
+  },
+  "registryCustomPlaceholder": {
+    "en": "https://npm.example.com/",
+    "ru": "https://npm.example.com/"
+  },
+  "registryCustomHint": {
+    "en": "Enter an internal or private npm registry address starting with http:// or https://. If it requires a login, store the credentials in ~/.npmrc on this machine.",
+    "ru": "Введите адрес внутреннего или приватного реестра npm, начинающийся с http:// или https://. Если требуется вход, сохраните учётные данные в ~/.npmrc на этой машине."
+  },
+  "registryCustomInvalid": {
+    "en": "Enter an address starting with http:// or https://",
+    "ru": "Введите адрес, начинающийся с http:// или https://"
+  },
+  "registryListSeparator": {
+    "en": ", ",
+    "ru": ", "
+  },
+  "sentenceSeparator": {
+    "en": " ",
+    "ru": " "
+  },
+  "installRun": {
+    "en": "Install",
+    "ru": "Установить"
+  },
+  "installChecking": {
+    "en": "Checking…",
+    "ru": "Проверка…"
+  },
+  "installProblemInvalid": {
+    "en": "This is not a package name or address that can be installed: {reason}",
+    "ru": "Это не имя пакета и не адрес, которые можно установить: {reason}"
+  },
+  "installProblemInstalled": {
+    "en": "This plugin is already installed. To upgrade it, uninstall it and install it again",
+    "ru": "Плагин уже установлен. Чтобы обновить его, удалите и установите заново"
+  },
+  "installProblemShipped": {
+    "en": "This plugin ships with DSH; upgrading DSH updates it",
+    "ru": "Этот плагин входит в поставку DSH; он обновится вместе с DSH"
+  },
+  "installProblemNotFound": {
+    "en": "No such plugin was found",
+    "ru": "Такой плагин не найден"
+  },
+  "installProblemNotPackage": {
+    "en": "The path does not exist or is not a valid plugin package",
+    "ru": "Путь не существует или не является допустимым пакетом плагина"
+  },
+  "installProblemNotBundle": {
+    "en": "This package declares no bundle, so it cannot be installed as a plugin: {reason}",
+    "ru": "Пакет не объявляет bundle, поэтому его нельзя установить как плагин: {reason}"
+  },
+  "installProblemNetwork": {
+    "en": "The plugin registry could not be reached; check the network and try again",
+    "ru": "Не удалось подключиться к реестру плагинов; проверьте сеть и повторите попытку"
+  },
+  "installProblemNetworkAll": {
+    "en": "No registry could be reached (tried: {registries}); check the network or proxy settings, or change the registry",
+    "ru": "Не удалось подключиться ни к одному реестру (проверены: {registries}); проверьте сеть или настройки прокси либо смените реестр"
+  },
+  "installProblemUnknown": {
+    "en": "The plugin could not be looked up: {reason}",
+    "ru": "Не удалось найти плагин: {reason}"
+  },
+  "installingTitle": {
+    "en": "Installing the plugin…",
+    "ru": "Установка плагина…"
+  },
+  "installedTitle": {
+    "en": "Installed",
+    "ru": "Установлен"
+  },
+  "installFailedTitle": {
+    "en": "The plugin could not be installed",
+    "ru": "Не удалось установить плагин"
+  },
+  "installGithubFailedTitle": {
+    "en": "Cannot access GitHub",
+    "ru": "Нет доступа к GitHub"
+  },
+  "installGithubTimeoutTitle": {
+    "en": "GitHub connection timed out",
+    "ru": "Истекло время подключения к GitHub"
+  },
+  "installGithubFailedDescription": {
+    "en": "Try another installation source.",
+    "ru": "Попробуйте другой источник установки."
+  },
+  "installUseGithubMirror": {
+    "en": "Use mainland China mirror",
+    "ru": "Использовать зеркало для материкового Китая"
+  },
+  "installTryAnotherWay": {
+    "en": "Try another way",
+    "ru": "Попробовать другой способ"
+  },
+  "installPackageLabel": {
+    "en": "Plugin package name",
+    "ru": "Имя пакета плагина"
+  },
+  "installEdit": {
+    "en": "Edit",
+    "ru": "Изменить"
+  },
+  "installEditAria": {
+    "en": "Back to editing",
+    "ru": "Вернуться к редактированию"
+  },
+  "installCancelAndEdit": {
+    "en": "Cancel installation and return to editing",
+    "ru": "Отменить установку и вернуться к редактированию"
+  },
+  "installApplyingCancellationError": {
+    "en": "Cancellation was not confirmed. Installation is being applied; wait for its result. {reason}",
+    "ru": "Отмена не подтверждена. Установка применяется; дождитесь результата. {reason}"
+  },
+  "installReconcile": {
+    "en": "Check installation status",
+    "ru": "Проверить состояние установки"
+  },
+  "installUnknownTitle": {
+    "en": "Installation result unavailable",
+    "ru": "Результат установки недоступен"
+  },
+  "installUnknownDescription": {
+    "en": "The Host has no active installation with this request id. Check the plugin list before trying again.",
+    "ru": "У хоста нет активной установки с этим идентификатором запроса. Перед повторной попыткой проверьте список плагинов."
+  },
+  "installResultUnconfirmed": {
+    "en": "The installation result was not received. Check installation status. {reason}",
+    "ru": "Результат установки не получен. Проверьте состояние установки. {reason}"
+  },
+  "installAwaitingAcceptance": {
+    "en": "Waiting for the Host to accept installation. Cancellation will retry automatically after confirmation.",
+    "ru": "Ожидание принятия установки хостом. После подтверждения отмена будет повторена автоматически."
+  },
+  "installBackgroundUnknown": {
+    "en": "Installation result unavailable. Check the plugin list.",
+    "ru": "Результат установки недоступен. Проверьте список плагинов."
+  },
+  "installCancel": {
+    "en": "Cancel install",
+    "ru": "Отменить установку"
+  },
+  "installCloseCancels": {
+    "en": "Cancel install and close",
+    "ru": "Отменить установку и закрыть"
+  },
+  "installViewTask": {
+    "en": "View installation",
+    "ru": "Открыть установку"
+  },
+  "installUnconfirmedTitle": {
+    "en": "Installation status unconfirmed",
+    "ru": "Состояние установки не подтверждено"
+  },
+  "installBackgroundDone": {
+    "en": "Installation finished. View installation details.",
+    "ru": "Установка завершена. Откройте подробности установки."
+  },
+  "installBackgroundFailed": {
+    "en": "Installation failed. View installation details.",
+    "ru": "Установка не удалась. Откройте подробности установки."
+  },
+  "installBackgroundUnconfirmed": {
+    "en": "Installation status is unconfirmed. View the installation for details.",
+    "ru": "Состояние установки не подтверждено. Откройте установку, чтобы увидеть подробности."
+  },
+  "installBackgroundApplying": {
+    "en": "Installation is being applied and cannot be cancelled. View installation progress.",
+    "ru": "Установка применяется и не может быть отменена. Откройте ход установки."
+  },
+  "installStarting": {
+    "en": "Preparing installation…",
+    "ru": "Подготовка установки…"
+  },
+  "installCancelling": {
+    "en": "Stopping installation…",
+    "ru": "Остановка установки…"
+  },
+  "installApplying": {
+    "en": "Applying configuration, please wait…",
+    "ru": "Применение конфигурации, подождите…"
+  },
+  "installCancelledShort": {
+    "en": "Cancelled",
+    "ru": "Отменено"
+  },
+  "installCancelled": {
+    "en": "Installation cancelled; the plugin is not enabled, and downloaded files may remain",
+    "ru": "Установка отменена; плагин не включён, а скачанные файлы могли остаться"
+  },
+  "installCancelUnconfirmed": {
+    "en": "Installation has not been confirmed stopped. Retry cancellation or wait for the installation result. {reason}",
+    "ru": "Остановка установки не подтверждена. Повторите отмену или дождитесь результата установки. {reason}"
+  },
+  "installEnableNow": {
+    "en": "Enable now",
+    "ru": "Включить сейчас"
+  },
+  "installDetailsShow": {
+    "en": "Show install details",
+    "ru": "Показать подробности установки"
+  },
+  "installDetailsHide": {
+    "en": "Hide install details",
+    "ru": "Скрыть подробности установки"
+  },
+  "installVersion": {
+    "en": "Version {version}",
+    "ru": "Версия {version}"
+  },
+  "installSubjectPath": {
+    "en": "Local directory",
+    "ru": "Локальный каталог"
+  },
+  "installSubjectGit": {
+    "en": "Git repository",
+    "ru": "Git-репозиторий"
+  },
+  "installSubjectTarball": {
+    "en": "Tarball",
+    "ru": "tar-архив"
+  },
+  "installLocation": {
+    "en": "Installs into {dir}",
+    "ru": "Устанавливается в {dir}"
+  },
+  "installRetry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "installChangeRegistry": {
+    "en": "Change registry",
+    "ru": "Сменить реестр"
+  },
+  "installAttempt": {
+    "en": "{previous} could not serve the package; retrying through {registry} (registry {index} of {total})",
+    "ru": "{previous} не смог отдать пакет; повтор через {registry} (реестр {index} из {total})"
+  },
+  "installAttemptBadge": {
+    "en": "Attempt {index} · {registry}",
+    "ru": "Попытка {index} · {registry}"
+  },
+  "installFailureNetwork": {
+    "en": "The network connection failed",
+    "ru": "Сбой сетевого подключения"
+  },
+  "installFailureNetworkAll": {
+    "en": "No registry could be reached (tried: {registries}). Check the network or proxy settings, or change the registry and retry.",
+    "ru": "Не удалось подключиться ни к одному реестру (проверены: {registries}). Проверьте сеть или настройки прокси либо смените реестр и повторите."
+  },
+  "installFailureNetworkHost": {
+    "en": "{host} could not be reached. A GitHub address or a .tgz link is not fetched through the registry: this machine must reach it directly or through a proxy. If the plugin is also published to npm, enter its package name instead.",
+    "ru": "Не удалось подключиться к {host}. Адрес GitHub или ссылка .tgz не загружаются через реестр: эта машина должна иметь к ним прямой доступ или доступ через прокси. Если плагин также опубликован в npm, укажите вместо этого имя его пакета."
+  },
+  "installFailureNotFound": {
+    "en": "No such plugin was found",
+    "ru": "Такой плагин не найден"
+  },
+  "installFailureNoMatchingVersion": {
+    "en": "No version matches the request",
+    "ru": "Нет версии, подходящей под запрос"
+  },
+  "installFailureDiskFull": {
+    "en": "The disk is full; the install stopped",
+    "ru": "Диск заполнен; установка остановлена"
+  },
+  "installFailurePermission": {
+    "en": "No write permission; the plugin cannot be installed",
+    "ru": "Нет прав на запись; плагин нельзя установить"
+  },
+  "installFailureBuildBlocked": {
+    "en": "A dependency's install scripts need your permission before the install can continue",
+    "ru": "Скрипты установки зависимости требуют вашего разрешения, чтобы установка продолжилась"
+  },
+  "installFailureBuildBlockedManual": {
+    "en": "pnpm blocked install scripts; allow them under allowBuilds in pnpm-workspace.yaml and retry",
+    "ru": "pnpm заблокировал скрипты установки; разрешите их в allowBuilds файла pnpm-workspace.yaml и повторите"
+  },
+  "installFailureIntegrity": {
+    "en": "The downloaded package failed its integrity check",
+    "ru": "Скачанный пакет не прошёл проверку целостности"
+  },
+  "installFailureTimeout": {
+    "en": "The install timed out",
+    "ru": "Истекло время установки"
+  },
+  "installFailurePnpmMissing": {
+    "en": "pnpm was not found, so nothing can be installed",
+    "ru": "pnpm не найден, поэтому установить ничего не удастся"
+  },
+  "installFailureGeneric": {
+    "en": "Something went wrong during the install; the details say what",
+    "ru": "Во время установки что-то пошло не так; подробности покажут, что именно"
+  },
+  "terminalRunning": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "terminalFailed": {
+    "en": "Failed",
+    "ru": "Не удалось"
+  },
+  "terminalDone": {
+    "en": "Done",
+    "ru": "Готово"
+  },
+  "terminalCopy": {
+    "en": "Copy",
+    "ru": "Копировать"
+  },
+  "terminalCopied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "terminalNoOutput": {
+    "en": "No output",
+    "ru": "Нет вывода"
+  },
+  "terminalCollapseAria": {
+    "en": "Collapse output",
+    "ru": "Свернуть вывод"
+  },
+  "terminalCollapse": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "terminalExpandAria": {
+    "en": "Expand the remaining {n} output lines",
+    "ru": "Развернуть оставшиеся строки вывода: {n}"
+  },
+  "terminalExpand": {
+    "en": "… {n} more lines",
+    "ru": "… ещё строк: {n}"
+  },
+  "terminalExitCode": {
+    "en": "exit code {code}",
+    "ru": "код выхода {code}"
+  },
+  "terminalSignal": {
+    "en": "signal {signal}",
+    "ru": "сигнал {signal}"
+  },
+  "terminalNoExitCode": {
+    "en": "no exit code",
+    "ru": "нет кода выхода"
+  },
+  "installDoneNothing": {
+    "en": "Install finished with no new dependency.",
+    "ru": "Установка завершена, новых зависимостей нет."
+  },
+  "installDoneRestart": {
+    "en": "Installed; it loads at the next start.",
+    "ru": "Установлено; загрузится при следующем запуске."
+  },
+  "installDoneApproved": {
+    "en": "Install scripts allowed for {names}",
+    "ru": "Скрипты установки разрешены для {names}"
+  },
+  "installApprovalTitle": {
+    "en": "Install scripts need permission",
+    "ru": "Скрипты установки требуют разрешения"
+  },
+  "installApprovalDescription": {
+    "en": "These packages have install scripts that pnpm did not run.",
+    "ru": "В этих пакетах есть скрипты установки, которые pnpm не выполнил."
+  },
+  "installApprovalConsequence": {
+    "en": "Once allowed, the scripts run here with your permissions, and the permission is saved in this profile.",
+    "ru": "После разрешения скрипты выполнятся здесь с вашими правами, а разрешение сохранится в этом профиле."
+  },
+  "installApprovalCaution": {
+    "en": "Allow only packages you trust.",
+    "ru": "Разрешайте только те пакеты, которым доверяете."
+  },
+  "installApproveAndRetry": {
+    "en": "Allow these scripts and retry",
+    "ru": "Разрешить эти скрипты и повторить"
+  },
+  "installClose": {
+    "en": "Done",
+    "ru": "Готово"
+  },
+  "close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "confirmUninstallTitle": {
+    "en": "Uninstall \"{name}\"?",
+    "ru": "Удалить «{name}»?"
+  },
+  "confirmUninstallDescription": {
+    "en": "What it provides goes away once it is uninstalled.",
+    "ru": "Всё, что он предоставляет, исчезнет после удаления."
+  },
+  "confirmUninstall": {
+    "en": "Uninstall",
+    "ru": "Удалить"
+  },
+  "failedEnable": {
+    "en": "Could not enable: {reason}",
+    "ru": "Не удалось включить: {reason}"
+  },
+  "failedDisable": {
+    "en": "Could not disable: {reason}",
+    "ru": "Не удалось выключить: {reason}"
+  },
+  "failedUninstall": {
+    "en": "Could not uninstall: {reason}",
+    "ru": "Не удалось удалить: {reason}"
+  },
+  "failedRowEnable": {
+    "en": "Could not enable the component: {reason}",
+    "ru": "Не удалось включить компонент: {reason}"
+  },
+  "failedRowDisable": {
+    "en": "Could not disable the component: {reason}",
+    "ru": "Не удалось выключить компонент: {reason}"
+  },
+  "reasonManagementRequired": {
+    "en": "Plugin management needs it; it cannot be switched off or uninstalled.",
+    "ru": "Нужен для управления плагинами; его нельзя выключить или удалить."
+  },
+  "reasonUnaddressable": {
+    "en": "The profile patch cannot address this one uniquely.",
+    "ru": "Патч профиля не может адресовать этот элемент однозначно."
+  },
+  "reasonUnknownPlugin": {
+    "en": "No such plugin.",
+    "ru": "Такого плагина нет."
+  },
+  "reasonInvalidSpec": {
+    "en": "Enter a valid package name or address.",
+    "ru": "Введите допустимое имя пакета или адрес."
+  },
+  "reasonAmbiguousInstall": {
+    "en": "Which package was installed cannot be told from the dependency change.",
+    "ru": "По изменению зависимостей нельзя определить, какой пакет был установлен."
+  },
+  "reasonNotBundle": {
+    "en": "This package declares no bundle, so it cannot be managed as a plugin.",
+    "ru": "Пакет не объявляет bundle, поэтому им нельзя управлять как плагином."
+  },
+  "reasonNotRemovable": {
+    "en": "This package is not owned by the profile, or plugin management needs it.",
+    "ru": "Этот пакет не принадлежит профилю или нужен для управления плагинами."
+  },
+  "reasonStopProfile": {
+    "en": "This profile runs without HMR; stop it and uninstall the package with dsh plugin.",
+    "ru": "Этот профиль работает без HMR; остановите его и удалите пакет командой dsh plugin."
+  },
+  "reasonBundleInUse": {
+    "en": "Other configuration still uses this bundle's components; switch them off first.",
+    "ru": "Другая конфигурация всё ещё использует компоненты этого пакета; сначала выключите их."
+  },
+  "reasonStaleApproval": {
+    "en": "The pending script approvals changed; install again to refresh them.",
+    "ru": "Ожидающие подтверждения скриптов изменились; установите заново, чтобы их обновить."
+  },
+  "reasonIncompatibleVersion": {
+    "en": "{plugin} is incompatible with DSH {runtime} (requires {peers}); running it may cause crashes or data loss.",
+    "ru": "{plugin} несовместим с DSH {runtime} (требуется {peers}); его запуск может привести к сбоям или потере данных."
+  },
+  "reasonIncompatibleVersionUnnamed": {
+    "en": "This plugin is incompatible with the running DSH version; running it may cause crashes or data loss.",
+    "ru": "Этот плагин несовместим с текущей версией DSH; его запуск может привести к сбоям или потере данных."
+  },
+  "reasonIncompatibleInstall": {
+    "en": "Install a plugin version compatible with this DSH.",
+    "ru": "Установите версию плагина, совместимую с этой версией DSH."
+  },
+  "reasonIncompatibleInstalled": {
+    "en": "Uninstall it and install a version compatible with this DSH.",
+    "ru": "Удалите его и установите версию, совместимую с этой версией DSH."
+  },
+  "reasonOperationError": {
+    "en": "The Host reported an error.",
+    "ru": "Хост сообщил об ошибке."
+  }
+}

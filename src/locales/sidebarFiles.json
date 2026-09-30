@@ -1,0 +1,70 @@
+{
+  "shortcut.noSession": {
+    "en": "Select a session first",
+    "ru": "Сначала выберите сессию"
+  },
+  "type.label": {
+    "en": "Files",
+    "ru": "Файлы"
+  },
+  "guide.title": {
+    "en": "Workspace files",
+    "ru": "Файлы рабочей области"
+  },
+  "guide.description": {
+    "en": "Browse files in this session's workspace",
+    "ru": "Просмотр файлов в рабочей области этой сессии"
+  },
+  "loading": {
+    "en": "Reading…",
+    "ru": "Чтение…"
+  },
+  "empty": {
+    "en": "Empty directory",
+    "ru": "Пустой каталог"
+  },
+  "truncated": {
+    "en": "Too many entries, showing only some of them.",
+    "ru": "Слишком много записей, показаны не все."
+  },
+  "noWorkspace": {
+    "en": "This session has no workspace directory.",
+    "ru": "У этой сессии нет каталога рабочей области."
+  },
+  "reload": {
+    "en": "Reload",
+    "ru": "Обновить"
+  },
+  "autoRefresh": {
+    "en": "Auto refresh",
+    "ru": "Автообновление"
+  },
+  "autoRefresh.enable": {
+    "en": "Enable auto refresh",
+    "ru": "Включить автообновление"
+  },
+  "autoRefresh.disable": {
+    "en": "Disable auto refresh",
+    "ru": "Выключить автообновление"
+  },
+  "entry.other": {
+    "en": "Not a file or a directory, so it cannot be opened.",
+    "ru": "Не файл и не каталог, поэтому открыть нельзя."
+  },
+  "error.notFound": {
+    "en": "That directory is gone. It may have been moved or deleted.",
+    "ru": "Этот каталог исчез. Возможно, его переместили или удалили."
+  },
+  "error.outsideWorkspace": {
+    "en": "That directory is outside the workspace, so the sidebar will not read it.",
+    "ru": "Этот каталог вне рабочей области, поэтому боковая панель его не читает."
+  },
+  "error.notDirectory": {
+    "en": "That is not a directory.",
+    "ru": "Это не каталог."
+  },
+  "error.unavailable": {
+    "en": "Read failed: {message}",
+    "ru": "Не удалось прочитать: {message}"
+  }
+}

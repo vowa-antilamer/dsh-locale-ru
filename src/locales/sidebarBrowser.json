@@ -1,0 +1,106 @@
+{
+  "type.label": {
+    "en": "Browser",
+    "ru": "Браузер"
+  },
+  "guide.title": {
+    "en": "Browser",
+    "ru": "Браузер"
+  },
+  "guide.description": {
+    "en": "Browse web pages",
+    "ru": "Просмотр веб-страниц"
+  },
+  "shortcut.noSession": {
+    "en": "Open a session first",
+    "ru": "Сначала откройте сессию"
+  },
+  "address.placeholder": {
+    "en": "Enter an HTTP(S) address",
+    "ru": "Введите адрес HTTP(S)"
+  },
+  "address.changed": {
+    "en": "URL changed",
+    "ru": "URL изменился"
+  },
+  "back": {
+    "en": "Back",
+    "ru": "Назад"
+  },
+  "forward": {
+    "en": "Forward",
+    "ru": "Вперёд"
+  },
+  "reload": {
+    "en": "Reload",
+    "ru": "Обновить"
+  },
+  "go": {
+    "en": "Go",
+    "ru": "Перейти"
+  },
+  "external": {
+    "en": "Open in system browser",
+    "ru": "Открыть в системном браузере"
+  },
+  "sandbox.disable": {
+    "en": "Disable sandbox restrictions",
+    "ru": "Отключить ограничения песочницы"
+  },
+  "sandbox.enable": {
+    "en": "Restore sandbox restrictions",
+    "ru": "Вернуть ограничения песочницы"
+  },
+  "sandbox.warning": {
+    "en": "Sandbox restrictions are disabled; the page can navigate the top-level app and use downloads, modal dialogs, and input locks.",
+    "ru": "Ограничения песочницы отключены; страница может управлять навигацией приложения верхнего уровня, а также использовать загрузки, модальные окна и блокировку ввода."
+  },
+  "start": {
+    "en": "Enter an HTTP(S) address to start browsing",
+    "ru": "Введите адрес HTTP(S), чтобы начать просмотр"
+  },
+  "loading": {
+    "en": "Opening…",
+    "ru": "Открытие…"
+  },
+  "restore.previous": {
+    "en": "Previously opened",
+    "ru": "Ранее открытые"
+  },
+  "restore.action": {
+    "en": "Restore page",
+    "ru": "Восстановить страницу"
+  },
+  "error.empty": {
+    "en": "Enter an address.",
+    "ru": "Введите адрес."
+  },
+  "error.invalid": {
+    "en": "That address is invalid or too long.",
+    "ru": "Адрес недопустим или слишком длинный."
+  },
+  "error.protocol": {
+    "en": "Only HTTP and HTTPS addresses are supported; use Document Preview for local files.",
+    "ru": "Поддерживаются только адреса HTTP и HTTPS; для локальных файлов используйте предпросмотр документов."
+  },
+  "error.credentials": {
+    "en": "Addresses cannot contain a username or password.",
+    "ru": "Адреса не могут содержать имя пользователя или пароль."
+  },
+  "error.application-origin": {
+    "en": "The embedded browser cannot open the DSH application itself.",
+    "ru": "Встроенный браузер не может открыть само приложение DSH."
+  },
+  "load.failed": {
+    "en": "The page could not load; reload or open it in the system browser.",
+    "ru": "Страницу не удалось загрузить; обновите её или откройте в системном браузере."
+  },
+  "load.failed.detail": {
+    "en": "Page load failed ({code}): {description}",
+    "ru": "Не удалось загрузить страницу ({code}): {description}"
+  },
+  "address.unknown": {
+    "en": "The page navigated; this carrier cannot read its new URL.",
+    "ru": "Страница перешла по другому адресу; этот контейнер не может прочитать её новый URL."
+  }
+}

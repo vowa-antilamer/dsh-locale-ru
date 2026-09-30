@@ -1,0 +1,70 @@
+{
+  "mode": {
+    "en": "Access mode, current: {name}",
+    "ru": "Режим доступа, текущий: {name}"
+  },
+  "close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "preset.readOnly": {
+    "en": "Read Only",
+    "ru": "Только чтение"
+  },
+  "preset.workspaceWrite": {
+    "en": "Workspace Write",
+    "ru": "Запись в рабочую область"
+  },
+  "preset.fullAccess": {
+    "en": "Full access",
+    "ru": "Полный доступ"
+  },
+  "confirm.title": {
+    "en": "Enable Full access?",
+    "ru": "Включить полный доступ?"
+  },
+  "confirm.description": {
+    "en": "Full access reduces confirmation steps and lets the agent perform more actions directly, including sensitive operations, file changes, or external commands. Only use it when you trust the current task.",
+    "ru": "Полный доступ сокращает число подтверждений и позволяет агенту выполнять больше действий напрямую, включая чувствительные операции, изменение файлов и внешние команды. Используйте его, только если доверяете текущей задаче."
+  },
+  "confirm.acknowledge": {
+    "en": "I understand the risks and want to continue",
+    "ru": "Я понимаю риски и хочу продолжить"
+  },
+  "confirm.cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "confirm.enable": {
+    "en": "Enable Full access",
+    "ru": "Включить полный доступ"
+  },
+  "auto.label": {
+    "en": "Auto review",
+    "ru": "Автопроверка"
+  },
+  "auto.badge": {
+    "en": "EXP",
+    "ru": "EXP"
+  },
+  "auto.description": {
+    "en": "Run without a sandbox after an experimental same-model review of every native tool call and PTC inner call.",
+    "ru": "Работа без песочницы после экспериментальной проверки той же моделью каждого вызова нативного инструмента и внутреннего вызова PTC."
+  },
+  "auto.confirm.title": {
+    "en": "Enable Auto review (experimental)?",
+    "ru": "Включить автопроверку (экспериментально)?"
+  },
+  "auto.confirm.description": {
+    "en": "Auto review runs without a sandbox. Before every native tool call and PTC inner call, the same model as the current agent reviews whether to allow it; you approve or reject each call it denies. This feature is experimental, can falsely allow or deny actions, and uses additional tokens.",
+    "ru": "Автопроверка работает без песочницы. Перед каждым вызовом нативного инструмента и внутренним вызовом PTC та же модель, что и у текущего агента, решает, разрешить ли вызов; вы одобряете или отклоняете каждый отклонённый вызов. Функция экспериментальная, может ошибочно разрешать или запрещать действия и расходует дополнительные токены."
+  },
+  "auto.confirm.acknowledge": {
+    "en": "I understand these risks and want to continue",
+    "ru": "Я понимаю эти риски и хочу продолжить"
+  },
+  "auto.confirm.enable": {
+    "en": "Enable Auto review",
+    "ru": "Включить автопроверку"
+  }
+}

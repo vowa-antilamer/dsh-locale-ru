@@ -1,0 +1,22 @@
+{
+  "waiting": {
+    "en": "Waiting for approval",
+    "ru": "Ожидание подтверждения"
+  },
+  "detail.aria": {
+    "en": "Approval details",
+    "ru": "Подробности подтверждения"
+  },
+  "escalation": {
+    "en": "Tool {toolName} requests privileged execution",
+    "ru": "Инструмент {toolName} запрашивает привилегированный запуск"
+  },
+  "reject": {
+    "en": "Reject",
+    "ru": "Отклонить"
+  },
+  "allowOnce": {
+    "en": "Allow once",
+    "ru": "Разрешить один раз"
+  }
+}

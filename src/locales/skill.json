@@ -1,0 +1,34 @@
+{
+  "row.title": {
+    "en": "Skill",
+    "ru": "Навык"
+  },
+  "row.running": {
+    "en": "Loading skill",
+    "ru": "Загрузка навыка"
+  },
+  "row.preparing": {
+    "en": "Preparing to load a skill",
+    "ru": "Подготовка к загрузке навыка"
+  },
+  "row.failed": {
+    "en": "Skill load failed",
+    "ru": "Не удалось загрузить навык"
+  },
+  "row.stopped": {
+    "en": "Skill load stopped",
+    "ru": "Загрузка навыка остановлена"
+  },
+  "row.instructions": {
+    "en": "Instructions",
+    "ru": "Инструкции"
+  },
+  "row.inspect": {
+    "en": "Inspect",
+    "ru": "Просмотр"
+  },
+  "menu.userOnly": {
+    "en": "user-only",
+    "ru": "только для пользователя"
+  }
+}

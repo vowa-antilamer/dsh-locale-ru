@@ -1,0 +1,70 @@
+{
+  "chip.label": {
+    "en": "Plan",
+    "ru": "План"
+  },
+  "preview.title": {
+    "en": "Plan",
+    "ru": "План"
+  },
+  "preview.document": {
+    "en": "Plan · Markdown",
+    "ru": "План · Markdown"
+  },
+  "preview.action": {
+    "en": "Open",
+    "ru": "Открыть"
+  },
+  "preview.open": {
+    "en": "Open plan in sidebar",
+    "ru": "Открыть план в боковой панели"
+  },
+  "preview.full": {
+    "en": "View full plan",
+    "ru": "Открыть план полностью"
+  },
+  "preview.openNamed": {
+    "en": "Open plan: {title}",
+    "ru": "Открыть план: {title}"
+  },
+  "preview.loading": {
+    "en": "Loading plan…",
+    "ru": "Загрузка плана…"
+  },
+  "preview.failed": {
+    "en": "Could not load plan",
+    "ru": "Не удалось загрузить план"
+  },
+  "preview.invalidAddress": {
+    "en": "Invalid plan address",
+    "ru": "Неверный адрес плана"
+  },
+  "preview.historyUnavailable": {
+    "en": "Session history is unavailable",
+    "ru": "История сессии недоступна"
+  },
+  "preview.notFound": {
+    "en": "This plan was not found",
+    "ru": "План не найден"
+  },
+  "preview.unavailable": {
+    "en": "Plan preview is unavailable",
+    "ru": "Предпросмотр плана недоступен"
+  },
+  "preview.expired": {
+    "en": "This temporary plan preview has expired. Reopen it from the pending review card.",
+    "ru": "Срок временного предпросмотра плана истёк. Откройте его заново из карточки ожидающей проверки."
+  },
+  "chip.on.aria": {
+    "en": "Plan mode on, press to turn off",
+    "ru": "Режим планирования включён, нажмите, чтобы выключить"
+  },
+  "chip.on.title": {
+    "en": "Plan mode on — click to turn off (/plan off)",
+    "ru": "Режим планирования включён — нажмите, чтобы выключить (/plan off)"
+  },
+  "chip.exitFailed": {
+    "en": "Failed to exit plan mode",
+    "ru": "Не удалось выйти из режима планирования"
+  }
+}

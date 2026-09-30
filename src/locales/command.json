@@ -1,0 +1,114 @@
+{
+  "section.add": {
+    "en": "Add",
+    "ru": "Добавить"
+  },
+  "section.commands": {
+    "en": "Commands",
+    "ru": "Команды"
+  },
+  "label.goal": {
+    "en": "Goal",
+    "ru": "Цель"
+  },
+  "label.plan": {
+    "en": "Plan",
+    "ru": "План"
+  },
+  "label.feedback": {
+    "en": "Feedback",
+    "ru": "Отзыв"
+  },
+  "label.compact": {
+    "en": "Compact",
+    "ru": "Сжать"
+  },
+  "label.permission": {
+    "en": "Permission",
+    "ru": "Разрешение"
+  },
+  "label.export": {
+    "en": "Export",
+    "ru": "Экспорт"
+  },
+  "description.goal": {
+    "en": "Set or view the goal for a long-running task",
+    "ru": "Задать или посмотреть цель долгой задачи"
+  },
+  "description.plan": {
+    "en": "Enter or leave plan mode",
+    "ru": "Войти в режим планирования или выйти из него"
+  },
+  "description.feedback": {
+    "en": "Record feedback about this session",
+    "ru": "Оставить отзыв об этой сессии"
+  },
+  "description.compact": {
+    "en": "Compact older conversation history",
+    "ru": "Сжать старую историю диалога"
+  },
+  "description.permission": {
+    "en": "Switch the permission preset (sandbox mode + approval policy)",
+    "ru": "Переключить пресет разрешений (режим песочницы + политика подтверждений)"
+  },
+  "description.export": {
+    "en": "Download this Session log as a ZIP archive",
+    "ru": "Скачать журнал этой сессии как ZIP-архив"
+  },
+  "token.goal": {
+    "en": "goal",
+    "ru": "goal"
+  },
+  "token.plan": {
+    "en": "plan",
+    "ru": "plan"
+  },
+  "token.feedback": {
+    "en": "feedback",
+    "ru": "feedback"
+  },
+  "token.compact": {
+    "en": "compact",
+    "ru": "compact"
+  },
+  "token.permission": {
+    "en": "permission",
+    "ru": "permission"
+  },
+  "token.export": {
+    "en": "export",
+    "ru": "export"
+  },
+  "search.placeholder": {
+    "en": "Search…",
+    "ru": "Поиск…"
+  },
+  "search.aria": {
+    "en": "Filter options",
+    "ru": "Фильтр вариантов"
+  },
+  "status.loading": {
+    "en": "Loading options…",
+    "ru": "Загрузка вариантов…"
+  },
+  "status.applying": {
+    "en": "Applying…",
+    "ru": "Применение…"
+  },
+  "status.empty": {
+    "en": "No options",
+    "ru": "Нет вариантов"
+  },
+  "overlay.aria": {
+    "en": "/{command} options",
+    "ru": "Варианты /{command}"
+  },
+  "listbox.aria": {
+    "en": "/{command} matches",
+    "ru": "Совпадения /{command}"
+  },
+  "notice.attachmentsUnsupported": {
+    "en": "/{command} does not accept attachments; remove them first",
+    "ru": "/{command} не принимает вложения; сначала удалите их"
+  }
+}

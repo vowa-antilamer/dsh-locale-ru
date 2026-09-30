@@ -1,0 +1,94 @@
+{
+  "provider.account": {
+    "en": "DeepSeek Account",
+    "ru": "Аккаунт DeepSeek"
+  },
+  "command.label": {
+    "en": "Model",
+    "ru": "Модель"
+  },
+  "command.description": {
+    "en": "Select the model for this conversation",
+    "ru": "Выбрать модель для этого диалога"
+  },
+  "option.loadError": {
+    "en": "Catalog failed to load: {message}",
+    "ru": "Не удалось загрузить каталог: {message}"
+  },
+  "trigger.fallback": {
+    "en": "Select model",
+    "ru": "Выбрать модель"
+  },
+  "trigger.loading": {
+    "en": "Loading models…",
+    "ru": "Загрузка моделей…"
+  },
+  "trigger.selectAria": {
+    "en": "Select model",
+    "ru": "Выбрать модель"
+  },
+  "trigger.aria": {
+    "en": "Select model, current {model}",
+    "ru": "Выбрать модель, текущая — {model}"
+  },
+  "trigger.ariaEffort": {
+    "en": "Select model, current {model}, reasoning effort {effort}",
+    "ru": "Выбрать модель, текущая — {model}, усилие рассуждений — {effort}"
+  },
+  "menu.aria": {
+    "en": "Model and reasoning effort",
+    "ru": "Модель и усилие рассуждений"
+  },
+  "menu.model": {
+    "en": "Model",
+    "ru": "Модель"
+  },
+  "menu.effort": {
+    "en": "Effort",
+    "ru": "Усилие"
+  },
+  "effort.providerDefault": {
+    "en": "Default",
+    "ru": "По умолчанию"
+  },
+  "status.loading": {
+    "en": "Refreshing model list…",
+    "ru": "Обновление списка моделей…"
+  },
+  "error.action": {
+    "en": "Model operation failed: {message}",
+    "ru": "Не удалось выполнить операцию с моделью: {message}"
+  },
+  "error.sessionInUse": {
+    "en": "This session is already in use, possibly by another running DSH instance (such as dsh web or the desktop app). Quit other running DSH instances and try again.",
+    "ru": "Эта сессия уже используется, возможно, другим запущенным экземпляром DSH (например, dsh web или приложением для рабочего стола). Закройте другие экземпляры DSH и повторите попытку."
+  },
+  "action.reload": {
+    "en": "Reload",
+    "ru": "Обновить"
+  },
+  "warning.groupLoad": {
+    "en": "{name} failed to load: {message}",
+    "ru": "Не удалось загрузить {name}: {message}"
+  },
+  "search.placeholder": {
+    "en": "Search models…",
+    "ru": "Поиск моделей…"
+  },
+  "search.clear": {
+    "en": "Clear search",
+    "ru": "Очистить поиск"
+  },
+  "search.empty": {
+    "en": "No matching models.",
+    "ru": "Модели не найдены."
+  },
+  "empty.models": {
+    "en": "No models available.",
+    "ru": "Нет доступных моделей."
+  },
+  "empty.efforts": {
+    "en": "This model provides no reasoning effort levels.",
+    "ru": "Эта модель не поддерживает уровни усилия рассуждений."
+  }
+}

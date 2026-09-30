@@ -1,0 +1,18 @@
+{
+  "viewer.label": {
+    "en": "Markdown",
+    "ru": "Markdown"
+  },
+  "code.copy": {
+    "en": "Copy",
+    "ru": "Копировать"
+  },
+  "code.copied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "footnotes": {
+    "en": "Footnotes",
+    "ru": "Сноски"
+  }
+}

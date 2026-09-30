@@ -1,0 +1,138 @@
+{
+  "trigger": {
+    "en": "Settings",
+    "ru": "Настройки"
+  },
+  "shortcut.open": {
+    "en": "Open settings",
+    "ru": "Открыть настройки"
+  },
+  "desktop.update.available": {
+    "en": "Update",
+    "ru": "Обновить"
+  },
+  "desktop.update.checking": {
+    "en": "Checking for updates…",
+    "ru": "Проверка обновлений…"
+  },
+  "desktop.update.progress": {
+    "en": "{percent}%",
+    "ru": "{percent}%"
+  },
+  "desktop.update.verifying": {
+    "en": "Verifying update files…",
+    "ru": "Проверка файлов обновления…"
+  },
+  "desktop.update.installing": {
+    "en": "Preparing to restart…",
+    "ru": "Подготовка к перезапуску…"
+  },
+  "desktop.update.ready": {
+    "en": "Install and Restart",
+    "ru": "Установить и перезапустить"
+  },
+  "desktop.update.retry": {
+    "en": "Retry update",
+    "ru": "Повторить обновление"
+  },
+  "desktop.update.versionDetail": {
+    "en": "{label}: {version}",
+    "ru": "{label}: {version}"
+  },
+  "desktop.update.downloadDetail": {
+    "en": "Downloading update: {percent}%\nTarget version: {version}",
+    "ru": "Загрузка обновления: {percent}%\nЦелевая версия: {version}"
+  },
+  "desktop.update.checkFailed": {
+    "en": "Could not check for updates. Please try again later.",
+    "ru": "Не удалось проверить обновления. Повторите попытку позже."
+  },
+  "desktop.update.downloadFailed": {
+    "en": "Could not download the update. Please try again.",
+    "ru": "Не удалось скачать обновление. Повторите попытку."
+  },
+  "desktop.update.installFailed": {
+    "en": "Could not install the update. Please try again later.",
+    "ru": "Не удалось установить обновление. Повторите попытку позже."
+  },
+  "desktop.update.checkNetworkFailed": {
+    "en": "Could not check for updates. Check your connection and try again.",
+    "ru": "Не удалось проверить обновления. Проверьте соединение и повторите."
+  },
+  "desktop.update.downloadNetworkFailed": {
+    "en": "Could not download the update. Check your connection and try again.",
+    "ru": "Не удалось скачать обновление. Проверьте соединение и повторите."
+  },
+  "desktop.update.installNetworkFailed": {
+    "en": "Could not install the update. Check your connection and try again.",
+    "ru": "Не удалось установить обновление. Проверьте соединение и повторите."
+  },
+  "desktop.update.stopFailed": {
+    "en": "Could not safely stop the tasks. The update has not been installed. Please try again later.",
+    "ru": "Не удалось безопасно остановить задачи. Обновление не установлено. Повторите попытку позже."
+  },
+  "desktop.update.tasksChanged": {
+    "en": "New tasks have started. Confirm again to stop the tasks and update.",
+    "ru": "Запустились новые задачи. Подтвердите ещё раз, чтобы остановить задачи и обновиться."
+  },
+  "desktop.update.tasksUnavailable": {
+    "en": "Task status is unavailable. Try updating again when the workspace is ready.",
+    "ru": "Состояние задач недоступно. Попробуйте обновить снова, когда рабочая область будет готова."
+  },
+  "title": {
+    "en": "Settings",
+    "ru": "Настройки"
+  },
+  "close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "openDocument": {
+    "en": "Open configuration file",
+    "ru": "Открыть файл конфигурации"
+  },
+  "openDocument.error": {
+    "en": "Could not open configuration file",
+    "ru": "Не удалось открыть файл конфигурации"
+  },
+  "general.nav": {
+    "en": "General",
+    "ru": "Общие"
+  },
+  "general.currentVersion": {
+    "en": "Current version: {version}",
+    "ru": "Текущая версия: {version}"
+  },
+  "developerTools.title": {
+    "en": "Show coding view",
+    "ru": "Показать режим разработки"
+  },
+  "developerTools.error": {
+    "en": "Could not save. Please try again.",
+    "ru": "Не удалось сохранить. Повторите попытку."
+  },
+  "developerTools.description": {
+    "en": "Shows trajectory, code diffs, and all Agent presets",
+    "ru": "Показывает траекторию, диффы кода и все пресеты агентов"
+  },
+  "connection.error": {
+    "en": "Disconnected",
+    "ru": "Соединение потеряно"
+  },
+  "connection.connecting": {
+    "en": "Reconnecting",
+    "ru": "Переподключение"
+  },
+  "connection.connected": {
+    "en": "Connected",
+    "ru": "Подключено"
+  },
+  "connection.reconnect": {
+    "en": "Disconnected, reconnect now",
+    "ru": "Соединение потеряно, подключиться снова"
+  },
+  "connection.restart": {
+    "en": "Reconnecting, reconnect now",
+    "ru": "Переподключение, подключиться снова"
+  }
+}

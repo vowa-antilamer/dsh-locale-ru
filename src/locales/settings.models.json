@@ -1,0 +1,454 @@
+{
+  "nav": {
+    "en": "Models",
+    "ru": "Модели"
+  },
+  "deepSeekAccount": {
+    "en": "DeepSeek Account",
+    "ru": "Аккаунт DeepSeek"
+  },
+  "title": {
+    "en": "Models",
+    "ru": "Модели"
+  },
+  "intro": {
+    "en": "Enter your API keys to use models from the following providers.",
+    "ru": "Введите ключи API, чтобы использовать модели следующих провайдеров."
+  },
+  "edit": {
+    "en": "Edit",
+    "ru": "Изменить"
+  },
+  "editProvider": {
+    "en": "Edit {provider}",
+    "ru": "Изменить {provider}"
+  },
+  "remove": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "removeProvider": {
+    "en": "Delete {provider}",
+    "ru": "Удалить {provider}"
+  },
+  "deleteTitle": {
+    "en": "Delete {provider}?",
+    "ru": "Удалить {provider}?"
+  },
+  "deleteDescription": {
+    "en": "Deleting {provider} removes its configuration. Any credential it uses is managed elsewhere and will be kept.",
+    "ru": "Удаление {provider} стирает его конфигурацию. Используемые им учётные данные управляются в другом месте и сохранятся."
+  },
+  "deleteDescriptionWithCredential": {
+    "en": "Deleting {provider} removes its configuration and stored API key.",
+    "ru": "Удаление {provider} стирает его конфигурацию и сохранённый ключ API."
+  },
+  "deleteConfirm": {
+    "en": "Delete {provider}",
+    "ru": "Удалить {provider}"
+  },
+  "deleting": {
+    "en": "Deleting {provider}…",
+    "ru": "Удаление {provider}…"
+  },
+  "add": {
+    "en": "Add model provider",
+    "ru": "Добавить провайдера моделей"
+  },
+  "addMode": {
+    "en": "How to add",
+    "ru": "Способ добавления"
+  },
+  "addCatalog": {
+    "en": "Third-party model provider",
+    "ru": "Сторонний провайдер моделей"
+  },
+  "addCustom": {
+    "en": "Custom model API",
+    "ru": "Свой API моделей"
+  },
+  "addCatalogHint": {
+    "en": "Pick OpenAI, Anthropic, Kimi, or another provider from the built-in catalog and enter its API key.",
+    "ru": "Выберите OpenAI, Anthropic, Kimi или другого провайдера из встроенного каталога и введите его ключ API."
+  },
+  "addCustomHint": {
+    "en": "Connect a relay, a self-hosted server, or any other OpenAI- or Anthropic-compatible endpoint by its base URL, protocol, and models.",
+    "ru": "Подключите ретранслятор, собственный сервер или любую другую конечную точку, совместимую с OpenAI или Anthropic, указав базовый URL, протокол и модели."
+  },
+  "addCatalogExhausted": {
+    "en": "Every catalog provider is already configured.",
+    "ru": "Все провайдеры из каталога уже настроены."
+  },
+  "addCustomUnavailable": {
+    "en": "No API protocol is available to declare.",
+    "ru": "Нет доступного протокола API для указания."
+  },
+  "provider": {
+    "en": "Provider",
+    "ru": "Провайдер"
+  },
+  "close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "apply": {
+    "en": "Apply",
+    "ru": "Применить"
+  },
+  "applying": {
+    "en": "Applying…",
+    "ru": "Применение…"
+  },
+  "savedProvider": {
+    "en": "Saved {provider}.",
+    "ru": "{provider} сохранён."
+  },
+  "credentialConfigured": {
+    "en": "API key configured",
+    "ru": "Ключ API настроен"
+  },
+  "credentialMissing": {
+    "en": "API key missing",
+    "ru": "Ключ API не задан"
+  },
+  "readOnly": {
+    "en": "The settings document is read-only in this deployment.",
+    "ru": "Документ настроек в этом развёртывании доступен только для чтения."
+  },
+  "loadFailed": {
+    "en": "Loading the provider directory failed",
+    "ru": "Не удалось загрузить каталог провайдеров"
+  },
+  "conflict": {
+    "en": "Someone else changed these settings while this card was open. Close it and reopen to edit the current values.",
+    "ru": "Пока эта карточка была открыта, настройки изменил кто-то другой. Закройте её и откройте заново, чтобы изменить актуальные значения."
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "keyInput": {
+    "en": "API key",
+    "ru": "Ключ API"
+  },
+  "keyPlaceholder": {
+    "en": "Enter your API key",
+    "ru": "Введите ключ API"
+  },
+  "keyPlaceholderNative": {
+    "en": "Enter an API key, or leave blank to use environment authentication",
+    "ru": "Введите ключ API или оставьте поле пустым для аутентификации через среду"
+  },
+  "keyStored": {
+    "en": "Configured — enter a new value to replace",
+    "ru": "Настроено — введите новое значение для замены"
+  },
+  "keyEnvLocked": {
+    "en": "Provided by the launch environment (read-only)",
+    "ru": "Задан средой запуска (только чтение)"
+  },
+  "customized": {
+    "en": "Customized settings",
+    "ru": "Изменённые настройки"
+  },
+  "baseUrl": {
+    "en": "Base URL",
+    "ru": "Базовый URL"
+  },
+  "baseUrlDefault": {
+    "en": "Provider default",
+    "ru": "По умолчанию у провайдера"
+  },
+  "deepSeekBaseUrl": {
+    "en": "https://api.deepseek.com/anthropic",
+    "ru": "https://api.deepseek.com/anthropic"
+  },
+  "deepSeekEndpointHint": {
+    "en": "Use an API endpoint compatible with Anthropic Messages.",
+    "ru": "Используйте конечную точку API, совместимую с Anthropic Messages."
+  },
+  "models": {
+    "en": "Models",
+    "ru": "Модели"
+  },
+  "modelsInherited": {
+    "en": "Using the adapter defaults",
+    "ru": "Используются настройки адаптера по умолчанию"
+  },
+  "modelsCustomized": {
+    "en": "Customized model catalog",
+    "ru": "Изменённый каталог моделей"
+  },
+  "resetModels": {
+    "en": "Restore defaults",
+    "ru": "Вернуть по умолчанию"
+  },
+  "model": {
+    "en": "Model",
+    "ru": "Модель"
+  },
+  "modelId": {
+    "en": "Model ID",
+    "ru": "ID модели"
+  },
+  "modelName": {
+    "en": "Display name",
+    "ru": "Отображаемое имя"
+  },
+  "modelNamePlaceholder": {
+    "en": "Uses the model ID when empty",
+    "ru": "Если пусто, используется ID модели"
+  },
+  "contextWindow": {
+    "en": "Context window",
+    "ru": "Окно контекста"
+  },
+  "contextWindowPlaceholder": {
+    "en": "Uses the provider default",
+    "ru": "Используется значение провайдера по умолчанию"
+  },
+  "maxTokens": {
+    "en": "Max output tokens",
+    "ru": "Макс. выходных токенов"
+  },
+  "maxTokensPlaceholder": {
+    "en": "Uses the provider default",
+    "ru": "Используется значение провайдера по умолчанию"
+  },
+  "modelAdvanced": {
+    "en": "Model options",
+    "ru": "Параметры модели"
+  },
+  "modelInputTypes": {
+    "en": "Input types",
+    "ru": "Типы ввода"
+  },
+  "modelInputText": {
+    "en": "Text",
+    "ru": "Текст"
+  },
+  "modelInputImage": {
+    "en": "Image",
+    "ru": "Изображение"
+  },
+  "addModel": {
+    "en": "Add model",
+    "ru": "Добавить модель"
+  },
+  "removeModel": {
+    "en": "Delete model",
+    "ru": "Удалить модель"
+  },
+  "modelsEmpty": {
+    "en": "No models will be shown in the selector. Unlisted IDs can still be sent directly.",
+    "ru": "В списке выбора не будет моделей. ID, которых здесь нет, всё равно можно отправлять напрямую."
+  },
+  "keyBlank": {
+    "en": "Enter the API key, or leave the field empty to keep the stored one.",
+    "ru": "Введите ключ API или оставьте поле пустым, чтобы сохранить текущий."
+  },
+  "keyBlankNew": {
+    "en": "Enter the API key, or leave the field empty if this provider authenticates another way.",
+    "ru": "Введите ключ API или оставьте поле пустым, если этот провайдер использует другую аутентификацию."
+  },
+  "keyIllegalCharacters": {
+    "en": "This API key is not in a valid format. Please check it.",
+    "ru": "Неверный формат ключа API. Проверьте его."
+  },
+  "modelIdRequired": {
+    "en": "Model ID is required.",
+    "ru": "Укажите ID модели."
+  },
+  "modelIdDuplicate": {
+    "en": "Model ID must be unique.",
+    "ru": "ID модели должен быть уникальным."
+  },
+  "modelNameInvalid": {
+    "en": "Display name cannot be empty.",
+    "ru": "Отображаемое имя не может быть пустым."
+  },
+  "modelContextInvalid": {
+    "en": "Context window must be a positive count, like 131072, 256K, or 1M.",
+    "ru": "Окно контекста должно быть положительным числом, например 131072, 256K или 1M."
+  },
+  "modelMaxTokensInvalid": {
+    "en": "Max output tokens must be a positive count, like 8192, 64K, or 1M.",
+    "ru": "Макс. выходных токенов должно быть положительным числом, например 8192, 64K или 1M."
+  },
+  "advancedHint": {
+    "en": "Other fields live in cordis.patch.yml; edit that section directly.",
+    "ru": "Остальные поля находятся в cordis.patch.yml; отредактируйте этот раздел напрямую."
+  },
+  "modelCapacityInvalid": {
+    "en": "A capacity must be a number, optionally suffixed K or M.",
+    "ru": "Значение должно быть числом, при необходимости с суффиксом K или M."
+  },
+  "modelDuplicate": {
+    "en": "Each model ID may appear once.",
+    "ru": "Каждый ID модели может встречаться один раз."
+  },
+  "fetchModels": {
+    "en": "Fetch available models",
+    "ru": "Получить доступные модели"
+  },
+  "fetching": {
+    "en": "Asking the provider…",
+    "ru": "Запрос к провайдеру…"
+  },
+  "fetchNeedsBaseUrl": {
+    "en": "Enter the base URL first, then fetch.",
+    "ru": "Сначала укажите базовый URL, затем получите список."
+  },
+  "fetchEmpty": {
+    "en": "The provider listed no models. Add them by hand.",
+    "ru": "Провайдер не вернул моделей. Добавьте их вручную."
+  },
+  "fetchTitle": {
+    "en": "Choose models to add",
+    "ru": "Выберите модели для добавления"
+  },
+  "fetchDescription": {
+    "en": "These are the models this provider has available. Choose the ones to add.",
+    "ru": "Это модели, доступные у провайдера. Выберите те, которые нужно добавить."
+  },
+  "fetchSearch": {
+    "en": "Search models",
+    "ru": "Поиск моделей"
+  },
+  "fetchNoMatches": {
+    "en": "No matching models.",
+    "ru": "Нет подходящих моделей."
+  },
+  "fetchSelectAll": {
+    "en": "Select all",
+    "ru": "Выбрать все"
+  },
+  "fetchDeselectAll": {
+    "en": "Deselect all",
+    "ru": "Снять выбор"
+  },
+  "fetchAdopt": {
+    "en": "Add selected",
+    "ru": "Добавить выбранные"
+  },
+  "customTag": {
+    "en": "Custom",
+    "ru": "Свой"
+  },
+  "customRoute": {
+    "en": "Provider ID",
+    "ru": "ID провайдера"
+  },
+  "customRouteHint": {
+    "en": "Lowercase identifier, starting with a letter, that uniquely names this provider in requests and as its credential name.",
+    "ru": "Идентификатор из строчных букв, начинающийся с буквы, который однозначно задаёт провайдера в запросах и в имени его учётных данных."
+  },
+  "customRouteInvalid": {
+    "en": "Start with a lowercase letter; then lowercase letters, digits, and dashes.",
+    "ru": "Начните со строчной буквы; далее строчные буквы, цифры и дефисы."
+  },
+  "customRouteTaken": {
+    "en": "A provider already uses this ID.",
+    "ru": "Этот ID уже занят другим провайдером."
+  },
+  "customDisplayName": {
+    "en": "Display name",
+    "ru": "Отображаемое имя"
+  },
+  "customApi": {
+    "en": "API protocol",
+    "ru": "Протокол API"
+  },
+  "customApiUnset": {
+    "en": "Not selected",
+    "ru": "Не выбрано"
+  },
+  "protocolOpenAiCompletions": {
+    "en": "OpenAI Chat Completions",
+    "ru": "OpenAI Chat Completions"
+  },
+  "protocolOpenAiResponses": {
+    "en": "OpenAI Responses",
+    "ru": "OpenAI Responses"
+  },
+  "protocolAnthropicMessages": {
+    "en": "Anthropic Messages",
+    "ru": "Anthropic Messages"
+  },
+  "customNeedsBaseUrl": {
+    "en": "A custom provider needs a base URL.",
+    "ru": "Своему провайдеру нужен базовый URL."
+  },
+  "customBaseUrlInvalid": {
+    "en": "Enter a valid HTTP or HTTPS URL.",
+    "ru": "Введите корректный URL HTTP или HTTPS."
+  },
+  "customNeedsModels": {
+    "en": "A custom provider needs at least one model.",
+    "ru": "Своему провайдеру нужна хотя бы одна модель."
+  },
+  "customBaseUrlPlaceholder": {
+    "en": "https://gateway.example/v1",
+    "ru": "https://gateway.example/v1"
+  },
+  "customAnthropicBaseUrlPlaceholder": {
+    "en": "https://gateway.example",
+    "ru": "https://gateway.example"
+  },
+  "settingsPathUnresolvable": {
+    "en": "unresolvable settings path",
+    "ru": "неразрешимый путь к настройкам"
+  },
+  "create": {
+    "en": "Create provider",
+    "ru": "Создать провайдера"
+  },
+  "creating": {
+    "en": "Creating…",
+    "ru": "Создание…"
+  },
+  "welcomeTitle": {
+    "en": "Preview Notice",
+    "ru": "Уведомление о предпросмотре"
+  },
+  "welcomeBody": {
+    "en": "DeepSeek Harness 0.2 is still in preview, and many areas need continued improvement and refinement. We welcome feedback and suggestions from all developers and users. The new desktop app now targets a broad range of users, while developer-related advanced features can be enabled in the settings. DeepSeek Harness’s product features and plugin APIs are expected to continue rapid iteration and evolution, and will gradually stabilize over time.\n\nWe look forward to exploring the limits of intelligence together with users and developers around the world, building on open-source, reusable, and composable infrastructure. We welcome everyone to bring their ideas to life with DeepSeek Harness and participate in the community to enrich the plugin ecosystem.",
+    "ru": "DeepSeek Harness 0.2 всё ещё находится в предпросмотре, и многие области требуют доработки и улучшения. Мы рады отзывам и предложениям от всех разработчиков и пользователей. Новое настольное приложение рассчитано на широкую аудиторию, а продвинутые функции для разработчиков можно включить в настройках. Продуктовые функции и API плагинов DeepSeek Harness будут и дальше стремительно развиваться и постепенно стабилизируются.\n\nМы надеемся вместе с пользователями и разработчиками со всего мира исследовать пределы интеллекта, опираясь на открытую, переиспользуемую и компонуемую инфраструктуру. Приглашаем всех воплощать свои идеи с DeepSeek Harness и участвовать в сообществе, обогащая экосистему плагинов."
+  },
+  "welcomeContinue": {
+    "en": "Continue",
+    "ru": "Продолжить"
+  },
+  "welcomeError": {
+    "en": "The acknowledgement could not be saved. Please try again.",
+    "ru": "Не удалось сохранить подтверждение. Попробуйте ещё раз."
+  },
+  "onboardingTitle": {
+    "en": "Add an API key to get started",
+    "ru": "Добавьте ключ API, чтобы начать"
+  },
+  "onboardingDescription": {
+    "en": "Configure the official DeepSeek provider to start building.",
+    "ru": "Настройте официального провайдера DeepSeek, чтобы приступить к работе."
+  },
+  "onboardingLater": {
+    "en": "Configure later",
+    "ru": "Настроить позже"
+  },
+  "onboardingSave": {
+    "en": "Save and continue",
+    "ru": "Сохранить и продолжить"
+  },
+  "onboardingSaving": {
+    "en": "Saving…",
+    "ru": "Сохранение…"
+  },
+  "keyRequired": {
+    "en": "Enter an API key to continue.",
+    "ru": "Введите ключ API, чтобы продолжить."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "loading": {
+    "en": "Rendering document...",
+    "ru": "Отрисовка документа..."
+  },
+  "loadMore": {
+    "en": "Load more",
+    "ru": "Загрузить ещё"
+  },
+  "changed": {
+    "en": "The file has changed, showing the previous content.",
+    "ru": "Файл изменился, показано прежнее содержимое."
+  },
+  "reloadNow": {
+    "en": "Reload",
+    "ru": "Обновить"
+  },
+  "reload": {
+    "en": "Read the file again",
+    "ru": "Прочитать файл заново"
+  },
+  "autoRefresh": {
+    "en": "Auto refresh",
+    "ru": "Автообновление"
+  },
+  "autoRefresh.enable": {
+    "en": "Enable auto refresh",
+    "ru": "Включить автообновление"
+  },
+  "autoRefresh.disable": {
+    "en": "Disable auto refresh",
+    "ru": "Выключить автообновление"
+  },
+  "wrap.enable": {
+    "en": "Turn on line wrap",
+    "ru": "Включить перенос строк"
+  },
+  "wrap.disable": {
+    "en": "Turn off line wrap",
+    "ru": "Выключить перенос строк"
+  },
+  "wrap.aria": {
+    "en": "Line wrap",
+    "ru": "Перенос строк"
+  },
+  "openWith": {
+    "en": "Open with",
+    "ru": "Открыть с помощью"
+  },
+  "viewer.text": {
+    "en": "Plain text",
+    "ru": "Обычный текст"
+  },
+  "resourceUnavailable": {
+    "en": "The file resource service is unavailable.",
+    "ru": "Служба файловых ресурсов недоступна."
+  },
+  "rendererUnavailable": {
+    "en": "The {name} preview is unavailable.",
+    "ru": "Предпросмотр {name} недоступен."
+  },
+  "unsupportedFile": {
+    "en": "Preview is not available for this file type yet.",
+    "ru": "Для этого типа файлов предпросмотр пока недоступен."
+  },
+  "error.notFound": {
+    "en": "File not found. It may have been moved or deleted.",
+    "ru": "Файл не найден. Возможно, он перемещён или удалён."
+  },
+  "error.tooLarge": {
+    "en": "This page exceeds the {limit} limit and cannot be read.",
+    "ru": "Страница превышает ограничение {limit}, чтение невозможно."
+  },
+  "error.notText": {
+    "en": "Preview is not available for this file type yet.",
+    "ru": "Для этого типа файлов предпросмотр пока недоступен."
+  },
+  "error.notRegularFile": {
+    "en": "Not a regular file, nothing to display.",
+    "ru": "Это не обычный файл, показывать нечего."
+  },
+  "error.unavailable": {
+    "en": "Read failed: {message}",
+    "ru": "Не удалось прочитать: {message}"
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  }
+}

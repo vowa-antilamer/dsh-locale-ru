@@ -1,0 +1,158 @@
+{
+  "count.live.one": {
+    "en": "{count} background job running",
+    "ru": "Фоновых задач выполняется: {count}"
+  },
+  "count.live.other": {
+    "en": "{count} background jobs running",
+    "ru": "Фоновых задач выполняется: {count}"
+  },
+  "count.idle.one": {
+    "en": "{count} background job",
+    "ru": "Фоновых задач: {count}"
+  },
+  "count.idle.other": {
+    "en": "{count} background jobs",
+    "ru": "Фоновых задач: {count}"
+  },
+  "list.aria": {
+    "en": "Background jobs",
+    "ru": "Фоновые задачи"
+  },
+  "section.live": {
+    "en": "Running",
+    "ru": "Выполняются"
+  },
+  "section.settledCount": {
+    "en": "Finished {count}",
+    "ru": "Завершено: {count}"
+  },
+  "section.clear": {
+    "en": "Clear",
+    "ru": "Очистить"
+  },
+  "row.expandAria": {
+    "en": "Show live output of {label}",
+    "ru": "Показать вывод {label} в реальном времени"
+  },
+  "row.collapseAria": {
+    "en": "Hide live output of {label}",
+    "ru": "Скрыть вывод {label} в реальном времени"
+  },
+  "kill.stop": {
+    "en": "Stop task {label}",
+    "ru": "Остановить задачу {label}"
+  },
+  "kill.confirm": {
+    "en": "Click again to confirm",
+    "ru": "Нажмите ещё раз для подтверждения"
+  },
+  "kill.confirmAction": {
+    "en": "Confirm stop",
+    "ru": "Подтвердить остановку"
+  },
+  "kill.failed": {
+    "en": "Stop failed",
+    "ru": "Не удалось остановить"
+  },
+  "status.running": {
+    "en": "running",
+    "ru": "выполняется"
+  },
+  "status.stopping": {
+    "en": "stopping",
+    "ru": "останавливается"
+  },
+  "status.completed": {
+    "en": "completed",
+    "ru": "завершено"
+  },
+  "status.killed": {
+    "en": "cancelled",
+    "ru": "отменено"
+  },
+  "status.failed": {
+    "en": "failed",
+    "ru": "не удалось"
+  },
+  "duration.seconds": {
+    "en": "{seconds}s",
+    "ru": "{seconds} с"
+  },
+  "duration.minutes": {
+    "en": "{minutes}m {seconds}s",
+    "ru": "{minutes} мин {seconds} с"
+  },
+  "duration.hours": {
+    "en": "{hours}h {minutes}m",
+    "ru": "{hours} ч {minutes} мин"
+  },
+  "duration.title.live": {
+    "en": "Running for {duration}",
+    "ru": "Выполняется {duration}"
+  },
+  "duration.title.done": {
+    "en": "Took {duration}",
+    "ru": "Заняло {duration}"
+  },
+  "output.gap": {
+    "en": "… earlier output dropped …",
+    "ru": "… предыдущий вывод потерян …"
+  },
+  "output.error": {
+    "en": "live output stream interrupted: {error}",
+    "ru": "поток вывода прерван: {error}"
+  },
+  "terminal.signal": {
+    "en": "signal {signal}",
+    "ru": "сигнал {signal}"
+  },
+  "terminal.exitCode": {
+    "en": "exit {code}",
+    "ru": "код выхода {code}"
+  },
+  "terminal.noExitCode": {
+    "en": "no exit code",
+    "ru": "нет кода выхода"
+  },
+  "terminal.running": {
+    "en": "running",
+    "ru": "выполняется"
+  },
+  "terminal.failed": {
+    "en": "failed",
+    "ru": "не удалось"
+  },
+  "terminal.done": {
+    "en": "done",
+    "ru": "готово"
+  },
+  "terminal.copy": {
+    "en": "Copy",
+    "ru": "Копировать"
+  },
+  "terminal.copied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "terminal.noOutput": {
+    "en": "(no output)",
+    "ru": "(нет вывода)"
+  },
+  "terminal.collapse": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "terminal.collapseAria": {
+    "en": "Collapse output",
+    "ru": "Свернуть вывод"
+  },
+  "terminal.expand": {
+    "en": "Show {n} more lines",
+    "ru": "Показать ещё строк: {n}"
+  },
+  "terminal.expandAria": {
+    "en": "Expand {n} collapsed output lines",
+    "ru": "Развернуть скрытых строк вывода: {n}"
+  }
+}

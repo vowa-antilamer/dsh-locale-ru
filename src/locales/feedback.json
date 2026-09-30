@@ -1,0 +1,82 @@
+{
+  "action.like": {
+    "en": "Good response",
+    "ru": "Хороший ответ"
+  },
+  "action.likeActive": {
+    "en": "Remove rating",
+    "ru": "Убрать оценку"
+  },
+  "action.dislike": {
+    "en": "Bad response",
+    "ru": "Плохой ответ"
+  },
+  "action.dislikeActive": {
+    "en": "Remove rating",
+    "ru": "Убрать оценку"
+  },
+  "dialog.title": {
+    "en": "Submit feedback",
+    "ru": "Отправить отзыв"
+  },
+  "dialog.categories": {
+    "en": "Feedback category",
+    "ru": "Категория отзыва"
+  },
+  "dialog.detail": {
+    "en": "Feedback details",
+    "ru": "Детали отзыва"
+  },
+  "dialog.hint": {
+    "en": "Add details to help us improve. Your submission will include the current conversation log.",
+    "ru": "Добавьте подробности, чтобы помочь нам стать лучше. К отзыву прилагается журнал текущего диалога."
+  },
+  "category.task-result": {
+    "en": "Task result",
+    "ru": "Результат задачи"
+  },
+  "category.instruction-following": {
+    "en": "Instruction understanding and following",
+    "ru": "Понимание и выполнение инструкций"
+  },
+  "category.product-interaction": {
+    "en": "Product features and interaction",
+    "ru": "Возможности продукта и взаимодействие"
+  },
+  "category.service-stability": {
+    "en": "Stability and speed",
+    "ru": "Стабильность и скорость"
+  },
+  "category.resource-cost": {
+    "en": "Resource usage and cost",
+    "ru": "Использование ресурсов и стоимость"
+  },
+  "category.security-privacy-permission": {
+    "en": "Security, privacy, and permissions",
+    "ru": "Безопасность, приватность и разрешения"
+  },
+  "category.other": {
+    "en": "Other",
+    "ru": "Другое"
+  },
+  "toast.recorded": {
+    "en": "Thanks for your feedback",
+    "ru": "Спасибо за отзыв"
+  },
+  "error.conflict": {
+    "en": "This feedback changed elsewhere; the latest state is shown",
+    "ru": "Отзыв изменён в другом месте; показано актуальное состояние"
+  },
+  "error.load": {
+    "en": "Could not load feedback",
+    "ru": "Не удалось загрузить отзыв"
+  },
+  "error.generic": {
+    "en": "Could not save feedback",
+    "ru": "Не удалось сохранить отзыв"
+  },
+  "error.noteTooLarge": {
+    "en": "The description is too long; shorten it and submit again",
+    "ru": "Описание слишком длинное; сократите его и отправьте снова"
+  }
+}

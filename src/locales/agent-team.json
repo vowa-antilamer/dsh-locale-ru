@@ -1,0 +1,102 @@
+{
+  "trigger": {
+    "en": "Agent Team",
+    "ru": "Команда агентов"
+  },
+  "loading": {
+    "en": "Loading Team…",
+    "ru": "Загрузка команды…"
+  },
+  "unavailable": {
+    "en": "Team is unavailable",
+    "ru": "Команда недоступна"
+  },
+  "failure": {
+    "en": "Invalid persisted Team record: {message}",
+    "ru": "Некорректная сохранённая запись команды: {message}"
+  },
+  "empty": {
+    "en": "No shared tasks yet. Create them through the conversation.",
+    "ru": "Общих задач пока нет. Создавайте их через диалог."
+  },
+  "roster": {
+    "en": "Members",
+    "ru": "Участники"
+  },
+  "tasks": {
+    "en": "Shared tasks",
+    "ru": "Общие задачи"
+  },
+  "model": {
+    "en": "Model",
+    "ru": "Модель"
+  },
+  "open": {
+    "en": "Open member conversation",
+    "ru": "Открыть диалог участника"
+  },
+  "current": {
+    "en": "Current chat",
+    "ru": "Текущий чат"
+  },
+  "owner": {
+    "en": "Owner",
+    "ru": "Владелец"
+  },
+  "unowned": {
+    "en": "Unowned",
+    "ru": "Без владельца"
+  },
+  "blockedBy": {
+    "en": "Blocked by",
+    "ru": "Блокируется"
+  },
+  "writeScopes": {
+    "en": "Write scopes",
+    "ru": "Области записи"
+  },
+  "ready": {
+    "en": "Ready",
+    "ru": "Готова"
+  },
+  "blocked": {
+    "en": "Blocked by dependencies",
+    "ru": "Блокируется зависимостями"
+  },
+  "task.expand": {
+    "en": "Show more",
+    "ru": "Показать ещё"
+  },
+  "task.collapse": {
+    "en": "Show less",
+    "ru": "Свернуть"
+  },
+  "memberStatus.running": {
+    "en": "Running",
+    "ru": "Работает"
+  },
+  "memberStatus.inactive": {
+    "en": "Inactive",
+    "ru": "Неактивен"
+  },
+  "memberStatus.provisioning": {
+    "en": "Provisioning",
+    "ru": "Подготовка"
+  },
+  "memberStatus.failed": {
+    "en": "Failed",
+    "ru": "Сбой"
+  },
+  "status.pending": {
+    "en": "Pending",
+    "ru": "Ожидает"
+  },
+  "status.in_progress": {
+    "en": "In progress",
+    "ru": "Выполняется"
+  },
+  "status.completed": {
+    "en": "Completed",
+    "ru": "Завершена"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": {
+    "en": "Office document",
+    "ru": "Документ Office"
+  },
+  "loading": {
+    "en": "Rendering document...",
+    "ru": "Отрисовка документа…"
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "viewMissingFonts": {
+    "en": "Missing fonts: {count}. Click to view.",
+    "ru": "Отсутствующих шрифтов: {count}. Нажмите, чтобы посмотреть."
+  },
+  "missingFontsTitle": {
+    "en": "Missing fonts",
+    "ru": "Отсутствующие шрифты"
+  },
+  "missingFontsDescription": {
+    "en": "These fonts are unavailable for this preview. Text and layout may differ from the original document.",
+    "ru": "Эти шрифты недоступны для предпросмотра. Текст и вёрстка могут отличаться от исходного документа."
+  },
+  "missingFontsCount": {
+    "en": "Fonts: {count}",
+    "ru": "Шрифтов: {count}"
+  },
+  "closeDetails": {
+    "en": "Close font details",
+    "ru": "Закрыть сведения о шрифтах"
+  },
+  "unavailable": {
+    "en": "Office previews are unavailable. Enable the document preview service on the computer running DeepSeek Harness.",
+    "ru": "Предпросмотр Office недоступен. Включите службу предпросмотра документов на компьютере с DeepSeek Harness."
+  },
+  "invalid": {
+    "en": "This Office file cannot be previewed. It may be damaged, password protected, or have the wrong extension.",
+    "ru": "Этот файл Office нельзя показать. Возможно, он повреждён, защищён паролем или имеет неверное расширение."
+  },
+  "tooLarge": {
+    "en": "The Office file or converted PDF exceeds the preview size limit. Reduce the file size or adjust the preview configuration.",
+    "ru": "Файл Office или преобразованный PDF превышает ограничение размера для предпросмотра. Уменьшите размер файла или измените настройки предпросмотра."
+  },
+  "failed": {
+    "en": "Office conversion did not produce a usable PDF. Check the file and try again.",
+    "ru": "При преобразовании Office не удалось получить пригодный PDF. Проверьте файл и повторите."
+  },
+  "timeout": {
+    "en": "Office conversion timed out. Try again.",
+    "ru": "Преобразование Office превысило время ожидания. Повторите попытку."
+  },
+  "busy": {
+    "en": "Office preview is busy. Try again shortly.",
+    "ru": "Предпросмотр Office занят. Повторите чуть позже."
+  },
+  "changed": {
+    "en": "The file changed while being read. Reopen the preview.",
+    "ru": "Файл изменился во время чтения. Откройте предпросмотр заново."
+  }
+}

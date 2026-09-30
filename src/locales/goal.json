@@ -1,0 +1,50 @@
+{
+  "phase.active": {
+    "en": "Ongoing Goal",
+    "ru": "Активная цель"
+  },
+  "phase.active.disarmed": {
+    "en": "Inactive Goal",
+    "ru": "Неактивная цель"
+  },
+  "phase.paused": {
+    "en": "Paused Goal",
+    "ru": "Цель на паузе"
+  },
+  "phase.blocked": {
+    "en": "Blocked Goal",
+    "ru": "Цель заблокирована"
+  },
+  "objective.aria": {
+    "en": "Goal objective",
+    "ru": "Формулировка цели"
+  },
+  "commandInput.aria": {
+    "en": "Command input",
+    "ru": "Ввод команды"
+  },
+  "action.save": {
+    "en": "Save goal",
+    "ru": "Сохранить цель"
+  },
+  "action.cancel": {
+    "en": "Cancel edit",
+    "ru": "Отменить правку"
+  },
+  "action.pause": {
+    "en": "Pause goal",
+    "ru": "Приостановить цель"
+  },
+  "action.resume": {
+    "en": "Resume goal",
+    "ru": "Возобновить цель"
+  },
+  "action.edit": {
+    "en": "Edit goal",
+    "ru": "Изменить цель"
+  },
+  "action.clear": {
+    "en": "Clear goal",
+    "ru": "Очистить цель"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "ok": {
+    "en": "OK",
+    "ru": "OK"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "copy": {
+    "en": "Copy",
+    "ru": "Копировать"
+  },
+  "copied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "codeBlock.title": {
+    "en": "Code block",
+    "ru": "Блок кода"
+  },
+  "codeBlock.wrap": {
+    "en": "Wrap lines",
+    "ru": "Переносить строки"
+  },
+  "codeBlock.unwrap": {
+    "en": "Do not wrap lines",
+    "ru": "Не переносить строки"
+  },
+  "copy.failed": {
+    "en": "Copy failed",
+    "ru": "Не удалось скопировать"
+  },
+  "copy.value": {
+    "en": "Copy value",
+    "ru": "Копировать значение"
+  },
+  "copy.json": {
+    "en": "Copy JSON",
+    "ru": "Копировать JSON"
+  },
+  "copy.path": {
+    "en": "Copy property path",
+    "ru": "Копировать путь свойства"
+  },
+  "copy.prettyJson": {
+    "en": "Copy pretty JSON",
+    "ru": "Копировать JSON с отступами"
+  },
+  "copy.compactJson": {
+    "en": "Copy compact JSON",
+    "ru": "Копировать компактный JSON"
+  },
+  "copy.optionsHint": {
+    "en": "{action}; right-click for copy options",
+    "ru": "{action}; правый клик — варианты копирования"
+  },
+  "retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "loading": {
+    "en": "Loading…",
+    "ru": "Загрузка…"
+  },
+  "load.failed": {
+    "en": "Failed to load",
+    "ru": "Не удалось загрузить"
+  },
+  "submit": {
+    "en": "Submit",
+    "ru": "Отправить"
+  },
+  "submitting": {
+    "en": "Submitting…",
+    "ru": "Отправка…"
+  },
+  "next": {
+    "en": "Next",
+    "ru": "Далее"
+  },
+  "previous": {
+    "en": "Previous",
+    "ru": "Назад"
+  },
+  "skip": {
+    "en": "Skip",
+    "ru": "Пропустить"
+  },
+  "delete": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "edit": {
+    "en": "Edit",
+    "ru": "Изменить"
+  },
+  "save": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "search": {
+    "en": "Search",
+    "ru": "Поиск"
+  },
+  "more": {
+    "en": "More",
+    "ru": "Ещё"
+  },
+  "collapse": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "expand": {
+    "en": "Expand",
+    "ru": "Развернуть"
+  },
+  "back": {
+    "en": "Back",
+    "ru": "Назад"
+  },
+  "brand.localBuild": {
+    "en": "DSH Local Build",
+    "ru": "Локальная сборка DSH"
+  },
+  "workspace.defaultName": {
+    "en": "Default workspace",
+    "ru": "Рабочая область по умолчанию"
+  },
+  "unknown": {
+    "en": "Unknown",
+    "ru": "Неизвестно"
+  },
+  "none": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "truncated": {
+    "en": "Truncated",
+    "ru": "Обрезано"
+  },
+  "json.label": {
+    "en": "JSON",
+    "ru": "JSON"
+  },
+  "markdown.footnotes": {
+    "en": "Footnotes",
+    "ru": "Сноски"
+  },
+  "markdown.truncatedCharacters": {
+    "en": "… truncated at {total} characters",
+    "ru": "… обрезано на {total} символах"
+  },
+  "number.thousand": {
+    "en": "{value}K",
+    "ru": "{value} тыс."
+  },
+  "number.million": {
+    "en": "{value}M",
+    "ru": "{value} млн"
+  }
+}

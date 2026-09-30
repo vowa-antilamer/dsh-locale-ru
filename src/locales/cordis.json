@@ -1,0 +1,206 @@
+{
+  "row.defineTitle": {
+    "en": "Register Cordis Plugin",
+    "ru": "Зарегистрировать плагин Cordis"
+  },
+  "a11y.preparing": {
+    "en": "Preparing a Cordis tool call",
+    "ru": "Подготовка вызова инструмента Cordis"
+  },
+  "row.runTitle": {
+    "en": "Run Cordis Plugin",
+    "ru": "Запустить плагин Cordis"
+  },
+  "row.updateTitle": {
+    "en": "Update Cordis Plugin",
+    "ru": "Обновить плагин Cordis"
+  },
+  "row.stopTitle": {
+    "en": "Stop Cordis Plugin",
+    "ru": "Остановить плагин Cordis"
+  },
+  "row.removeTitle": {
+    "en": "Remove Cordis Plugin",
+    "ru": "Удалить плагин Cordis"
+  },
+  "purpose.missing": {
+    "en": "(no purpose given)",
+    "ru": "(назначение не указано)"
+  },
+  "status.idle": {
+    "en": "Ready",
+    "ru": "Готово"
+  },
+  "status.awaitingApproval": {
+    "en": "Awaiting approval",
+    "ru": "Ожидает подтверждения"
+  },
+  "status.failed": {
+    "en": "Run failed",
+    "ru": "Сбой запуска"
+  },
+  "status.clientPending": {
+    "en": "Client ready to activate",
+    "ru": "Клиент готов к активации"
+  },
+  "status.running": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "status.removed": {
+    "en": "Removed",
+    "ru": "Удалён"
+  },
+  "status.superseded": {
+    "en": "Newer run available",
+    "ru": "Есть более новый запуск"
+  },
+  "run.removed": {
+    "en": "This package no longer exists",
+    "ru": "Этот пакет больше не существует"
+  },
+  "run.superseded": {
+    "en": "A newer run card is available below",
+    "ru": "Ниже доступна карточка более нового запуска"
+  },
+  "panel.hint": {
+    "en": "Run controls live in the Cordis panel above Settings",
+    "ru": "Управление запуском — в панели Cordis над настройками"
+  },
+  "panel.plugins.aria": {
+    "en": "Cordis plugins",
+    "ru": "Плагины Cordis"
+  },
+  "panel.approvals.aria": {
+    "en": "Cordis approvals",
+    "ru": "Подтверждения Cordis"
+  },
+  "panel.trigger": {
+    "en": "Cordis Plugin",
+    "ru": "Плагин Cordis"
+  },
+  "panel.runningCount": {
+    "en": "{count} running",
+    "ru": "Выполняется: {count}"
+  },
+  "panel.title": {
+    "en": "Cordis plugins",
+    "ru": "Плагины Cordis"
+  },
+  "panel.empty": {
+    "en": "No plugins defined yet",
+    "ru": "Плагины ещё не определены"
+  },
+  "panel.loading": {
+    "en": "Reading…",
+    "ru": "Чтение…"
+  },
+  "panel.readFailed": {
+    "en": "Reading the plugin inventory failed: {message}",
+    "ru": "Не удалось прочитать список плагинов: {message}"
+  },
+  "panel.group.current": {
+    "en": "This session",
+    "ru": "Эта сессия"
+  },
+  "panel.group.others": {
+    "en": "Other sessions",
+    "ru": "Другие сессии"
+  },
+  "panel.version": {
+    "en": "Version",
+    "ru": "Версия"
+  },
+  "panel.current": {
+    "en": "Current: {packageId}",
+    "ru": "Текущий: {packageId}"
+  },
+  "panel.next": {
+    "en": "Next: {packageId}",
+    "ru": "Следующий: {packageId}"
+  },
+  "action.approve": {
+    "en": "Allow",
+    "ru": "Разрешить"
+  },
+  "action.approveOnce": {
+    "en": "Allow this version only",
+    "ru": "Разрешить только эту версию"
+  },
+  "action.approvePlugin": {
+    "en": "Allow future versions of this plugin",
+    "ru": "Разрешить будущие версии этого плагина"
+  },
+  "action.decline": {
+    "en": "Decline",
+    "ru": "Отклонить"
+  },
+  "action.run": {
+    "en": "Run",
+    "ru": "Запустить"
+  },
+  "action.stop": {
+    "en": "Stop",
+    "ru": "Остановить"
+  },
+  "action.remove": {
+    "en": "Remove",
+    "ru": "Удалить"
+  },
+  "action.retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "action.rollback": {
+    "en": "Roll back",
+    "ru": "Откатить"
+  },
+  "action.inspect": {
+    "en": "Inspect",
+    "ru": "Изучить"
+  },
+  "render.failedAbdicated": {
+    "en": "Rendering failed in {slot}; the default UI was restored:",
+    "ru": "Сбой отрисовки в {slot}; восстановлен интерфейс по умолчанию:"
+  },
+  "render.failedHeld": {
+    "en": "Rendering failed in {slot}:",
+    "ru": "Сбой отрисовки в {slot}:"
+  },
+  "a11y.defining": {
+    "en": "Defining the plugin",
+    "ru": "Определение плагина"
+  },
+  "a11y.failed": {
+    "en": "Definition failed",
+    "ru": "Сбой определения"
+  },
+  "a11y.stopped": {
+    "en": "Definition interrupted",
+    "ru": "Определение прервано"
+  },
+  "body.source": {
+    "en": "Plugin source",
+    "ru": "Исходный код плагина"
+  },
+  "body.hostCode": {
+    "en": "Host",
+    "ru": "Хост"
+  },
+  "body.clientCode": {
+    "en": "Client",
+    "ru": "Клиент"
+  },
+  "body.output": {
+    "en": "Result",
+    "ru": "Результат"
+  },
+  "body.copy": {
+    "en": "Copy",
+    "ru": "Копировать"
+  },
+  "body.copied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  }
+}

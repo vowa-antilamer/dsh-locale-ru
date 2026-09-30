@@ -1,0 +1,450 @@
+{
+  "defaultWorkspace.failed": {
+    "en": "Unable to create default workspace. Use Choose workspace to select a folder.",
+    "ru": "Не удалось создать рабочую область по умолчанию. Укажите папку через «Выбрать рабочую область»."
+  },
+  "group.ungrouped": {
+    "en": "Ungrouped",
+    "ru": "Без группы"
+  },
+  "session.new": {
+    "en": "New Session",
+    "ru": "Новая сессия"
+  },
+  "session.untitled": {
+    "en": "Untitled",
+    "ru": "Без названия"
+  },
+  "shortcut.noSession": {
+    "en": "Select a session first",
+    "ru": "Сначала выберите сессию"
+  },
+  "shortcut.noPicker": {
+    "en": "Directory picker unavailable",
+    "ru": "Выбор каталога недоступен"
+  },
+  "shortcut.directoryBusy": {
+    "en": "Selecting or adding a workspace",
+    "ru": "Выбор или добавление рабочей области"
+  },
+  "shortcut.noCompletedTurn": {
+    "en": "This session has no completed turn",
+    "ru": "В этой сессии нет завершённого хода"
+  },
+  "shortcut.forkFailed": {
+    "en": "Could not fork the session. Try again.",
+    "ru": "Не удалось ответвить сессию. Повторите попытку."
+  },
+  "section.workspaces": {
+    "en": "Workspaces",
+    "ru": "Рабочие области"
+  },
+  "section.sessions": {
+    "en": "Sessions",
+    "ru": "Сессии"
+  },
+  "viewOptions.label": {
+    "en": "View options",
+    "ru": "Параметры вида"
+  },
+  "groupBy.label": {
+    "en": "Group by",
+    "ru": "Группировка"
+  },
+  "groupBy.workspace": {
+    "en": "WorkSpace",
+    "ru": "Рабочая область"
+  },
+  "groupBy.workspaceTree": {
+    "en": "Workspace Tree",
+    "ru": "Дерево рабочих областей"
+  },
+  "groupBy.flat": {
+    "en": "In one list",
+    "ru": "Одним списком"
+  },
+  "orderBy.label": {
+    "en": "Order by",
+    "ru": "Сортировка"
+  },
+  "orderBy.manual": {
+    "en": "Manual",
+    "ru": "Вручную"
+  },
+  "orderBy.updated": {
+    "en": "Last updated",
+    "ru": "По последнему обновлению"
+  },
+  "filterBy.label": {
+    "en": "Filter sessions",
+    "ru": "Фильтр сессий"
+  },
+  "viewOptions.hideArchived": {
+    "en": "Hide archived",
+    "ru": "Скрыть архивные"
+  },
+  "viewOptions.showArchived": {
+    "en": "All conversations (show archived)",
+    "ru": "Все диалоги (показать архивные)"
+  },
+  "viewOptions.onlyArchived": {
+    "en": "Archived only",
+    "ru": "Только архивные"
+  },
+  "sessions.expand": {
+    "en": "Show {n} more sessions",
+    "ru": "Показать ещё сессий: {n}"
+  },
+  "sessions.collapse": {
+    "en": "Show less",
+    "ru": "Свернуть"
+  },
+  "empty.none": {
+    "en": "No sessions yet",
+    "ru": "Сессий пока нет"
+  },
+  "empty.noneArchived": {
+    "en": "No archived sessions yet",
+    "ru": "Архивных сессий пока нет"
+  },
+  "empty.viewOthers": {
+    "en": "View other sessions",
+    "ru": "Другие сессии"
+  },
+  "empty.noMatches": {
+    "en": "No matches",
+    "ru": "Нет совпадений"
+  },
+  "workspace.add": {
+    "en": "Add workspace",
+    "ru": "Добавить рабочую область"
+  },
+  "search.sessions.aria": {
+    "en": "Search sessions",
+    "ru": "Поиск сессий"
+  },
+  "search.placeholder": {
+    "en": "Search session names",
+    "ru": "Поиск по именам сессий"
+  },
+  "search.clear": {
+    "en": "Clear search",
+    "ru": "Очистить поиск"
+  },
+  "search.results.aria": {
+    "en": "Search results",
+    "ru": "Результаты поиска"
+  },
+  "search.pending": {
+    "en": "Searching session history…",
+    "ru": "Поиск по истории сессий…"
+  },
+  "search.noMatches": {
+    "en": "No matching sessions",
+    "ru": "Сессий не найдено"
+  },
+  "search.hasMore": {
+    "en": "Showing the first {n} results. Narrow your search.",
+    "ru": "Показаны первые результаты: {n}. Уточните запрос."
+  },
+  "menu.addWorkspace": {
+    "en": "Add workspace…",
+    "ru": "Добавить рабочую область…"
+  },
+  "picker.loading": {
+    "en": "Loading workspaces…",
+    "ru": "Загрузка рабочих областей…"
+  },
+  "conflict.named": {
+    "en": "A workspace named “{name}” already exists.",
+    "ru": "Рабочая область с именем «{name}» уже существует."
+  },
+  "folderError.title": {
+    "en": "Couldn’t open folder",
+    "ru": "Не удалось открыть папку"
+  },
+  "folderError.retry": {
+    "en": "Choose again",
+    "ru": "Выбрать снова"
+  },
+  "rename": {
+    "en": "Rename",
+    "ru": "Переименовать"
+  },
+  "rename.workspace.title": {
+    "en": "Rename workspace",
+    "ru": "Переименовать рабочую область"
+  },
+  "rename.session.title": {
+    "en": "Rename session",
+    "ru": "Переименовать сессию"
+  },
+  "field.workspaceName": {
+    "en": "Workspace name",
+    "ru": "Имя рабочей области"
+  },
+  "field.sessionName": {
+    "en": "Session name",
+    "ru": "Имя сессии"
+  },
+  "delete.workspace": {
+    "en": "Delete workspace",
+    "ru": "Удалить рабочую область"
+  },
+  "delete.desc": {
+    "en": "This removes “{name}” from the workspace list. The folder and session logs will be kept. Its sessions will appear under Ungrouped.",
+    "ru": "«{name}» будет убрана из списка рабочих областей. Папка и журналы сессий сохранятся. Её сессии появятся в разделе «Без группы»."
+  },
+  "delete.pending": {
+    "en": "Deleting workspace…",
+    "ru": "Удаление рабочей области…"
+  },
+  "menu.fork": {
+    "en": "Fork session",
+    "ru": "Ответвить сессию"
+  },
+  "menu.archiveSession": {
+    "en": "Archive session",
+    "ru": "Архивировать сессию"
+  },
+  "menu.unarchiveSession": {
+    "en": "Unarchive session",
+    "ru": "Разархивировать сессию"
+  },
+  "menu.pinSession": {
+    "en": "Pin session",
+    "ru": "Закрепить сессию"
+  },
+  "menu.unpinSession": {
+    "en": "Unpin session",
+    "ru": "Открепить сессию"
+  },
+  "row.archived": {
+    "en": "Archived",
+    "ru": "В архиве"
+  },
+  "row.pinned": {
+    "en": "Pinned",
+    "ru": "Закреплено"
+  },
+  "toast.archivedNotOpenable": {
+    "en": "Archived sessions cannot be opened. Unarchive it to view.",
+    "ru": "Архивные сессии нельзя открыть. Разархивируйте её, чтобы посмотреть."
+  },
+  "toast.archived": {
+    "en": "Session archived. You can ",
+    "ru": "Сессия архивирована. Можно "
+  },
+  "toast.stoppedAndArchived": {
+    "en": "Session stopped and archived. You can ",
+    "ru": "Сессия остановлена и архивирована. Можно "
+  },
+  "archive.confirm.title": {
+    "en": "Stop and archive this session?",
+    "ru": "Остановить и архивировать сессию?"
+  },
+  "archive.confirm.desc": {
+    "en": "“{title}” still has work in progress. Archiving stops it first; you can restore the session later from the “All conversations (show archived)” filter in the sidebar, and the stopped work will not resume on its own.",
+    "ru": "«{title}» ещё выполняется. Архивирование сначала остановит её; позже сессию можно восстановить через фильтр «Все диалоги (показать архивные)» в боковой панели, а остановленная работа не возобновится сама."
+  },
+  "archive.confirm.activity": {
+    "en": "Work that will be stopped",
+    "ru": "Работа, которая будет остановлена"
+  },
+  "archive.confirm.turn": {
+    "en": "The turn in progress",
+    "ru": "Текущий ход"
+  },
+  "archive.confirm.subagents.one": {
+    "en": "{n} running subagent: {names}",
+    "ru": "Выполняется субагентов: {n} — {names}"
+  },
+  "archive.confirm.subagents.other": {
+    "en": "{n} running subagents: {names}",
+    "ru": "Выполняется субагентов: {n} — {names}"
+  },
+  "archive.confirm.jobs.one": {
+    "en": "{n} background job: {names}",
+    "ru": "Фоновых задач: {n} — {names}"
+  },
+  "archive.confirm.jobs.other": {
+    "en": "{n} background jobs: {names}",
+    "ru": "Фоновых задач: {n} — {names}"
+  },
+  "archive.confirm.schedules.one": {
+    "en": "{n} scheduled reminder: {names}",
+    "ru": "Напоминаний по расписанию: {n} — {names}"
+  },
+  "archive.confirm.schedules.other": {
+    "en": "{n} scheduled reminders: {names}",
+    "ru": "Напоминаний по расписанию: {n} — {names}"
+  },
+  "archive.confirm.other.one": {
+    "en": "{n} other item of work ({kind})",
+    "ru": "Прочая работа: {n} ({kind})"
+  },
+  "archive.confirm.other.other": {
+    "en": "{n} other items of work ({kind})",
+    "ru": "Прочая работа: {n} ({kind})"
+  },
+  "archive.confirm.listSeparator": {
+    "en": ", ",
+    "ru": ", "
+  },
+  "archive.confirm.action": {
+    "en": "Stop and archive",
+    "ru": "Остановить и архивировать"
+  },
+  "archive.confirm.pending": {
+    "en": "Stopping and archiving…",
+    "ru": "Остановка и архивирование…"
+  },
+  "toast.archivedUndo": {
+    "en": "undo",
+    "ru": "отменить"
+  },
+  "toast.archivedOr": {
+    "en": " or ",
+    "ru": " или "
+  },
+  "toast.archivedFilter": {
+    "en": "filter archived sessions",
+    "ru": "отфильтровать архивные сессии"
+  },
+  "toast.pinFailed": {
+    "en": "Pin failed. Try again later.",
+    "ru": "Не удалось закрепить. Повторите позже."
+  },
+  "toast.unpinFailed": {
+    "en": "Unpin failed. Try again later.",
+    "ru": "Не удалось открепить. Повторите позже."
+  },
+  "toast.createFailed": {
+    "en": "New session failed: {message}",
+    "ru": "Не удалось создать сессию: {message}"
+  },
+  "sessions.count.one": {
+    "en": "{n} session",
+    "ru": "Сессий: {n}"
+  },
+  "sessions.count.other": {
+    "en": "{n} sessions",
+    "ru": "Сессий: {n}"
+  },
+  "actions.workspace.aria": {
+    "en": "Workspace actions for {name}",
+    "ru": "Действия с рабочей областью {name}"
+  },
+  "actions.session.aria": {
+    "en": "Session actions for {name}",
+    "ru": "Действия с сессией {name}"
+  },
+  "actions.archive": {
+    "en": "Archive",
+    "ru": "Архивировать"
+  },
+  "actions.unarchive": {
+    "en": "Unarchive",
+    "ru": "Разархивировать"
+  },
+  "actions.pin": {
+    "en": "Pin",
+    "ru": "Закрепить"
+  },
+  "actions.unpin": {
+    "en": "Unpin",
+    "ru": "Открепить"
+  },
+  "actions.newSession": {
+    "en": "New session",
+    "ru": "Новая сессия"
+  },
+  "actions.newSession.aria": {
+    "en": "New session in {name}",
+    "ru": "Новая сессия в {name}"
+  },
+  "status.running": {
+    "en": "Running",
+    "ru": "Выполняется"
+  },
+  "status.subagentsRunning.one": {
+    "en": "{n} subagent running",
+    "ru": "Субагентов выполняется: {n}"
+  },
+  "status.subagentsRunning.other": {
+    "en": "{n} subagents running",
+    "ru": "Субагентов выполняется: {n}"
+  },
+  "status.idle": {
+    "en": "Idle",
+    "ru": "Ожидание"
+  },
+  "status.waitingApproval": {
+    "en": "Waiting for approval",
+    "ru": "Ожидание подтверждения"
+  },
+  "status.planReview": {
+    "en": "Plan awaiting review",
+    "ru": "План ожидает проверки"
+  },
+  "status.waitingAnswer": {
+    "en": "Waiting for answer",
+    "ru": "Ожидание ответа"
+  },
+  "status.compact.approval": {
+    "en": "Approval",
+    "ru": "Подтверждение"
+  },
+  "status.compact.planReview": {
+    "en": "Plan review",
+    "ru": "Проверка плана"
+  },
+  "status.compact.answer": {
+    "en": "Answer",
+    "ru": "Ответ"
+  },
+  "status.completed": {
+    "en": "Completed",
+    "ru": "Завершено"
+  },
+  "hover.created": {
+    "en": "Created {time}",
+    "ru": "Создано {time}"
+  },
+  "hover.copied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "date.ymd": {
+    "en": "{y}-{m}-{d}",
+    "ru": "{y}-{m}-{d}"
+  },
+  "time.now": {
+    "en": "now",
+    "ru": "сейчас"
+  },
+  "time.minutes": {
+    "en": "{n}min",
+    "ru": "{n} мин"
+  },
+  "time.hours": {
+    "en": "{n}h",
+    "ru": "{n} ч"
+  },
+  "time.days": {
+    "en": "{n}d",
+    "ru": "{n} дн"
+  },
+  "time.months": {
+    "en": "{n}mo",
+    "ru": "{n} мес"
+  },
+  "time.years": {
+    "en": "{n}y",
+    "ru": "{n} г"
+  },
+  "time.ago": {
+    "en": "{t} ago",
+    "ru": "{t} назад"
+  }
+}
