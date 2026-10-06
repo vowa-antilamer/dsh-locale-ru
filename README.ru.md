@@ -5,10 +5,10 @@
 
 Русификация веб-интерфейса [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
 Это языковой пакет для штатного сервиса `@deepseek-ai/dsh-client-locale`: он добавляет язык
-**Русский** и регистрирует словари для **60 пространств имён / 3843 строк** — чат и composer,
+**Русский** и регистрирует словари для **61 пространства имён / 3844 строки** — чат и composer,
 диалог и траектория, все боковые панели, все страницы настроек, плагины и Cordis, цели и планы,
 субагенты, вопросы и подтверждения, а также сторонние плагины `dsh-market`, `better-sidebar`,
-`dsh-pet` и `dsh-mcp`.
+`dsh-pet`, `dsh-mcp` и `dsh-git-graph`.
 
 [English documentation](README.md)
 
@@ -67,7 +67,7 @@ dsh plugin --profile web add /path/to/dsh-locale-ru
 | Цели, планы, задачи | `goal`, `plan`, `job`, `schedule.catalog`, `schedule.manager`, `model` |
 | Взаимодействие | `question`, `approval`, `feedback`, `skill`, `shortcuts`, `shortcuts.layout`, `voice-input`, `common` |
 | Плагины и инструменты | `pluginManager`, `cordis`, `session-log-download`, `open-in-app` |
-| Сторонние плагины | `dsh-market`, `betterSidebar`, `pet`, `mcp` |
+| Сторонние плагины | `dsh-market`, `betterSidebar`, `pet`, `mcp`, `gitGraph` |
 
 ## Перевод стороннего плагина
 

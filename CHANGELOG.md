@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-06
+
+### Added
+
+- `gitGraph` namespace for the `dsh-git-graph` conversation tab label. The plugin's client
+  half resolves that label through the locale seat (`ctx.locale.bind('gitGraph')`) and
+  registers `zh`/`en` itself; upstream 0.14.0 ships the label hard-coded in Chinese with no
+  locale integration at all, so this dictionary stays inert until that side lands (local
+  patch or an upstream release). The graph page itself is a separate Chinese HTML document
+  in an iframe and is not a locale-service surface.
+- 61 namespaces / 3844 strings in total.
+
 ## [1.1.0] - 2026-10-06
 
 ### Added
@@ -48,6 +60,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   (`scripts/extract-dictionaries.mjs`) and a `node:test` suite covering module shape, language
   registration and key/placeholder/whitespace parity.
 
-[Unreleased]: https://github.com/vowa-antilamer/dsh-locale-ru/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/vowa-antilamer/dsh-locale-ru/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/vowa-antilamer/dsh-locale-ru/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/vowa-antilamer/dsh-locale-ru/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/vowa-antilamer/dsh-locale-ru/releases/tag/v1.0.0

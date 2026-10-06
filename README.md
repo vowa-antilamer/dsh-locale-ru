@@ -5,10 +5,10 @@
 
 Russian localization for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web GUI.
 It is a language pack for the shipped `@deepseek-ai/dsh-client-locale` service: it adds the
-**Русский** language and registers dictionaries for **60 message namespaces / 3843 strings** —
+**Русский** language and registers dictionaries for **61 message namespaces / 3844 strings** —
 the chat and composer, the conversation and trajectory views, every sidebar, all settings pages,
 plugins and Cordis, goals/plans/jobs, subagents, question and approval flows, plus the
-third-party plugins `dsh-market`, `better-sidebar`, `dsh-pet` and `dsh-mcp`.
+third-party plugins `dsh-market`, `better-sidebar`, `dsh-pet`, `dsh-mcp` and `dsh-git-graph`.
 
 [Русская версия документации](README.ru.md)
 
@@ -67,7 +67,7 @@ survives a restart. `English` switches back.
 | Goals, plans, jobs | `goal`, `plan`, `job`, `schedule.catalog`, `schedule.manager`, `model` |
 | Interaction | `question`, `approval`, `feedback`, `skill`, `shortcuts`, `shortcuts.layout`, `voice-input`, `common` |
 | Plugins and tooling | `pluginManager`, `cordis`, `session-log-download`, `open-in-app` |
-| Third-party plugins | `dsh-market`, `betterSidebar`, `pet`, `mcp` |
+| Third-party plugins | `dsh-market`, `betterSidebar`, `pet`, `mcp`, `gitGraph` |
 
 ## Translating a third-party plugin
 
