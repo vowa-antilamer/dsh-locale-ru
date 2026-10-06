@@ -1,19 +1,32 @@
 /**
- * Maintainer tool: read the locale dictionaries an installed DSH ships and diff them
- * against src/locales, so a DSH upgrade can be followed by a dictionary update.
+ * Maintainer tool: read the locale dictionaries an installed DSH ships — the core client
+ * bundles plus every installed client plugin in a profile — and diff them against
+ * `src/locales` (core namespaces) and `src/locales/plugins` (third-party plugins).
  *
  * Usage:
- *   node scripts/extract-dictionaries.mjs <dsh-packages-dir> [<profile-node-modules>]
+ *   node scripts/extract-dictionaries.mjs <dsh-packages-dir> [<profile-node-modules>] [--drafts[=<dir>]]
  *
- * <dsh-packages-dir> is usually <dsh>/node_modules/@deepseek-ai, and the optional
- * second argument points at a profile's node_modules to include installed plugins.
- * Nothing is written; the report and the exit code describe the drift.
+ * <dsh-packages-dir> is usually <dsh>/node_modules/@deepseek-ai, and the optional second
+ * argument points at a profile's node_modules, which is what makes plugin namespaces
+ * visible. `--drafts` writes `{ "en": …, "ru": "" }` stubs for every key that has no
+ * translation yet (default directory: `.plugin-drafts/`, which is git-ignored); fill the
+ * Russian values in and move the file into `src/locales` or `src/locales/plugins`.
+ *
+ * Namespaces are classified by where they were found: a namespace that only an installed
+ * plugin registers is a *plugin* namespace and belongs in `src/locales/plugins`.
+ *
+ * The scanning helpers are exported for the test suite.
  */
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+export const CORE_DIR = path.join(root, 'src/locales')
+export const PLUGIN_DIR = path.join(root, 'src/locales/plugins')
+
+/** Namespaces that never mount in the web profile and are deliberately not translated. */
+export const SKIP_NAMESPACES = new Set(['settings.account'])
 
 // ---------------------------------------------------------------- JS scanning
 
@@ -143,8 +156,12 @@ function resolvePairs(src, name, before) {
   return undefined
 }
 
-/** Extract every `locale.register(...)` dictionary from one built client bundle. */
-function scanBundle(file, found) {
+/**
+ * Extract every `locale.register(...)` dictionary from one built client bundle.
+ * @param file - bundle path (read as UTF-8).
+ * @param found - accumulator: `{ [namespace]: { zh?, en?, ru?, … } }`.
+ */
+export function scanBundle(file, found) {
   const src = fs.readFileSync(file, 'utf8')
   const re = /\blocale\.register\s*\(/g
   let m
@@ -205,54 +222,117 @@ function walk(dir, visit) {
     if (entry.isDirectory()) {
       if (entry.name === 'node_modules' || entry.name.startsWith('.')) continue
       walk(p, visit)
-    } else if (entry.name === 'client.js') visit(p)
+    } else if (entry.name === 'client.js' || entry.name === 'client.mjs') visit(p)
   }
+}
+
+/**
+ * Scan every client bundle under one directory tree.
+ * @param dir - directory to walk (`<dsh>/node_modules/@deepseek-ai`, a profile node_modules, …).
+ * @returns `{ [namespace]: { [locale]: dictionary } }`.
+ */
+export function scanClientBundles(dir) {
+  const found = {}
+  if (fs.existsSync(dir)) walk(dir, (file) => scanBundle(file, found))
+  return found
+}
+
+/** Read one dictionary directory into `{ [namespace]: pairs }`. */
+export function readDictionaryDir(dir) {
+  const out = {}
+  if (!fs.existsSync(dir)) return out
+  for (const file of fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort()) {
+    out[file.slice(0, -5)] = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'))
+  }
+  return out
 }
 
 // ------------------------------------------------------------------- reporting
 
-const [packagesDir, profileDir] = process.argv.slice(2)
-if (!packagesDir || !fs.existsSync(packagesDir)) {
-  console.error('usage: node scripts/extract-dictionaries.mjs <dsh-packages-dir> [<profile-node-modules>]')
-  process.exit(2)
-}
+const isMain = process.argv[1] !== undefined && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)
 
-const found = {}
-walk(packagesDir, (file) => scanBundle(file, found))
-if (profileDir && fs.existsSync(profileDir)) walk(profileDir, (file) => scanBundle(file, found))
+if (isMain) {
+  const argv = process.argv.slice(2)
+  const draftsArg = argv.find((a) => a === '--drafts' || a.startsWith('--drafts='))
+  const draftsDir = draftsArg === undefined
+    ? undefined
+    : path.resolve(root, draftsArg.includes('=') ? draftsArg.slice('--drafts='.length) : '.plugin-drafts')
+  const [packagesDir, profileDir] = argv.filter((a) => !a.startsWith('--'))
 
-const localDir = path.join(root, 'src/locales')
-const local = {}
-for (const file of fs.readdirSync(localDir).filter((f) => f.endsWith('.json'))) {
-  local[file.slice(0, -5)] = JSON.parse(fs.readFileSync(path.join(localDir, file), 'utf8'))
-}
-
-const skip = new Set(['settings.account']) // Desktop-renderer-only namespaces
-let missingKeys = 0
-let removedKeys = 0
-
-for (const ns of Object.keys(found).sort()) {
-  if (skip.has(ns)) continue
-  const shipped = Object.keys(found[ns].en ?? {})
-  const ours = local[ns]
-  if (!ours) {
-    console.log(`NEW       ${ns}: ${shipped.length} keys — namespace is not translated yet`)
-    missingKeys += shipped.length
-    continue
+  if (!packagesDir || !fs.existsSync(packagesDir)) {
+    console.error('usage: node scripts/extract-dictionaries.mjs <dsh-packages-dir> [<profile-node-modules>] [--drafts[=<dir>]]')
+    process.exit(2)
   }
-  const missing = shipped.filter((k) => !(k in ours))
-  const removed = Object.keys(ours).filter((k) => !shipped.includes(k))
-  missingKeys += missing.length
-  removedKeys += removed.length
-  if (missing.length) console.log(`MISSING   ${ns}: ${missing.length} — ${missing.slice(0, 6).join(', ')}${missing.length > 6 ? ', …' : ''}`)
-  if (removed.length) console.log(`REMOVED   ${ns}: ${removed.length} — ${removed.slice(0, 6).join(', ')}${removed.length > 6 ? ', …' : ''}`)
-  if (!missing.length && !removed.length) console.log(`OK        ${ns}: ${shipped.length}`)
-}
 
-for (const ns of Object.keys(local).sort()) {
-  if (!(ns in found)) console.log(`UNUSED    ${ns}: namespace no longer ships in any installed bundle`)
-}
+  const coreFound = scanClientBundles(packagesDir)
+  const pluginFound = {}
+  if (profileDir && fs.existsSync(profileDir)) {
+    for (const [ns, locales] of Object.entries(scanClientBundles(profileDir))) {
+      if (ns in coreFound) continue
+      pluginFound[ns] = locales
+    }
+  }
+  const found = { ...coreFound, ...pluginFound }
 
-const total = Object.values(found).reduce((n, locales) => n + Object.keys(locales.en ?? {}).length, 0)
-console.log(`\nshipped keys: ${total}; missing: ${missingKeys}; removed: ${removedKeys}`)
-process.exit(missingKeys ? 1 : 0)
+  const coreLocal = readDictionaryDir(CORE_DIR)
+  const pluginLocal = readDictionaryDir(PLUGIN_DIR)
+  const local = { ...coreLocal, ...pluginLocal }
+  const localDirOf = (ns) => (ns in pluginLocal ? 'src/locales/plugins' : 'src/locales')
+
+  let missingKeys = 0
+  let removedKeys = 0
+  let draftFiles = 0
+  const drafts = {}
+
+  for (const ns of Object.keys(found).sort()) {
+    if (SKIP_NAMESPACES.has(ns)) continue
+    const kind = ns in pluginFound ? 'plugin' : 'core'
+    const shipped = Object.keys(found[ns].en ?? {})
+    const ours = local[ns]
+    const tag = kind === 'plugin' ? ' [plugin]' : ''
+    const ownsRu = found[ns].ru !== undefined
+
+    if (ownsRu) {
+      console.log(ours === undefined
+        ? `OWN-RU    ${ns}${tag}: the plugin ships its own ru dictionary — nothing to translate here`
+        : `OWN-RU    ${ns}${tag}: the plugin ships its own ru dictionary — delete ${localDirOf(ns)}/${ns}.json`)
+      continue
+    }
+    if (!ours) {
+      console.log(`NEW       ${ns}${tag}: ${shipped.length} keys — namespace is not translated yet`)
+      missingKeys += shipped.length
+      if (draftsDir !== undefined) {
+        drafts[ns] = Object.fromEntries(shipped.map((key) => [key, { en: found[ns].en[key], ru: '' }]))
+      }
+      continue
+    }
+    const missing = shipped.filter((k) => !(k in ours))
+    const removed = Object.keys(ours).filter((k) => !shipped.includes(k))
+    missingKeys += missing.length
+    removedKeys += removed.length
+    if (missing.length) console.log(`MISSING   ${ns}${tag}: ${missing.length} — ${missing.slice(0, 6).join(', ')}${missing.length > 6 ? ', …' : ''}`)
+    if (removed.length) console.log(`REMOVED   ${ns}${tag}: ${removed.length} — ${removed.slice(0, 6).join(', ')}${removed.length > 6 ? ', …' : ''}`)
+    if (!missing.length && !removed.length) console.log(`OK        ${ns}${tag}: ${shipped.length}`)
+    if (missing.length && draftsDir !== undefined) {
+      drafts[ns] = Object.fromEntries(missing.map((key) => [key, { en: found[ns].en[key], ru: '' }]))
+    }
+  }
+
+  for (const ns of Object.keys(local).sort()) {
+    if (!(ns in found)) console.log(`UNUSED    ${ns}: namespace no longer ships in any installed bundle (${localDirOf(ns)})`)
+  }
+
+  if (draftsDir !== undefined) {
+    fs.mkdirSync(draftsDir, { recursive: true })
+    for (const [ns, entries] of Object.entries(drafts)) {
+      fs.writeFileSync(path.join(draftsDir, `${ns}.json`), JSON.stringify(entries, null, 2) + '\n')
+      draftFiles++
+    }
+    if (draftFiles) console.log(`\ndrafts written to ${path.relative(root, draftsDir)} (${draftFiles} files) — fill in "ru" and move them into src/locales[/plugins]`)
+  }
+
+  const total = Object.values(found).reduce((n, locales) => n + Object.keys(locales.en ?? {}).length, 0)
+  console.log(`\ncore namespaces: ${Object.keys(coreFound).length}; plugin namespaces: ${Object.keys(pluginFound).length}`)
+  console.log(`shipped keys: ${total}; missing: ${missingKeys}; removed: ${removedKeys}`)
+  process.exit(missingKeys ? 1 : 0)
+}

@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Russian language pack",
-    "description": "Russian localization for the DeepSeek Harness web GUI: 58 message namespaces, 3674 strings. Adds the «Русский» language to Settings → General → Language."
+    "description": "Russian localization for the DeepSeek Harness web GUI: 60 message namespaces, 3843 strings, including the third-party plugins dsh-market, better-sidebar, dsh-pet and dsh-mcp. Adds the «Русский» language to Settings → General → Language."
   }
 }

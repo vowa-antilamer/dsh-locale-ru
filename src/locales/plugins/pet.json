@@ -1,0 +1,318 @@
+{
+  "pet.feed": {
+    "en": "Feed",
+    "ru": "Покормить"
+  },
+  "pet.hide": {
+    "en": "Hide",
+    "ru": "Скрыть"
+  },
+  "pet.rename": {
+    "en": "Rename",
+    "ru": "Переименовать"
+  },
+  "pet.confirm": {
+    "en": "OK",
+    "ru": "ОК"
+  },
+  "pet.namePlaceholder": {
+    "en": "Enter a new name",
+    "ru": "Введите новое имя"
+  },
+  "pet.summon": {
+    "en": "Summon {name}",
+    "ru": "Позвать {name}"
+  },
+  "pet.rank": {
+    "en": "Affinity {rank}",
+    "ru": "Привязанность {rank}"
+  },
+  "pet.rank.name.幼鲸": {
+    "en": "Baby Whale",
+    "ru": "Китёнок"
+  },
+  "pet.rank.name.伙伴": {
+    "en": "Companion",
+    "ru": "Товарищ"
+  },
+  "pet.rank.name.挚友": {
+    "en": "Close Friend",
+    "ru": "Близкий друг"
+  },
+  "pet.rank.name.深海羁绊": {
+    "en": "Deep Sea Bond",
+    "ru": "Глубоководная связь"
+  },
+  "pet.rank.name.心有灵犀": {
+    "en": "Kindred Spirit",
+    "ru": "Родственные души"
+  },
+  "pet.rank.name.传说羁绊": {
+    "en": "Legendary Bond",
+    "ru": "Легендарная связь"
+  },
+  "pet.rank.name.神话羁绊": {
+    "en": "Mythic Bond",
+    "ru": "Мифическая связь"
+  },
+  "pet.rank.name.永恒之契": {
+    "en": "Eternal Covenant",
+    "ru": "Вечный союз"
+  },
+  "pet.rank.name.鲸生共渡": {
+    "en": "Lifelong Companion",
+    "ru": "Спутник на всю жизнь"
+  },
+  "pet.points": {
+    "en": "{points} pts",
+    "ru": "{points} очк."
+  },
+  "pet.treats": {
+    "en": "Treats ×{n}",
+    "ru": "Угощения ×{n}"
+  },
+  "pet.state.loading": {
+    "en": "The pet is on its way…",
+    "ru": "Питомец уже в пути…"
+  },
+  "pet.state.error": {
+    "en": "The pet is lost (connection failed)",
+    "ru": "Питомец потерялся (не удалось подключиться)"
+  },
+  "pet.renderer.unavailable": {
+    "en": "This pet needs a renderer ({renderer}) that is not available in this build.",
+    "ru": "Этому питомцу нужен рендерер ({renderer}), недоступный в текущей сборке."
+  },
+  "pet.live2d.core-missing": {
+    "en": "Live2D Cubism Core is not installed: place the official live2dcubismcore.min.js under $DSH_HOME/pets/.runtime/ and refresh (see the pet plugin README).",
+    "ru": "Ядро Live2D Cubism не установлено: положите официальный live2dcubismcore.min.js в $DSH_HOME/pets/.runtime/ и обновите страницу (см. README плагина питомца)."
+  },
+  "pet.live2d.vendor-missing": {
+    "en": "The Live2D component is missing; please update the pet plugin.",
+    "ru": "Компонент Live2D отсутствует; обновите плагин питомца."
+  },
+  "pet.live2d.load-failed": {
+    "en": "The Live2D model failed to load; check the pet directory is complete.",
+    "ru": "Не удалось загрузить модель Live2D; проверьте целостность каталога питомца."
+  },
+  "pet.openSessionHint": {
+    "en": "Click to jump to this session",
+    "ru": "Нажмите, чтобы перейти к этой сессии"
+  },
+  "pet.gameplay.menu": {
+    "en": "Play",
+    "ru": "Игра"
+  },
+  "pet.gameplay.work": {
+    "en": "Work",
+    "ru": "Работать"
+  },
+  "pet.gameplay.stopWork": {
+    "en": "Stop work",
+    "ru": "Закончить работу"
+  },
+  "pet.gameplay.sleep": {
+    "en": "Sleep",
+    "ru": "Спать"
+  },
+  "pet.gameplay.wake": {
+    "en": "Wake up",
+    "ru": "Проснуться"
+  },
+  "pet.gameplay.shop": {
+    "en": "Shop",
+    "ru": "Магазин"
+  },
+  "pet.gameplay.skin": {
+    "en": "Skin",
+    "ru": "Облик"
+  },
+  "pet.gameplay.skinDefault": {
+    "en": "Default",
+    "ru": "По умолчанию"
+  },
+  "pet.gameplay.back": {
+    "en": "Back",
+    "ru": "Назад"
+  },
+  "pet.gameplay.buy": {
+    "en": "Buy",
+    "ru": "Купить"
+  },
+  "pet.gameplay.insufficient": {
+    "en": "Not enough {currency}",
+    "ru": "Не хватает: {currency}"
+  },
+  "pet.gameplay.prize": {
+    "en": "Prize +{amount} {currency}",
+    "ru": "Выигрыш +{amount} {currency}"
+  },
+  "pet.gameplay.working": {
+    "en": "Working",
+    "ru": "Работает"
+  },
+  "pet.gameplay.sleeping": {
+    "en": "Sleeping",
+    "ru": "Спит"
+  },
+  "pet.gameplay.stat.hunger": {
+    "en": "Hunger",
+    "ru": "Сытость"
+  },
+  "pet.gameplay.stat.mood": {
+    "en": "Mood",
+    "ru": "Настроение"
+  },
+  "pet.gameplay.stat.energy": {
+    "en": "Energy",
+    "ru": "Энергия"
+  },
+  "pet.gameplay.stat.affection": {
+    "en": "Affection",
+    "ru": "Привязанность"
+  },
+  "pet.gameplay.currency.treats": {
+    "en": "Treats",
+    "ru": "Угощения"
+  },
+  "pet.moreSessions": {
+    "en": "Expand {n} more session bubbles",
+    "ru": "Развернуть остальные сессии ({n})"
+  },
+  "pet.collapseSessions": {
+    "en": "Collapse session bubbles",
+    "ru": "Свернуть пузыри сессий"
+  },
+  "settings.title": {
+    "en": "Pet",
+    "ru": "Питомец"
+  },
+  "settings.description": {
+    "en": "Pick a pet and tune its display layout.",
+    "ru": "Выберите питомца и настройте его расположение на экране."
+  },
+  "settings.pet": {
+    "en": "Pet",
+    "ru": "Питомец"
+  },
+  "settings.petHint": {
+    "en": "Choose which pet shows. Names are stored per pet; rename from the pet hover panel.",
+    "ru": "Выберите, какой питомец показывается. Имя хранится отдельно для каждого питомца; переименовать можно в панели при наведении."
+  },
+  "settings.enabled": {
+    "en": "Enable the pet",
+    "ru": "Включить питомца"
+  },
+  "settings.enabledHint": {
+    "en": "When off, the pet hides and polling stops; re-enable it here.",
+    "ru": "Если выключено, питомец скрыт и опрос остановлен; включить можно здесь."
+  },
+  "settings.decoration": {
+    "en": "Status decoration",
+    "ru": "Украшение состояния"
+  },
+  "settings.decorationHint": {
+    "en": "Show ornaments like the spouting whale inside the pet status bubbles; when off, bubbles stay text-only.",
+    "ru": "Показывать украшения вроде фонтанирующего кита в пузырях состояния питомца; если выключено, пузыри остаются текстовыми."
+  },
+  "settings.visible": {
+    "en": "Show the pet",
+    "ru": "Показывать питомца"
+  },
+  "settings.visibleHint": {
+    "en": "When off, the pet hides; summon it again from the input row.",
+    "ru": "Если выключено, питомец скрыт; вызвать его снова можно из строки ввода."
+  },
+  "settings.size": {
+    "en": "Size (px)",
+    "ru": "Размер (px)"
+  },
+  "settings.sizeHint": {
+    "en": "Sprite cell height, 32–1024.",
+    "ru": "Высота ячейки спрайта, 32–1024."
+  },
+  "settings.bubbleScale": {
+    "en": "Bubble text multiplier",
+    "ru": "Множитель шрифта в пузырях"
+  },
+  "settings.bubbleScaleHint": {
+    "en": "Status, whisper, and usage bubbles scale with the pet automatically; this multiplies that result (0.5–2, default 1). The rendered text stays between 10px and 24px.",
+    "ru": "Пузыри состояния, реплик и расхода масштабируются вместе с питомцем; этот множитель применяется поверх результата (0,5–2, по умолчанию 1). Сам текст остаётся в диапазоне 10–24 px."
+  },
+  "settings.right": {
+    "en": "Right inset (px)",
+    "ru": "Отступ справа (px)"
+  },
+  "settings.rightHint": {
+    "en": "Horizontal inset from the viewport right edge.",
+    "ru": "Горизонтальный отступ от правого края окна."
+  },
+  "settings.bottom": {
+    "en": "Bottom inset (px)",
+    "ru": "Отступ снизу (px)"
+  },
+  "settings.bottomHint": {
+    "en": "Vertical inset from the viewport bottom edge.",
+    "ru": "Вертикальный отступ от нижнего края окна."
+  },
+  "settings.inherit": {
+    "en": "Inherit",
+    "ru": "Наследовать"
+  },
+  "settings.on": {
+    "en": "On",
+    "ru": "Вкл"
+  },
+  "settings.off": {
+    "en": "Off",
+    "ru": "Выкл"
+  },
+  "settings.overridden": {
+    "en": "Overridden",
+    "ru": "Переопределено"
+  },
+  "settings.reset": {
+    "en": "Reset to default",
+    "ru": "Сбросить к значению по умолчанию"
+  },
+  "settings.notExposed": {
+    "en": "This DSH version does not expose this plugin's settings namespace to the configuration page, so the form is unavailable. Edit $DSH_HOME/settings.yaml directly, or confirm that the plugin owning the namespace is mounted with its settings domain and restart.",
+    "ru": "Эта версия DSH не показывает пространство настроек плагина на странице конфигурации, поэтому форма недоступна. Отредактируйте $DSH_HOME/settings.yaml напрямую или убедитесь, что плагин-владелец пространства смонтирован вместе со своим доменом настроек, и перезапустите."
+  },
+  "settings.readOnly": {
+    "en": "This deployment stores settings read-only.",
+    "ru": "В этом развёртывании настройки хранятся только для чтения."
+  },
+  "settings.expand": {
+    "en": "Show settings",
+    "ru": "Показать настройки"
+  },
+  "settings.collapse": {
+    "en": "Hide settings",
+    "ru": "Скрыть настройки"
+  },
+  "settings.save": {
+    "en": "Save",
+    "ru": "Сохранить"
+  },
+  "settings.saving": {
+    "en": "Saving…",
+    "ru": "Сохранение…"
+  },
+  "settings.discard": {
+    "en": "Discard",
+    "ru": "Отменить"
+  },
+  "settings.unsaved": {
+    "en": "Unsaved",
+    "ru": "Не сохранено"
+  },
+  "settings.saveFailed": {
+    "en": "The deployment did not accept these values; they were left for you to correct.",
+    "ru": "Развёртывание не приняло эти значения; они оставлены, чтобы вы их исправили."
+  },
+  "settings.invalidNumber": {
+    "en": "Enter a number, or leave blank to use the default.",
+    "ru": "Введите число или оставьте поле пустым, чтобы использовать значение по умолчанию."
+  }
+}

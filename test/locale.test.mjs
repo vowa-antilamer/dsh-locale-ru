@@ -1,5 +1,4 @@
 import assert from 'node:assert/strict'
-import fs from 'node:fs'
 import path from 'node:path'
 import test from 'node:test'
 import { fileURLToPath, pathToFileURL } from 'node:url'
@@ -9,8 +8,14 @@ import { LANGUAGE, PACKAGE_NAME, readDictionaries } from '../scripts/build.mjs'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const clientPath = path.join(root, 'lib/client.js')
 
-/** Load the generated browser module in Node and run it against a stub locale service. */
-async function loadPack() {
+/** Let the deferred plugin-dictionary task run. */
+const tick = () => new Promise((resolve) => setTimeout(resolve, 0))
+
+/**
+ * Load the generated browser module in Node and run it against a stub locale service.
+ * @param ownDictionaries - namespaces a plugin already registered its own ru dictionary for.
+ */
+async function loadPack(ownDictionaries = {}) {
   let loaded
   const store = new Map()
   globalThis.window = {
@@ -34,8 +39,9 @@ async function loadPack() {
   })
 
   const languages = []
-  const dicts = new Map()
+  const dicts = new Map(Object.entries(ownDictionaries))
   const effects = new Set()
+  const disposers = []
   const selected = []
   const ctx = {
     effect(callback, label) {
@@ -44,6 +50,7 @@ async function loadPack() {
       effects.add(label)
       const dispose = callback()
       assert.equal(typeof dispose, 'function', `effect "${label}" did not return a disposer`)
+      disposers.push(dispose)
       return dispose
     },
     locale: {
@@ -53,9 +60,11 @@ async function loadPack() {
       },
       register(ns, locale, dict) {
         assert.equal(locale, LANGUAGE.id)
-        assert.ok(!dicts.has(ns), `namespace "${ns}" registered twice`)
+        if (dicts.has(ns)) throw new Error(`locale namespace "${ns}" already has locale "${locale}"`)
         dicts.set(ns, dict)
-        return () => {}
+        return () => {
+          if (dicts.get(ns) === dict) dicts.delete(ns)
+        }
       },
       getSnapshot: () => ({ active: 'en', locales: [], revision: 0 }),
       setLocale: (id) => selected.push(id),
@@ -63,7 +72,7 @@ async function loadPack() {
   }
 
   plugin.apply(ctx)
-  return { plugin, languages, dicts, effects, selected, store }
+  return { plugin, languages, dicts, effects, disposers, selected, store }
 }
 
 test('the client module registers the Russian language', async () => {
@@ -78,18 +87,42 @@ test('the client module auto-selects Russian exactly once', async () => {
   assert.equal(store.get('locale-ru:auto-selected'), '1')
 })
 
+test('core namespaces register synchronously, plugin namespaces one task later', async () => {
+  const { dicts } = await loadPack()
+  const { dicts: core, pluginDicts } = readDictionaries()
+  assert.ok(Object.keys(pluginDicts).length > 0, 'expected at least one plugin dictionary')
+
+  assert.deepEqual([...dicts.keys()].sort(), Object.keys(core).sort(), 'core dictionaries must be live right after apply')
+  for (const ns of Object.keys(pluginDicts)) {
+    assert.equal(dicts.has(ns), false, `${ns} must not take part in the synchronous pass`)
+  }
+
+  await tick()
+  assert.deepEqual([...dicts.keys()].sort(), [...Object.keys(core), ...Object.keys(pluginDicts)].sort())
+})
+
+test('a plugin that ships its own ru dictionary keeps ownership of its namespace', async () => {
+  const own = { pet: { 'pet.feed': 'Покормить' } }
+  const { dicts } = await loadPack(own)
+  await tick()
+  assert.deepEqual(dicts.get('pet'), own.pet, 'the plugin dictionary must survive our deferred pass')
+})
+
 test('every source namespace reaches the browser module', async () => {
   const { dicts } = await loadPack()
-  const { dicts: source } = readDictionaries()
+  await tick()
+  const { dicts: core, pluginDicts } = readDictionaries()
+  const source = { ...core, ...pluginDicts }
   assert.deepEqual([...dicts.keys()].sort(), Object.keys(source).sort())
   assert.ok(dicts.size >= 50, `expected the shipped namespaces, got ${dicts.size}`)
 })
 
 test('every translation keeps the English key set, placeholders and emptiness rules', async () => {
   const { dicts } = await loadPack()
-  const { pairs: source, keys } = readDictionaries()
+  await tick()
+  const { pairs: corePairs, keys, pluginPairs, pluginKeys } = readDictionaries()
   let count = 0
-  for (const [ns, pairs] of Object.entries(source)) {
+  for (const [ns, pairs] of Object.entries({ ...corePairs, ...pluginPairs })) {
     const built = dicts.get(ns)
     assert.deepEqual(Object.keys(built).sort(), Object.keys(pairs).sort(), `${ns}: key sets differ`)
     for (const [key, { en }] of Object.entries(pairs)) {
@@ -103,6 +136,14 @@ test('every translation keeps the English key set, placeholders and emptiness ru
       assert.ok(!/[\u200b\u200c\u200d\ufeff]/u.test(ru), `${ns} / ${key}: zero-width character`)
     }
   }
-  assert.equal(count, keys)
+  assert.equal(count, keys + pluginKeys)
   assert.ok(count > 3600, `expected the full dictionary, got ${count}`)
+})
+
+test('disposing the pack releases every registered namespace', async () => {
+  const { dicts, disposers } = await loadPack()
+  await tick()
+  assert.ok(dicts.size > 0)
+  for (const dispose of disposers) dispose()
+  assert.equal(dicts.size, 0)
 })

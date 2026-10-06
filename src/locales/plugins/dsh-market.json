@@ -468,8 +468,8 @@
     "ru": "Установка"
   },
   "confirmWarn": {
-    "en": "Plugins are third-party community code. Installing means you trust the source. Build scripts do not run by default.",
-    "ru": "Плагины — сторонний код сообщества. Устанавливая, вы доверяете источнику. Скрипты сборки по умолчанию не выполняются."
+    "en": "Community third-party plugin. Build scripts do not run by default.",
+    "ru": "Сторонний плагин сообщества. Скрипты сборки по умолчанию не выполняются."
   },
   "cancel": {
     "en": "Cancel",
@@ -731,10 +731,6 @@
     "en": "Source switch failed",
     "ru": "Не удалось сменить источник"
   },
-  "restore": {
-    "en": "Restore",
-    "ru": "Восстановить"
-  },
   "restoreOnline": {
     "en": "Use online version",
     "ru": "Использовать онлайн-версию"
@@ -910,10 +906,6 @@
   "commentsOnGitHub": {
     "en": "Sign in and join on GitHub",
     "ru": "Войти и присоединиться на GitHub"
-  },
-  "terminalWarn": {
-    "en": "This looks like a terminal/CLI plugin: installing it into the web profile may do nothing, or even break DeepSeek Harness startup. Read its README and install it into the profile it targets.",
-    "ru": "Похоже, это плагин для терминала/CLI: установка в веб-профиль может ничего не дать или даже сломать запуск DeepSeek Harness. Прочитайте его README и установите в тот профиль, для которого он предназначен."
   },
   "conflictTitle": {
     "en": "Cannot install: conflicts with an installed plugin",
@@ -1316,16 +1308,16 @@
     "ru": "Всё равно установить {0}"
   },
   "ignoreUpdateNotice": {
-    "en": "Ignore until restart",
-    "ru": "Игнорировать до перезапуска"
+    "en": "Don't remind until restart",
+    "ru": "Не напоминать до перезапуска"
   },
   "ignoreAllUpdateNotices": {
-    "en": "Ignore all until restart",
-    "ru": "Игнорировать все до перезапуска"
+    "en": "Don't remind any until restart",
+    "ru": "Не напоминать ни о чём до перезапуска"
   },
   "updateNoticeIgnored": {
-    "en": "Reminder ignored for this boot",
-    "ru": "Напоминание скрыто до перезапуска"
+    "en": "No reminders until restart",
+    "ru": "Напоминаний не будет до перезапуска"
   },
   "tabThemes": {
     "en": "Themes",
@@ -2634,5 +2626,93 @@
   "recoveryTimeout": {
     "en": "Timed out waiting for DeepSeek Harness to start. \"Adjust plugins\" can tell you whether one of them is what stops it.",
     "ru": "Истекло время ожидания запуска DeepSeek Harness. «Настроить плагины» покажет, не мешает ли запуску один из них."
+  },
+  "descMore": {
+    "en": "Show all",
+    "ru": "Показать все"
+  },
+  "installCaution": {
+    "en": "Before you install",
+    "ru": "Перед установкой"
+  },
+  "terminalCautionTitle": {
+    "en": "May not work in the web app",
+    "ru": "Может не работать в веб-приложении"
+  },
+  "terminalCautionBody": {
+    "en": "This is a terminal plugin. It may not work in the web version.",
+    "ru": "Это плагин для терминала. Он может не работать в веб-версии."
+  },
+  "terminalCautionStartup": {
+    "en": "It can stop DeepSeek Harness from starting.",
+    "ru": "Он может помешать запуску DeepSeek Harness."
+  },
+  "terminalCautionLink": {
+    "en": "Read its instructions first ↗",
+    "ru": "Сначала прочитайте инструкцию ↗"
+  },
+  "queuedRunBusy": {
+    "en": "Another install, update or uninstall is still running, so this cannot start yet: it stays queued and begins on its own when that one finishes — no need to press again.",
+    "ru": "Другая установка, обновление или удаление ещё выполняется, поэтому эта пока не может начаться: она остаётся в очереди и стартует сама, когда та завершится — нажимать снова не нужно."
+  },
+  "cmdCopy": {
+    "en": "Copy install command",
+    "ru": "Скопировать команду установки"
+  },
+  "cmdCopied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "updateExemptAdd": {
+    "en": "Never remind about updates",
+    "ru": "Больше не напоминать об обновлениях"
+  },
+  "updateExemptRemove": {
+    "en": "Resume update reminders",
+    "ru": "Возобновить напоминания об обновлениях"
+  },
+  "updateExemptMark": {
+    "en": "Reminders off",
+    "ru": "Напоминания выключены"
+  },
+  "updateExemptRestore": {
+    "en": "Remind again",
+    "ru": "Напоминать снова"
+  },
+  "updateExemptHint": {
+    "en": "New versions stay listed. Only the reminder stops.",
+    "ru": "Новые версии остаются в списке. Отключается только напоминание."
+  },
+  "updateExemptOn": {
+    "en": "Update reminders are off. New versions stay listed.",
+    "ru": "Напоминания об обновлениях выключены. Новые версии остаются в списке."
+  },
+  "updateExemptOff": {
+    "en": "Update reminders are back on.",
+    "ru": "Напоминания об обновлениях снова включены."
+  },
+  "updateExemptFailed": {
+    "en": "Couldn't save that. Try again.",
+    "ru": "Не удалось сохранить. Попробуйте ещё раз."
+  },
+  "updateAvailableShort": {
+    "en": "New version",
+    "ru": "Новая версия"
+  },
+  "copyPath": {
+    "en": "Copy path",
+    "ru": "Скопировать путь"
+  },
+  "pathCopied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "stateIncompatible": {
+    "en": "Installed — incompatible with this dsh",
+    "ru": "Установлен — несовместим с этой версией dsh"
+  },
+  "brokenPluginDismiss": {
+    "en": "Stop showing this",
+    "ru": "Больше не показывать"
   }
 }
