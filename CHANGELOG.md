@@ -28,6 +28,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `dsh-market`: the 22 keys added by newer plugin releases are translated, 2 dropped keys were
   removed, and 4 English sources were re-synced with the shipped wording.
 
+### Changed
+
+- Releases are cut on GitHub from a `v*` tag only: the npm publish step is gone, because the npm
+  name `dsh-locale-ru` belongs to an unrelated project. Install the pack with
+  `dsh plugin --profile web add github:vowa-antilamer/dsh-locale-ru`.
+
 ## [1.0.0] - 2026-09-30
 
 ### Added

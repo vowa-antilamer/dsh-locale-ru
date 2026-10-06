@@ -1,7 +1,6 @@
 # dsh-locale-ru
 
-[![npm version](https://img.shields.io/npm/v/dsh-locale-ru.svg)](https://www.npmjs.com/package/dsh-locale-ru)
-[![npm license](https://img.shields.io/npm/l/dsh-locale-ru.svg)](LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![CI](https://github.com/vowa-antilamer/dsh-locale-ru/actions/workflows/ci.yml/badge.svg)](https://github.com/vowa-antilamer/dsh-locale-ru/actions/workflows/ci.yml)
 
 Русификация веб-интерфейса [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
@@ -31,11 +30,16 @@
 
 ### В профиль DSH
 
-Откройте **Настройки → Плагины → Установить**, введите `dsh-locale-ru` и подтвердите. Менеджер
-плагинов добавит пакет и строку в набор профиля; язык сразу появится в
-**Настройки → Общие → Язык**.
+Пакет распространяется из этого репозитория, поэтому устанавливайте его GitHub-спецификацию:
 
-Из локальной копии репозитория устанавливайте каталог:
+```bash
+dsh plugin --profile web add github:vowa-antilamer/dsh-locale-ru
+```
+
+Та же строка вставляется в **Настройки → Плагины → Установить**. Менеджер плагинов добавит пакет и
+строку в набор профиля; язык сразу появится в **Настройки → Общие → Язык**.
+
+Локальную копию репозитория ставьте, указав её каталог:
 
 ```bash
 dsh plugin --profile web add /path/to/dsh-locale-ru
@@ -43,6 +47,9 @@ dsh plugin --profile web add /path/to/dsh-locale-ru
 
 затем добавьте `"dsh-locale-ru"` в список `dsh.profile.bundles` в `package.json` профиля
 (мастер установки в интерфейсе делает оба шага сам).
+
+Имя `dsh-locale-ru` в npm принадлежит другому проекту, поэтому в npm этот пакет не публикуется —
+устанавливайте его только из GitHub.
 
 ### Переключение языка
 
